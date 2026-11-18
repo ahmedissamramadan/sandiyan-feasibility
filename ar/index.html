@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light" data-nums="latn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title><span data-copy-text-ar="دراسة جدوى — التوسّع في التجارة الإلكترونية | سنديان" data-copy-text-en="Feasibility Study — E-commerce Expansion | Sandiyan">دراسة جدوى — التوسّع في التجارة الإلكترونية | سنديان</span></title>
+<meta name="description" content="قالب دراسة جدوى عربي RTL لمشروع تجارة إلكترونية قائم على ورشة نجارة، بطبقة ذكاء اصطناعي ومحرك مالي حيّ.">
+<meta name="author" content="إدارة التحوّل الرقمي">
+<meta name="color-scheme" content="light dark">
+
+<!-- الخطوط محليًّا: القالب مستقل تمامًا ولا يعتمد على أي خدمة خارجية -->
+<link rel="preload" href="../assets/fonts/IBMPlexMono-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/IBMPlexMono-500-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/IBMPlexMono-600-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/IBMPlexSansArabic-400-arabic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/IBMPlexSansArabic-500-arabic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/IBMPlexSansArabic-600-arabic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/IBMPlexSansArabic-700-arabic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/IBMPlexSansLatin-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/IBMPlexSansLatin-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/IBMPlexSansLatin-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/IBMPlexSansLatin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/fonts.css">
+
+<link rel="stylesheet" href="../assets/css/tokens.css">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/layout.css">
+<link rel="stylesheet" href="../assets/css/components.css">
+<link rel="stylesheet" href="../assets/css/charts.css">
+<link rel="stylesheet" href="../assets/css/motion.css">
+<link rel="stylesheet" href="../assets/css/showcase.css">
+<link rel="stylesheet" href="../assets/css/print.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#main" data-copy-text-ar="تخطَّ إلى المحتوى الرئيسي" data-copy-text-en="Skip to main content"><span data-copy-text-ar="تخطَّ إلى المحتوى الرئيسي" data-copy-text-en="Skip to main content">تخطَّ إلى المحتوى الرئيسي</span></a>
+
+<!-- ============ ترويسة/تذييل الطباعة ============ -->
+<div class="print-header" aria-hidden="true">
+  <div class="print-header__in">
+    <span class="print-header__title"></span>
+    <span class="print-header__doc"></span>
+  </div>
+</div>
+<div class="print-footer" aria-hidden="true">
+  <div class="print-footer__in">
+    <span class="print-footer__title"></span>
+    <span class="print-footer__page"></span>
+  </div>
+</div>
+
+<div class="app">
+
+  <!-- ============ الشريط الجانبي ============ -->
+  <aside class="sidebar no-print" aria-label="فهرس المحتويات والأدوات">
+
+    <div class="sidebar__brand">
+      <div class="sidebar__mark" aria-hidden="true" data-copy-text-ar="دج" data-copy-text-en="FS"><span data-copy-text-ar="دج" data-copy-text-en="FS">دج</span></div>
+      <div>
+        <div class="sidebar__title" data-copy-text-ar="قالب دراسة الجدوى" data-copy-text-en="Feasibility study template"><span data-copy-text-ar="قالب دراسة الجدوى" data-copy-text-en="Feasibility study template">قالب دراسة الجدوى</span></div>
+        <div class="sidebar__sub" data-copy-text-ar="التوسّع في التجارة الإلكترونية · نسخة 1.0" data-copy-text-en="E-commerce expansion · version 1.0"><span data-copy-text-ar="التوسّع في التجارة الإلكترونية · نسخة 1.0" data-copy-text-en="E-commerce expansion · version 1.0">التوسّع في التجارة الإلكترونية · نسخة 1.0</span></div>
+      </div>
+    </div>
+
+    <nav aria-label="فهرس الأقسام">
+      <div class="toc__group-label" data-copy-text-ar="محتويات الوثيقة" data-copy-text-en="Document contents"><span data-copy-text-ar="محتويات الوثيقة" data-copy-text-en="Document contents">محتويات الوثيقة</span></div>
+      <ul class="toc__list" id="toc-list"></ul>
+    </nav>
+
+    <div class="toolbar" role="toolbar" aria-label="أدوات القالب">
+      <button class="btn btn--primary" type="button" data-action="print" title="طباعة أو حفظ PDF (Ctrl+P)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8" rx="1"/></svg><span data-copy-text-ar="طباعة / PDF" data-copy-text-en="Print / PDF">
+        طباعة / PDF
+      </span></button>
+      <button class="btn" type="button" data-action="export-json" title="تصدير بيانات المشروع (Ctrl+E)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg><span data-copy-text-ar="تصدير البيانات" data-copy-text-en="Export data">
+        تصدير البيانات
+      </span></button>
+      <button class="btn" type="button" data-action="export-model" title="تصدير النموذج المالي CSV + JSON">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/></svg><span data-copy-text-ar="النموذج المالي" data-copy-text-en="Financial model">
+        النموذج المالي
+      </span></button>
+      <button class="btn" type="button" data-action="import" title="استيراد ملف بيانات">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 8l5-5 5 5M12 3v12"/></svg><span data-copy-text-ar="استيراد" data-copy-text-en="Import">
+        استيراد
+      </span></button>
+      <button class="btn" type="button" data-action="nums" title="تبديل نظام الأرقام (لاتيني / عربي هندي)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7V4h16v3M9 20h6M12 4v16"/></svg><span data-copy-text-ar="الأرقام" data-copy-text-en="Numerals">
+        الأرقام
+      </span></button>
+      <button class="btn" type="button" data-action="lang" id="lang-toggle" title="English / العربية">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+        <span id="lang-label">EN</span>
+      </button>
+      <button class="btn" type="button" data-action="theme" aria-pressed="false" title="تبديل السمة">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><span data-copy-text-ar="السمة" data-copy-text-en="Theme">
+        السمة
+      </span></button>
+      <button class="btn" type="button" data-action="copy-toc" title="نسخ الفهرس">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span data-copy-text-ar="نسخ الفهرس" data-copy-text-en="Copy contents">
+        نسخ الفهرس
+      </span></button>
+      <button class="btn" type="button" data-action="save" title="حفظ (Ctrl+S)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><path d="M17 21v-8H7v8M7 3v5h8"/></svg><span data-copy-text-ar="حفظ" data-copy-text-en="Save">
+        حفظ
+      </span></button>
+      <button class="btn btn--ghost" type="button" data-action="reset" title="استعادة البيانات الأصلية">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg><span data-copy-text-ar="استعادة" data-copy-text-en="Reset">
+        استعادة
+      </span></button>
+    </div>
+
+    <div class="stack stack--tight" style="margin-block-start:1rem">
+      <div class="savestate" data-savestate data-state="idle" data-copy-text-ar="محفوظ تلقائيًا" data-copy-text-en="Saved automatically"><span data-copy-text-ar="محفوظ تلقائيًا" data-copy-text-en="Saved automatically">محفوظ تلقائيًا</span></div>
+      <div class="note" data-source data-copy-text-ar="مصدر البيانات: —" data-copy-text-en="Data source: —"><span data-copy-text-ar="مصدر البيانات: —" data-copy-text-en="Data source: —">مصدر البيانات: —</span></div>
+    </div>
+
+    <input type="file" id="import-file" accept="application/json,.json" hidden>
+  </aside>
+
+  <!-- ============ المحتوى ============ -->
+  <main class="doc" id="main">
+
+    <!-- ---------- الغلاف ---------- -->
+    <section class="cover" aria-label="الغلاف">
+      <div class="cover__top">
+        <span class="cover__badge" id="cover-badge"></span>
+        <span class="cover__conf" id="cover-conf"></span>
+      </div>
+
+      <div class="cover__main">
+        <div class="cover__eyebrow" id="cover-eyebrow"></div>
+        <h1 class="cover__title" id="cover-title"></h1>
+        <p class="cover__sub" id="cover-sub"></p>
+      </div>
+
+      <dl class="cover__meta" id="cover-meta"></dl>
+    </section>
+
+    <!-- ---------- فهرس الطباعة ---------- -->
+    <section class="sec print-only" id="toc-print-page" style="page-break-before: always; break-before: page;">
+      <header class="sec__head">
+        <span class="sec__index">00</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="دليل القراءة" data-copy-text-en="How to read this document"><span data-copy-text-ar="دليل القراءة" data-copy-text-en="How to read this document">دليل القراءة</span></div>
+          <h2 class="sec__title" data-copy-text-ar="فهرس المحتويات" data-copy-text-en="Table of contents"><span data-copy-text-ar="فهرس المحتويات" data-copy-text-en="Table of contents">فهرس المحتويات</span></h2>
+          <p class="sec__lead" data-copy-text-ar="يبدأ كل قسم رئيسي في هذه الوثيقة بصفحة مستقلة. أمّا أرقام الصفحات فتظهر في تذييل كل صفحة عند الطباعة أو التصدير إلى PDF، لأن ترقيم الصفحات لا يُحسم في المتصفح إلا عند الطباعة نفسها." data-copy-text-en="Every main section of this document starts on its own page. Page numbers appear in the footer of each page when printing or exporting to PDF, because pagination is only resolved by the browser at print time."><span data-copy-text-ar="يبدأ كل قسم رئيسي في هذه الوثيقة بصفحة مستقلة. أمّا أرقام الصفحات فتظهر في تذييل كل صفحة عند الطباعة أو التصدير إلى PDF، لأن ترقيم الصفحات لا يُحسم في المتصفح إلا عند الطباعة نفسها." data-copy-text-en="Every main section of this document starts on its own page. Page numbers appear in the footer of each page when printing or exporting to PDF, because pagination is only resolved by the browser at print time.">يبدأ كل قسم رئيسي في هذه الوثيقة بصفحة مستقلة. أمّا أرقام الصفحات فتظهر في تذييل كل صفحة عند الطباعة أو التصدير إلى PDF، لأن ترقيم الصفحات لا يُحسم في المتصفح إلا عند الطباعة نفسها.</span></p>
+        </div>
+      </header>
+      <div id="toc-print"></div>
+    </section>
+
+    <!-- ================= 1 — ضبط الوثيقة ================= -->
+    <section class="sec" id="s01"  data-toc-ar="ضبط الوثيقة وسجلّ المراجعات" data-toc-en="Document control and revision log" data-toc="ضبط الوثيقة وسجلّ المراجعات" data-num="01" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">01</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="حكم الوثيقة" data-copy-text-en="Document control"><span data-copy-text-ar="حكم الوثيقة" data-copy-text-en="Document control">حكم الوثيقة</span></div>
+          <h2 class="sec__title" data-copy-text-ar="ضبط الوثيقة وسجلّ المراجعات" data-copy-text-en="Document control and revision log"><span data-copy-text-ar="ضبط الوثيقة وسجلّ المراجعات" data-copy-text-en="Document control and revision log">ضبط الوثيقة وسجلّ المراجعات</span></h2>
+          <p class="sec__lead" data-copy-text-ar="تُعدّ هذه الوثيقة وثيقةَقرار لا مجرّد تقرير؛ ولذلك خُصّص لهذا القسم ضبطُ الملكية والمراجعة والاعتماد، بحيث يكون لكل رقم فيها أثرٌ معروف ومُصرَّح به." data-copy-text-en="This document is a decision record, not merely a report. This section therefore covers ownership, review and approval, so that every figure in it carries a known and attributable provenance."><span data-copy-text-ar="تُعدّ هذه الوثيقة وثيقةَقرار لا مجرّد تقرير؛ ولذلك خُصّص لهذا القسم ضبطُ الملكية والمراجعة والاعتماد، بحيث يكون لكل رقم فيها أثرٌ معروف ومُصرَّح به." data-copy-text-en="This document is a decision record, not merely a report. This section therefore covers ownership, review and approval, so that every figure in it carries a known and attributable provenance.">تُعدّ هذه الوثيقة وثيقةَقرار لا مجرّد تقرير؛ ولذلك خُصّص لهذا القسم ضبطُ الملكية والمراجعة والاعتماد، بحيث يكون لكل رقم فيها أثرٌ معروف ومُصرَّح به.</span></p>
+        </div>
+      </header>
+
+      <div class="callout callout--guide">
+        <div class="callout__icon" aria-hidden="true" data-copy-text-ar="؟" data-copy-text-en="?"><span data-copy-text-ar="؟" data-copy-text-en="?">؟</span></div>
+        <div>
+          <div class="callout__title" data-copy-text-ar="تعليمات المعبّئ" data-copy-text-en="Guidance for the author"><span data-copy-text-ar="تعليمات المعبّئ" data-copy-text-en="Guidance for the author">تعليمات المعبّئ</span></div>
+          <div class="callout__body">
+            <p data-copy-text-ar="حدّد رقم الوثيقة ومالكها ومستوى سرّيتها، ثم اعرض النسخة على المراجعَين المذكورَين قبل التاريخ المعتمد. كل تعديل بعد الاعتماد يستوجب إصدار نسخة جديدة مع تسجيله في سجل الإصدارات أدناه." data-copy-text-en="Set the document reference, its owner and its confidentiality level, then circulate the version to the named reviewers before the approval date. Any change after approval requires a new version recorded in the revision log below."><span data-copy-text-ar="حدّد رقم الوثيقة ومالكها ومستوى سرّيتها، ثم اعرض النسخة على المراجعَين المذكورَين قبل التاريخ المعتمد. كل تعديل بعد الاعتماد يستوجب إصدار نسخة جديدة مع تسجيله في سجل الإصدارات أدناه." data-copy-text-en="Set the document reference, its owner and its confidentiality level, then circulate the version to the named reviewers before the approval date. Any change after approval requires a new version recorded in the revision log below.">حدّد رقم الوثيقة ومالكها ومستوى سرّيتها، ثم اعرض النسخة على المراجعَين المذكورَين قبل التاريخ المعتمد. كل تعديل بعد الاعتماد يستوجب إصدار نسخة جديدة مع تسجيله في سجل الإصدارات أدناه.</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid g-2-1">
+        <div class="card">
+          <h3 class="card__title card__title--lg" data-copy-text-ar="بطاقة ضبط الوثيقة" data-copy-text-en="Document control card"><span data-copy-text-ar="بطاقة ضبط الوثيقة" data-copy-text-en="Document control card">بطاقة ضبط الوثيقة</span></h3>
+          <div id="doc-control"></div>
+        </div>
+        <div class="card card--muted">
+          <h3 class="card__title" data-copy-text-ar="مبادئ الحكم" data-copy-text-en="Principles of judgement"><span data-copy-text-ar="مبادئ الحكم" data-copy-text-en="Principles of judgement">مبادئ الحكم</span></h3>
+          <ul class="check">
+            <li data-copy-text-ar="لكل رقم في الوثيقة مصدرٌ مذكور في الملحق (أ)." data-copy-text-en="Every figure in the document carries a source cited in Appendix (A)."><span data-copy-text-ar="لكل رقم في الوثيقة مصدرٌ مذكور في الملحق (أ)." data-copy-text-en="Every figure in the document carries a source cited in Appendix (A).">لكل رقم في الوثيقة مصدرٌ مذكور في الملحق (أ).</span></li>
+            <li data-copy-text-ar="كل افتراض مالي قابل للتعديل الحيّ داخل الجداول." data-copy-text-en="Every financial assumption can be edited live inside the tables."><span data-copy-text-ar="كل افتراض مالي قابل للتعديل الحيّ داخل الجداول." data-copy-text-en="Every financial assumption can be edited live inside the tables.">كل افتراض مالي قابل للتعديل الحيّ داخل الجداول.</span></li>
+            <li data-copy-text-ar="لا يُعتدّ بخيار مستهدف لم يجرِ خلفه اختبار." data-copy-text-en="A target is not credited unless it has been tested."><span data-copy-text-ar="لا يُعتدّ بخيار مستهدف لم يجرِ خلفه اختبار." data-copy-text-en="A target is not credited unless it has been tested.">لا يُعتدّ بخيار مستهدف لم يجرِ خلفه اختبار.</span></li>
+            <li data-copy-text-ar="تُراجَع الوثيقة عند بلوغ كل معلم رئيسي." data-copy-text-en="The document is reviewed at every key milestone."><span data-copy-text-ar="تُراجَع الوثيقة عند بلوغ كل معلم رئيسي." data-copy-text-en="The document is reviewed at every key milestone.">تُراجَع الوثيقة عند بلوغ كل معلم رئيسي.</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 data-toc-sub="سجل المراجعات" id="h-rev" data-copy-text-ar="سجلّ الإصدارات" data-copy-text-en="Revision log"><span data-copy-text-ar="سجلّ الإصدارات" data-copy-text-en="Revision log">سجلّ الإصدارات</span></h3>
+      <div id="revision-log"></div>
+
+      <h3 data-toc-sub="المراجعة والاعتماد" id="h-appr" data-copy-text-ar="المراجعون والمعتمِدون" data-copy-text-en="Reviewers and approvers"><span data-copy-text-ar="المراجعون والمعتمِدون" data-copy-text-en="Reviewers and approvers">المراجعون والمعتمِدون</span></h3>
+      <div id="doc-approvals"></div>
+    </section>
+
+    <!-- ================= 2 — الملخص التنفيذي ================= -->
+    <section class="sec" id="s02"  data-toc-ar="الملخّص التنفيذي وبطاقة قرار الاستثمار" data-toc-en="Executive summary and investment decision card" data-toc="الملخّص التنفيذي وبطاقة قرار الاستثمار" data-num="02" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">02</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="الخلاصة في دقيقة" data-copy-text-en="The summary in one minute"><span data-copy-text-ar="الخلاصة في دقيقة" data-copy-text-en="The summary in one minute">الخلاصة في دقيقة</span></div>
+          <h2 class="sec__title" data-copy-text-ar="الملخّص التنفيذي وبطاقة قرار الاستثمار" data-copy-text-en="Executive summary and investment decision card"><span data-copy-text-ar="الملخّص التنفيذي وبطاقة قرار الاستثمار" data-copy-text-en="Executive summary and investment decision card">الملخّص التنفيذي وبطاقة قرار الاستثمار</span></h2>
+          <p class="sec__lead" data-copy-text-ar="يُقرأ هذا القسم أولًا وآخرًا؛ فهو يجمع القرار المطلوب، وما يستند إليه من الأرقام، والشروط التي يجب تحقّقها قبل صرف الدفعة التالية." data-copy-text-en="This section is read first and last: it gathers the decision being requested, the numbers behind it, and the conditions that must be met before the next tranche is released."><span data-copy-text-ar="يُقرأ هذا القسم أولًا وآخرًا؛ فهو يجمع القرار المطلوب، وما يستند إليه من الأرقام، والشروط التي يجب تحقّقها قبل صرف الدفعة التالية." data-copy-text-en="This section is read first and last: it gathers the decision being requested, the numbers behind it, and the conditions that must be met before the next tranche is released.">يُقرأ هذا القسم أولًا وآخرًا؛ فهو يجمع القرار المطلوب، وما يستند إليه من الأرقام، والشروط التي يجب تحقّقها قبل صرف الدفعة التالية.</span></p>
+        </div>
+      </header>
+
+      <div class="card card--brand" style="margin-block-end:1.5rem">
+        <p class="lede" data-text="conclusion.summary" style="font-size:1.05rem;line-height:1.95"></p>
+      </div>
+
+      <h3 data-toc-sub="المؤشرات الحاكمة" id="h-gov" data-copy-text-ar="المؤشرات الحاكمة (محسوبة حيًّا)" data-copy-text-en="Governing indicators (computed live)"><span data-copy-text-ar="المؤشرات الحاكمة (محسوبة حيًّا)" data-copy-text-en="Governing indicators (computed live)">المؤشرات الحاكمة (محسوبة حيًّا)</span></h3>
+      <div id="decision-kpis-live" aria-live="polite"></div>
+
+      <h3 data-toc-sub="بطاقة القرار" id="h-dec" data-copy-text-ar="بطاقة القرار" data-copy-text-en="Decision card"><span data-copy-text-ar="بطاقة القرار" data-copy-text-en="Decision card">بطاقة القرار</span></h3>
+      <div class="grid g-2">
+        <div class="card">
+          <h4 class="card__title" data-copy-text-ar="الطلب المقدَّم" data-copy-text-en="The request"><span data-copy-text-ar="الطلب المقدَّم" data-copy-text-en="The request">الطلب المقدَّم</span></h4>
+          <p style="font-size:1.35rem;font-weight:700;margin-block:.5rem" data-text="decision.recommendation"><span data-copy-text-ar="الموافقة على تمويل المرحلة الأولى بميزانية 8,500,000 ج.م (5,700,000 ج.م إطلاق فوري + 2,800,000 ج.م حساب ضمان مشروط لماكينة CNC)" data-copy-text-en="Approve Phase 1 funding with an EGP 8,500,000 budget (EGP 5,700,000 immediate launch + EGP 2,800,000 conditional CNC escrow)">الموافقة على تمويل المرحلة الأولى بميزانية 8,500,000 ج.م (5,700,000 ج.م إطلاق فوري + 2,800,000 ج.م حساب ضمان مشروط لماكينة CNC)</span></p>
+          <p class="note" data-text="decision.decision"><span data-copy-text-ar="موافقة مشروطة على مرحلة أولى بميزانية 8,500,000 ج.م مقسمة إلى: 5,700,000 ج.م إطلاق فوري و2,800,000 ج.م لماكينة CNC الثانية محتجزة في حساب ضمان مشروط ببلوغ استغلال 70% من الطاقة الحالية لمدة 3 أشهر متتالية (إجمالي الإنفاق الرأسمالي التراكمي للسنوات الخمس: 10,270,000 ج.م)." data-copy-text-en="Conditional approval for Phase 1 with an EGP 8,500,000 budget split into: EGP 5,700,000 immediate launch capital and EGP 2,800,000 held in escrow for the second CNC router until 70% capacity utilization is achieved for 3 consecutive months (5-Year Cumulative CAPEX: EGP 10,270,000).">موافقة مشروطة على مرحلة أولى بميزانية 8,500,000 ج.م مقسمة إلى: 5,700,000 ج.م إطلاق فوري و2,800,000 ج.م لماكينة CNC الثانية محتجزة في حساب ضمان مشروط ببلوغ استغلال 70% من الطاقة الحالية لمدة 3 أشهر متتالية (إجمالي الإنفاق الرأسمالي التراكمي للسنوات الخمس: 10,270,000 ج.م).</span></p>
+        </div>
+        <div class="card card--muted">
+          <h4 class="card__title" data-copy-text-ar="أبرز الأرقام المرجعية" data-copy-text-en="Key reference figures"><span data-copy-text-ar="أبرز الأرقام المرجعية" data-copy-text-en="Key reference figures">أبرز الأرقام المرجعية</span></h4>
+          <div id="decision-highlights"></div>
+        </div>
+      </div>
+
+      <h3 data-toc-sub="الشروط المعلقة" id="h-cond" data-copy-text-ar="الشروط المعلقة على القرار" data-copy-text-en="Conditions attached to the decision"><span data-copy-text-ar="الشروط المعلقة على القرار" data-copy-text-en="Conditions attached to the decision">الشروط المعلقة على القرار</span></h3>
+      <div class="card">
+        <p class="note" style="margin-block-end:.75rem" data-copy-text-ar="لا يُفرج عن الدفعة الثانية قبل استيفاء الشروط التالية كاملةً وتوثيق تحققها:" data-copy-text-en="The second tranche is not released until every condition below is met and the evidence is documented:"><span data-copy-text-ar="لا يُفرج عن الدفعة الثانية قبل استيفاء الشروط التالية كاملةً وتوثيق تحققها:" data-copy-text-en="The second tranche is not released until every condition below is met and the evidence is documented:">لا يُفرج عن الدفعة الثانية قبل استيفاء الشروط التالية كاملةً وتوثيق تحققها:</span></p>
+        <div id="decision-conditions"></div>
+      </div>
+    </section>
+
+    <!-- ================= 3 — الإطار القانوني ================= -->
+    <section class="sec" id="s03"  data-toc-ar="الإطار القانوني والمؤسسي" data-toc-en="Legal and institutional framework" data-toc="الإطار القانوني والمؤسسي" data-num="03" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">03</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="الأساس المؤسسي" data-copy-text-en="The institutional base"><span data-copy-text-ar="الأساس المؤسسي" data-copy-text-en="The institutional base">الأساس المؤسسي</span></div>
+          <h2 class="sec__title" data-copy-text-ar="الإطار القانوني والمؤسسي" data-copy-text-en="Legal and institutional framework"><span data-copy-text-ar="الإطار القانوني والمؤسسي" data-copy-text-en="Legal and institutional framework">الإطار القانوني والمؤسسي</span></h2>
+          <p class="sec__lead" data-copy-text-ar="لا يبدأ التحول الرقمي من المتجر بل من الكيان: من يملك المشروع، وما الذي يملكه فعلًا، وما الشروط النظامية التي يجب أن تبقى سارية طوال فترة التشغيل الرقمي." data-copy-text-en="Digital transformation does not start with the store but with the entity: who owns the project, what it actually owns, and which regulatory conditions must remain in force throughout the digital operation."><span data-copy-text-ar="لا يبدأ التحول الرقمي من المتجر بل من الكيان: من يملك المشروع، وما الذي يملكه فعلًا، وما الشروط النظامية التي يجب أن تبقى سارية طوال فترة التشغيل الرقمي." data-copy-text-en="Digital transformation does not start with the store but with the entity: who owns the project, what it actually owns, and which regulatory conditions must remain in force throughout the digital operation.">لا يبدأ التحول الرقمي من المتجر بل من الكيان: من يملك المشروع، وما الذي يملكه فعلًا، وما الشروط النظامية التي يجب أن تبقى سارية طوال فترة التشغيل الرقمي.</span></p>
+        </div>
+      </header>
+
+      <div id="company-facts"></div>
+
+      <h3 data-toc-sub="التراخيص" id="h-lic" data-copy-text-ar="التراخيص والالتزامات النظامية" data-copy-text-en="Licences and regulatory obligations"><span data-copy-text-ar="التراخيص والالتزامات النظامية" data-copy-text-en="Licences and regulatory obligations">التراخيص والالتزامات النظامية</span></h3>
+      <div id="licenses-table"></div>
+
+      <h3 data-toc-sub="الملكية" id="h-own" data-copy-text-ar="هيكل الملكية والشراكات" data-copy-text-en="Ownership structure and partnerships"><span data-copy-text-ar="هيكل الملكية والشراكات" data-copy-text-en="Ownership structure and partnerships">هيكل الملكية والشراكات</span></h3>
+      <div id="company-partners"></div>
+
+      <div class="callout callout--warn">
+        <div class="callout__icon" aria-hidden="true">!</div>
+        <div>
+          <div class="callout__title" data-copy-text-ar="نقطة تحتاج قرارًا" data-copy-text-en="A point that needs a decision"><span data-copy-text-ar="نقطة تحتاج قرارًا" data-copy-text-en="A point that needs a decision">نقطة تحتاج قرارًا</span></div>
+          <div class="callout__body"><p data-copy-text-ar="اتفاق الشراكة الحالي يربط الحصة بالاعتماد لا بالأداء. يُستحسن استبدالها باتفاق يربط جزءًا من الحصة بمؤشرات الأداء الرقمية بعد الشهر السادس، مع بقاء القرار الاستراتيجي والإشرافي بيد الشريك المؤسّس." data-copy-text-en="The current partnership agreement ties equity to sponsorship rather than to performance. It is better replaced with an arrangement that links part of the equity to digital performance indicators after the sixth month, while strategic and supervisory decisions remain with the founding partner."><span data-copy-text-ar="اتفاق الشراكة الحالي يربط الحصة بالاعتماد لا بالأداء. يُستحسن استبدالها باتفاق يربط جزءًا من الحصة بمؤشرات الأداء الرقمية بعد الشهر السادس، مع بقاء القرار الاستراتيجي والإشرافي بيد الشريك المؤسّس." data-copy-text-en="The current partnership agreement ties equity to sponsorship rather than to performance. It is better replaced with an arrangement that links part of the equity to digital performance indicators after the sixth month, while strategic and supervisory decisions remain with the founding partner.">اتفاق الشراكة الحالي يربط الحصة بالاعتماد لا بالأداء. يُستحسن استبدالها باتفاق يربط جزءًا من الحصة بمؤشرات الأداء الرقمية بعد الشهر السادس، مع بقاء القرار الاستراتيجي والإشرافي بيد الشريك المؤسّس.</span></p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 4 — وصف المشروع ================= -->
+    <section class="sec" id="s04"  data-toc-ar="وصف المشروع ونطاقه" data-toc-en="Project description and scope" data-toc="وصف المشروع ونطاقه" data-num="04" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">04</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="الأصل القائم" data-copy-text-en="The existing asset"><span data-copy-text-ar="الأصل القائم" data-copy-text-en="The existing asset">الأصل القائم</span></div>
+          <h2 class="sec__title" data-copy-text-ar="وصف المشروع ونطاقه" data-copy-text-en="Project description and scope"><span data-copy-text-ar="وصف المشروع ونطاقه" data-copy-text-en="Project description and scope">وصف المشروع ونطاقه</span></h2>
+          <p class="sec__lead" data-copy-text-ar="الورشة ليست فكرة مفترضة بل أصلٌ تشغيلي قائم منذ عقد. هذه الميزة هي جوهر دراسة الجدوى: نحن لا نطلب إنشاء القدرة الإنتاجية، بل نطلب تمويل تحويلها إلى قناة قابلة للتوسّع." data-copy-text-en="The workshop is not a hypothetical idea but an operating asset that has existed for a decade. That is the core of this feasibility study: we are not asking to build production capacity, but to fund turning it into a scalable channel."><span data-copy-text-ar="الورشة ليست فكرة مفترضة بل أصلٌ تشغيلي قائم منذ عقد. هذه الميزة هي جوهر دراسة الجدوى: نحن لا نطلب إنشاء القدرة الإنتاجية، بل نطلب تمويل تحويلها إلى قناة قابلة للتوسّع." data-copy-text-en="The workshop is not a hypothetical idea but an operating asset that has existed for a decade. That is the core of this feasibility study: we are not asking to build production capacity, but to fund turning it into a scalable channel.">الورشة ليست فكرة مفترضة بل أصلٌ تشغيلي قائم منذ عقد. هذه الميزة هي جوهر دراسة الجدوى: نحن لا نطلب إنشاء القدرة الإنتاجية، بل نطلب تمويل تحويلها إلى قناة قابلة للتوسّع.</span></p>
+        </div>
+      </header>
+
+      <div class="card" style="margin-block-end:1.5rem">
+        <p data-text="workshop.summary"></p>
+      </div>
+
+      <h3 data-toc-sub="أصول الورشة" id="h-wa" data-copy-text-ar="الأصول والطاقة الإنتاجية" data-copy-text-en="Assets and production capacity"><span data-copy-text-ar="الأصول والطاقة الإنتاجية" data-copy-text-en="Assets and production capacity">الأصول والطاقة الإنتاجية</span></h3>
+      <div id="workshop-assets"></div>
+      <div id="workshop-capacity" style="margin-block-end:1.25rem"></div>
+
+      <h3 data-toc-sub="الخامات" id="h-mat" data-copy-text-ar="الخامات المستخدمة وموردوها" data-copy-text-en="Materials in use and their suppliers"><span data-copy-text-ar="الخامات المستخدمة وموردوها" data-copy-text-en="Materials in use and their suppliers">الخامات المستخدمة وموردوها</span></h3>
+      <div id="workshop-materials"></div>
+
+      <h3 data-toc-sub="المعدات" id="h-eq" data-copy-text-ar="المعدات والإنتاج" data-copy-text-en="Equipment and production"><span data-copy-text-ar="المعدات والإنتاج" data-copy-text-en="Equipment and production">المعدات والإنتاج</span></h3>
+      <div id="workshop-equipment"></div>
+
+      <h3 data-toc-sub="العمالة" id="h-ws" data-copy-text-ar="العمالة القائمة" data-copy-text-en="Current workforce"><span data-copy-text-ar="العمالة القائمة" data-copy-text-en="Current workforce">العمالة القائمة</span></h3>
+      <div id="workshop-staff"></div>
+
+      <h3 data-toc-sub="القوة والفجوات" id="h-sw" data-copy-text-ar="القوة والفجوات التي يعالجها التحوّل الرقمي" data-copy-text-en="Strengths and the gaps the digital expansion closes"><span data-copy-text-ar="القوة والفجوات التي يعالجها التحوّل الرقمي" data-copy-text-en="Strengths and the gaps the digital expansion closes">القوة والفجوات التي يعالجها التحوّل الرقمي</span></h3>
+      <div id="workshop-sw"></div>
+    </section>
+
+    <!-- ================= 5 — الأساس المفاهيمي ================= -->
+    <section class="sec" id="s05"  data-toc-ar="الأساس المفاهيمي للجدوى" data-toc-en="The conceptual basis of feasibility" data-toc="الأساس المفاهيمي للجدوى" data-num="05" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">05</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="منهجية" data-copy-text-en="Method"><span data-copy-text-ar="منهجية" data-copy-text-en="Method">منهجية</span></div>
+          <h2 class="sec__title" data-copy-text-ar="الأساس المفاهيمي للجدوى" data-copy-text-en="The conceptual basis of feasibility"><span data-copy-text-ar="الأساس المفاهيمي للجدوى" data-copy-text-en="The conceptual basis of feasibility">الأساس المفاهيمي للجدوى</span></h2>
+          <p class="sec__lead" data-copy-text-ar="الجدوى في معناها الدقيق ليست سؤال «هل التكلفة أقل من العائد؟» بل سؤال «هل التوقّع مبنيّ على أدلةٍ كافيةٍ لدرجةٍ تجعل المخاطرة مقبولة؟»." data-copy-text-en="Feasibility in its precise sense is not the question “does cost fall below return?” but the question “is the expectation built on enough evidence to make the risk acceptable?”"><span data-copy-text-ar="الجدوى في معناها الدقيق ليست سؤال «هل التكلفة أقل من العائد؟» بل سؤال «هل التوقّع مبنيّ على أدلةٍ كافيةٍ لدرجةٍ تجعل المخاطرة مقبولة؟»." data-copy-text-en="Feasibility in its precise sense is not the question “does cost fall below return?” but the question “is the expectation built on enough evidence to make the risk acceptable?”">الجدوى في معناها الدقيق ليست سؤال «هل التكلفة أقل من العائد؟» بل سؤال «هل التوقّع مبنيّ على أدلةٍ كافيةٍ لدرجةٍ تجعل المخاطرة مقبولة؟».</span></p>
+        </div>
+      </header>
+
+      <div class="grid g-2">
+        <div class="card card--accent">
+          <h3 class="card__title card__title--lg" data-copy-text-ar="الفرق بين الجدوى والتقييم" data-copy-text-en="Feasibility study versus appraisal"><span data-copy-text-ar="الفرق بين الجدوى والتقييم" data-copy-text-en="Feasibility study versus appraisal">الفرق بين الجدوى والتقييم</span></h3>
+          <table class="tbl tbl--compact">
+            <thead><tr><th data-copy-text-ar="وجه المقارنة" data-copy-text-en="Dimension of comparison"><span data-copy-text-ar="وجه المقارنة" data-copy-text-en="Dimension of comparison">وجه المقارنة</span></th><th data-copy-text-ar="دراسة الجدوى" data-copy-text-en="Feasibility study"><span data-copy-text-ar="دراسة الجدوى" data-copy-text-en="Feasibility study">دراسة الجدوى</span></th><th data-copy-text-ar="التقييم الفني/المالي" data-copy-text-en="Technical/financial appraisal"><span data-copy-text-ar="التقييم الفني/المالي" data-copy-text-en="Technical/financial appraisal">التقييم الفني/المالي</span></th></tr></thead>
+            <tbody>
+              <tr><td data-copy-text-ar="الغاية" data-copy-text-en="Purpose"><span data-copy-text-ar="الغاية" data-copy-text-en="Purpose">الغاية</span></td><td data-copy-text-ar="اتخاذ قرار الانطلاق" data-copy-text-en="A decision to proceed"><span data-copy-text-ar="اتخاذ قرار الانطلاق" data-copy-text-en="A decision to proceed">اتخاذ قرار الانطلاق</span></td><td data-copy-text-ar="حساب العائد على استثمار قائم" data-copy-text-en="Measuring return on an existing investment"><span data-copy-text-ar="حساب العائد على استثمار قائم" data-copy-text-en="Measuring return on an existing investment">حساب العائد على استثمار قائم</span></td></tr>
+              <tr><td data-copy-text-ar="الوحدة الزمنية" data-copy-text-en="Point in time"><span data-copy-text-ar="الوحدة الزمنية" data-copy-text-en="Point in time">الوحدة الزمنية</span></td><td data-copy-text-ar="قبل الاستثمار" data-copy-text-en="Before the investment"><span data-copy-text-ar="قبل الاستثمار" data-copy-text-en="Before the investment">قبل الاستثمار</span></td><td data-copy-text-ar="بعد التشغيل" data-copy-text-en="After operation"><span data-copy-text-ar="بعد التشغيل" data-copy-text-en="After operation">بعد التشغيل</span></td></tr>
+              <tr><td data-copy-text-ar="المخرج" data-copy-text-en="Output"><span data-copy-text-ar="المخرج" data-copy-text-en="Output">المخرج</span></td><td data-copy-text-ar="توصية مشروطة" data-copy-text-en="A conditional recommendation"><span data-copy-text-ar="توصية مشروطة" data-copy-text-en="A conditional recommendation">توصية مشروطة</span></td><td data-copy-text-ar="مؤشر أداء" data-copy-text-en="A performance indicator"><span data-copy-text-ar="مؤشر أداء" data-copy-text-en="A performance indicator">مؤشر أداء</span></td></tr>
+              <tr><td data-copy-text-ar="درجة اليقين" data-copy-text-en="Degree of certainty"><span data-copy-text-ar="درجة اليقين" data-copy-text-en="Degree of certainty">درجة اليقين</span></td><td data-copy-text-ar="مرتفعة التباين" data-copy-text-en="High variance"><span data-copy-text-ar="مرتفعة التباين" data-copy-text-en="High variance">مرتفعة التباين</span></td><td data-copy-text-ar="محدودة التباين" data-copy-text-en="Limited variance"><span data-copy-text-ar="محدودة التباين" data-copy-text-en="Limited variance">محدودة التباين</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card card--gold">
+          <h3 class="card__title card__title--lg" data-copy-text-ar="مراتب اليقين المستخدمة في هذه الدراسة" data-copy-text-en="Certainty tiers used in this study"><span data-copy-text-ar="مراتب اليقين المستخدمة في هذه الدراسة" data-copy-text-en="Certainty tiers used in this study">مراتب اليقين المستخدمة في هذه الدراسة</span></h3>
+          <ul class="check check--done">
+            <li><b data-copy-text-ar="مقاييس مسجّلة:" data-copy-text-en="Recorded measures:"><span data-copy-text-ar="مقاييس مسجّلة:" data-copy-text-en="Recorded measures:">مقاييس مسجّلة:</span></b><span data-copy-text-ar="سجلات الورشة التشغيلية ومبيعاتها الفعلية 2024–2026." data-copy-text-en="Workshop operating records and actual sales, 2024–2026."> سجلات الورشة التشغيلية ومبيعاتها الفعلية 2024–2026.</span></li>
+            <li><b data-copy-text-ar="مقاييس مقاسة:" data-copy-text-en="Measured:"><span data-copy-text-ar="مقاييس مقاسة:" data-copy-text-en="Measured:">مقاييس مقاسة:</span></b><span data-copy-text-ar="استبيان 240 مستجيبًا، و18 مقابلة عميل موثّقة." data-copy-text-en="A survey of 240 respondents and 18 documented customer interviews."> استبيان 240 مستجيبًا، و18 مقابلة عميل موثّقة.</span></li>
+            <li><b data-copy-text-ar="مقاييس مقدّرة:" data-copy-text-en="Estimated:"><span data-copy-text-ar="مقاييس مقدّرة:" data-copy-text-en="Estimated:">مقاييس مقدّرة:</span></b><span data-copy-text-ar="حجم السوق الكلي، المعدلات المرجعية للفئة، وتكاليف الاستحواذ." data-copy-text-en="Total market size, category benchmark rates, and acquisition costs."> حجم السوق الكلي، المعدلات المرجعية للفئة، وتكاليف الاستحواذ.</span></li>
+            <li><b data-copy-text-ar="افتراضات معلنة:" data-copy-text-en="Stated assumptions:"><span data-copy-text-ar="افتراضات معلنة:" data-copy-text-en="Stated assumptions:">افتراضات معلنة:</span></b><span data-copy-text-ar="معدل الخصم، التضخم، والضريبة — قابلة للتعديل في نموذج حيّ." data-copy-text-en="Discount rate, inflation and tax — editable in the live model."> معدل الخصم، التضخم، والضريبة — قابلة للتعديل في نموذج حيّ.</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="callout callout--info">
+        <div class="callout__icon" aria-hidden="true">i</div>
+        <div>
+          <div class="callout__title" data-copy-text-ar="قاعدة القراءة" data-copy-text-en="How to read the numbers"><span data-copy-text-ar="قاعدة القراءة" data-copy-text-en="How to read the numbers">قاعدة القراءة</span></div>
+          <div class="callout__body"><p data-copy-text-ar="كل رقم في هذا القالب موسوم بمصدره ضمن الجداول والملاحق. ما لم يكن له مصدرٌ مُثبَت، فهو تقديرٌ يحتاج إلى اختبار — ولذلك رُبطت الشروط المعلقة في القسم الثاني بالاختبار التسويقي." data-copy-text-en="Every figure in this template is tagged with its source in the tables and appendices. Anything without an established source is an estimate that requires testing — which is why the conditions in Section 2 are tied to the marketing test."><span data-copy-text-ar="كل رقم في هذا القالب موسوم بمصدره ضمن الجداول والملاحق. ما لم يكن له مصدرٌ مُثبَت، فهو تقديرٌ يحتاج إلى اختبار — ولذلك رُبطت الشروط المعلقة في القسم الثاني بالاختبار التسويقي." data-copy-text-en="Every figure in this template is tagged with its source in the tables and appendices. Anything without an established source is an estimate that requires testing — which is why the conditions in Section 2 are tied to the marketing test.">كل رقم في هذا القالب موسوم بمصدره ضمن الجداول والملاحق. ما لم يكن له مصدرٌ مُثبَت، فهو تقديرٌ يحتاج إلى اختبار — ولذلك رُبطت الشروط المعلقة في القسم الثاني بالاختبار التسويقي.</span></p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 6 — التحليل الاستراتيجي ================= -->
+    <section class="sec" id="s06"  data-toc-ar="التحليل الاستراتيجي" data-toc-en="Strategic analysis" data-toc="التحليل الاستراتيجي" data-num="06" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">06</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="SWOT · PESTEL · بورتر · TOWS" data-copy-text-en="SWOT · PESTEL · Porter · TOWS"><span data-copy-text-ar="SWOT · PESTEL · بورتر · TOWS" data-copy-text-en="SWOT · PESTEL · Porter · TOWS">SWOT · PESTEL · بورتر · TOWS</span></div>
+          <h2 class="sec__title" data-copy-text-ar="التحليل الاستراتيجي" data-copy-text-en="Strategic analysis"><span data-copy-text-ar="التحليل الاستراتيجي" data-copy-text-en="Strategic analysis">التحليل الاستراتيجي</span></h2>
+          <p class="sec__lead" data-copy-text-ar="لا تُبنى الاستراتيجية على تمنّي السوق، بل على قراءة منهجية للبيئة الخارجية والداخلية، ثم ترجمة تلك القراءة إلى خيارات عملية محدّدة." data-copy-text-en="Strategy is not built on wishing the market into shape, but on a methodical reading of the external and internal environment, and then on translating that reading into specific operational choices."><span data-copy-text-ar="لا تُبنى الاستراتيجية على تمنّي السوق، بل على قراءة منهجية للبيئة الخارجية والداخلية، ثم ترجمة تلك القراءة إلى خيارات عملية محدّدة." data-copy-text-en="Strategy is not built on wishing the market into shape, but on a methodical reading of the external and internal environment, and then on translating that reading into specific operational choices.">لا تُبنى الاستراتيجية على تمنّي السوق، بل على قراءة منهجية للبيئة الخارجية والداخلية، ثم ترجمة تلك القراءة إلى خيارات عملية محدّدة.</span></p>
+        </div>
+      </header>
+
+      <h3 data-toc-sub="SWOT" id="h-swot" data-copy-text-ar="المصفوفة الرباعية (SWOT)" data-copy-text-en="The four-way matrix (SWOT)"><span data-copy-text-ar="المصفوفة الرباعية (SWOT)" data-copy-text-en="The four-way matrix (SWOT)">المصفوفة الرباعية (SWOT)</span></h3>
+      <div id="swot-grid" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="PESTEL" id="h-pestel" data-copy-text-ar="التحليل البيئي (PESTEL)" data-copy-text-en="Environmental analysis (PESTEL)"><span data-copy-text-ar="التحليل البيئي (PESTEL)" data-copy-text-en="Environmental analysis (PESTEL)">التحليل البيئي (PESTEL)</span></h3>
+      <div id="pestel-list" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="بورتر" id="h-porter" data-copy-text-ar="قوى الضغط التنافسي (Porter)" data-copy-text-en="Competitive pressure (Porter)"><span data-copy-text-ar="قوى الضغط التنافسي (Porter)" data-copy-text-en="Competitive pressure (Porter)">قوى الضغط التنافسي (Porter)</span></h3>
+      <div id="porter-list" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="TOWS" id="h-tows" data-copy-text-ar="مصفوفة التوليف الاستراتيجي (TOWS)" data-copy-text-en="Strategic synthesis matrix (TOWS)"><span data-copy-text-ar="مصفوفة التوليف الاستراتيجي (TOWS)" data-copy-text-en="Strategic synthesis matrix (TOWS)">مصفوفة التوليف الاستراتيجي (TOWS)</span></h3>
+      <div id="tows-grid" style="margin-block-end:1.75rem"></div>
+
+      <div class="grid g-2">
+        <div>
+          <h3 data-toc-sub="EFE" data-copy-text-ar="مصفوفة العوامل الخارجية" data-copy-text-en="External factor matrix"><span data-copy-text-ar="مصفوفة العوامل الخارجية" data-copy-text-en="External factor matrix">مصفوفة العوامل الخارجية</span></h3>
+          <div id="efe-table"></div>
+        </div>
+        <div>
+          <h3 data-toc-sub="IFE" data-copy-text-ar="مصفوفة العوامل الداخلية" data-copy-text-en="Internal factor matrix"><span data-copy-text-ar="مصفوفة العوامل الداخلية" data-copy-text-en="Internal factor matrix">مصفوفة العوامل الداخلية</span></h3>
+          <div id="ife-table"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 7 — السوق ================= -->
+    <section class="sec" id="s07"  data-toc-ar="تحليل السوق والطلب" data-toc-en="Market and demand analysis" data-toc="تحليل السوق والطلب" data-num="07" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">07</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow">TAM · SAM · SOM</div>
+          <h2 class="sec__title" data-copy-text-ar="تحليل السوق والطلب" data-copy-text-en="Market and demand analysis"><span data-copy-text-ar="تحليل السوق والطلب" data-copy-text-en="Market and demand analysis">تحليل السوق والطلب</span></h2>
+          <p class="sec__lead" data-copy-text-ar="الفئة التي نتوجه إليها غير ناضجة رقميًا: الطلب موجود والعرض ضعيف. هذه فرصةٌ ذهبية، بشرط ألّا نخلط بين حجم السوق وسهولة التحويل." data-copy-text-en="The category we are entering is digitally immature: demand exists and supply is weak. That is a golden opportunity, provided we do not confuse market size with ease of conversion."><span data-copy-text-ar="الفئة التي نتوجه إليها غير ناضجة رقميًا: الطلب موجود والعرض ضعيف. هذه فرصةٌ ذهبية، بشرط ألّا نخلط بين حجم السوق وسهولة التحويل." data-copy-text-en="The category we are entering is digitally immature: demand exists and supply is weak. That is a golden opportunity, provided we do not confuse market size with ease of conversion.">الفئة التي نتوجه إليها غير ناضجة رقميًا: الطلب موجود والعرض ضعيف. هذه فرصةٌ ذهبية، بشرط ألّا نخلط بين حجم السوق وسهولة التحويل.</span></p>
+        </div>
+      </header>
+
+      <h3 data-toc-sub="حجم السوق" id="h-size" data-copy-text-ar="حجم السوق" data-copy-text-en="Market size"><span data-copy-text-ar="حجم السوق" data-copy-text-en="Market size">حجم السوق</span></h3>
+      <div id="market-sizes" style="margin-block-end:1.25rem"></div>
+
+      <h3 data-toc-sub="المنهجية" id="h-meth" data-copy-text-ar="منهجية البحث ومصادره" data-copy-text-en="Research methodology and sources"><span data-copy-text-ar="منهجية البحث ومصادره" data-copy-text-en="Research methodology and sources">منهجية البحث ومصادره</span></h3>
+      <div id="market-method" style="margin-block-end:1.5rem"></div>
+
+      <h3 data-toc-sub="التجزئة" id="h-seg" data-copy-text-ar="تجزئة السوق" data-copy-text-en="Market segmentation"><span data-copy-text-ar="تجزئة السوق" data-copy-text-en="Market segmentation">تجزئة السوق</span></h3>
+      <div id="market-segments" style="margin-block-end:1.5rem"></div>
+
+      <h3 data-toc-sub="المنافسة" id="h-comp" data-copy-text-ar="المشهد التنافسي" data-copy-text-en="Competitive landscape"><span data-copy-text-ar="المشهد التنافسي" data-copy-text-en="Competitive landscape">المشهد التنافسي</span></h3>
+      <div id="market-competitors" style="margin-block-end:1.5rem"></div>
+
+      <h3 data-toc-sub="الطلب والمخاطر" id="h-drv" data-copy-text-ar="محركات الطلب والمخاطر السوقية" data-copy-text-en="Demand drivers and market risks"><span data-copy-text-ar="محركات الطلب والمخاطر السوقية" data-copy-text-en="Demand drivers and market risks">محركات الطلب والمخاطر السوقية</span></h3>
+      <div id="market-drivers" style="margin-block-end:1.5rem"></div>
+
+      <h3 data-toc-sub="المصادر" id="h-src" data-copy-text-ar="مصادر البحث" data-copy-text-en="Research sources"><span data-copy-text-ar="مصادر البحث" data-copy-text-en="Research sources">مصادر البحث</span></h3>
+      <div id="market-sources"></div>
+    </section>
+
+    <!-- ================= 8 — طبقة الذكاء الاصطناعي ================= -->
+    <section class="sec" id="s08"  data-toc-ar="طبقة الذكاء الاصطناعي وخريطة الوكلاء" data-toc-en="The AI layer and the agent map" data-toc="طبقة الذكاء الاصطناعي وخريطة الوكلاء" data-num="08" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">08</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="الأدوار والأتمتة" data-copy-text-en="Roles and automation"><span data-copy-text-ar="الأدوار والأتمتة" data-copy-text-en="Roles and automation">الأدوار والأتمتة</span></div>
+          <h2 class="sec__title" data-copy-text-ar="طبقة الذكاء الاصطناعي وخريطة الوكلاء" data-copy-text-en="The AI layer and the agent map"><span data-copy-text-ar="طبقة الذكاء الاصطناعي وخريطة الوكلاء" data-copy-text-en="The AI layer and the agent map">طبقة الذكاء الاصطناعي وخريطة الوكلاء</span></h2>
+          <p class="sec__lead" data-copy-text-ar="الجمع بين البرمجية والتسويق ووكالة الذكاء الاصطناعي ليس شعارًا بل بنية تشغيل: كل وظيفة متكرّرة تُسند إلى وكيلٍ له مهمة محدّدة، ومالك بشري، ومؤشر أداء، وشرط تصعيد." data-copy-text-en="Combining software, marketing and an AI agency is not a slogan but an operating structure: every repetitive function is assigned to an agent with a defined mission, a human owner, a performance indicator and an escalation trigger."><span data-copy-text-ar="الجمع بين البرمجية والتسويق ووكالة الذكاء الاصطناعي ليس شعارًا بل بنية تشغيل: كل وظيفة متكرّرة تُسند إلى وكيلٍ له مهمة محدّدة، ومالك بشري، ومؤشر أداء، وشرط تصعيد." data-copy-text-en="Combining software, marketing and an AI agency is not a slogan but an operating structure: every repetitive function is assigned to an agent with a defined mission, a human owner, a performance indicator and an escalation trigger.">الجمع بين البرمجية والتسويق ووكالة الذكاء الاصطناعي ليس شعارًا بل بنية تشغيل: كل وظيفة متكرّرة تُسند إلى وكيلٍ له مهمة محدّدة، ومالك بشري، ومؤشر أداء، وشرط تصعيد.</span></p>
+        </div>
+      </header>
+
+      <div class="callout callout--guide">
+        <div class="callout__icon" aria-hidden="true" data-copy-text-ar="؟" data-copy-text-en="?"><span data-copy-text-ar="؟" data-copy-text-en="?">؟</span></div>
+        <div>
+          <div class="callout__title" data-copy-text-ar="تعليمات المعبّئ" data-copy-text-en="Guidance for the author"><span data-copy-text-ar="تعليمات المعبّئ" data-copy-text-en="Guidance for the author">تعليمات المعبّئ</span></div>
+          <div class="callout__body">
+            <p data-copy-text-ar="لا تُضيف وكيلًا بلا مؤشر أداء. الوكيل الذي لا يمكن قياس أثره يُعدّ تكلفة لا أصلًا. ابدأ بستة وكلاء فقط في المرحلة الأولى، ثم وسّع بعد إثبات الأثر." data-copy-text-en="Do not add an agent without a performance indicator. An agent whose impact cannot be measured is a cost, not an asset. Start with six agents in the first phase, then expand once the impact is proven."><span data-copy-text-ar="لا تُضيف وكيلًا بلا مؤشر أداء. الوكيل الذي لا يمكن قياس أثره يُعدّ تكلفة لا أصلًا. ابدأ بستة وكلاء فقط في المرحلة الأولى، ثم وسّع بعد إثبات الأثر." data-copy-text-en="Do not add an agent without a performance indicator. An agent whose impact cannot be measured is a cost, not an asset. Start with six agents in the first phase, then expand once the impact is proven.">لا تُضيف وكيلًا بلا مؤشر أداء. الوكيل الذي لا يمكن قياس أثره يُعدّ تكلفة لا أصلًا. ابدأ بستة وكلاء فقط في المرحلة الأولى، ثم وسّع بعد إثبات الأثر.</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="agents-grid"></div>
+
+      <h3 data-toc-sub="سجل الوكلاء" id="h-agents" data-copy-text-ar="سجلّ الوكلاء" data-copy-text-en="Agent registry"><span data-copy-text-ar="سجلّ الوكلاء" data-copy-text-en="Agent registry">سجلّ الوكلاء</span></h3>
+      <div id="agents-table"></div>
+
+      <h3 data-toc-sub="الحوكمة" id="h-gov2" data-copy-text-ar="حوكمة الذكاء الاصطناعي" data-copy-text-en="AI governance"><span data-copy-text-ar="حوكمة الذكاء الاصطناعي" data-copy-text-en="AI governance">حوكمة الذكاء الاصطناعي</span></h3>
+      <div id="ai-governance"></div>
+    </section>
+
+    <!-- ================= 9 — التسويق ================= -->
+    <section class="sec" id="s09"  data-toc-ar="استراتيجية التسويق والمبيعات" data-toc-en="Marketing and sales strategy" data-toc="استراتيجية التسويق والمبيعات" data-num="09" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">09</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="ESP · القمع · المزيج" data-copy-text-en="Positioning · Funnel · Mix"><span data-copy-text-ar="ESP · القمع · المزيج" data-copy-text-en="Positioning · Funnel · Mix">ESP · القمع · المزيج</span></div>
+          <h2 class="sec__title" data-copy-text-ar="استراتيجية التسويق والمبيعات" data-copy-text-en="Marketing and sales strategy"><span data-copy-text-ar="استراتيجية التسويق والمبيعات" data-copy-text-en="Marketing and sales strategy">استراتيجية التسويق والمبيعات</span></h2>
+          <p class="sec__lead" data-copy-text-ar="الاستراتيجية التسويقية هنا مبنيّة على أرقام: كم يكلّف العميل، وكم يشتري، وكم يستعيد. أي قناة لا تحقّق الحدّ المستهدف تُقلَّص حتى لو كانتا الأكثر أناقة." data-copy-text-en="The marketing strategy here is built on numbers: what a customer costs, how much they buy, and how often they return. Any channel that misses the target is scaled back, however elegant it is."><span data-copy-text-ar="الاستراتيجية التسويقية هنا مبنيّة على أرقام: كم يكلّف العميل، وكم يشتري، وكم يستعيد. أي قناة لا تحقّق الحدّ المستهدف تُقلَّص حتى لو كانتا الأكثر أناقة." data-copy-text-en="The marketing strategy here is built on numbers: what a customer costs, how much they buy, and how often they return. Any channel that misses the target is scaled back, however elegant it is.">الاستراتيجية التسويقية هنا مبنيّة على أرقام: كم يكلّف العميل، وكم يشتري، وكم يستعيد. أي قناة لا تحقّق الحدّ المستهدف تُقلَّص حتى لو كانتا الأكثر أناقة.</span></p>
+        </div>
+      </header>
+
+      <h3 data-toc-sub="التموضع" id="h-pos" data-copy-text-ar="التموضع والشخصيات المستهدفة" data-copy-text-en="Positioning and target personas"><span data-copy-text-ar="التموضع والشخصيات المستهدفة" data-copy-text-en="Positioning and target personas">التموضع والشخصيات المستهدفة</span></h3>
+      <div id="retention-list" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="الشخصيات" id="h-per" data-copy-text-ar="الشخصيات الشرائية" data-copy-text-en="Buyer personas"><span data-copy-text-ar="الشخصيات الشرائية" data-copy-text-en="Buyer personas">الشخصيات الشرائية</span></h3>
+      <div id="personas-grid" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="القنوات" id="h-ch" data-copy-text-ar="قنوات الاستحواذ" data-copy-text-en="Acquisition channels"><span data-copy-text-ar="قنوات الاستحواذ" data-copy-text-en="Acquisition channels">قنوات الاستحواذ</span></h3>
+      <div id="channels-table" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="القمع" id="h-fn" data-copy-text-ar="قمع التحويل" data-copy-text-en="Conversion funnel"><span data-copy-text-ar="قمع التحويل" data-copy-text-en="Conversion funnel">قمع التحويل</span></h3>
+      <div id="funnel-table" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="المحتوى" id="h-ct" data-copy-text-ar="أعمدة المحتوى" data-copy-text-en="Content pillars"><span data-copy-text-ar="أعمدة المحتوى" data-copy-text-en="Content pillars">أعمدة المحتوى</span></h3>
+      <div id="content-table"></div>
+    </section>
+
+    <!-- ================= 10 — العمليات ================= -->
+    <section class="sec" id="s10"  data-toc-ar="العمليات والتصنيع" data-toc-en="Operations and manufacturing" data-toc="العمليات والتصنيع" data-num="10" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">10</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="من الطلب إلى التسليم" data-copy-text-en="From order to delivery"><span data-copy-text-ar="من الطلب إلى التسليم" data-copy-text-en="From order to delivery">من الطلب إلى التسليم</span></div>
+          <h2 class="sec__title" data-copy-text-ar="العمليات والتصنيع" data-copy-text-en="Operations and manufacturing"><span data-copy-text-ar="العمليات والتصنيع" data-copy-text-en="Operations and manufacturing">العمليات والتصنيع</span></h2>
+          <p class="sec__lead" data-copy-text-ar="التجارة الإلكترونية لا تنتهي عند الدفع؛ تبدأ عنده. ولأن هذا المشروع ينتج أثاثًا مخصصًا، فإن كفاءة التسليم هي ما يحدّد التقييم وسرعة التحويل." data-copy-text-en="E-commerce does not end at payment; it begins there. Because this project produces made-to-order furniture, delivery performance is what determines both the review score and the conversion rate."><span data-copy-text-ar="التجارة الإلكترونية لا تنتهي عند الدفع؛ تبدأ عنده. ولأن هذا المشروع ينتج أثاثًا مخصصًا، فإن كفاءة التسليم هي ما يحدّد التقييم وسرعة التحويل." data-copy-text-en="E-commerce does not end at payment; it begins there. Because this project produces made-to-order furniture, delivery performance is what determines both the review score and the conversion rate.">التجارة الإلكترونية لا تنتهي عند الدفع؛ تبدأ عنده. ولأن هذا المشروع ينتج أثاثًا مخصصًا، فإن كفاءة التسليم هي ما يحدّد التقييم وسرعة التحويل.</span></p>
+        </div>
+      </header>
+
+      <h3 data-toc-sub="سلسلة العمليات" id="h-ops" data-copy-text-ar="سلسلة العمليات" data-copy-text-en="Operating flow"><span data-copy-text-ar="سلسلة العمليات" data-copy-text-en="Operating flow">سلسلة العمليات</span></h3>
+      <div id="ops-process" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="الموردون" id="h-sup" data-copy-text-ar="الموردون وسلسلة التوريد" data-copy-text-en="Suppliers and supply chain"><span data-copy-text-ar="الموردون وسلسلة التوريد" data-copy-text-en="Suppliers and supply chain">الموردون وسلسلة التوريد</span></h3>
+      <div id="ops-suppliers" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="الشحن والجودة" id="h-log" data-copy-text-ar="الشحن والجودة والخدمة" data-copy-text-en="Shipping, quality and service"><span data-copy-text-ar="الشحن والجودة والخدمة" data-copy-text-en="Shipping, quality and service">الشحن والجودة والخدمة</span></h3>
+      <div id="ops-blocks"></div>
+    </section>
+
+    <!-- ================= 11 — التقنية ================= -->
+    <section class="sec" id="s11"  data-toc-ar="التقنية والبنية الرقمية" data-toc-en="Technology and digital infrastructure" data-toc="التقنية والبنية الرقمية" data-num="11" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">11</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="البنية والتكاملات" data-copy-text-en="Infrastructure and integrations"><span data-copy-text-ar="البنية والتكاملات" data-copy-text-en="Infrastructure and integrations">البنية والتكاملات</span></div>
+          <h2 class="sec__title" data-copy-text-ar="التقنية والبنية الرقمية" data-copy-text-en="Technology and digital infrastructure"><span data-copy-text-ar="التقنية والبنية الرقمية" data-copy-text-en="Technology and digital infrastructure">التقنية والبنية الرقمية</span></h2>
+          <p class="sec__lead" data-copy-text-ar="اختيار التقنية هنا ليس تفصيلًا هندسيًا بل قرارًا تجاريًا: كل طبقة تمثّل إمّا قدرةَ تميّز عن المنافسين وإمّا عبئًا تشغيليًا دائمًا." data-copy-text-en="Technology selection here is not an engineering detail but a commercial decision: every layer represents either a capability that differentiates us from competitors or a permanent operating burden."><span data-copy-text-ar="اختيار التقنية هنا ليس تفصيلًا هندسيًا بل قرارًا تجاريًا: كل طبقة تمثّل إمّا قدرةَ تميّز عن المنافسين وإمّا عبئًا تشغيليًا دائمًا." data-copy-text-en="Technology selection here is not an engineering detail but a commercial decision: every layer represents either a capability that differentiates us from competitors or a permanent operating burden.">اختيار التقنية هنا ليس تفصيلًا هندسيًا بل قرارًا تجاريًا: كل طبقة تمثّل إمّا قدرةَ تميّز عن المنافسين وإمّا عبئًا تشغيليًا دائمًا.</span></p>
+        </div>
+      </header>
+
+      <h3 data-toc-sub="البنية" id="h-stack" data-copy-text-ar="البنية التقنية" data-copy-text-en="Technology stack"><span data-copy-text-ar="البنية التقنية" data-copy-text-en="Technology stack">البنية التقنية</span></h3>
+      <div id="tech-stack" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="التشغيل والأمان" id="h-sec2" data-copy-text-ar="الاستضافة والأمان والامتثال" data-copy-text-en="Hosting, security and compliance"><span data-copy-text-ar="الاستضافة والأمان والامتثال" data-copy-text-en="Hosting, security and compliance">الاستضافة والأمان والامتثال</span></h3>
+      <div id="tech-blocks"></div>
+    </section>
+
+    <!-- ================= 12 — الموارد البشرية ================= -->
+    <section class="sec" id="s12"  data-toc-ar="الموارد البشرية والتنظيم" data-toc-en="Human resources and organisation" data-toc="الموارد البشرية والتنظيم" data-num="12" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">12</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="الفريق والهيكل" data-copy-text-en="Team and structure"><span data-copy-text-ar="الفريق والهيكل" data-copy-text-en="Team and structure">الفريق والهيكل</span></div>
+          <h2 class="sec__title" data-copy-text-ar="الموارد البشرية والتنظيم" data-copy-text-en="Human resources and organisation"><span data-copy-text-ar="الموارد البشرية والتنظيم" data-copy-text-en="Human resources and organisation">الموارد البشرية والتنظيم</span></h2>
+          <p class="sec__lead" data-copy-text-ar="نموذج العمل المعتمد على الوكلاء لا يلغي الحاجة إلى بشر؛ بل يعيد توزيعهم: من تنفيذ المتكرّر إلى اتخاذ القرار ومراجعة المخرجات." data-copy-text-en="An agent-based operating model does not remove the need for people; it redistributes them, from repetitive execution to decision-making and output review."><span data-copy-text-ar="نموذج العمل المعتمد على الوكلاء لا يلغي الحاجة إلى بشر؛ بل يعيد توزيعهم: من تنفيذ المتكرّر إلى اتخاذ القرار ومراجعة المخرجات." data-copy-text-en="An agent-based operating model does not remove the need for people; it redistributes them, from repetitive execution to decision-making and output review.">نموذج العمل المعتمد على الوكلاء لا يلغي الحاجة إلى بشر؛ بل يعيد توزيعهم: من تنفيذ المتكرّر إلى اتخاذ القرار ومراجعة المخرجات.</span></p>
+        </div>
+      </header>
+
+      <h3 data-toc-sub="الهيكل" id="h-org" data-copy-text-ar="الهيكل التنظيمي المستهدف" data-copy-text-en="Target organisation"><span data-copy-text-ar="الهيكل التنظيمي المستهدف" data-copy-text-en="Target organisation">الهيكل التنظيمي المستهدف</span></h3>
+      <div id="hr-org" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="السياسات" id="h-pol" data-copy-text-ar="السياسات والتدريب" data-copy-text-en="Policies and training"><span data-copy-text-ar="السياسات والتدريب" data-copy-text-en="Policies and training">السياسات والتدريب</span></h3>
+      <div id="hr-blocks"></div>
+    </section>
+
+    <!-- ================= 13 — المالية ================= -->
+    <section class="sec" id="s13"  data-toc-ar="الجداول المالية" data-toc-en="Financial tables" data-toc="الجداول المالية" data-num="13" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">13</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="NPV · IRR · التعادل · الحساسية" data-copy-text-en="NPV · IRR · Break-even · Sensitivity"><span data-copy-text-ar="NPV · IRR · التعادل · الحساسية" data-copy-text-en="NPV · IRR · Break-even · Sensitivity">NPV · IRR · التعادل · الحساسية</span></div>
+          <h2 class="sec__title" data-copy-text-ar="الجداول المالية" data-copy-text-en="Financial tables"><span data-copy-text-ar="الجداول المالية" data-copy-text-en="Financial tables">الجداول المالية</span></h2>
+          <p class="sec__lead" data-copy-text-ar="كل الأرقام في هذا القسم حيّة: تعديل أي خانة يعيد حساب النموذج كاملًا — قائمة الدخل، والتدفق النقدي، ونقطة التعادل، ومعدل العائد الداخلي، والسيناريوهات، والحساسية." data-copy-text-en="Every figure in this section is live: changing any cell recalculates the whole model — the income statement, the cash flow statement, the break-even point, the internal rate of return, the scenarios and the sensitivity analysis."><span data-copy-text-ar="كل الأرقام في هذا القسم حيّة: تعديل أي خانة يعيد حساب النموذج كاملًا — قائمة الدخل، والتدفق النقدي، ونقطة التعادل، ومعدل العائد الداخلي، والسيناريوهات، والحساسية." data-copy-text-en="Every figure in this section is live: changing any cell recalculates the whole model — the income statement, the cash flow statement, the break-even point, the internal rate of return, the scenarios and the sensitivity analysis.">كل الأرقام في هذا القسم حيّة: تعديل أي خانة يعيد حساب النموذج كاملًا — قائمة الدخل، والتدفق النقدي، ونقطة التعادل، ومعدل العائد الداخلي، والسيناريوهات، والحساسية.</span></p>
+        </div>
+      </header>
+
+      <div class="callout callout--guide">
+        <div class="callout__icon" aria-hidden="true" data-copy-text-ar="؟" data-copy-text-en="?"><span data-copy-text-ar="؟" data-copy-text-en="?">؟</span></div>
+        <div>
+          <div class="callout__title" data-copy-text-ar="كيف تستخدم هذا القسم" data-copy-text-en="How to use this section"><span data-copy-text-ar="كيف تستخدم هذا القسم" data-copy-text-en="How to use this section">كيف تستخدم هذا القسم</span></div>
+          <div class="callout__body">
+            <p data-copy-text-ar="عُدِّل الافتراضات في اللوحة أدناه، أو في جداول التأسيس والتشغيل والإيرادات، وستتحدّث بقية الأقسام تلقائيًّا. هذه هي أداة «محاكاة السيناريوهات» قبل أي اجتماع: اقترح بدائلَ، وقارن النتائج، ثم قرّر." data-copy-text-en="Edit the assumptions in the panel below, or directly in the capital expenditure, operating expense and revenue tables, and the rest of the section updates automatically. This is the scenario-simulation tool to use before any meeting: propose alternatives, compare the results, then decide."><span data-copy-text-ar="عُدِّل الافتراضات في اللوحة أدناه، أو في جداول التأسيس والتشغيل والإيرادات، وستتحدّث بقية الأقسام تلقائيًّا. هذه هي أداة «محاكاة السيناريوهات» قبل أي اجتماع: اقترح بدائلَ، وقارن النتائج، ثم قرّر." data-copy-text-en="Edit the assumptions in the panel below, or directly in the capital expenditure, operating expense and revenue tables, and the rest of the section updates automatically. This is the scenario-simulation tool to use before any meeting: propose alternatives, compare the results, then decide.">عُدِّل الافتراضات في اللوحة أدناه، أو في جداول التأسيس والتشغيل والإيرادات، وستتحدّث بقية الأقسام تلقائيًّا. هذه هي أداة «محاكاة السيناريوهات» قبل أي اجتماع: اقترح بدائلَ، وقارن النتائج، ثم قرّر.</span></p>
+          </div>
+        </div>
+      </div>
+
+      <h3 data-toc-sub="الافتراضات" id="h-assum" data-copy-text-ar="الافتراضات المالية" data-copy-text-en="Financial assumptions"><span data-copy-text-ar="الافتراضات المالية" data-copy-text-en="Financial assumptions">الافتراضات المالية</span></h3>
+      <div id="fin-assumptions" style="margin-block-end:1.5rem"></div>
+
+      <h3 data-toc-sub="المؤشرات" id="h-kpifin" data-copy-text-ar="المؤشرات المالية الحاكمة" data-copy-text-en="Governing financial indicators"><span data-copy-text-ar="المؤشرات المالية الحاكمة" data-copy-text-en="Governing financial indicators">المؤشرات المالية الحاكمة</span></h3>
+      <div id="fin-kpis" aria-live="polite" style="margin-block-end:1.25rem"></div>
+
+      <h3 data-toc-sub="التنبيهات" id="h-alerts" data-copy-text-ar="قراءة المؤشرات" data-copy-text-en="Reading the indicators"><span data-copy-text-ar="قراءة المؤشرات" data-copy-text-en="Reading the indicators">قراءة المؤشرات</span></h3>
+      <div id="fin-alerts" style="margin-block-end:1.5rem"></div>
+
+      <h3 data-toc-sub="تكاليف التأسيس" id="h-capex" data-copy-text-ar="تكاليف التأسيس (CAPEX)" data-copy-text-en="Capital expenditure (CAPEX)"><span data-copy-text-ar="تكاليف التأسيس (CAPEX)" data-copy-text-en="Capital expenditure (CAPEX)">تكاليف التأسيس (CAPEX)</span></h3>
+      <div class="callout callout--info" style="margin-block-end:1.25rem">
+        <div class="callout__title" data-copy-text-ar="هيكل الإنفاق الرأسمالي وخطة التمويل" data-copy-text-en="Capital Expenditure &amp; Financing Structure"><span data-copy-text-ar="هيكل الإنفاق الرأسمالي وخطة التمويل" data-copy-text-en="Capital Expenditure &amp; Financing Structure">هيكل الإنفاق الرأسمالي وخطة التمويل</span></div>
+        <div class="callout__body">
+          <p data-copy-text-ar="رأس المال المطلوب للمرحلة الأولى: 8,500,000 ج.م (تشمل 5,700,000 ج.م رأس مال إطلاق فوري، و2,800,000 ج.م لماكينة CNC الثانية محتجزة في حساب ضمان مشروط لحين تحقيق استغلال 70% من الطاقة الإنتاجية لمدة 3 أشهر متتالية). إجمالي الإنفاق الرأسمالي التراكمي للسنوات الخمس (5-Year Cumulative CAPEX): 10,270,000 ج.م (يتضمّن 420,000 ج.م في السنة الأولى لأنظمة المخزون واللوجستيات و1,350,000 ج.م في السنة الثانية لتوسيع خط الإنتاج)." data-copy-text-en="Phase 1 Initial Ask: EGP 8,500,000 (comprising EGP 5,700,000 immediate launch capital and EGP 2,800,000 second CNC router held in escrow until the 70% capacity utilization gate is achieved for 3 consecutive months). 5-Year Cumulative CAPEX: EGP 10,270,000 (including EGP 420,000 in Year 1 for inventory and logistics systems, and EGP 1,350,000 in Year 2 for production line expansion)."><span data-copy-text-ar="رأس المال المطلوب للمرحلة الأولى: 8,500,000 ج.م (تشمل 5,700,000 ج.م رأس مال إطلاق فوري، و2,800,000 ج.م لماكينة CNC الثانية محتجزة في حساب ضمان مشروط لحين تحقيق استغلال 70% من الطاقة الإنتاجية لمدة 3 أشهر متتالية). إجمالي الإنفاق الرأسمالي التراكمي للسنوات الخمس (5-Year Cumulative CAPEX): 10,270,000 ج.م (يتضمّن 420,000 ج.م في السنة الأولى لأنظمة المخزون واللوجستيات و1,350,000 ج.م في السنة الثانية لتوسيع خط الإنتاج)." data-copy-text-en="Phase 1 Initial Ask: EGP 8,500,000 (comprising EGP 5,700,000 immediate launch capital and EGP 2,800,000 second CNC router held in escrow until the 70% capacity utilization gate is achieved for 3 consecutive months). 5-Year Cumulative CAPEX: EGP 10,270,000 (including EGP 420,000 in Year 1 for inventory and logistics systems, and EGP 1,350,000 in Year 2 for production line expansion).">رأس المال المطلوب للمرحلة الأولى: 8,500,000 ج.م (تشمل 5,700,000 ج.م رأس مال إطلاق فوري، و2,800,000 ج.م لماكينة CNC الثانية محتجزة في حساب ضمان مشروط لحين تحقيق استغلال 70% من الطاقة الإنتاجية لمدة 3 أشهر متتالية). إجمالي الإنفاق الرأسمالي التراكمي للسنوات الخمس (5-Year Cumulative CAPEX): 10,270,000 ج.م (يتضمّن 420,000 ج.م في السنة الأولى لأنظمة المخزون واللوجستيات و1,350,000 ج.م في السنة الثانية لتوسيع خط الإنتاج).</span></p>
+        </div>
+      </div>
+      <div id="fin-capex" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="المصروفات" id="h-opex" data-copy-text-ar="المصروفات التشغيلية (OPEX)" data-copy-text-en="Operating expenses (OPEX)"><span data-copy-text-ar="المصروفات التشغيلية (OPEX)" data-copy-text-en="Operating expenses (OPEX)">المصروفات التشغيلية (OPEX)</span></h3>
+      <div id="fin-opex" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="الإيرادات" id="h-rev2" data-copy-text-ar="مصادر الإيراد" data-copy-text-en="Revenue streams"><span data-copy-text-ar="مصادر الإيراد" data-copy-text-en="Revenue streams">مصادر الإيراد</span></h3>
+      <div id="fin-revenue" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="قائمة الدخل" id="h-pl" data-copy-text-ar="قائمة الدخل التقديرية" data-copy-text-en="Projected income statement"><span data-copy-text-ar="قائمة الدخل التقديرية" data-copy-text-en="Projected income statement">قائمة الدخل التقديرية</span></h3>
+      <div id="fin-pl" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="التدفق النقدي" id="h-cf" data-copy-text-ar="جدول التدفق النقدي" data-copy-text-en="Cash flow statement"><span data-copy-text-ar="جدول التدفق النقدي" data-copy-text-en="Cash flow statement">جدول التدفق النقدي</span></h3>
+      <div id="fin-cf" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="المسار" id="h-proj" data-copy-text-ar="مسار الإيرادات والأرباح" data-copy-text-en="Revenue and profit trajectory"><span data-copy-text-ar="مسار الإيرادات والأرباح" data-copy-text-en="Revenue and profit trajectory">مسار الإيرادات والأرباح</span></h3>
+      <div id="chart-projection" style="margin-block-end:1.25rem"></div>
+
+      <h3 data-toc-sub="التعادل" id="h-be" data-copy-text-ar="نقطة التعادل" data-copy-text-en="Break-even point"><span data-copy-text-ar="نقطة التعادل" data-copy-text-en="Break-even point">نقطة التعادل</span></h3>
+      <div id="chart-breakeven" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="المزيج" id="h-mix" data-copy-text-ar="مزيج الإيرادات وتوزيع الاستثمار" data-copy-text-en="Revenue mix and investment distribution"><span data-copy-text-ar="مزيج الإيرادات وتوزيع الاستثمار" data-copy-text-en="Revenue mix and investment distribution">مزيج الإيرادات وتوزيع الاستثمار</span></h3>
+      <div class="grid g-2">
+        <div id="chart-revenue-mix"></div>
+        <div id="chart-capex"></div>
+      </div>
+
+      <h3 data-toc-sub="الجسر النقدي" id="h-wf" data-copy-text-ar="جسر التدفق النقدي — السنة الأولى" data-copy-text-en="Free cash flow bridge — year one"><span data-copy-text-ar="جسر التدفق النقدي — السنة الأولى" data-copy-text-en="Free cash flow bridge — year one">جسر التدفق النقدي — السنة الأولى</span></h3>
+      <div id="chart-waterfall" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="السيناريوهات" id="h-scen" data-copy-text-ar="تحليل السيناريوهات" data-copy-text-en="Scenario analysis"><span data-copy-text-ar="تحليل السيناريوهات" data-copy-text-en="Scenario analysis">تحليل السيناريوهات</span></h3>
+      <div id="fin-scenarios" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="الحساسية" id="h-sens" data-copy-text-ar="تحليل الحساسية" data-copy-text-en="Sensitivity analysis"><span data-copy-text-ar="تحليل الحساسية" data-copy-text-en="Sensitivity analysis">تحليل الحساسية</span></h3>
+      <div id="fin-sens" style="margin-block-end:1.25rem"></div>
+      <div id="chart-tornado" style="margin-block-end:1.5rem"></div>
+
+      <h3 data-toc-sub="الحساسية المتقاطعة" id="h-sens2d" data-copy-text-ar="الحساسية المتقاطعة: السعر × حجم المبيعات" data-copy-text-en="Cross sensitivity: price × sales volume"><span data-copy-text-ar="الحساسية المتقاطعة: السعر × حجم المبيعات" data-copy-text-en="Cross sensitivity: price × sales volume">الحساسية المتقاطعة: السعر × حجم المبيعات</span></h3>
+      <div id="fin-sens2d"></div>
+    </section>
+
+    <!-- ================= 14 — المخاطر ================= -->
+    <section class="sec" id="s14"  data-toc-ar="المخاطر وخطة التخفيف" data-toc-en="Risks and mitigation plan" data-toc="المخاطر وخطة التخفيف" data-num="14" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">14</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="سجل المخاطر" data-copy-text-en="Risk register"><span data-copy-text-ar="سجل المخاطر" data-copy-text-en="Risk register">سجل المخاطر</span></div>
+          <h2 class="sec__title" data-copy-text-ar="المخاطر وخطة التخفيف" data-copy-text-en="Risks and mitigation plan"><span data-copy-text-ar="المخاطر وخطة التخفيف" data-copy-text-en="Risks and mitigation plan">المخاطر وخطة التخفيف</span></h2>
+          <p class="sec__lead" data-copy-text-ar="المخاطرة لا تُلغى بل تُسعَّر. لكل خطر في هذا السجل: احتمالٌ مرجّح، وأثرٌ مقدَّر، وإجراءُ تخفيفٍ محدّد، وخطُّ الطوارئ، ومالكٌ مسؤول، ومؤشّرُ إطلاقٍ يُستدعى به." data-copy-text-en="Risk is not eliminated, it is priced. Every risk in this register carries a weighted likelihood, an estimated impact, a defined mitigation action, a contingency line, a named owner and a trigger that invokes it."><span data-copy-text-ar="المخاطرة لا تُلغى بل تُسعَّر. لكل خطر في هذا السجل: احتمالٌ مرجّح، وأثرٌ مقدَّر، وإجراءُ تخفيفٍ محدّد، وخطُّ الطوارئ، ومالكٌ مسؤول، ومؤشّرُ إطلاقٍ يُستدعى به." data-copy-text-en="Risk is not eliminated, it is priced. Every risk in this register carries a weighted likelihood, an estimated impact, a defined mitigation action, a contingency line, a named owner and a trigger that invokes it.">المخاطرة لا تُلغى بل تُسعَّر. لكل خطر في هذا السجل: احتمالٌ مرجّح، وأثرٌ مقدَّر، وإجراءُ تخفيفٍ محدّد، وخطُّ الطوارئ، ومالكٌ مسؤول، ومؤشّرُ إطلاقٍ يُستدعى به.</span></p>
+        </div>
+      </header>
+
+      <h3 data-toc-sub="المصفوفة" id="h-rm" data-copy-text-ar="مصفوفة الاحتمال والأثر" data-copy-text-en="Likelihood and impact matrix"><span data-copy-text-ar="مصفوفة الاحتمال والأثر" data-copy-text-en="Likelihood and impact matrix">مصفوفة الاحتمال والأثر</span></h3>
+      <div id="risk-matrix" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="السجل" id="h-rt" data-copy-text-ar="سجلّ المخاطر التفصيلي" data-copy-text-en="Detailed risk register"><span data-copy-text-ar="سجلّ المخاطر التفصيلي" data-copy-text-en="Detailed risk register">سجلّ المخاطر التفصيلي</span></h3>
+      <div id="risk-table"></div>
+    </section>
+
+    <!-- ================= 15 — الجدول الزمني ================= -->
+    <section class="sec" id="s15"  data-toc-ar="الجدول الزمني وخارطة الطريق" data-toc-en="Schedule and roadmap" data-toc="الجدول الزمني وخارطة الطريق" data-num="15" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">15</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="12 شهرًا" data-copy-text-en="12 months"><span data-copy-text-ar="12 شهرًا" data-copy-text-en="12 months">12 شهرًا</span></div>
+          <h2 class="sec__title" data-copy-text-ar="الجدول الزمني وخارطة الطريق" data-copy-text-en="Schedule and roadmap"><span data-copy-text-ar="الجدول الزمني وخارطة الطريق" data-copy-text-en="Schedule and roadmap">الجدول الزمني وخارطة الطريق</span></h2>
+          <p class="sec__lead" data-copy-text-ar="خارطة الطريق مرتّبة بحيث لا يُنفَق على التسويق قبل جاهزية المنتج والخدمة؛ فالطلب الذي لا يُنفَّذ في موعده يتحوّل إلى شكوى بدل أن يتحوّل إلى عميل متكرّر." data-copy-text-en="The roadmap is sequenced so that no money is spent on marketing before the product and the service are ready: an order that is not fulfilled on time becomes a complaint rather than a repeat customer."><span data-copy-text-ar="خارطة الطريق مرتّبة بحيث لا يُنفَق على التسويق قبل جاهزية المنتج والخدمة؛ فالطلب الذي لا يُنفَّذ في موعده يتحوّل إلى شكوى بدل أن يتحوّل إلى عميل متكرّر." data-copy-text-en="The roadmap is sequenced so that no money is spent on marketing before the product and the service are ready: an order that is not fulfilled on time becomes a complaint rather than a repeat customer.">خارطة الطريق مرتّبة بحيث لا يُنفَق على التسويق قبل جاهزية المنتج والخدمة؛ فالطلب الذي لا يُنفَّذ في موعده يتحوّل إلى شكوى بدل أن يتحوّل إلى عميل متكرّر.</span></p>
+        </div>
+      </header>
+
+      <div id="chart-gantt" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="المراحل" id="h-ph" data-copy-text-ar="المراحل والمعالم" data-copy-text-en="Phases and milestones"><span data-copy-text-ar="المراحل والمعالم" data-copy-text-en="Phases and milestones">المراحل والمعالم</span></h3>
+      <div id="timeline-list"></div>
+    </section>
+
+    <!-- ================= 16 — مؤشرات الأداء ================= -->
+    <section class="sec" id="s16"  data-toc-ar="مؤشرات الأداء وإطار القياس" data-toc-en="Performance indicators and measurement framework" data-toc="مؤشرات الأداء وإطار القياس" data-num="16" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">16</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="KPIs · خطة التتبّع" data-copy-text-en="KPIs · Tracking plan"><span data-copy-text-ar="KPIs · خطة التتبّع" data-copy-text-en="KPIs · Tracking plan">KPIs · خطة التتبّع</span></div>
+          <h2 class="sec__title" data-copy-text-ar="مؤشرات الأداء وإطار القياس" data-copy-text-en="Performance indicators and measurement framework"><span data-copy-text-ar="مؤشرات الأداء وإطار القياس" data-copy-text-en="Performance indicators and measurement framework">مؤشرات الأداء وإطار القياس</span></h2>
+          <p class="sec__lead" data-copy-text-ar="ما لا يُقاس لا يُدار. كل مؤشر هنا له تعريفٌ وحدِّد، وصيغةٌ حسابية، ومصدرُ بيانات، وتواترُ مراجعة، ومالكٌ واحد." data-copy-text-en="What is not measured is not managed. Every indicator here has a definition and a boundary, a calculation, a data source, a review cadence and a single owner."><span data-copy-text-ar="ما لا يُقاس لا يُدار. كل مؤشر هنا له تعريفٌ وحدِّد، وصيغةٌ حسابية، ومصدرُ بيانات، وتواترُ مراجعة، ومالكٌ واحد." data-copy-text-en="What is not measured is not managed. Every indicator here has a definition and a boundary, a calculation, a data source, a review cadence and a single owner.">ما لا يُقاس لا يُدار. كل مؤشر هنا له تعريفٌ وحدِّد، وصيغةٌ حسابية، ومصدرُ بيانات، وتواترُ مراجعة، ومالكٌ واحد.</span></p>
+        </div>
+      </header>
+
+      <div id="kpi-table"></div>
+
+      <div class="callout callout--info" style="margin-block-start:1.25rem">
+        <div class="callout__icon" aria-hidden="true">i</div>
+        <div>
+          <div class="callout__title" data-copy-text-ar="دورة القياس المقترحة" data-copy-text-en="Proposed measurement cycle"><span data-copy-text-ar="دورة القياس المقترحة" data-copy-text-en="Proposed measurement cycle">دورة القياس المقترحة</span></div>
+          <div class="callout__body">
+            <p data-copy-text-ar="مراجعة تشغيلية يومية (طلبات، تسليمات، أعطال) · مراجعة أسبوعية (تحويل، تكلفة اكتساب، التزام بالمواعيد) · مراجعة شهرية مالية (هامش المساهمة، السيولة، التكلفة لكل طلب) · مراجعة ربعية استراتيجية (تحليل السوق، المخاطر، أداء الوكلاء)." data-copy-text-en="Daily operational review (orders, deliveries, incidents) · weekly review (conversion, acquisition cost, on-time delivery) · monthly financial review (contribution margin, liquidity, cost to serve) · quarterly strategic review (market analysis, risks, agent performance)."><span data-copy-text-ar="مراجعة تشغيلية يومية (طلبات، تسليمات، أعطال) · مراجعة أسبوعية (تحويل، تكلفة اكتساب، التزام بالمواعيد) · مراجعة شهرية مالية (هامش المساهمة، السيولة، التكلفة لكل طلب) · مراجعة ربعية استراتيجية (تحليل السوق، المخاطر، أداء الوكلاء)." data-copy-text-en="Daily operational review (orders, deliveries, incidents) · weekly review (conversion, acquisition cost, on-time delivery) · monthly financial review (contribution margin, liquidity, cost to serve) · quarterly strategic review (market analysis, risks, agent performance).">مراجعة تشغيلية يومية (طلبات، تسليمات، أعطال) · مراجعة أسبوعية (تحويل، تكلفة اكتساب، التزام بالمواعيد) · مراجعة شهرية مالية (هامش المساهمة، السيولة، التكلفة لكل طلب) · مراجعة ربعية استراتيجية (تحليل السوق، المخاطر، أداء الوكلاء).</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 17 — الاستنتاج ================= -->
+    <section class="sec" id="s17"  data-toc-ar="الاستنتاج والتوصيات وقرار الاستثمار" data-toc-en="Findings, recommendations and the investment decision" data-toc="الاستنتاج والتوصيات وقرار الاستثمار" data-num="17" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">17</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="القرار" data-copy-text-en="The decision"><span data-copy-text-ar="القرار" data-copy-text-en="The decision">القرار</span></div>
+          <h2 class="sec__title" data-copy-text-ar="الاستنتاج والتوصيات وقرار الاستثمار" data-copy-text-en="Findings, recommendations and the investment decision"><span data-copy-text-ar="الاستنتاج والتوصيات وقرار الاستثمار" data-copy-text-en="Findings, recommendations and the investment decision">الاستنتاج والتوصيات وقرار الاستثمار</span></h2>
+          <p class="sec__lead" data-copy-text-ar="يُصاغ الحكم النهائي بوصفه قرارًا لا انطباعًا: توصية محدّدة، شروطها محدّدة، ومسؤولوها وتواريخهم محدّدون." data-copy-text-en="The final judgement is framed as a decision rather than an impression: a specific recommendation, specific conditions, and named owners with named dates."><span data-copy-text-ar="يُصاغ الحكم النهائي بوصفه قرارًا لا انطباعًا: توصية محدّدة، شروطها محدّدة، ومسؤولوها وتواريخهم محدّدون." data-copy-text-en="The final judgement is framed as a decision rather than an impression: a specific recommendation, specific conditions, and named owners with named dates.">يُصاغ الحكم النهائي بوصفه قرارًا لا انطباعًا: توصية محدّدة، شروطها محدّدة، ومسؤولوها وتواريخهم محدّدون.</span></p>
+        </div>
+      </header>
+
+      <div class="card card--accent" style="margin-block-end:1.5rem">
+        <h3 class="card__title card__title--lg" data-copy-text-ar="التوصية" data-copy-text-en="Recommendation"><span data-copy-text-ar="التوصية" data-copy-text-en="Recommendation">التوصية</span></h3>
+        <p data-text="conclusion.recommendation" style="font-size:1.05rem;line-height:1.95"></p>
+      </div>
+
+      <h3 data-toc-sub="الشروط" id="h-cond2" data-copy-text-ar="الشروط المعلقة" data-copy-text-en="Conditions"><span data-copy-text-ar="الشروط المعلقة" data-copy-text-en="Conditions">الشروط المعلقة</span></h3>
+      <div class="card" style="margin-block-end:1.75rem">
+        <ol class="ar-nums" data-text-list="conclusion.conditions"></ol>
+      </div>
+
+      <h3 data-toc-sub="الخطوات" id="h-next" data-copy-text-ar="الخطوات التالية" data-copy-text-en="Next steps"><span data-copy-text-ar="الخطوات التالية" data-copy-text-en="Next steps">الخطوات التالية</span></h3>
+      <div id="next-steps" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="افعل ولا تفعل" id="h-dodont" data-copy-text-ar="افعل ولا تفعل" data-copy-text-en="Do and do not"><span data-copy-text-ar="افعل ولا تفعل" data-copy-text-en="Do and do not">افعل ولا تفعل</span></h3>
+      <div id="conclusion-do-dont"></div>
+    </section>
+
+    <!-- ================= 18 — الملاحق ================= -->
+    <section class="sec" id="s18"  data-toc-ar="الملاحق" data-toc-en="Appendices" data-toc="الملاحق" data-num="18" data-toc-sub="1">
+      <header class="sec__head">
+        <span class="sec__index">18</span>
+        <div class="sec__title-wrap">
+          <div class="sec__eyebrow" data-copy-text-ar="المراجع" data-copy-text-en="References"><span data-copy-text-ar="المراجع" data-copy-text-en="References">المراجع</span></div>
+          <h2 class="sec__title" data-copy-text-ar="الملاحق" data-copy-text-en="Appendices"><span data-copy-text-ar="الملاحق" data-copy-text-en="Appendices">الملاحق</span></h2>
+          <p class="sec__lead" data-copy-text-ar="فهرس المصادر ومعجم المصطلحات، ليكون النص قابلًا للتدقيق من أي طرفٍ آخر." data-copy-text-en="An index of sources and a glossary, so that the text can be audited by any third party."><span data-copy-text-ar="فهرس المصادر ومعجم المصطلحات، ليكون النص قابلًا للتدقيق من أي طرفٍ آخر." data-copy-text-en="An index of sources and a glossary, so that the text can be audited by any third party.">فهرس المصادر ومعجم المصطلحات، ليكون النص قابلًا للتدقيق من أي طرفٍ آخر.</span></p>
+        </div>
+      </header>
+
+      <h3 data-toc-sub="المصادر" id="h-src2" data-copy-text-ar="فهرس المصادر" data-copy-text-en="Index of sources"><span data-copy-text-ar="فهرس المصادر" data-copy-text-en="Index of sources">فهرس المصادر</span></h3>
+      <div id="appendix-sources" style="margin-block-end:1.75rem"></div>
+
+      <h3 data-toc-sub="المعجم" id="h-gloss" data-copy-text-ar="معجم المصطلحات" data-copy-text-en="Glossary of terms"><span data-copy-text-ar="معجم المصطلحات" data-copy-text-en="Glossary of terms">معجم المصطلحات</span></h3>
+      <div id="appendix-glossary"></div>
+
+      <div class="foot">
+        <span data-copy-text-ar="هذا القالب مستند حيّ — تُحفظ التعديلات محليًّا في المتصفح، ويمكن تصديرها كملف JSON لمشاركتها." data-copy-text-en="This template is a live document: edits are stored locally in the browser and can be exported as a JSON file for sharing."><span data-copy-text-ar="هذا القالب مستند حيّ — تُحفظ التعديلات محليًّا في المتصفح، ويمكن تصديرها كملف JSON لمشاركتها." data-copy-text-en="This template is a live document: edits are stored locally in the browser and can be exported as a JSON file for sharing.">هذا القالب مستند حيّ — تُحفظ التعديلات محليًّا في المتصفح، ويمكن تصديرها كملف JSON لمشاركتها.</span></span>
+        <span data-text="meta.confidentiality"></span>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script>window.__ASSET_BASE__ = "assets/";</script>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/i18n-num.js"></script>
+<!-- البيانات المضمّنة: تُحمَّل متزامنًا ليعمل القالب بفتحه مباشرة بلا خادم -->
+<script src="../assets/data/project.js"></script>
+<script src="../assets/data/project-en.js"></script>
+<script src="../assets/js/store.js"></script>
+<script src="../assets/js/finance.js"></script>
+<script src="../assets/js/charts.js"></script>
+<script src="../assets/js/tables.js"></script>
+<script src="../assets/js/toc.js"></script>
+<script src="../assets/js/render.js"></script>
+<canvas id="ambient-canvas" class="dk-ambient-canvas" aria-hidden="true"></canvas>
+<div id="showcase-deck" class="showcase-deck" aria-label="العرض التنفيذي التفاعلي">
+  <section class="showcase-act is-active" data-showcase-act="1"></section>
+  <section class="showcase-act" data-showcase-act="2"></section>
+  <section class="showcase-act" data-showcase-act="3"></section>
+  <section class="showcase-act" data-showcase-act="4"></section>
+  <section class="showcase-act" data-showcase-act="5"></section>
+  <section class="showcase-act" data-showcase-act="6"></section>
+</div>
+<button type="button" class="btn no-print" data-action="export-csv" style="display:none">CSV</button>
+<button type="button" class="dk-view-toggle-float no-print" data-action="toggle-view" aria-pressed="false">
+  <span data-copy-text-ar="العرض التنفيذي" data-copy-text-en="Executive Showcase">العرض التنفيذي</span>
+</button>
+<script src="../assets/js/icons.js"></script>
+<script src="../assets/js/showcase.js"></script>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>
