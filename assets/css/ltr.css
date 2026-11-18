@@ -1,0 +1,113 @@
+/* ============================================================
+   ltr.css — النسخة الإنجليزية (LTR)
+   ------------------------------------------------------------
+   تُحمَّل مع القالب الإنجليزي فقط. المنطق كله قائم على
+   الخصائص المنطقية (logical properties) في(base.css)‎، لذا
+   لا يحتاج هذا الملف سوى تصحيحات الاتجاه والخط والجداول.
+   ============================================================ */
+
+/* ---------- الخط اللاتيني ---------- */
+[dir="ltr"] {
+  --font-sans: "IBM Plex Sans Latin", "IBM Plex Sans", "Inter", "Segoe UI",
+    system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+[dir="ltr"] body {
+  line-height: 1.68;
+}
+
+/* ---------- الأرقام: اتجاه يسار-يمين ---------- */
+[dir="ltr"] .num-cell {
+  direction: ltr;
+  text-align: right;
+}
+
+[dir="ltr"] td.num,
+[dir="ltr"] th.num {
+  text-align: right;
+}
+
+/* ---------- القوائم المرقّمة ---------- */
+[dir="ltr"] ol.ar-nums {
+  list-style-type: decimal;
+}
+
+[dir="ltr"] ol.ar-nums > li::marker {
+  content: counter(list-item) ". ";
+}
+
+/* ---------- المسميات والنصوص ---------- */
+[dir="ltr"] .sec__eyebrow,
+[dir="ltr"] .cover__eyebrow {
+  letter-spacing: 0.04em;
+}
+
+[dir="ltr"] .sec__lead {
+  max-inline-size: 76ch;
+}
+
+[dir="ltr"] .badge {
+  letter-spacing: 0;
+}
+
+/* ---------- حقول الإدخال ---------- */
+[dir="ltr"] .field--num {
+  text-align: left;
+}
+
+/* ---------- رأس الجدول اللاصق ---------- */
+[dir="ltr"] .tbl thead th {
+  text-align: left;
+}
+
+[dir="ltr"] .tbl th,
+[dir="ltr"] .tbl td {
+  text-align: left;
+}
+
+[dir="ltr"] .tbl td.num-cell {
+  text-align: right;
+}
+
+/* ---------- الغلاف ---------- */
+[dir="ltr"] .cover__meta {
+  direction: ltr;
+}
+
+[dir="ltr"] .cover__conf {
+  direction: ltr;
+  text-align: left;
+}
+
+/* ---------- شريط الأدوات ---------- */
+[dir="ltr"] .toolbar {
+  direction: ltr;
+}
+
+/* ---------- الأيقونات والرسوم ---------- */
+[dir="ltr"] .chart__svg text {
+  direction: ltr;
+}
+
+[dir="ltr"] .chart__svg .axis-label,
+[dir="ltr"] .chart__svg .value-label {
+  direction: ltr;
+}
+
+/* ---------- التذييل ---------- */
+[dir="ltr"] .foot {
+  direction: ltr;
+}
+
+/* ---------- الطباعة ---------- */
+@media print {
+  [dir="ltr"] .cover__conf {
+    text-align: left;
+  }
+
+  [dir="ltr"] .print-header__in,
+  [dir="ltr"] .print-footer__in {
+    direction: ltr;
+  }
+}

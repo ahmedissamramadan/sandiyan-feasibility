@@ -1,0 +1,93 @@
+/* ============================================================
+   motion.css - 60fps Motion Graphics, Kinetic Reveals & Theme Tooltips
+   ============================================================ */
+
+@keyframes dk-fade-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 18px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes dk-pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(180, 130, 70, 0.25);
+  }
+  50% {
+    box-shadow: 0 0 24px 4px rgba(180, 130, 70, 0.18);
+  }
+}
+
+@keyframes dk-float-slow {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -6px, 0);
+  }
+}
+
+@keyframes dk-draw-stroke {
+  from {
+    stroke-dashoffset: 120;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+[data-reveal] {
+  opacity: 0;
+  transform: translate3d(0, 16px, 0);
+  transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.dk-kinetic-title {
+  animation: dk-fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.dk-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  transition: transform 0.25s ease;
+}
+
+.dk-icon-card:hover .dk-icon {
+  transform: scale(1.1);
+}
+
+/* Theme-aware tooltip styling */
+.dk-tooltip,
+[data-tooltip]::after {
+  background: var(--surface, var(--bg-elev, #ffffff));
+  color: var(--ink, #1a1a1a);
+  border: 1px solid var(--border, rgba(0, 0, 0, 0.12));
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal],
+  .dk-kinetic-title,
+  .dk-icon {
+    animation: none !important;
+    transition: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

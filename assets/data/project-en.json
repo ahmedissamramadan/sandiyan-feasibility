@@ -1,0 +1,2806 @@
+{
+  "meta": {
+    "title": "Feasibility Study — E-commerce Expansion",
+    "subtitle": "From an existing carpentry workshop to a complete digital presence: an online store, data-driven marketing, and AI agencies that run the operation by role.",
+    "project_name": "Dar Al-Khashab — Digital Expansion",
+    "slug": "dar-alkhashab-digital",
+    "version": "1.0",
+    "status": "Draft for review and approval",
+    "prepared_by": "Digital Transformation Unit — Software House · Marketing Agency · AI Agency",
+    "prepared_for": "The company owning the Dar Al-Khashab workshop",
+    "date": "2026-11-14",
+    "confidentiality": "Confidential — internal circulation only"
+  },
+  "doc_control": {
+    "reference": "FS-DK-2026-001",
+    "owner": "Digital Project Manager",
+    "review_due": "2027-05-14",
+    "distribution": "Executive management · Investors · Board of directors",
+    "reviewers": [
+      "Operations Manager — production capacity and supply chain review",
+      "Finance Manager — assumptions and model review",
+      "Head of Engineering & AI — agent map and governance review"
+    ],
+    "approvers": [
+      "Chief Executive — investment decision",
+      "Founding partner — financial commitment"
+    ]
+  },
+  "revisions": [
+    {
+      "version": "0.1",
+      "date": "2026-09-02",
+      "author": "Digital Transformation Unit",
+      "summary": "Initial structure and collection of workshop operating data",
+      "status": "Withdrawn"
+    },
+    {
+      "version": "0.5",
+      "date": "2026-10-11",
+      "author": "Digital Transformation Unit",
+      "summary": "Market analysis and first financial model completed",
+      "status": "In review"
+    },
+    {
+      "version": "0.9",
+      "date": "2026-11-04",
+      "author": "Digital Transformation Unit",
+      "summary": "Added the AI layer and the agent map",
+      "status": "In review"
+    },
+    {
+      "version": "1.0",
+      "date": "2026-11-14",
+      "author": "Digital Transformation Unit",
+      "summary": "Approved version for board review",
+      "status": "Approved"
+    }
+  ],
+  "decision": {
+    "ask_amount": 8500000,
+    "currency": "EGP",
+    "recommendation": "Approve Phase 1 funding with an EGP 8,500,000 budget (EGP 5,700,000 immediate launch + EGP 2,800,000 conditional CNC escrow)",
+    "decision": "Conditional approval for Phase 1 with an EGP 8,500,000 budget split into: EGP 5,700,000 immediate launch capital and EGP 2,800,000 held in escrow for the second CNC router until 70% capacity utilization is achieved for 3 consecutive months (5-Year Cumulative CAPEX: EGP 10,270,000).",
+    "conditions": [
+      "Pass the 45-day marketing test at a conversion rate of at least 1.4% and an acquisition cost no higher than EGP 380 before releasing the second tranche.",
+      "Sign supply agreements with at least two suppliers for every key material, with lead times no longer than 14 days.",
+      "Appoint the digital project manager and the marketing manager within 30 days of the decision date.",
+      "Complete a security review of the store before connecting the live payment gateway, and approve a tested backup plan.",
+      "Do not release the production-line expansion tranche - second CNC router (EGP 2,800,000) held in escrow before current capacity utilisation reaches 70% for three consecutive months."
+    ],
+    "highlights": [
+      {
+        "label": "Capital requested (first phase)",
+        "value": "EGP 8,500,000",
+        "tone": "brand",
+        "note": "EGP 5.7m immediate launch + EGP 2.8m conditional escrow (5-Year Cumulative CAPEX: EGP 10.27m)"
+      },
+      {
+        "label": "Net present value (NPV)",
+        "value": "EGP 377,216",
+        "tone": "gold",
+        "note": "Thin margin - not approved without a measurement gate"
+      },
+      {
+        "label": "Internal rate of return (IRR)",
+        "value": "25.6%",
+        "tone": "accent",
+        "note": "Against a 24% discount rate"
+      },
+      {
+        "label": "Conservative scenario",
+        "value": "EGP -11.6m",
+        "tone": "danger",
+        "note": "Net present value - the real risk"
+      }
+    ]
+  },
+  "company": {
+    "legal_name": "Dar Al-Khashab Contracting and Wood Furniture",
+    "form": "Limited liability company",
+    "founded": "2016",
+    "capital": "EGP 1,200,000",
+    "activity": "Made-to-order wood furniture manufacturing — kitchens, wardrobes, doors, tables and office furniture",
+    "tax_id": "EG-4871-229-33",
+    "licenses": [
+      {
+        "name": "Commercial registration",
+        "authority": "General Authority for Investment and Free Zones",
+        "number": "118742",
+        "status": "Valid",
+        "expiry": "2029-04-30"
+      },
+      {
+        "name": "Export activity card",
+        "authority": "Tax Authority",
+        "number": "381-992",
+        "status": "Valid",
+        "expiry": "2027-12-31"
+      },
+      {
+        "name": "Workshop operating licence",
+        "authority": "District — craft facility licensing",
+        "number": "71/2024",
+        "status": "Valid",
+        "expiry": "2027-03-18"
+      },
+      {
+        "name": "Certificate of conformity (ISO 9001)",
+        "authority": "Egyptian Quality Company",
+        "number": "QMS-2025-8842",
+        "status": "Renewal in progress",
+        "expiry": "2027-01-10"
+      }
+    ],
+    "partners": [
+      {
+        "name": "Founder — workshop operations",
+        "role": "Owner of the operating process and quality",
+        "share": "55%"
+      },
+      {
+        "name": "Second partner",
+        "role": "Government relations and real estate",
+        "share": "25%"
+      },
+      {
+        "name": "Digital Transformation House",
+        "role": "Platform development, marketing, and AI-led operations",
+        "share": "20% plus a performance commission"
+      }
+    ]
+  },
+  "workshop": {
+    "summary": "A workshop genuinely operating since 2016 across 640 m², with two saws, a CNC router and hand carpentry. Output currently runs at 60–70 units a month through direct channels (WhatsApp and trade shows), with no structured digital presence.",
+    "assets": [
+      {
+        "label": "Workshop floor area",
+        "value": "640 m²",
+        "note": "Of which 180 m² is storage"
+      },
+      {
+        "label": "Monthly production capacity",
+        "value": "340 units",
+        "note": "Across three shifts"
+      },
+      {
+        "label": "Current utilisation",
+        "value": "19%",
+        "note": "Large headroom for digital investment"
+      },
+      {
+        "label": "CNC equipment",
+        "value": "1",
+        "note": "A second unit is added as part of this investment"
+      },
+      {
+        "label": "Headcount",
+        "value": "14",
+        "note": "Mix of craftsmen and supervisors"
+      },
+      {
+        "label": "Average lead time",
+        "value": "12 days",
+        "note": "For custom orders"
+      }
+    ],
+    "capacity": {
+      "area": "640 m²",
+      "monthly_units": "340 units",
+      "utilization": "19% today — 62% targeted within 24 months",
+      "work_days": "26 days / month"
+    },
+    "materials": [
+      {
+        "name": "Moisture-resistant MDF",
+        "unit": "board",
+        "price": 780,
+        "supplier": "Local supplier — industrial zone",
+        "lead_days": 7,
+        "note": "Most used in kitchens"
+      },
+      {
+        "name": "Solid wood (Oak)",
+        "unit": "m³",
+        "price": 32000,
+        "supplier": "Imported supplier — Orient Wood",
+        "lead_days": 21,
+        "note": "Premium customers"
+      },
+      {
+        "name": "High-density compressed HDF",
+        "unit": "board",
+        "price": 910,
+        "supplier": "Local supplier",
+        "lead_days": 9,
+        "note": "Higher scratch resistance"
+      },
+      {
+        "name": "Hinge and runner accessories",
+        "unit": "set",
+        "price": 340,
+        "supplier": "Accessories supplier — Al-Ogba",
+        "lead_days": 4,
+        "note": "A common bottleneck"
+      },
+      {
+        "name": "Paints and laminate sheets",
+        "unit": "pack",
+        "price": 420,
+        "supplier": "Local supplier",
+        "lead_days": 5
+      },
+      {
+        "name": "Stamps, blades and cutting tools",
+        "unit": "kit",
+        "price": 1250,
+        "supplier": "Equipment supplier",
+        "lead_days": 14,
+        "note": "Consumption scales with part count"
+      }
+    ],
+    "equipment": [
+      {
+        "name": "3-axis CNC router",
+        "count": 1,
+        "status": "Good",
+        "note": "A second unit will be added as part of this investment"
+      },
+      {
+        "name": "Wall saw / panel saw",
+        "count": 2,
+        "status": "Good"
+      },
+      {
+        "name": "Sanding and polishing machine",
+        "count": 2,
+        "status": "Acceptable"
+      },
+      {
+        "name": "Hand tools and workshop equipment",
+        "count": 18,
+        "status": "Acceptable"
+      },
+      {
+        "name": "Packaging and heat-wrap unit",
+        "count": 1,
+        "status": "New",
+        "note": "Refreshed with this project"
+      }
+    ],
+    "staff": [
+      {
+        "role": "Workshop Manager",
+        "count": 1,
+        "monthly_cost": 22000,
+        "note": "Fully dedicated to operations"
+      },
+      {
+        "role": "Senior carpenter",
+        "count": 5,
+        "monthly_cost": 9500,
+        "note": "Cutting and installation"
+      },
+      {
+        "role": "Machine operator",
+        "count": 3,
+        "monthly_cost": 8200
+      },
+      {
+        "role": "Technical assistant",
+        "count": 3,
+        "monthly_cost": 5800
+      },
+      {
+        "role": "Storekeeper and buyer",
+        "count": 1,
+        "monthly_cost": 7500
+      },
+      {
+        "role": "Customer coordinator",
+        "count": 1,
+        "monthly_cost": 6500,
+        "note": "Currently handles WhatsApp orders"
+      }
+    ],
+    "strengths": [
+      "An operating asset that already exists — there is no need to build production capacity from scratch",
+      "A quality reputation documented in the local market through word of mouth",
+      "The ability to customise to measure — a capability that ready-made stores cannot easily copy",
+      "A growing preference for furniture designed to fit the space"
+    ],
+    "gaps": [
+      "No digital presence at all: every order arrives on WhatsApp and is logged by hand",
+      "No order management, no stock tracking, no automated invoicing",
+      "No structured market data — decisions rest on estimates",
+      "Responsiveness depends on one coordinator's personal channel",
+      "No measurement layer and no real-time financial reporting"
+    ]
+  },
+  "market": {
+    "summary": "Egyptian wood furniture is among the largest markets in the region and the least digitally mature: online purchasing of home furniture is still below 5%. Entering with a digital store therefore leads to an existing market rather than a contested share.",
+    "tam": {
+      "value": "≈ EGP 62bn",
+      "basis": "Total annual household furniture spending in Egypt, per 2025 sector estimates",
+      "html": "<bdi dir=\"ltr\">≈ EGP 62bn</bdi>"
+    },
+    "sam": {
+      "value": "≈ EGP 8.4bn",
+      "basis": "The made-to-order wood furniture segment (kitchens, wardrobes, doors) in Cairo and greater Giza",
+      "html": "<bdi dir=\"ltr\">≈ EGP 8.4bn</bdi>"
+    },
+    "som": {
+      "value": "≈ EGP 27.7m",
+      "basis": "First-year target share = 0.33% of the serviceable available market",
+      "html": "<bdi dir=\"ltr\">≈ EGP 27.7m</bdi>"
+    },
+    "methodology": [
+      "Review of reviews across the leading online stores in the category to extract demand patterns and recurring complaints.",
+      "In-depth interviews with 18 existing workshop customers on payment and buying online.",
+      "A short survey of 240 respondents in Cairo and Giza on the furniture category.",
+      "Analysis of platform pricing and delivery times as a market benchmark.",
+      "Market sized top-down, then reconciled bottom-up."
+    ],
+    "segments": [
+      {
+        "name": "Owners of newly handed-over apartments",
+        "size": "≈ 1.9m households / year",
+        "need": "Full fit-out with a modern look and a clear price",
+        "channel": "Instagram + TikTok + search",
+        "priority": "High"
+      },
+      {
+        "name": "Office and retail owners",
+        "size": "≈ 620k premises",
+        "need": "Commercial furniture with technical specifications and defined lead times",
+        "channel": "B2B search + LinkedIn + visits",
+        "priority": "High"
+      },
+      {
+        "name": "Owners of the contemporary style",
+        "size": "≈ 340k",
+        "need": "Small pieces, quick to price, ready to ship",
+        "channel": "Instagram + Shop",
+        "priority": "Medium"
+      },
+      {
+        "name": "Property developers and contractors",
+        "size": "≈ 210 projects a year",
+        "need": "Consistent, uniform execution across multiple units",
+        "channel": "Relationships + tenders",
+        "priority": "High"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "Online furniture platforms (general marketplace)",
+        "type": "Multi-vendor marketplace",
+        "price_index": "1.00",
+        "strength": "Mass reach and trusted reviews",
+        "weakness": "Ready-made furniture that does not fit bespoke dimensions, with limited installation expertise",
+        "share": "≈ 22% of the category"
+      },
+      {
+        "name": "Specialist wood furniture stores",
+        "type": "Traditional specialist",
+        "price_index": "1.12",
+        "strength": "Real expertise in wood furniture and customisation",
+        "weakness": "No digital presence and an outdated buying experience",
+        "share": "≈ 18%"
+      },
+      {
+        "name": "Local workshops and showrooms",
+        "type": "Unorganised",
+        "price_index": "0.88",
+        "strength": "Lower prices and high flexibility",
+        "weakness": "No standard warranty, no delivery commitments, no after-sales service",
+        "share": "≈ 35%"
+      },
+      {
+        "name": "Interior design studios",
+        "type": "Design + execution",
+        "price_index": "1.65",
+        "strength": "Complete design work and a high profit margin",
+        "weakness": "Long execution times and no specialisation in furniture alone",
+        "share": "≈ 12%"
+      },
+      {
+        "name": "Dar Al-Khashab",
+        "type": "Proposed direct competitor",
+        "price_index": "0.98",
+        "strength": "The same workshop and the same team",
+        "weakness": "It has no digital presence, no buying experience and no data",
+        "share": "0% — the target"
+      }
+    ],
+    "demand_drivers": [
+      "Growth of development projects in new cities — sustained pressure on demand",
+      "The gap between product quality and the ease of buying online keeps widening",
+      "A shift in digital behaviour within long-life consumer categories",
+      "Installation and fit-out requests for new apartments keep rising as internet access improves"
+    ],
+    "risks": [
+      "Category sensitivity to online purchase — conversion contracts over the first 90 days",
+      "Direct imports as a low-cost substitute",
+      "Volatility in timber prices and in the exchange rate",
+      "Customer sensitivity to high shipping costs"
+    ],
+    "sources": [
+      {
+        "title": "Home furniture sector report — annual review",
+        "publisher": "Market Research Centre",
+        "year": 2025,
+        "type": "Report",
+        "url": "— (internal reference)"
+      },
+      {
+        "title": "Online shopping behaviour survey — consumer categories",
+        "publisher": "Independent survey",
+        "year": 2026,
+        "type": "Field survey",
+        "url": "— (internal file)"
+      },
+      {
+        "title": "Review analysis of online stores in the furniture category",
+        "publisher": "Internal analysis",
+        "year": 2026,
+        "type": "Digital analysis",
+        "url": "— (internal file)"
+      },
+      {
+        "title": "Material price lists — suppliers",
+        "publisher": "Supplier quotations",
+        "year": 2026,
+        "type": "Prices",
+        "url": "— (procurement file)"
+      },
+      {
+        "title": "Customer interviews — 18 documented sessions",
+        "publisher": "Marketing Department",
+        "year": 2026,
+        "type": "Interviews",
+        "url": "— (interview log)"
+      }
+    ]
+  },
+  "swot": {
+    "s": [
+      "An existing operating asset: a workshop running for ten years with a documented quality reputation",
+      "Customisation to measure — a rare competitive advantage in online stores",
+      "Relatively low fixed costs compared with sector competitors",
+      "The ability to manufacture to order in half the market-standard lead time"
+    ],
+    "w": [
+      "No digital infrastructure whatsoever: no store, no management system, no measurement",
+      "No structured operating data — decisions are estimates",
+      "Heavy dependence on one person for order coordination",
+      "Thin working capital relative to what simultaneous expansion requires"
+    ],
+    "o": [
+      "A digitally immature market: demand outruns supply",
+      "Using agents and smart tooling to cut operating and marketing cost",
+      "The workshop's accumulated know-how can be converted into high-value digital content",
+      "Horizontal scalability without a rise in fixed cost",
+      "Partnerships with property developers to reduce acquisition cost"
+    ],
+    "t": [
+      "A large marketplace entering the furniture category",
+      "Volatility in material prices and the exchange rate",
+      "Price competition from unorganised workshops",
+      "Rising shipping and fuel costs",
+      "The risk of depending on platform algorithms for reach"
+    ]
+  },
+  "pestel": [
+    {
+      "dimension": "Political — P",
+      "impact": "High",
+      "findings": [
+        "Relative volatility in investment indicators reduces the viability of large industrial projects",
+        "Industrial export support policies may open an export channel for premium furniture",
+        "Complex licensing procedures and municipal requirements lengthen the set-up timeline"
+      ]
+    },
+    {
+      "dimension": "Economic — E",
+      "impact": "High",
+      "findings": [
+        "Rapidly accelerating inflation in timber and finishing material prices",
+        "Local currency depreciation against the dollar unsettles pricing of imported products",
+        "Pressure on digital adoption following the reduction of the cash-payment ceiling"
+      ]
+    },
+    {
+      "dimension": "Social — S",
+      "impact": "High",
+      "findings": [
+        "A behavioural shift towards buying through applications",
+        "A growing preference for made-to-order over ready-made furniture",
+        "Low sensitivity to environmentally sustainable recycled materials"
+      ]
+    },
+    {
+      "dimension": "Technological — T",
+      "impact": "High",
+      "findings": [
+        "AI tooling with advanced authoring and analytical capability is readily available",
+        "Falling cost of compute and storage",
+        "Stable integration between payment, shipping and storefront systems"
+      ]
+    },
+    {
+      "dimension": "Environmental — E",
+      "impact": "Medium",
+      "findings": [
+        "Regulations on the disposal of timber waste",
+        "Growing demand for recycled or certified materials",
+        "An opportunity to differentiate through environmental certification"
+      ]
+    },
+    {
+      "dimension": "Legal — L",
+      "impact": "Medium",
+      "findings": [
+        "Personal data protection law and its application to customer records",
+        "Obligations to measure the impact of sponsored marketing",
+        "Electronic invoicing requirements"
+      ]
+    }
+  ],
+  "porter": [
+    {
+      "force": "Intensity of rivalry among competitors",
+      "level": "High",
+      "evidence": "A proliferation of workshops and platforms with no meaningful barriers to entry; the markets are driven by price and service competition."
+    },
+    {
+      "force": "Threat of new entrants",
+      "level": "High",
+      "evidence": "The cost of digital entry has fallen — a store can be live in two weeks — but the real barrier is delivery capability, not the website."
+    },
+    {
+      "force": "Bargaining power of suppliers",
+      "level": "Medium",
+      "evidence": "Most materials are available from more than one supplier, but imports create pressure on a single line."
+    },
+    {
+      "force": "Bargaining power of buyers",
+      "level": "High",
+      "evidence": "A customer can collect quotations from five sources in a minute through Facebook groups; price comparison is effortless."
+    },
+    {
+      "force": "Threat of substitutes",
+      "level": "Medium",
+      "evidence": "Replacing furniture with cheaper imports, or extending the life of existing pieces instead of buying."
+    }
+  ],
+  "tows": [
+    {
+      "quadrant": "so",
+      "strategies": [
+        "Launch as the first bespoke store in the market and capture search intent before the category matures",
+        "Turn the workshop's accumulated know-how into digital content and a customiser that is hard to copy",
+        "Use agents to serve customers around the clock at marginal cost"
+      ]
+    },
+    {
+      "quadrant": "st",
+      "strategies": [
+        "Build a direct purchase channel that reduces dependence on platforms",
+        "Contract with the imported timber supplier on a long-term basis to stabilise cost",
+        "A clear, documented warranty that differentiates us from unorganised workshops"
+      ]
+    },
+    {
+      "quadrant": "wo",
+      "strategies": [
+        "Invest cautiously in a simple dashboard before building a full system",
+        "Integrate with ready-made systems (Shopify/ERP) instead of building from scratch",
+        "Rely on existing customer content as the first free channel"
+      ]
+    },
+    {
+      "quadrant": "wt",
+      "strategies": [
+        "Tiered pricing that guarantees a positive margin even in the worst scenario",
+        "A mandatory marketing test before the second tranche is released",
+        "A contingency plan to halt expansion without losing existing orders"
+      ]
+    }
+  ],
+  "efe": {
+    "title": "External factor evaluation matrix (EFE)",
+    "factors": [
+      {
+        "name": "Low digital maturity in the category",
+        "weight": 18,
+        "rating": 4
+      },
+      {
+        "name": "Strength of demand for made-to-measure furniture",
+        "weight": 16,
+        "rating": 4
+      },
+      {
+        "name": "Availability of low-cost AI tooling",
+        "weight": 14,
+        "rating": 5
+      },
+      {
+        "name": "Volatility in material prices",
+        "weight": 13,
+        "rating": 2
+      },
+      {
+        "name": "Rising shipping and fuel costs",
+        "weight": 12,
+        "rating": 2
+      },
+      {
+        "name": "Category sensitivity to digital purchase",
+        "weight": 15,
+        "rating": 2
+      },
+      {
+        "name": "Availability of digital transformation support programmes for small firms",
+        "weight": 12,
+        "rating": 4
+      }
+    ]
+  },
+  "ife": {
+    "title": "Internal factor evaluation matrix (IFE)",
+    "factors": [
+      {
+        "name": "Existing workshop operating asset",
+        "weight": 20,
+        "rating": 5
+      },
+      {
+        "name": "Quality reputation and accumulated relationships",
+        "weight": 15,
+        "rating": 4
+      },
+      {
+        "name": "Capability to customise to measure",
+        "weight": 15,
+        "rating": 5
+      },
+      {
+        "name": "Absence of digital infrastructure and data",
+        "weight": 18,
+        "rating": 1
+      },
+      {
+        "name": "Thin working capital",
+        "weight": 14,
+        "rating": 2
+      },
+      {
+        "name": "Management experience in manufacturing",
+        "weight": 10,
+        "rating": 4
+      },
+      {
+        "name": "The digital team's capacity to build and to market",
+        "weight": 8,
+        "rating": 4
+      }
+    ]
+  },
+  "agents": [
+    {
+      "id": "A01",
+      "group": "1 — Leadership and coordination",
+      "title": "Project Manager Agent",
+      "role": "Coordination",
+      "mission": "Break the commercial objective into executable tasks, keep every agent on its own task, manage dependencies between them, and issue a daily report to the owner.",
+      "tools": [
+        "Linear",
+        "Notion",
+        "Slack",
+        "Gmail"
+      ],
+      "inputs": [
+        "Project plan",
+        "Agent reports",
+        "Performance indicators"
+      ],
+      "outputs": [
+        "Project status board",
+        "Daily report",
+        "Risk register"
+      ],
+      "kpi": "Share of tasks completed on schedule",
+      "escalation": "Any key milestone slipping by more than 3 days",
+      "owner": "Digital Project Manager",
+      "autonomy": "Autonomous",
+      "phase": "Full"
+    },
+    {
+      "id": "A02",
+      "group": "1 — Leadership and coordination",
+      "title": "Operations Manager Agent",
+      "role": "Operational coordination",
+      "mission": "Match incoming orders against the workshop's real production capacity, manage the production queue, and alert the execution team when capacity is exceeded.",
+      "tools": [
+        "Workshop",
+        "Airtable",
+        "Internal record"
+      ],
+      "inputs": [
+        "New orders",
+        "Production capacity guide",
+        "Stock position"
+      ],
+      "outputs": [
+        "Daily production schedule",
+        "Capacity breach alerts",
+        "Production report"
+      ],
+      "kpi": "On-time delivery rate",
+      "escalation": "Production queue exceeding 7 working days",
+      "owner": "Workshop Manager",
+      "autonomy": "Autonomous",
+      "phase": "From month 2"
+    },
+    {
+      "id": "A03",
+      "group": "2 — Engineering and development",
+      "title": "Platform Engineer Agent",
+      "role": "Software development",
+      "mission": "Build and maintain the online store and the order management system, ship releases, and monitor technical performance and security.",
+      "tools": [
+        "Git",
+        "CI/CD",
+        "Cloud",
+        "PostgreSQL"
+      ],
+      "inputs": [
+        "Product requirements",
+        "Defect tickets",
+        "Performance indicators"
+      ],
+      "outputs": [
+        "Platform releases",
+        "Technical performance reports",
+        "Security fixes"
+      ],
+      "kpi": "Mean time to resolve a detected defect (MTTR)",
+      "escalation": "A critical vulnerability or a service outage",
+      "owner": "Head of Engineering",
+      "autonomy": "Autonomous",
+      "phase": "From month 1"
+    },
+    {
+      "id": "A04",
+      "group": "2 — Engineering and development",
+      "title": "User Experience Agent",
+      "role": "Design",
+      "mission": "Improve the buying journey inside the store using session recordings and conversion rates, reducing friction between product selection and payment.",
+      "tools": [
+        "Figma",
+        "Hotjar",
+        "A/B Testing"
+      ],
+      "inputs": [
+        "Customer journey maps",
+        "User sessions",
+        "Conversion data"
+      ],
+      "outputs": [
+        "Prototypes",
+        "A/B tests",
+        "Optimisation recommendations"
+      ],
+      "kpi": "Cart completion rate",
+      "escalation": "Conversion rate falling more than 15% after a change",
+      "owner": "Head of Product",
+      "autonomy": "Autonomous",
+      "phase": "From month 2"
+    },
+    {
+      "id": "A05",
+      "group": "2 — Engineering and development",
+      "title": "Data Agent",
+      "role": "Analytics",
+      "mission": "Build the unified data warehouse, configure tracking events, and publish weekly performance dashboards for every team.",
+      "tools": [
+        "Python",
+        "dbt",
+        "BigQuery",
+        "Looker"
+      ],
+      "inputs": [
+        "Tracking events",
+        "Sales data",
+        "Stock data"
+      ],
+      "outputs": [
+        "Data warehouse",
+        "Performance dashboards",
+        "Data quality reports"
+      ],
+      "kpi": "Tracking event coverage",
+      "escalation": "Tracking loss above 5% of events",
+      "owner": "Head of Data",
+      "autonomy": "Autonomous",
+      "phase": "From month 2"
+    },
+    {
+      "id": "A06",
+      "group": "2 — Engineering and development",
+      "title": "Cybersecurity Agent",
+      "role": "Security",
+      "mission": "Review permissions and integrations, monitor intrusion attempts, and comply with best practice in protecting customer data.",
+      "tools": [
+        "Vault",
+        "Snyk",
+        "Cloudflare"
+      ],
+      "inputs": [
+        "Access logs",
+        "Vulnerability assessments",
+        "Integration inventory"
+      ],
+      "outputs": [
+        "Security reports",
+        "Permission policies",
+        "Incident response"
+      ],
+      "kpi": "Time to close critical vulnerabilities",
+      "escalation": "Any critical vulnerability detected",
+      "owner": "Head of Engineering",
+      "autonomy": "Autonomous",
+      "phase": "From month 1"
+    },
+    {
+      "id": "A07",
+      "group": "2 — Engineering and development",
+      "title": "Integration Agent",
+      "role": "Systems integration",
+      "mission": "Connect the payment gateway, carriers and the accounting system to the order management system, and keep stock synchronised between the platform and the workshop.",
+      "tools": [
+        "Webhooks",
+        "Zapier",
+        "ERP"
+      ],
+      "inputs": [
+        "Vendor contracts",
+        "Synchronisation rules",
+        "Failure reports"
+      ],
+      "outputs": [
+        "Working integrations",
+        "Daily sync reports",
+        "Failure rerouting"
+      ],
+      "kpi": "Order sync success rate",
+      "escalation": "Sync failures above 5%",
+      "owner": "Head of Engineering",
+      "autonomy": "Autonomous",
+      "phase": "From month 1"
+    },
+    {
+      "id": "A08",
+      "group": "3 — Marketing and content",
+      "title": "Growth Manager Agent",
+      "role": "Growth",
+      "mission": "Manage the advertising budget by the return of each channel, run experiments, and scale channels whose acquisition cost stays below the target.",
+      "tools": [
+        "Meta Ads",
+        "Google Ads",
+        "GA4",
+        "Looker"
+      ],
+      "inputs": [
+        "Marketing budget",
+        "Conversion data",
+        "Competitor report"
+      ],
+      "outputs": [
+        "Campaign performance reports",
+        "Budget allocation plan",
+        "Experiment backlog"
+      ],
+      "kpi": "Customer acquisition cost (CAC)",
+      "escalation": "CAC above target for two consecutive months",
+      "owner": "Marketing Manager",
+      "autonomy": "Autonomous",
+      "phase": "From month 1"
+    },
+    {
+      "id": "A09",
+      "group": "3 — Marketing and content",
+      "title": "Content Writer Agent",
+      "role": "Writing",
+      "mission": "Produce original Arabic content that explains the technical differences — material, installation, warranty — and turns operating experience into a search advantage.",
+      "tools": [
+        "CMS",
+        "ChatGPT API",
+        "Notion"
+      ],
+      "inputs": [
+        "Expertise guide",
+        "Frequently asked questions",
+        "Keywords"
+      ],
+      "outputs": [
+        "Articles",
+        "Product guides",
+        "Ad copy"
+      ],
+      "kpi": "Organic sessions driven by content",
+      "escalation": "Organic sessions down 20%",
+      "owner": "Marketing Manager",
+      "autonomy": "Autonomous, subject to review",
+      "phase": "From month 1"
+    },
+    {
+      "id": "A10",
+      "group": "3 — Marketing and content",
+      "title": "Brand Designer Agent",
+      "role": "Design",
+      "mission": "Protect brand consistency across every touchpoint and prepare templates and campaign assets ready for publication.",
+      "tools": [
+        "Figma",
+        "Photoshop",
+        "Canva API"
+      ],
+      "inputs": [
+        "Brand guidelines",
+        "Campaign templates",
+        "Product photography"
+      ],
+      "outputs": [
+        "Custom templates",
+        "Visual assets",
+        "Brand usage guide"
+      ],
+      "kpi": "Share of assets published without modification",
+      "escalation": "Brand consistency broken twice in a month",
+      "owner": "Marketing Manager",
+      "autonomy": "Autonomous, subject to review",
+      "phase": "From month 1"
+    },
+    {
+      "id": "A11",
+      "group": "3 — Marketing and content",
+      "title": "Conversation Coach Agent",
+      "role": "Conversations",
+      "mission": "Answer pre-sales enquiries on WhatsApp and the website, capture lead data, and hand complex cases to a human.",
+      "tools": [
+        "WhatsApp API",
+        "Training knowledge base",
+        "CRM"
+      ],
+      "inputs": [
+        "Knowledge authoring",
+        "Customer records",
+        "Price list"
+      ],
+      "outputs": [
+        "Instant replies",
+        "Lead qualification",
+        "FAQ report"
+      ],
+      "kpi": "First response time and conversation-to-order conversion",
+      "escalation": "A refund enquiry or a complaint",
+      "owner": "Customer Service Manager",
+      "autonomy": "Autonomous",
+      "phase": "From month 1"
+    },
+    {
+      "id": "A12",
+      "group": "3 — Marketing and content",
+      "title": "Social Media Agent",
+      "role": "Publishing",
+      "mission": "Build the cross-platform publishing calendar, re-surface the best content, and engage the audience at peak hours.",
+      "tools": [
+        "Meta Suite",
+        "LinkedIn",
+        "Buffer"
+      ],
+      "inputs": [
+        "Content plan",
+        "Prior performance",
+        "Company events"
+      ],
+      "outputs": [
+        "Scheduled posts",
+        "Engagement reports",
+        "Content calendar"
+      ],
+      "kpi": "Engagement rate and follower growth",
+      "escalation": "Engagement down 30% week on week",
+      "owner": "Marketing Manager",
+      "autonomy": "Autonomous",
+      "phase": "From month 1"
+    },
+    {
+      "id": "A13",
+      "group": "3 — Marketing and content",
+      "title": "Campaign Analyst Agent",
+      "role": "Advertising measurement",
+      "mission": "Break each campaign's performance down into real causes, identify the most efficient segments and content, and feed the growth manager actionable recommendations.",
+      "tools": [
+        "GA4",
+        "BigQuery",
+        "Looker",
+        "Python"
+      ],
+      "inputs": [
+        "Advertising data",
+        "Conversion data",
+        "Past experiments"
+      ],
+      "outputs": [
+        "Campaign reports",
+        "Target segment lists",
+        "Attribution recommendations"
+      ],
+      "kpi": "Attribution model accuracy",
+      "escalation": "Spend deviating from plan by more than 15%",
+      "owner": "Marketing Manager",
+      "autonomy": "Autonomous",
+      "phase": "From month 2"
+    },
+    {
+      "id": "A14",
+      "group": "4 — Customer service",
+      "title": "Customer Service Agent",
+      "role": "Support",
+      "mission": "Handle after-sales enquiries and complaints, track shipments, and apply the exchange and returns policy within the approved limits.",
+      "tools": [
+        "CRM",
+        "WhatsApp",
+        "Ticketing system"
+      ],
+      "inputs": [
+        "Customer orders",
+        "Warranty policy",
+        "Shipment status"
+      ],
+      "outputs": [
+        "Documented replies",
+        "Closed tickets",
+        "Satisfaction report"
+      ],
+      "kpi": "Resolution time and customer satisfaction",
+      "escalation": "A complaint that threatens the brand or exceeds the warranty period",
+      "owner": "Customer Service Manager",
+      "autonomy": "Autonomous",
+      "phase": "From month 1"
+    },
+    {
+      "id": "A15",
+      "group": "4 — Customer service",
+      "title": "After-sales Agent",
+      "role": "Relationships",
+      "mission": "Follow up on customer experience after delivery, collect evidence and photographs, and convert satisfaction into reviews and referrals.",
+      "tools": [
+        "CRM",
+        "Review tools",
+        "Google Business"
+      ],
+      "inputs": [
+        "Delivery list",
+        "Follow-up templates"
+      ],
+      "outputs": [
+        "Automated follow-ups",
+        "Published reviews",
+        "Feedback report"
+      ],
+      "kpi": "Review rate and customer satisfaction",
+      "escalation": "Complaints above 5%",
+      "owner": "Customer Service Manager",
+      "autonomy": "Autonomous",
+      "phase": "From month 3"
+    },
+    {
+      "id": "A16",
+      "group": "4 — Customer service",
+      "title": "Customer Experience Agent",
+      "role": "Improvement",
+      "mission": "Map the full customer journey in one place and identify the real friction points from data rather than assumption.",
+      "tools": [
+        "Maze",
+        "Hotjar",
+        "CRM"
+      ],
+      "inputs": [
+        "User sessions",
+        "Support tickets",
+        "Surveys"
+      ],
+      "outputs": [
+        "Friction maps",
+        "Prioritised improvement list",
+        "Test results"
+      ],
+      "kpi": "Visit-to-order conversion rate",
+      "escalation": "The same friction point recurring three times",
+      "owner": "Head of Product",
+      "autonomy": "Autonomous",
+      "phase": "From month 3"
+    },
+    {
+      "id": "A17",
+      "group": "5 — Operations and manufacturing",
+      "title": "Production Planner Agent",
+      "role": "Planning",
+      "mission": "Sequence production orders by priority and material availability, distribute load across the cells, and reduce downtime.",
+      "tools": [
+        "MRP",
+        "Google Sheets",
+        "ERP"
+      ],
+      "inputs": [
+        "Confirmed orders",
+        "Stock",
+        "Machine capacity"
+      ],
+      "outputs": [
+        "Production schedule",
+        "Material requirements list",
+        "Exception report"
+      ],
+      "kpi": "On-time delivery rate",
+      "escalation": "A confirmed order delayed by more than two days",
+      "owner": "Workshop Manager",
+      "autonomy": "Autonomous",
+      "phase": "From month 2"
+    },
+    {
+      "id": "A18",
+      "group": "5 — Operations and manufacturing",
+      "title": "Quality Supervisor Agent",
+      "role": "Quality",
+      "mission": "Inspect the product before shipping against the standards list, document defects, and hold consignments that do not conform.",
+      "tools": [
+        "Inspection templates",
+        "Reference images",
+        "ERP"
+      ],
+      "inputs": [
+        "Standards list",
+        "Product images",
+        "Customer feedback"
+      ],
+      "outputs": [
+        "Inspection reports",
+        "Defect log",
+        "Corrective actions"
+      ],
+      "kpi": "Defect rate and return rate",
+      "escalation": "Defect rate above 3%",
+      "owner": "Workshop Manager",
+      "autonomy": "Autonomous",
+      "phase": "From month 1"
+    },
+    {
+      "id": "A19",
+      "group": "5 — Operations and manufacturing",
+      "title": "Inventory Agent",
+      "role": "Inventory",
+      "mission": "Monitor raw material and finished goods levels, raise purchase orders at the reorder point, and reduce capital tied up in stock.",
+      "tools": [
+        "ERP",
+        "Logistics platform",
+        "Excel"
+      ],
+      "inputs": [
+        "Reorder points",
+        "Lead time",
+        "Consumption rate"
+      ],
+      "outputs": [
+        "Purchase orders",
+        "Stock health report",
+        "Stock-out alerts"
+      ],
+      "kpi": "Inventory turnover",
+      "escalation": "A critical material running out",
+      "owner": "Storekeeper",
+      "autonomy": "Autonomous",
+      "phase": "From month 2"
+    },
+    {
+      "id": "A20",
+      "group": "5 — Operations and manufacturing",
+      "title": "Supplier Agent",
+      "role": "Procurement",
+      "mission": "Manage supplier relationships, compare prices, negotiate payment terms and lead times, and assess performance.",
+      "tools": [
+        "ERP",
+        "Supplier register",
+        "Email"
+      ],
+      "inputs": [
+        "Purchase requests",
+        "Supplier price data"
+      ],
+      "outputs": [
+        "Purchase orders",
+        "Supplier performance report",
+        "Documented negotiations"
+      ],
+      "kpi": "Material cost saving rate",
+      "escalation": "A supplier late by more than 7 days",
+      "owner": "Storekeeper",
+      "autonomy": "Autonomous",
+      "phase": "From month 3"
+    },
+    {
+      "id": "A21",
+      "group": "6 — Analytics and decisions",
+      "title": "Market Analyst Agent",
+      "role": "Research",
+      "mission": "Track competitor pricing and seasonal offers, spot gaps in the market, and refresh the market size estimates.",
+      "tools": [
+        "Web data collection",
+        "Python",
+        "Notion"
+      ],
+      "inputs": [
+        "Competitor list",
+        "Verified prices"
+      ],
+      "outputs": [
+        "Pricing reports",
+        "TAM/SAM/SOM refresh",
+        "New opportunities"
+      ],
+      "kpi": "Accuracy of market refreshes",
+      "escalation": "A competitor price moving more than 15%",
+      "owner": "Marketing Manager",
+      "autonomy": "Autonomous",
+      "phase": "From month 3"
+    },
+    {
+      "id": "A22",
+      "group": "6 — Analytics and decisions",
+      "title": "Analytics Agent",
+      "role": "Data analysis",
+      "mission": "Join operating and financial data, calculate contribution margin per product and per channel, and update the financial model programmatically.",
+      "tools": [
+        "Python",
+        "BigQuery",
+        "Excel"
+      ],
+      "inputs": [
+        "Sales data",
+        "Material cost",
+        "Advertising spend"
+      ],
+      "outputs": [
+        "Profitability reports",
+        "Updated financial model",
+        "Deviation alerts"
+      ],
+      "kpi": "Accuracy of the cost model",
+      "escalation": "Margin deviating by more than 5%",
+      "owner": "Finance Manager",
+      "autonomy": "Autonomous",
+      "phase": "From month 3"
+    },
+    {
+      "id": "A23",
+      "group": "6 — Analytics and decisions",
+      "title": "Risk Review Agent",
+      "role": "Governance",
+      "mission": "Review the risk register periodically, score likelihood and impact, and refresh mitigation actions and contingency plans.",
+      "tools": [
+        "Notion",
+        "Sheets"
+      ],
+      "inputs": [
+        "Risk register",
+        "Agent reports",
+        "Performance indicators"
+      ],
+      "outputs": [
+        "Updated risk register",
+        "Early warnings",
+        "Contingency plan tests"
+      ],
+      "kpi": "Share of risks with a mitigation action",
+      "escalation": "Any high risk without an action",
+      "owner": "Digital Project Manager",
+      "autonomy": "Autonomous",
+      "phase": "Full"
+    },
+    {
+      "id": "A24",
+      "group": "7 — Finance and compliance",
+      "title": "Accounting Agent",
+      "role": "Finance",
+      "mission": "Reconcile financial transactions with the system, issue electronic invoices, and prepare the monthly financial reports.",
+      "tools": [
+        "ERP",
+        "E-invoicing",
+        "Excel"
+      ],
+      "inputs": [
+        "Bank transactions",
+        "Purchases",
+        "Sales"
+      ],
+      "outputs": [
+        "Monthly financial statements",
+        "Electronic invoice",
+        "Account reconciliation"
+      ],
+      "kpi": "Days to close the books",
+      "escalation": "A reconciliation difference above 1%",
+      "owner": "Finance Manager",
+      "autonomy": "Autonomous, subject to review",
+      "phase": "From month 1"
+    },
+    {
+      "id": "A25",
+      "group": "7 — Finance and compliance",
+      "title": "Compliance Agent",
+      "role": "Compliance",
+      "mission": "Track the regulatory requirements of e-commerce and data protection, and maintain transaction records and supporting evidence.",
+      "tools": [
+        "Document management system",
+        "Checklist"
+      ],
+      "inputs": [
+        "Requirements list",
+        "Transaction records",
+        "Privacy policies"
+      ],
+      "outputs": [
+        "Compliance reports",
+        "Policy updates",
+        "Retained records"
+      ],
+      "kpi": "Share of requirements met",
+      "escalation": "A failure against a regulatory requirement",
+      "owner": "Finance Manager",
+      "autonomy": "Autonomous, subject to review",
+      "phase": "From month 1"
+    }
+  ],
+  "ai_governance": {
+    "principles": [
+      "Every agent has a human owner accountable for its output — there is no agent without an owner.",
+      "The propose-then-review principle is mandatory for any decision touching money or a customer.",
+      "Every agent output is traceable: which data and which instructions produced it.",
+      "Customer personal data is never stored outside approved and authorised systems.",
+      "A quarterly review of every agent's performance against its defined indicator."
+    ],
+    "human_in_loop": [
+      "Any refund or discount above 5% is presented to a human before execution.",
+      "Customer service replies that address a complaint or a damage claim are reviewed before sending.",
+      "Content published on social media passes human review before it goes live.",
+      "Any pricing decision or change to the returns policy is signed off by the Finance Manager.",
+      "Closing a customer account or any legal action is never executed automatically."
+    ],
+    "model_policy": [
+      "Models are used on non-sensitive data only; sensitive data is processed inside an approved, access-restricted environment.",
+      "A weekly review of model performance, documenting any drift in output quality.",
+      "No model output may be used without human review in sensitive content.",
+      "The version and settings behind every officially approved output are documented.",
+      "An approved manual fallback exists for every critical process in case the service is unavailable."
+    ],
+    "security": [
+      "Data is encrypted in transit and at rest across every storefront and dashboard path.",
+      "Least-privilege access for every agent, reviewed quarterly.",
+      "Every action an agent performs is fully logged in an immutable audit trail.",
+      "Daily encrypted backups with a monthly restoration test.",
+      "A defined incident disclosure and response policy with clear reporting channels."
+    ],
+    "cost_model": [
+      "A monthly review of AI tooling subscription cost against the operating benefit it delivers.",
+      "Route each task to the cheapest model tier that meets the need — a small model for repetitive work.",
+      "The cost per order handled by the assistant is measured against the cost of human handling.",
+      "A monthly spend ceiling per agent, with an alert at 80%."
+    ]
+  },
+  "marketing": {
+    "positioning": "Wood furniture made to the measurements of your home, with complete clarity on price, lead time and material — from a workshop that respects your time more than a store selling you a ready-made piece that does not fit.",
+    "personas": [
+      {
+        "name": "Sara — new apartment",
+        "need": "A complete fit-out in six weeks",
+        "pain": "Stores sell pieces that do not fit the space, and the photographs mislead",
+        "channel": "Instagram + search",
+        "offer": "An apartment fit-out package with free measurement and an installation schedule",
+        "objection": "“I will delay the work by a few days”"
+      },
+      {
+        "name": "Karim — small office",
+        "need": "Office furniture of a quality that lasts",
+        "pain": "Prices vary wildly and he cannot tell what he is buying",
+        "channel": "Search + LinkedIn",
+        "offer": "A fixed-price office range with a specification page for every item",
+        "objection": "“Why buy from you rather than from a showroom?”"
+      },
+      {
+        "name": "Hind — property developer",
+        "need": "Consistent execution for an end client with multiple units",
+        "pain": "Coordinating with several contractors and poor communication",
+        "channel": "Direct relationships",
+        "offer": "A framework agreement with fixed prices and a contractual delivery schedule",
+        "objection": "“I want firm delivery guarantees”"
+      },
+      {
+        "name": "Mona — quick refresh",
+        "need": "Replace one or two pieces on a fixed budget",
+        "pain": "Excessive luxury costs more than it should",
+        "channel": "TikTok + Shop",
+        "offer": "A ready-made small-piece range in three price tiers",
+        "objection": "“Why not buy from the marketplace?”"
+      }
+    ],
+    "channels": [
+      {
+        "name": "Instagram",
+        "role": "Awareness and discovery",
+        "budget_share": 22,
+        "kpi": "Cost per reach and cost per acquisition",
+        "cpa": "EGP 180–320",
+        "note": "The strongest channel in the category — before-and-after content"
+      },
+      {
+        "name": "Google Search",
+        "role": "Capturing intent",
+        "budget_share": 24,
+        "kpi": "Acquisition cost on high-intent queries",
+        "cpa": "EGP 240–420",
+        "note": "Requires genuinely deep technical content"
+      },
+      {
+        "name": "TikTok",
+        "role": "Reach and discovery",
+        "budget_share": 14,
+        "kpi": "Video views and engagement rate",
+        "cpa": "EGP 150–260",
+        "note": "Well suited to small pieces"
+      },
+      {
+        "name": "Facebook (groups and ads)",
+        "role": "Local targeting",
+        "budget_share": 12,
+        "kpi": "Cost per customer registration",
+        "cpa": "EGP 260–400",
+        "note": "Closest to the furniture audience"
+      },
+      {
+        "name": "WhatsApp",
+        "role": "Direct selling and conversion",
+        "budget_share": 8,
+        "kpi": "Conversation-to-order conversion rate",
+        "cpa": "EGP 90–180",
+        "note": "The cheapest channel today"
+      },
+      {
+        "name": "Search engine optimisation (content)",
+        "budget_share": 10,
+        "kpi": "Organic sessions",
+        "cpa": "—",
+        "note": "A long-term investment"
+      },
+      {
+        "name": "Partnerships and trade shows",
+        "role": "Volume selling",
+        "budget_share": 6,
+        "kpi": "Institutional orders",
+        "cpa": "—",
+        "note": "A low-cost, high-volume channel"
+      },
+      {
+        "name": "Retargeting",
+        "budget_share": 4,
+        "kpi": "Conversion rate from repeat visits",
+        "cpa": "EGP 60–140",
+        "note": "The highest return"
+      }
+    ],
+    "funnel": [
+      {
+        "stage": "Awareness",
+        "metric": "Reach and impressions",
+        "target": "1,200,000 a month",
+        "note": "Before-and-after content plus partnerships"
+      },
+      {
+        "stage": "Interest",
+        "metric": "Engagement rate",
+        "target": "3.8%",
+        "note": "Category benchmark 2–4%"
+      },
+      {
+        "stage": "Visits",
+        "metric": "Sessions",
+        "target": "24,000 a month",
+        "note": "After six months"
+      },
+      {
+        "stage": "Behaviour",
+        "metric": "Product view rate",
+        "target": "42%",
+        "note": "Diagnosing the friction point"
+      },
+      {
+        "stage": "Cart",
+        "metric": "Add-to-cart rate",
+        "target": "9%",
+        "note": "Category benchmark 5–8%"
+      },
+      {
+        "stage": "Checkout",
+        "metric": "Checkout completion rate",
+        "target": "58%",
+        "note": "The shipping obstacle — addressed through explicit shipping options"
+      },
+      {
+        "stage": "Purchase",
+        "metric": "Overall conversion rate",
+        "target": "2.1%",
+        "note": "Break-even ≈ 121 units a month against 308 targeted"
+      },
+      {
+        "stage": "Retention",
+        "metric": "Repeat purchase within 12 months",
+        "target": "18%",
+        "note": "Furniture is bought once — the value lies in volume and referral"
+      }
+    ],
+    "content_pillars": [
+      {
+        "pillar": "Material and how to read it",
+        "formats": [
+          "Reels",
+          "Comparisons",
+          "Short clips"
+        ],
+        "cadence": "Three times a week",
+        "kpi": "Completion rate"
+      },
+      {
+        "pillar": "Before and after",
+        "formats": [
+          "Reels",
+          "Carousel posts"
+        ],
+        "cadence": "Weekly",
+        "kpi": "Save and share rate"
+      },
+      {
+        "pillar": "How to choose the right dimensions",
+        "formats": [
+          "Articles",
+          "PDF guides"
+        ],
+        "cadence": "Weekly",
+        "kpi": "Organic sessions"
+      },
+      {
+        "pillar": "From the workshop to your door",
+        "formats": [
+          "Documentary reels",
+          "Interviews"
+        ],
+        "cadence": "Monthly",
+        "kpi": "View-through rate"
+      },
+      {
+        "pillar": "Frequently asked questions",
+        "formats": [
+          "Text posts",
+          "Short video"
+        ],
+        "cadence": "Three times a week",
+        "kpi": "Engagement rate"
+      },
+      {
+        "pillar": "Case studies",
+        "formats": [
+          "Long-form article",
+          "Carousel"
+        ],
+        "cadence": "Monthly",
+        "kpi": "Content-assisted conversion rate"
+      }
+    ],
+    "retention": [
+      "The “Dar Al-Khashab Club”: 8% off a second order plus a free annual maintenance service.",
+      "Free design consultation for repeat customers, with 5% off their next order.",
+      "Follow-up on day three and day thirty after delivery to pre-empt complaints.",
+      "A new customer referral earns the referrer EGP 300 in credit.",
+      "A showcase of flagship projects — low-cost community content."
+    ]
+  },
+  "tech": {
+    "stack": [
+      {
+        "layer": "Front end",
+        "choice": "Next.js + Tailwind (fully bespoke)",
+        "why": "High performance with full control over RTL rendering and numerals, and no dependency on ready-made themes",
+        "cost_month": 0
+      },
+      {
+        "layer": "Back end",
+        "choice": "Laravel + PostgreSQL",
+        "why": "Familiar to the internal operations team and maintainable without third-party dependency",
+        "cost_month": 4500
+      },
+      {
+        "layer": "Hosting",
+        "choice": "Regional cloud (two servers plus backup)",
+        "why": "Low latency for the local market and compliance with data residency requirements",
+        "cost_month": 12500
+      },
+      {
+        "layer": "Content management",
+        "choice": "A module built into the dashboard",
+        "why": "Fewer systems to operate and a simpler experience for a non-technical team",
+        "cost_month": 0
+      },
+      {
+        "layer": "Order management",
+        "choice": "A bespoke module (Order Hub)",
+        "why": "A direct link between the store, the workshop and stock instead of relying on off-the-shelf interfaces",
+        "cost_month": 0
+      },
+      {
+        "layer": "Payment gateway",
+        "choice": "A local provider plus an international alternative",
+        "why": "Reduced risk of dependence on a single provider, with cash on delivery supported",
+        "cost_month": 0
+      },
+      {
+        "layer": "Shipping",
+        "choice": "Integration with several carriers",
+        "why": "A minimum order and express delivery together",
+        "cost_month": 0
+      },
+      {
+        "layer": "AI tooling",
+        "choice": "Multi-model APIs",
+        "why": "Covers writing, analysis and support tasks without tying the operation to a single vendor.",
+        "cost_month": 22000
+      },
+      {
+        "layer": "Analytics",
+        "choice": "GA4 plus an in-house data warehouse",
+        "why": "Marketing decisions made on owned data rather than on platform reporting",
+        "cost_month": 3500
+      },
+      {
+        "layer": "Messaging",
+        "choice": "WhatsApp Business API",
+        "why": "The channel customers in this category actually use",
+        "cost_month": 1800
+      }
+    ],
+    "hosting": [
+      "Two application servers in a region close to the main customer base, with load balancing.",
+      "Daily encrypted backups with a 90-day retention window.",
+      "An administrative SSL certificate and a dedicated subdomain per environment.",
+      "Uptime and latency monitoring with immediate alerting.",
+      "A documented restoration plan tested every month."
+    ],
+    "integrations": [
+      "Payment gateway: create the order, verify the transaction, and issue the electronic invoice.",
+      "Carriers: compare quotations, create the waybill, and track the status.",
+      "Accounting system: post invoices and expenses automatically.",
+      "CRM: one unified customer record from the first Instagram interaction to after-sales.",
+      "Workshop: a production order board that updates from confirmed orders.",
+      "WhatsApp: order status notifications and automated messaging."
+    ],
+    "security": [
+      "Two-factor authentication mandatory for every administrative account.",
+      "Encryption in transit (TLS) and at rest.",
+      "Daily backups with a documented monthly restoration test.",
+      "Quarterly permission reviews, removing access that is no longer used.",
+      "An audit log of every sensitive operation.",
+      "An incident response plan with a defined response time."
+    ],
+    "compliance": [
+      "Compliance with personal data protection law: a clear processing basis and explicit consent.",
+      "Issuing electronic invoices that meet tax requirements.",
+      "Commercial and manufacturing licences valid and renewed.",
+      "A returns and exchanges policy published clearly on the website.",
+      "Compliance with advertising platform rules on products and claims."
+    ],
+    "seo": [
+      "An operator-led content structure (for example: an MDF kitchen in Cairo).",
+      "Structured data (schema) for products and frequently asked questions.",
+      "A unique page for every product with original content, not recycled copy.",
+      "Load speed tuned specifically for mobile networks.",
+      "A sitemap updated automatically whenever a product is added."
+    ],
+    "analytics": [
+      "Complete event tracking: view, engagement, add to cart, checkout start, purchase, return.",
+      "A daily management dashboard showing revenue, orders and stock together.",
+      "Multi-touch attribution models to measure the true contribution of each channel.",
+      "Regular A/B tests on the product page and the checkout.",
+      "A weekly review of the numbers together with the analytics agents."
+    ]
+  },
+  "ops": {
+    "process": [
+      {
+        "step": "1. The order arrives through the website or WhatsApp",
+        "owner": "Customer Service Agent",
+        "sla": "Reply within 5 minutes",
+        "tool": "CRM",
+        "kpi": "First response time"
+      },
+      {
+        "step": "2. Qualification: dimensions, material and budget",
+        "owner": "Conversation Coach Agent",
+        "sla": "Within 30 minutes",
+        "tool": "Knowledge base",
+        "kpi": "Order qualification rate"
+      },
+      {
+        "step": "3. Quotation and delivery date",
+        "owner": "Conversation Coach Agent + Workshop Manager",
+        "sla": "Within 24 hours",
+        "tool": "CRM",
+        "kpi": "Quotation turnaround time"
+      },
+      {
+        "step": "4. Order confirmation and payment",
+        "owner": "Integration Agent",
+        "sla": "Automatic",
+        "tool": "Payment gateway",
+        "kpi": "Payment completion rate"
+      },
+      {
+        "step": "5. Reserve materials and prepare parts",
+        "owner": "Inventory Agent + Planner",
+        "sla": "24–48 hours",
+        "tool": "MRP",
+        "kpi": "Material availability rate"
+      },
+      {
+        "step": "6. Manufacturing",
+        "owner": "Workshop",
+        "sla": "By product type",
+        "tool": "Order Hub",
+        "kpi": "On-time delivery"
+      },
+      {
+        "step": "7. Inspection before dispatch",
+        "owner": "Quality Supervisor Agent",
+        "sla": "4 hours",
+        "tool": "Inspection checklist",
+        "kpi": "Defect rate"
+      },
+      {
+        "step": "8. Dispatch and tracking",
+        "owner": "Integration Agent",
+        "sla": "Real-time tracking",
+        "tool": "Carriers",
+        "kpi": "Successful delivery rate"
+      },
+      {
+        "step": "9. Delivery and installation",
+        "owner": "Workshop / installation team",
+        "sla": "As agreed",
+        "tool": "Order Hub",
+        "kpi": "Customer satisfaction"
+      },
+      {
+        "step": "10. Follow-up and review capture",
+        "owner": "After-sales Agent",
+        "sla": "After 3 days",
+        "tool": "CRM",
+        "kpi": "Review rate"
+      }
+    ],
+    "suppliers": [
+      {
+        "name": "Local supplier — industrial zone",
+        "item": "MDF and compressed wood",
+        "terms": "Cash on delivery",
+        "lead": "7–9 days",
+        "risk": "Quantity volatility during the construction season"
+      },
+      {
+        "name": "Orient Wood (imported)",
+        "item": "Solid Oak",
+        "terms": "30% advance / 70% before shipment",
+        "lead": "21 days",
+        "risk": "Exchange rate and the supply chain"
+      },
+      {
+        "name": "Al-Ogba — accessories",
+        "item": "Hinges and runners",
+        "terms": "Net 30 days",
+        "lead": "4 days",
+        "risk": "A shortage of types halts the assembly line"
+      },
+      {
+        "name": "Equipment supplier",
+        "item": "Tools and blades",
+        "terms": "Cash",
+        "lead": "14 days",
+        "risk": "Price rises and import delays"
+      },
+      {
+        "name": "Packaging factory",
+        "item": "Cartons and packaging",
+        "terms": "Net 15 days",
+        "lead": "5 days",
+        "risk": "Peak season pushes prices up"
+      }
+    ],
+    "logistics": [
+      "A minimum order value reduces the shipping cost carried by each order.",
+      "Shipping options: standard, express, and installation at the destination.",
+      "Installation slots are scheduled by delivery zone to avoid a second site visit.",
+      "Real-time shipment tracking with an automatic message at every update.",
+      "Carrier quotations are compared automatically in Order Hub before the order is confirmed."
+    ],
+    "quality": [
+      "An 18-point inspection checklist before dispatch, with mandatory photographs of the piece angles.",
+      "Back-of-piece measurement (dimension check) before packaging.",
+      "The condition of the material and the finish is recorded on the product card.",
+      "Two-year warranty on manufacturing defects and six months on finishes.",
+      "A monthly analysis of return causes and of the quality rate for each supplier."
+    ],
+    "returns": [
+      "Returns within 14 days for standard, non-customised products.",
+      "Customised products are excluded, as stated clearly in the product description.",
+      "Immediate replacement when a manufacturing defect is confirmed within the first 30 days.",
+      "The workshop bears the return shipping cost where a manufacturing defect is confirmed.",
+      "Every return case is logged in the quality register to improve the product."
+    ],
+    "sla": [
+      "First reply to any enquiry: under 5 minutes during working hours.",
+      "A detailed quotation: under 24 hours.",
+      "Order status update: at least weekly until delivery.",
+      "Complaint resolution: under 48 hours, or direct human contact.",
+      "Return or exchange: within 7 days of confirmation."
+    ]
+  },
+  "hr": {
+    "org": [
+      {
+        "role": "Digital Project Manager",
+        "count": 1,
+        "role_type": "Full-time",
+        "monthly_cost": 32000,
+        "note": "Full time — the first owner of the agents"
+      },
+      {
+        "role": "Senior Platform Engineer",
+        "count": 1,
+        "role_type": "Full-time",
+        "monthly_cost": 28000,
+        "note": "Full-stack"
+      },
+      {
+        "role": "Front-end Engineer",
+        "count": 1,
+        "role_type": "Full-time",
+        "monthly_cost": 20000,
+        "note": "Averaged across year one"
+      },
+      {
+        "role": "Digital Marketing Specialist",
+        "count": 1,
+        "role_type": "Full-time",
+        "monthly_cost": 18000,
+        "note": "Runs the campaigns and the content"
+      },
+      {
+        "role": "Graphic and Motion Designer",
+        "count": 1,
+        "role_type": "Contract",
+        "monthly_cost": 14000,
+        "note": "Part-time contract"
+      },
+      {
+        "role": "Content Specialist",
+        "count": 1,
+        "role_type": "Full-time",
+        "monthly_cost": 12000,
+        "note": "From month two"
+      },
+      {
+        "role": "Customer Service Manager",
+        "count": 1,
+        "role_type": "Full-time",
+        "monthly_cost": 11000,
+        "note": "Supports the agents"
+      },
+      {
+        "role": "Operations Marketing Officer",
+        "count": 1,
+        "role_type": "Full-time",
+        "monthly_cost": 9000,
+        "note": "From month three"
+      },
+      {
+        "role": "Accountant",
+        "count": 1,
+        "role_type": "Part-time",
+        "monthly_cost": 9000,
+        "note": "External"
+      },
+      {
+        "role": "Carpenter and joiner (expansion)",
+        "count": 4,
+        "role_type": "Full-time",
+        "monthly_cost": 9500,
+        "note": "From month six"
+      }
+    ],
+    "policies": [
+      "A documented agent-permissions policy: what may be executed automatically and what requires a human signature.",
+      "A clear returns and exchanges policy approved by management and published on the website.",
+      "A cyber incident response plan with clearly assigned roles.",
+      "A customer data retention policy, with a retention period defined per data type.",
+      "A quarterly performance review for every agent and for the human team."
+    ],
+    "training": [
+      "Train the workshop team on Order Hub for order entry and progress updates (10 hours).",
+      "Train the order coordinator on AI-assisted conversations and their limits (6 hours).",
+      "Mandatory security briefing for everyone with system access (4 hours).",
+      "A weekly working session on using the agent tooling and improving the instructions."
+    ]
+  },
+  "finance": {
+    "currency": "EGP",
+    "horizon_years": 5,
+    "discount_rate": 0.24,
+    "tax_rate": 0.22,
+    "inflation": 0.12,
+    "depreciation_years": 5,
+    "salvage_pct": 0,
+    "working_capital": {
+      "ar_days": 21,
+      "inventory_days": 60,
+      "ap_days": 30
+    },
+    "capex": [
+      {
+        "label": "Online store development and order management system",
+        "category": "Technology infrastructure",
+        "qty": 1,
+        "unit": "system",
+        "unit_cost": 1250000,
+        "year": 0,
+        "note": "Fully bespoke build with no ready-made themes"
+      },
+      {
+        "label": "Servers and initial run infrastructure",
+        "category": "Technology infrastructure",
+        "qty": 1,
+        "unit": "package",
+        "unit_cost": 340000,
+        "year": 0,
+        "note": "Two years paid in advance"
+      },
+      {
+        "label": "Integrations (payment, shipping, accounting, CRM)",
+        "category": "Technology infrastructure",
+        "qty": 1,
+        "unit": "package",
+        "unit_cost": 180000,
+        "year": 0
+      },
+      {
+        "label": "Workstations and the digital workspace",
+        "category": "Technology infrastructure",
+        "qty": 6,
+        "unit": "unit",
+        "unit_cost": 45000,
+        "year": 0
+      },
+      {
+        "label": "Second CNC router",
+        "category": "Workshop and operations",
+        "qty": 1,
+        "unit": "unit",
+        "unit_cost": 2800000,
+        "year": 0,
+        "note": "Conditional escrow: released only after achieving 70% capacity utilisation for 3 consecutive months (raising capacity to 520 units/month)"
+      },
+      {
+        "label": "Finishing and packaging equipment",
+        "category": "Workshop and operations",
+        "qty": 1,
+        "unit": "package",
+        "unit_cost": 780000,
+        "year": 0
+      },
+      {
+        "label": "Hand tools and digital measuring equipment",
+        "category": "Workshop and operations",
+        "qty": 1,
+        "unit": "package",
+        "unit_cost": 220000,
+        "year": 0
+      },
+      {
+        "label": "Delivery and service vehicle",
+        "category": "Workshop and operations",
+        "qty": 1,
+        "unit": "vehicle",
+        "unit_cost": 900000,
+        "year": 0,
+        "note": "Lowers delivery cost inside Cairo"
+      },
+      {
+        "label": "Model showroom fit-out and measurement laboratory",
+        "category": "Workshop and operations",
+        "qty": 1,
+        "unit": "fit-out",
+        "unit_cost": 450000,
+        "year": 0
+      },
+      {
+        "label": "Visual identity development",
+        "category": "Brand and marketing",
+        "qty": 1,
+        "unit": "project",
+        "unit_cost": 180000,
+        "year": 0
+      },
+      {
+        "label": "Product photography (initial catalogue)",
+        "category": "Brand and marketing",
+        "qty": 1,
+        "unit": "package",
+        "unit_cost": 140000,
+        "year": 0,
+        "note": "First 50 pieces"
+      },
+      {
+        "label": "Trademark registration and intellectual property",
+        "category": "Compliance",
+        "qty": 1,
+        "unit": "package",
+        "unit_cost": 90000,
+        "year": 0
+      },
+      {
+        "label": "Licence renewal and equipment insurance",
+        "category": "Compliance",
+        "qty": 1,
+        "unit": "package",
+        "unit_cost": 300000,
+        "year": 0
+      },
+      {
+        "label": "Inventory and logistics management system",
+        "category": "Technology infrastructure",
+        "qty": 1,
+        "unit": "system",
+        "unit_cost": 420000,
+        "year": 1,
+        "note": "Once order flow has stabilised"
+      },
+      {
+        "label": "Production line expansion (second line)",
+        "category": "Workshop and operations",
+        "qty": 1,
+        "unit": "line",
+        "unit_cost": 1350000,
+        "year": 2,
+        "note": "Conditional on reaching break-even"
+      },
+      {
+        "label": "Staged working capital",
+        "category": "Working capital",
+        "qty": 1,
+        "unit": "amount",
+        "unit_cost": 600000,
+        "year": 0,
+        "note": "Covers the payment gap between purchase and collection"
+      }
+    ],
+    "opex": [
+      {
+        "label": "Operations and administrative payroll",
+        "category": "Payroll",
+        "type": "fixed",
+        "monthly": 185000,
+        "note": "Current headcount of 14"
+      },
+      {
+        "label": "Workshop and warehouse rent",
+        "category": "Rent",
+        "type": "fixed",
+        "monthly": 45000
+      },
+      {
+        "label": "Electricity, water and fuel",
+        "category": "Utilities",
+        "type": "fixed",
+        "monthly": 18000
+      },
+      {
+        "label": "Hosting and technical maintenance",
+        "category": "Technology",
+        "type": "fixed",
+        "monthly": 12500
+      },
+      {
+        "label": "AI tooling subscriptions",
+        "category": "Technology",
+        "type": "fixed",
+        "monthly": 22000,
+        "note": "Falls as the models improve"
+      },
+      {
+        "label": "Accounting and legal audit",
+        "category": "Finance",
+        "type": "fixed",
+        "monthly": 6000
+      },
+      {
+        "label": "Workshop maintenance and spare parts",
+        "category": "Operations",
+        "type": "fixed",
+        "monthly": 9000
+      },
+      {
+        "label": "Administrative and general expenses",
+        "category": "General",
+        "type": "fixed",
+        "monthly": 12000
+      },
+      {
+        "label": "Digital and marketing team payroll",
+        "category": "Payroll",
+        "type": "fixed",
+        "monthly": 96000,
+        "note": "Included in the human resources plan"
+      },
+      {
+        "label": "Paid marketing and advertising",
+        "category": "Marketing",
+        "type": "pct_revenue",
+        "monthly": 8,
+        "note": "Percentage of revenue"
+      },
+      {
+        "label": "Content and photography studio",
+        "category": "Marketing",
+        "type": "pct_revenue",
+        "monthly": 2.5,
+        "note": "Percentage of revenue"
+      }
+    ],
+    "revenue": [
+      {
+        "label": "Ready-made products (tables, chairs, shelving)",
+        "price": 3850,
+        "monthly_units": 220,
+        "growth": 12,
+        "variable_cost": 2150,
+        "note": "Average price including packaging"
+      },
+      {
+        "label": "Made-to-order furniture (kitchens, wardrobes, doors)",
+        "price": 18500,
+        "monthly_units": 45,
+        "growth": 10,
+        "variable_cost": 10200,
+        "note": "Higher margin, longer cycle"
+      },
+      {
+        "label": "Institutional projects (B2B)",
+        "price": 68000,
+        "monthly_units": 8,
+        "growth": 15,
+        "variable_cost": 38000,
+        "note": "Developers and offices"
+      },
+      {
+        "label": "Maintenance and renovation services",
+        "price": 2400,
+        "monthly_units": 35,
+        "growth": 8,
+        "variable_cost": 1100,
+        "note": "Low-cost recurring revenue"
+      }
+    ],
+    "assumptions": [
+      {
+        "label": "A 24% discount rate reflects the high cost of capital in the local market together with execution risk",
+        "value": "24%"
+      },
+      {
+        "label": "A 22% tax rate applied to net profit",
+        "value": "22%"
+      },
+      {
+        "label": "12% annual inflation lifts fixed operating costs each year",
+        "value": "12%"
+      },
+      {
+        "label": "21-day collection and 60-day inventory, consistent with the nature of made-to-order furniture",
+        "value": "—"
+      },
+      {
+        "label": "Straight-line depreciation over five years with no residual value",
+        "value": "5 years"
+      }
+    ],
+    "notes": "Capital Structure: Phase 1 requirements stand at EGP 8,500,000 (comprising EGP 5,700,000 immediate launch capital, and EGP 2,800,000 for the second CNC router held in escrow until 70% capacity utilization is achieved for 3 consecutive months). 5-Year Cumulative CAPEX totals EGP 10,270,000 (adding EGP 420,000 in Year 1 for systems and EGP 1,350,000 in Year 2 for the second production line). All figures are estimates based on operational workshop data and customer interviews. Assumptions must be reviewed after the third month of launch and the model recalibrated against actual data."
+  },
+  "risks": [
+    {
+      "id": "R01",
+      "category": "Market",
+      "risk": "Conversion below plan over the first 90 days",
+      "probability": 3,
+      "impact": 3,
+      "score": 9,
+      "mitigation": "A 45-day marketing test on a limited budget, product page optimisation, and cash on delivery",
+      "contingency": "Freeze phase two and reallocate the advertising budget to organic content",
+      "owner": "Marketing Manager",
+      "trigger": "Conversion below 1.2% for two months",
+      "status": "Active"
+    },
+    {
+      "id": "R02",
+      "category": "Operational",
+      "risk": "Capacity exceeded as demand grows",
+      "probability": 2,
+      "impact": 3,
+      "score": 6,
+      "mitigation": "Monitor available capacity weekly through Order Hub and secure cover hiring in advance",
+      "contingency": "Delay orders above capacity without charge, stated clearly on the product page",
+      "owner": "Workshop Manager",
+      "trigger": "Utilisation above 85%",
+      "status": "Active"
+    },
+    {
+      "id": "R03",
+      "category": "Financial",
+      "risk": "Material price increases that compress the margin",
+      "probability": 3,
+      "impact": 2,
+      "score": 6,
+      "mitigation": "Minimum-quantity purchase agreements, monthly price review, and supplier diversification",
+      "contingency": "A graduated price adjustment that protects order volume",
+      "owner": "Finance Manager",
+      "trigger": "Material cost rising by more than 8%",
+      "status": "Active"
+    },
+    {
+      "id": "R04",
+      "category": "Technical",
+      "risk": "Platform outage or breach of customer data",
+      "probability": 2,
+      "impact": 3,
+      "score": 6,
+      "mitigation": "Daily encrypted backups, a monthly restoration test, and quarterly permission reviews",
+      "contingency": "Bring up a manual order-capture fallback page within four hours",
+      "owner": "Head of Engineering",
+      "trigger": "Any outage exceeding two hours",
+      "status": "Active"
+    },
+    {
+      "id": "R05",
+      "category": "Marketing",
+      "risk": "Over-reliance on a single channel or platform",
+      "probability": 2,
+      "impact": 3,
+      "score": 6,
+      "mitigation": "Cap any one channel at 35% of budget and build an owned contact list",
+      "contingency": "Shift 20% of the platform budget to direct channels",
+      "owner": "Marketing Manager",
+      "trigger": "One source accounting for more than 45% of orders",
+      "status": "Active"
+    },
+    {
+      "id": "R06",
+      "category": "Market",
+      "risk": "A major platform entering the furniture category",
+      "probability": 2,
+      "impact": 2,
+      "score": 4,
+      "mitigation": "Concentrate on made-to-measure customisation and on-site service — the hardest thing to copy",
+      "contingency": "Deepen partnerships with property developers",
+      "owner": "Chief Executive",
+      "trigger": "A major platform launching below-cost pricing",
+      "status": "Monitoring"
+    },
+    {
+      "id": "R07",
+      "category": "Financial",
+      "risk": "Liquidity shortfall in the early months",
+      "probability": 3,
+      "impact": 3,
+      "score": 9,
+      "mitigation": "Staged working capital of EGP 600,000 and daily cash flow monitoring",
+      "contingency": "Negotiate deferred supplier payment and arrange a new facility",
+      "owner": "Finance Manager",
+      "trigger": "Cash balance below two months of expenditure",
+      "status": "Active"
+    },
+    {
+      "id": "R08",
+      "category": "Operational",
+      "risk": "Supply delay from the imported timber supplier",
+      "probability": 2,
+      "impact": 3,
+      "score": 6,
+      "mitigation": "An approved alternative supplier and 30 days of safety stock on imported material",
+      "contingency": "Switch orders to the local material with a design alternative",
+      "owner": "Storekeeper",
+      "trigger": "A supplier running more than 10 days late",
+      "status": "Active"
+    },
+    {
+      "id": "R09",
+      "category": "Organisational",
+      "risk": "An automation error that damages the brand",
+      "probability": 2,
+      "impact": 3,
+      "score": 6,
+      "mitigation": "The mandatory human review principle, with published limits on what may be executed automatically",
+      "contingency": "Stop the agent immediately and move the channel to humans",
+      "owner": "Digital Project Manager",
+      "trigger": "Complaints linked to an automated interaction",
+      "status": "Active"
+    },
+    {
+      "id": "R10",
+      "category": "Legal",
+      "risk": "Breach of data protection or licensing requirements",
+      "probability": 1,
+      "impact": 3,
+      "score": 3,
+      "mitigation": "A quarterly review by the compliance agent, with documented consents",
+      "contingency": "Stop collecting optional data and retain only what is strictly necessary",
+      "owner": "Finance Manager",
+      "trigger": "A change in regulatory requirements",
+      "status": "Monitoring"
+    },
+    {
+      "id": "R11",
+      "category": "Market",
+      "risk": "Difficulty attracting digital talent",
+      "probability": 2,
+      "impact": 2,
+      "score": 4,
+      "mitigation": "An agent-based operating model reduces the need for specialist hiring",
+      "contingency": "Rely on outsourced contracting for critical work with human supervision",
+      "owner": "Digital Project Manager",
+      "trigger": "Hiring delayed by more than 45 days",
+      "status": "Monitoring"
+    },
+    {
+      "id": "R12",
+      "category": "Financial",
+      "risk": "Delayed collection of receivables",
+      "probability": 3,
+      "impact": 2,
+      "score": 6,
+      "mitigation": "A 30% deposit on custom orders, with collection tied into the monthly reporting cycle",
+      "contingency": "Stop accepting custom orders from customers in arrears",
+      "owner": "Finance Manager",
+      "trigger": "Average collection period exceeding 35 days",
+      "status": "Active"
+    }
+  ],
+  "timeline": {
+    "total_months": 12,
+    "phases": [
+      {
+        "label": "Foundation and set-up",
+        "start": 0,
+        "end": 1,
+        "milestone": "Decision approved",
+        "owner": "Executive management",
+        "note": "Document ownership, appoint the digital project manager, and set up the working environment"
+      },
+      {
+        "label": "Building the platform",
+        "start": 1,
+        "end": 4,
+        "milestone": "Beta release",
+        "owner": "Head of Engineering",
+        "note": "Develop the store and the order management system, and connect payment and shipping"
+      },
+      {
+        "label": "Preparing the workshop for production",
+        "start": 1,
+        "end": 5,
+        "milestone": "Second machine in operation",
+        "owner": "Workshop Manager",
+        "note": "Install the equipment and train the team on Order Hub"
+      },
+      {
+        "label": "Brand and content",
+        "start": 2,
+        "end": 5,
+        "milestone": "50 pieces photographed",
+        "owner": "Marketing Manager",
+        "note": "Visual identity, photography, and building the content library"
+      },
+      {
+        "label": "Marketing test",
+        "start": 4,
+        "end": 5,
+        "milestone": "Go decision",
+        "owner": "Marketing Manager",
+        "note": "A 45-day test measuring conversion per channel before the next tranche is released"
+      },
+      {
+        "label": "Official launch",
+        "start": 6,
+        "end": 6,
+        "milestone": "Launch",
+        "owner": "Digital Project Manager",
+        "note": "Activate the acquisition campaigns and measure the first conversion results"
+      },
+      {
+        "label": "Conversion optimisation",
+        "start": 6,
+        "end": 9,
+        "milestone": "Conversion rate ≥ 2%",
+        "owner": "Head of Product",
+        "note": "A/B tests on the product page and the checkout"
+      },
+      {
+        "label": "Channel expansion",
+        "start": 7,
+        "end": 12,
+        "milestone": "40% of orders from direct channels",
+        "owner": "Marketing Manager",
+        "note": "Expand partnerships and institutional offers"
+      },
+      {
+        "label": "Building the customer base",
+        "start": 7,
+        "end": 12,
+        "milestone": "An owned list of 15,000 contacts",
+        "owner": "Social Media Agent",
+        "note": "Move audiences from platforms to the direct channel"
+      },
+      {
+        "label": "Capacity expansion",
+        "start": 9,
+        "end": 12,
+        "milestone": "Utilisation at 55%",
+        "owner": "Workshop Manager",
+        "note": "Additional hiring and activation of the second line once orders pass 80% of capacity"
+      },
+      {
+        "label": "Strategic review",
+        "start": 11,
+        "end": 12,
+        "milestone": "Feasibility study updated",
+        "owner": "Digital Project Manager",
+        "note": "Compare actual results against the assumptions and update the model"
+      }
+    ]
+  },
+  "kpis": [
+    {
+      "name": "Overall conversion rate",
+      "category": "Growth",
+      "definition": "Share of visits that end in a completed order",
+      "formula": "Orders ÷ Visits",
+      "target": "2.1% by the end of month 6",
+      "source": "GA4 + Order Hub",
+      "cadence": "Daily",
+      "owner": "Growth Manager Agent"
+    },
+    {
+      "name": "Customer acquisition cost",
+      "category": "Marketing",
+      "definition": "Advertising spend ÷ new customers",
+      "formula": "Spend ÷ new customers",
+      "target": "≤ EGP 380",
+      "source": "Meta + Google Ads",
+      "cadence": "Weekly",
+      "owner": "Campaign Analyst Agent"
+    },
+    {
+      "name": "Customer lifetime value",
+      "category": "Growth",
+      "definition": "Total expected revenue from the customer over the relationship",
+      "formula": "Average order value × repeat rate",
+      "target": "≥ EGP 11,500",
+      "source": "CRM",
+      "cadence": "Monthly",
+      "owner": "Analytics Agent"
+    },
+    {
+      "name": "Share of revenue from direct channels",
+      "category": "Growth",
+      "definition": "Share of orders from the website, WhatsApp and mailing lists",
+      "formula": "Direct orders ÷ total orders",
+      "target": "40% by the end of month 12",
+      "source": "Order Hub",
+      "cadence": "Weekly",
+      "owner": "Market Analyst Agent"
+    },
+    {
+      "name": "Contact-to-order rate",
+      "category": "Marketing",
+      "definition": "Efficiency of the follow-up journey from first contact to order",
+      "formula": "Orders ÷ qualified conversations",
+      "target": "≥ 28%",
+      "source": "WhatsApp API + CRM",
+      "cadence": "Weekly",
+      "owner": "Conversation Coach Agent"
+    },
+    {
+      "name": "Payment completion rate",
+      "category": "Technology",
+      "definition": "Share of started payments that are completed",
+      "formula": "Successful payments ÷ started payments",
+      "target": "≥ 72%",
+      "source": "Payment gateway",
+      "cadence": "Daily",
+      "owner": "Integration Agent"
+    },
+    {
+      "name": "First response time",
+      "category": "Service",
+      "definition": "Time between a customer question and the first reply",
+      "formula": "Average time difference",
+      "target": "< 5 minutes",
+      "source": "WhatsApp API",
+      "cadence": "Daily",
+      "owner": "Customer Service Agent"
+    },
+    {
+      "name": "On-time delivery rate",
+      "category": "Operational",
+      "definition": "Share of orders delivered by the agreed date",
+      "formula": "On-time orders ÷ total orders",
+      "target": "≥ 92%",
+      "source": "Order Hub",
+      "cadence": "Weekly",
+      "owner": "Production Planner Agent"
+    },
+    {
+      "name": "Inventory turnover",
+      "category": "Operational",
+      "definition": "Number of times the inventory turns over in a year",
+      "formula": "Cost of goods sold ÷ average inventory",
+      "target": "≥ 6 times",
+      "source": "ERP",
+      "cadence": "Monthly",
+      "owner": "Inventory Agent"
+    },
+    {
+      "name": "Defect and return rate",
+      "category": "Quality",
+      "definition": "Share of orders rejected or returned",
+      "formula": "Returns ÷ total orders",
+      "target": "≤ 3%",
+      "source": "Order Hub",
+      "cadence": "Monthly",
+      "owner": "Quality Supervisor Agent"
+    },
+    {
+      "name": "Contribution margin",
+      "category": "Financial",
+      "definition": "Revenue less cost of goods sold",
+      "formula": "(Revenue − cost of sales) ÷ Revenue",
+      "target": "≥ 42%",
+      "source": "Order Hub + ERP",
+      "cadence": "Monthly",
+      "owner": "Analytics Agent"
+    },
+    {
+      "name": "Months of expenditure covered by cash",
+      "category": "Financial",
+      "definition": "The ability of the cash position to cover expenditure",
+      "formula": "Cash balance ÷ monthly expenditure",
+      "target": "≥ 3 months",
+      "source": "Financial system",
+      "cadence": "Weekly",
+      "owner": "Accounting Agent"
+    },
+    {
+      "name": "Time to close a defect",
+      "category": "Technology",
+      "definition": "Elapsed time between detecting and closing a defect",
+      "formula": "Average closure time",
+      "target": "< 48 hours",
+      "source": "Ticketing system",
+      "cadence": "Weekly",
+      "owner": "Platform Engineer Agent"
+    },
+    {
+      "name": "Automated production rate",
+      "category": "Automation",
+      "definition": "Share of tasks executed automatically without human intervention",
+      "formula": "Automated tasks ÷ total tasks",
+      "target": "≥ 65% by the end of month 12",
+      "source": "Audit Log",
+      "cadence": "Monthly",
+      "owner": "Project Manager Agent"
+    },
+    {
+      "name": "Cost to serve an order",
+      "category": "Automation",
+      "definition": "Operating spend ÷ number of orders",
+      "formula": "Costs ÷ orders",
+      "target": "≤ EGP 210",
+      "source": "ERP + Audit Log",
+      "cadence": "Monthly",
+      "owner": "Analytics Agent"
+    }
+  ],
+  "conclusion": {
+    "summary": "The project is financially viable in the base case, but the margin is thin: net present value is positive at only EGP 377,000, and the internal rate of return of 25.6% sits just 1.6 percentage points above the 24% discount rate - a gap that cannot honestly be called a comfortable margin. That finding is itself the most important output of the study, because it changes the nature of the decision: what is being requested is not a single unconditional approval, but a phased approval gated by measurement. The conservative scenario (price 10% lower, sales 25% slower, costs 15% higher) drives net present value to roughly EGP -11.6m and eliminates the internal rate of return altogether; the real risk therefore lies not in the market but in the conversion assumption. What supports the decision is that the operating risk is bounded: the production capacity exists, the workshop is running, and the genuine gap is the digital presence and the data - which is exactly what this transformation closes.",
+    "recommendation": "Approve the first phase with an EGP 8,500,000 budget split between immediate launch capital of EGP 5,700,000, and EGP 2,800,000 for the second CNC router held in escrow conditional upon achieving 70% capacity utilisation for three consecutive months. The 5-year cumulative capital expenditure (5-Year Cumulative CAPEX) totals EGP 10,270,000 (adding EGP 420,000 in Year 1 and EGP 1,350,000 in Year 2). The recommendation is conditional approval reflected in the five governance conditions.",
+    "conditions": [
+      "Pass the 45-day marketing test at a conversion rate of at least 1.4% before releasing the second tranche.",
+      "Secure at least two suppliers for every key material before scaled operation begins.",
+      "Appoint the digital project manager and the marketing manager within 30 days.",
+      "Complete a full security review before connecting the payment gateway.",
+      "Do not release the production-line expansion tranche - second CNC router (EGP 2,800,000) held in escrow before current capacity utilisation reaches 70% for three consecutive months."
+    ],
+    "next_steps": [
+      {
+        "step": "Board approval of the decision and its documentation",
+        "owner": "Chief Executive",
+        "deadline": "Within two weeks"
+      },
+      {
+        "step": "Appoint the digital project manager and the marketing manager",
+        "owner": "Founding partner",
+        "deadline": "Within 30 days"
+      },
+      {
+        "step": "Sign the platform development and order management contract",
+        "owner": "Digital Project Manager",
+        "deadline": "Within 21 days"
+      },
+      {
+        "step": "Launch the 45-day marketing test",
+        "owner": "Marketing Manager",
+        "deadline": "Month 5"
+      },
+      {
+        "step": "Launch or defer, based on the test results",
+        "owner": "Board of directors",
+        "deadline": "End of month 5"
+      },
+      {
+        "step": "Review the feasibility study and update the financial model",
+        "owner": "Analytics Agent",
+        "deadline": "Month 12"
+      }
+    ],
+    "do_dont": {
+      "do": [
+        "Start small: 50 carefully selected products rather than an attempt to list everything that can be made.",
+        "Document everything from day one — after a furniture workshop, the data is the real asset.",
+        "Give the agents specific tasks with clear acceptance criteria rather than a mandate to automate everything.",
+        "Review the actual numbers against this study every month, not every quarter."
+      ],
+      "dont": [
+        "Do not launch advertising before the product page and checkout are ready — you will waste the acquisition budget.",
+        "Do not expand production capacity before current utilisation reaches 70%.",
+        "Do not grant the agents broad permissions, however good the early results look.",
+        "Do not depend on a single platform as your only acquisition channel."
+      ]
+    }
+  },
+  "appendix": {
+    "glossary": [
+      {
+        "term": "Total addressable market (TAM)",
+        "meaning": "Total demand for the category with no constraint on geography or sales channel"
+      },
+      {
+        "term": "Serviceable available market (SAM)",
+        "meaning": "The part of the TAM the workshop can serve given its capacity and geography"
+      },
+      {
+        "term": "Serviceable obtainable market (SOM)",
+        "meaning": "The realistic target share across the planning horizon"
+      },
+      {
+        "term": "Net present value (NPV)",
+        "meaning": "The present value of future net cash flows discounted at the discount rate"
+      },
+      {
+        "term": "Internal rate of return (IRR)",
+        "meaning": "The discount rate at which net present value equals zero"
+      },
+      {
+        "term": "Break-even point",
+        "meaning": "The sales volume that covers fixed and variable costs"
+      },
+      {
+        "term": "Working capital",
+        "meaning": "Resources tied up in operations: receivables and inventory less payables"
+      },
+      {
+        "term": "Free cash flow (FCF)",
+        "meaning": "Cash available after tax, depreciation, investment and the change in working capital"
+      },
+      {
+        "term": "Customer acquisition cost (CAC)",
+        "meaning": "The average spend required to acquire a new customer"
+      },
+      {
+        "term": "Customer lifetime value (LTV)",
+        "meaning": "Total expected revenue from the customer over the relationship"
+      },
+      {
+        "term": "SWOT matrix",
+        "meaning": "A four-way analysis: strengths, weaknesses, opportunities and threats"
+      },
+      {
+        "term": "EFE/IFE matrix",
+        "meaning": "Weighing external and internal factors to set strategic priorities"
+      },
+      {
+        "term": "AI agent",
+        "meaning": "An execution unit with a defined mission, a human owner and a performance indicator"
+      },
+      {
+        "term": "Supervised automation",
+        "meaning": "An automated step that remains subject to human review before full autonomy"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Workshop operating records 2024–2026",
+        "publisher": "Workshop management",
+        "year": 2026,
+        "type": "Internal record",
+        "url": "—"
+      },
+      {
+        "title": "Home furniture sector report — annual review",
+        "publisher": "Market Research Centre",
+        "year": 2025,
+        "type": "Report",
+        "url": "—"
+      },
+      {
+        "title": "Online shopping behaviour survey — consumer categories",
+        "publisher": "Independent survey",
+        "year": 2026,
+        "type": "Survey",
+        "url": "—"
+      },
+      {
+        "title": "Review analysis of online stores in the furniture category",
+        "publisher": "Internal analysis",
+        "year": 2026,
+        "type": "Digital analysis",
+        "url": "—"
+      },
+      {
+        "title": "Material price quotations — suppliers",
+        "publisher": "Procurement Department",
+        "year": 2026,
+        "type": "Prices",
+        "url": "—"
+      },
+      {
+        "title": "Customer interview log (18 interviews)",
+        "publisher": "Marketing Department",
+        "year": 2026,
+        "type": "Interviews",
+        "url": "—"
+      },
+      {
+        "title": "Financial appraisal model — attached file",
+        "publisher": "Digital Transformation Unit",
+        "year": 2026,
+        "type": "Model",
+        "url": "feasibility/out/financial-model.csv"
+      }
+    ]
+  }
+}

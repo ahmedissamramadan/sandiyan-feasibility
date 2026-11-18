@@ -1,0 +1,335 @@
+/* ============================================================
+   الرسوم البيانية (SVG) + الأشرطة + المصفوفة الحرارية
+   ============================================================ */
+
+.chart {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  padding: var(--s-4);
+  margin-block-end: var(--s-4);
+  break-inside: avoid;
+}
+
+.chart__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s-3);
+  flex-wrap: wrap;
+  margin-block-end: var(--s-3);
+}
+
+.chart__title {
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-sm);
+}
+
+.chart__caption {
+  font-size: var(--fs-xs);
+  color: var(--fg-subtle);
+  line-height: 1.7;
+  margin-block-start: var(--s-3);
+  margin-block-end: 0;
+}
+
+.chart__svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  font-family: var(--font-sans);
+}
+
+.chart__svg text {
+  fill: var(--fg-muted);
+  font-size: 11px;
+}
+
+.chart__svg .axis-line {
+  stroke: var(--border-strong);
+  stroke-width: 1;
+}
+
+.chart__svg .grid-line {
+  stroke: var(--border);
+  stroke-width: 1;
+  stroke-dasharray: 3 4;
+}
+
+.chart__svg .axis-label {
+  fill: var(--fg-subtle);
+  font-size: 10.5px;
+}
+
+.chart__svg .series-label {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.chart__svg .value-label {
+  font-size: 10.5px;
+  font-weight: 600;
+  fill: var(--fg);
+}
+
+/* سلسلة */
+.chart__svg .s-brand {
+  fill: var(--brand);
+}
+.chart__svg .s-accent {
+  fill: var(--accent);
+}
+.chart__svg .s-gold {
+  fill: var(--gold);
+}
+.chart__svg .s-danger {
+  fill: var(--danger);
+}
+.chart__svg .s-muted {
+  fill: var(--border-strong);
+}
+
+.chart__svg .l-brand {
+  stroke: var(--brand);
+}
+.chart__svg .l-accent {
+  stroke: var(--accent);
+}
+.chart__svg .l-gold {
+  stroke: var(--gold);
+}
+.chart__svg .l-danger {
+  stroke: var(--danger);
+}
+
+/* شريط Tooltip */
+.chart__svg .hit {
+  fill: transparent;
+  cursor: pointer;
+}
+
+.chart__svg .hit:hover + .tip,
+.chart__svg .tip {
+  pointer-events: none;
+}
+
+.chart__tooltip {
+  position: fixed;
+  z-index: 60;
+  padding: 0.45rem 0.7rem;
+  border-radius: var(--r-sm);
+  background: var(--wood-950);
+  color: #f6efe6;
+  font-size: var(--fs-xs);
+  line-height: 1.6;
+  box-shadow: var(--sh-3);
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity var(--dur-1) var(--ease), transform var(--dur-1) var(--ease);
+  pointer-events: none;
+  max-inline-size: 22rem;
+}
+
+.chart__tooltip[data-show="1"] {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ---------- وسيلة الإيضاح ---------- */
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2) var(--s-4);
+  margin-block-start: var(--s-3);
+  font-size: var(--fs-xs);
+  color: var(--fg-muted);
+}
+
+.legend__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.legend__swatch {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 3px;
+  flex: 0 0 auto;
+}
+
+/* ---------- المصفوفة الحرارية (EFE/IFE) ---------- */
+.heat {
+  border-collapse: separate;
+  border-spacing: 3px;
+  width: 100%;
+  font-size: var(--fs-xs);
+}
+
+.heat th {
+  background: none;
+  border: 0;
+  padding: 0.25rem;
+  font-size: var(--fs-micro);
+  color: var(--fg-subtle);
+  white-space: nowrap;
+}
+
+.heat td {
+  border: 0;
+  border-radius: var(--r-sm);
+  padding: 0.55rem 0.35rem;
+  text-align: center;
+  font-weight: var(--fw-bold);
+  font-variant-numeric: tabular-nums;
+  aspect-ratio: 2.6 / 1;
+}
+
+.heat td[data-w="1"] {
+  background: color-mix(in srgb, var(--mint-600) 22%, var(--surface));
+  color: var(--mint-800);
+}
+.heat td[data-w="2"] {
+  background: color-mix(in srgb, var(--mint-500) 45%, var(--surface));
+  color: var(--mint-900);
+}
+.heat td[data-w="3"] {
+  background: color-mix(in srgb, var(--gold-500) 45%, var(--surface));
+  color: var(--gold-800);
+}
+.heat td[data-w="4"] {
+  background: color-mix(in srgb, var(--danger) 26%, var(--surface));
+  color: var(--danger);
+}
+
+html[data-theme="dark"] .heat td[data-w="1"] {
+  color: var(--mint-200);
+}
+html[data-theme="dark"] .heat td[data-w="2"] {
+  color: var(--mint-100);
+}
+html[data-theme="dark"] .heat td[data-w="3"] {
+  color: var(--gold-100);
+}
+html[data-theme="dark"] .heat td[data-w="4"] {
+  color: #ffd9d4;
+}
+
+/* ---------- الأشرطة الأفقية (HTML — تتبع اتجاه الصفحة) ---------- */
+.hbar-list {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.hbar {
+  display: grid;
+  grid-template-columns: minmax(8rem, 1.6fr) minmax(4rem, 3fr) auto;
+  align-items: center;
+  gap: var(--s-3);
+}
+
+.hbar__label {
+  font-size: var(--fs-sm);
+  line-height: 1.6;
+  color: var(--fg);
+}
+
+.hbar__track {
+  height: 12px;
+  border-radius: var(--r-pill);
+  background: var(--surface-3);
+  overflow: hidden;
+}
+
+.hbar__fill {
+  height: 100%;
+  border-radius: var(--r-pill);
+  transition: inline-size var(--dur-3) var(--ease-out);
+}
+
+.hbar__value {
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-semibold);
+  white-space: nowrap;
+  min-inline-size: 5.5rem;
+  text-align: end;
+}
+
+/* ---------- أرقام داخل SVG ---------- */
+.chart__svg .num {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+/* ---------- مصفوفة تقييم المخاطر ---------- */
+.risk-matrix {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 3px;
+}
+
+.risk-matrix__cell {
+  aspect-ratio: 1.6 / 1;
+  border-radius: var(--r-xs);
+  display: grid;
+  place-items: center;
+  font-size: var(--fs-micro);
+  font-weight: var(--fw-bold);
+  font-family: var(--font-mono);
+}
+
+/* ---------- مصفوفة IPA (الأهمية/الأداء) ---------- */
+.ipa {
+  position: relative;
+  aspect-ratio: 1.9 / 1;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  overflow: hidden;
+}
+
+.ipa__quad {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.ipa__q {
+  padding: var(--s-2);
+  font-size: var(--fs-micro);
+  font-weight: var(--fw-semibold);
+  color: var(--fg-subtle);
+  display: flex;
+  align-items: flex-start;
+}
+
+.ipa__q:nth-child(1) {
+  grid-area: 1 / 2;
+  justify-content: flex-end;
+  text-align: end;
+}
+.ipa__q:nth-child(2) {
+  grid-area: 1 / 1;
+}
+.ipa__q:nth-child(3) {
+  grid-area: 2 / 1;
+}
+.ipa__q:nth-child(4) {
+  grid-area: 2 / 2;
+  justify-content: flex-end;
+  text-align: end;
+}
+
+.ipa__dot {
+  position: absolute;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--surface);
+  box-shadow: var(--sh-1);
+  transform: translate(50%, 50%);
+}

@@ -1,0 +1,55 @@
+﻿Line item,Year 1,Year 2,Year 3,Year 4,Year 5
+Revenue,27690000,30968520,34646633,38774440,43408495
+Cost of goods sold,15294000,17110080,19148011,21435658,24004479
+Gross profit,12396000,13858440,15498622,17338782,19404016
+Operating expenses,7773450,8701615,9741807,10907696,12214637
+EBITDA,4622550,5156825,5756815,6431086,7189379
+Depreciation,2054000,2054000,2054000,2054000,2054000
+Profit before tax,2568550,3102825,3702815,4377086,5135379
+Tax,565081,682622,814619,962959,1129783
+Net profit,2003469,2420204,2888196,3414127,4005595
+Free cash flow,787305,2786310,4563077,5042611,5581843
+Cumulative cash flow,-7712695,-4926386,-363309,4679302,10261145
+NPV,377216
+IRR,0.25636242986571356
+Break-even (units),1451
+
+Capital expenditure (CAPEX)
+Item,Category,Quantity,Unit cost,Year,Total
+Online store development and order management system,Technology infrastructure,1,1250000,0,1250000
+Servers and initial run infrastructure,Technology infrastructure,1,340000,0,340000
+"Integrations (payment, shipping, accounting, CRM)",Technology infrastructure,1,180000,0,180000
+Workstations and the digital workspace,Technology infrastructure,6,45000,0,270000
+Second CNC router,Workshop and operations,1,2800000,0,2800000
+Finishing and packaging equipment,Workshop and operations,1,780000,0,780000
+Hand tools and digital measuring equipment,Workshop and operations,1,220000,0,220000
+Delivery and service vehicle,Workshop and operations,1,900000,0,900000
+Model showroom fit-out and measurement laboratory,Workshop and operations,1,450000,0,450000
+Visual identity development,Brand and marketing,1,180000,0,180000
+Product photography (initial catalogue),Brand and marketing,1,140000,0,140000
+Trademark registration and intellectual property,Compliance,1,90000,0,90000
+Licence renewal and equipment insurance,Compliance,1,300000,0,300000
+Inventory and logistics management system,Technology infrastructure,1,420000,1,420000
+Production line expansion (second line),Workshop and operations,1,1350000,2,1350000
+Staged working capital,Working capital,1,600000,0,600000
+
+Operating expenses (OPEX)
+Item,Category,Type,Value,Unit
+Operations and administrative payroll,Payroll,fixed,185000,per month
+Workshop and warehouse rent,Rent,fixed,45000,per month
+"Electricity, water and fuel",Utilities,fixed,18000,per month
+Hosting and technical maintenance,Technology,fixed,12500,per month
+AI tooling subscriptions,Technology,fixed,22000,per month
+Accounting and legal audit,Finance,fixed,6000,per month
+Workshop maintenance and spare parts,Operations,fixed,9000,per month
+Administrative and general expenses,General,fixed,12000,per month
+Digital and marketing team payroll,Payroll,fixed,96000,per month
+Paid marketing and advertising,Marketing,pct_revenue,8,% of revenue
+Content and photography studio,Marketing,pct_revenue,2.5,% of revenue
+
+Revenue streams
+Stream,Price,Units/month,Growth %,Variable cost
+"Ready-made products (tables, chairs, shelving)",3850,220,12,2150
+"Made-to-order furniture (kitchens, wardrobes, doors)",18500,45,10,10200
+Institutional projects (B2B),68000,8,15,38000
+Maintenance and renovation services,2400,35,8,1100

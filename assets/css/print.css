@@ -1,0 +1,308 @@
+/* ============================================================
+   الطباعة — A4 / PDF
+   ============================================================ */
+
+@page {
+  size: A4;
+  margin: 24mm 15mm 18mm;
+}
+
+@page :first {
+  margin: 0;
+}
+
+/* صفحات أفقية للجداول المالية العريضة */
+@page landscape {
+  size: A4 landscape;
+  margin: 16mm 14mm;
+}
+
+/* ---------- ترويسة/تذييل متكرران ---------- */
+.print-header,
+.print-footer {
+  position: fixed;
+  inset-inline: 15mm;
+  font-size: 8.5pt;
+  color: #555;
+  font-family: var(--font-sans);
+  display: none;
+}
+
+.print-header {
+  inset-block-start: 7mm;
+  padding-block-end: 1.5mm;
+  border-block-end: 0.5pt solid #bbb;
+}
+
+.print-footer {
+  inset-block-end: 6mm;
+  padding-block-start: 1.5mm;
+  border-block-start: 0.5pt solid #bbb;
+}
+
+.print-header__in,
+.print-footer__in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8mm;
+  max-inline-size: 100%;
+}
+
+.print-header__title,
+.print-footer__title {
+  font-weight: 600;
+  color: #333;
+}
+
+.print-footer__page {
+  font-family: var(--font-mono);
+  direction: ltr;
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+}
+
+/* عدّاد الصفحات — يعمل في Chrome/Edge عند الطباعة */
+.print-footer__page::after {
+  content: counter(page) " / " counter(pages);
+}
+
+@media print {
+  html,
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 10pt;
+    line-height: 1.75;
+  }
+
+  .print-header,
+  .print-footer {
+    display: flex;
+  }
+
+  /* ---------- فاصل صفحات مُحسوب ---------- */
+  .page-break {
+    break-before: page;
+    page-break-before: always;
+  }
+
+  /* ---------- إخفاء عناصر الشاشة ---------- */
+  .sidebar,
+  .toolbar,
+  .no-print,
+  .print-measure,
+  .skip-link,
+  .chart__tooltip,
+  .toast {
+    display: none !important;
+  }
+
+  .app {
+    display: block;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .doc {
+    padding: 0;
+  }
+
+  /* ---------- الغلاف: صفحة كاملة ---------- */
+  .cover {
+    min-height: 297mm;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+    padding: 26mm 20mm;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    page-break-after: always;
+    break-after: page;
+  }
+
+  /* ---------- فاصل صفحة لكل قسم ---------- */
+  .sec {
+    page-break-before: always;
+    break-before: page;
+    padding-block: 0 6mm;
+    border-block-start: 0;
+  }
+
+  .sec:first-of-type {
+    page-break-before: avoid;
+    break-before: avoid;
+  }
+
+  .page-break {
+    page-break-after: always;
+    break-after: page;
+  }
+
+  /* ---------- البطاقات والجداول ---------- */
+  .card,
+  .callout,
+  .kpi,
+  .agent,
+  .swot__quad,
+  .chart,
+  .tl__item,
+  .box {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    box-shadow: none;
+  }
+
+  .tbl-wrap {
+    break-inside: auto;
+    overflow: hidden;
+    border: 0.5pt solid #bbb;
+    border-radius: 0;
+  }
+
+  .tbl-wrap--tall {
+    max-height: none;
+    overflow: hidden;
+  }
+
+  .tbl {
+    font-size: 8.6pt;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  .tbl--compact {
+    font-size: 7.4pt;
+  }
+
+  .tbl--compact th,
+  .tbl--compact td {
+    padding: 2pt 3pt;
+    overflow-wrap: break-word;
+  }
+
+  /* الجداول المالية العريضة في صفحات أفقية */
+  .tbl-landscape {
+    page: landscape;
+    break-before: page;
+    break-after: page;
+  }
+
+  /* ---------- استعادة أعمدة الشبكات في الطباعة ---------- */
+  .g-2,
+  .g-2-1,
+  .g-1-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .g-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .g-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .swot {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tfoot {
+    display: table-footer-group;
+  }
+
+  tr {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  thead th {
+    position: static;
+    background: #eee !important;
+    color: #000;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* ---------- الألوان مطبوعة ---------- */
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* ---------- الروابط ---------- */
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  /* ---------- روابط الفهرس تُخفى رقمها؟ لا: تُعرض ---------- */
+  .toc__link {
+    color: #000;
+    grid-template-columns: 1fr auto;
+  }
+
+  .toc__num {
+    color: #333;
+  }
+
+  .toc__link[aria-current="true"] {
+    background: none;
+    color: #000;
+  }
+
+  /* ---------- الحقول القابلة للتحرير: بلا إطارات ---------- */
+  .field,
+  [data-text] {
+    border-color: transparent;
+    background: transparent;
+    box-shadow: none;
+    padding-inline: 0;
+  }
+
+  .field:focus,
+  [data-text]:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .field--num {
+    text-align: end;
+  }
+
+  /* ---------- عدم قصّ الروابط/الشعارات ---------- */
+  .cover__meta,
+  .cover__top {
+    break-inside: avoid;
+  }
+
+  /* ---------- إخفاء المؤشرات التفاعلية ---------- */
+  .meter__fill {
+    transition: none;
+  }
+
+  .badge {
+    border: 0.5pt solid #999;
+  }
+
+  /* ---------- تذييل الجداول يتكرر ---------- */
+  .tbl tfoot td,
+  .tbl tfoot th {
+    background: #f2f2f2 !important;
+  }
+}
+
+/* ============================================================
+   الوضع على الشاشة: معاينة الطباعة
+   ============================================================ */
+@media screen {
+  .print-header,
+  .print-footer {
+    display: none;
+  }
+}

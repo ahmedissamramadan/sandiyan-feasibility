@@ -1,0 +1,220 @@
+/* ============================================================
+   قالب دراسة الجدوى — نظام التصميم (Design Tokens)
+   مشروع تجارة إلكترونية قائم على ورشة نجارة + ذكاء اصطناعي
+   ------------------------------------------------------------
+   المحور: دفتر واحد نظيف، قابل للطباعة A4، RTL أصيل.
+   ============================================================ */
+
+:root {
+  /* ---------- Palette: الخشب (الأساس التشغيلي) ---------- */
+  --wood-950: #17110c;
+  --wood-900: #241a12;
+  --wood-800: #3a2a1c;
+  --wood-700: #553b26;
+  --wood-600: #7a5433;
+  --wood-500: #9c6b40;
+  --wood-400: #bd8b5e;
+  --wood-300: #d6ae85;
+  --wood-200: #e8d3bd;
+  --wood-100: #f4e9de;
+
+  /* ---------- Palette: الرقمي/النمو/الذكاء الاصطناعي ---------- */
+  --mint-900: #063a32;
+  --mint-800: #0a5347;
+  --mint-700: #0c6a59;
+  --mint-600: #0e7c66;
+  --mint-500: #16a085;
+  --mint-400: #38bda0;
+  --mint-300: #7ad6bf;
+  --mint-200: #bdeade;
+  --mint-100: #e2f6f0;
+
+  /* ---------- Palette: الذهب (الوكلاء/التميّز) ---------- */
+  --gold-800: #6b4a0d;
+  --gold-700: #8a6112;
+  --gold-600: #a8781d;
+  --gold-500: #c08a2e;
+  --gold-400: #d5a94f;
+  --gold-300: #e3c67e;
+  --gold-200: #f0dfb4;
+  --gold-100: #f9f0da;
+
+  /* ---------- Semantic ---------- */
+  --ok: var(--mint-600);
+  --ok-bg: var(--mint-100);
+  --ok-line: var(--mint-300);
+  --warn: var(--gold-600);
+  --warn-bg: var(--gold-100);
+  --warn-line: var(--gold-300);
+  --danger: #b3261e;
+  --danger-bg: #fdecea;
+  --danger-line: #f2b8b3;
+  --info: #1f5fa8;
+  --info-bg: #eaf2fb;
+  --info-line: #bcd6f0;
+
+  /* ---------- Neutrals (ورق دافئ) ---------- */
+  --ink: #1c1713;
+  --ink-2: #3d342c;
+  --muted: #6f6257;
+  --muted-2: #8d8075;
+  --line: #e3dacd;
+  --line-2: #cfc3b3;
+  --paper: #fbf8f3;
+  --surface: #ffffff;
+  --surface-2: #f6f1ea;
+  --surface-3: #efe8de;
+
+  /* ---------- Role mapping ---------- */
+  --bg: var(--paper);
+  --bg-alt: var(--surface-2);
+  --fg: var(--ink);
+  --fg-muted: var(--muted);
+  --fg-subtle: var(--muted-2);
+  --border: var(--line);
+  --border-strong: var(--line-2);
+  --brand: var(--wood-700);
+  --brand-fg: #ffffff;
+  --brand-soft: var(--wood-100);
+  --accent: var(--mint-600);
+  --accent-fg: #ffffff;
+  --accent-soft: var(--mint-100);
+  --gold: var(--gold-600);
+  --gold-soft: var(--gold-100);
+  --focus: var(--mint-500);
+
+  /* ---------- Typography ---------- */
+  --font-sans: "IBM Plex Sans Arabic", "Tajawal", "Noto Sans Arabic",
+    "Almarai", "Geeza Pro", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --fs-display: clamp(2rem, 1.35rem + 2.4vw, 3.15rem);
+  --fs-h1: clamp(1.65rem, 1.25rem + 1.4vw, 2.25rem);
+  --fs-h2: clamp(1.32rem, 1.12rem + 0.75vw, 1.72rem);
+  --fs-h3: clamp(1.08rem, 1rem + 0.32vw, 1.24rem);
+  --fs-h4: 1rem;
+  --fs-body: 0.995rem;
+  --fs-sm: 0.885rem;
+  --fs-xs: 0.795rem;
+  --fs-micro: 0.735rem;
+
+  --lh-body: 1.92;
+  --lh-tight: 1.45;
+  --lh-head: 1.6;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* ---------- Spacing (مقياس 4px) ---------- */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.35rem;
+  --s-6: 1.75rem;
+  --s-7: 2.25rem;
+  --s-8: 3rem;
+  --s-9: 4rem;
+  --s-10: 5.5rem;
+
+  /* ---------- Radius ---------- */
+  --r-xs: 4px;
+  --r-sm: 7px;
+  --r-md: 11px;
+  --r-lg: 16px;
+  --r-xl: 22px;
+  --r-pill: 999px;
+
+  /* ---------- Elevation ---------- */
+  --sh-1: 0 1px 2px rgba(28, 23, 19, 0.05);
+  --sh-2: 0 2px 6px rgba(28, 23, 19, 0.06), 0 1px 2px rgba(28, 23, 19, 0.04);
+  --sh-3: 0 10px 30px -12px rgba(28, 23, 19, 0.22), 0 2px 8px rgba(28, 23, 19, 0.05);
+  --sh-4: 0 24px 60px -20px rgba(28, 23, 19, 0.3);
+
+  /* ---------- Motion ---------- */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-1: 120ms;
+  --dur-2: 220ms;
+  --dur-3: 420ms;
+
+  /* ---------- Layout ---------- */
+  --sidebar-w: 292px;
+  --doc-max: 1180px;
+  --page-w: 210mm;
+  --page-h: 297mm;
+
+  /* ---------- Print ---------- */
+  --print-fg: #000;
+  --print-muted: #444;
+  --print-line: #b9b9b9;
+}
+
+/* ============================================================
+   السمة الداكنة
+   ============================================================ */
+html[data-theme="dark"] {
+  --bg: #14110e;
+  --bg-alt: #1b1713;
+  --fg: #f2ece4;
+  --fg-muted: #b1a496;
+  --fg-subtle: #8d8075;
+  --border: #352d24;
+  --border-strong: #4a3f33;
+  --surface: #1e1915;
+  --surface-2: #241f1a;
+  --surface-3: #2c251e;
+  --ink: #f2ece4;
+  --ink-2: #ddd3c7;
+
+  --brand: var(--wood-300);
+  --brand-fg: #201609;
+  --brand-soft: #2b211a;
+  --accent: var(--mint-400);
+  --accent-fg: #05231d;
+  --accent-soft: #12332c;
+  --gold: var(--gold-400);
+  --gold-soft: #33280f;
+  --focus: var(--mint-400);
+
+  --ok-bg: #102a24;
+  --ok-line: #1e4f43;
+  --warn-bg: #2c2412;
+  --warn-line: #4d3f1b;
+  --danger-bg: #2e1512;
+  --danger-line: #5a2a25;
+  --info-bg: #14212f;
+  --info-line: #24415c;
+
+  --sh-1: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --sh-2: 0 2px 8px rgba(0, 0, 0, 0.45);
+  --sh-3: 0 12px 34px -14px rgba(0, 0, 0, 0.7);
+  --sh-4: 0 28px 70px -24px rgba(0, 0, 0, 0.8);
+}
+
+/* ============================================================
+   الطباعة: يُثبَّت السمة الفاتحة دائمًا
+   ============================================================ */
+@media print {
+  html[data-theme="dark"] {
+    --bg: #fff;
+    --bg-alt: #fff;
+    --fg: #000;
+    --fg-muted: #444;
+    --fg-subtle: #555;
+    --border: #b9b9b9;
+    --border-strong: #8a8a8a;
+    --surface: #fff;
+    --surface-2: #f4f4f4;
+    --surface-3: #eee;
+    --brand: #3a2a1c;
+    --brand-fg: #fff;
+    --brand-soft: #f2f2f2;
+    --accent: #0e7c66;
+    --accent-fg: #fff;
+    --accent-soft: #f2f2f2;
+    --gold: #8a6112;
+    --gold-soft: #fbf7ec;
+  }
+}

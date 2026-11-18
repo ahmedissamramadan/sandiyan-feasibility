@@ -1,0 +1,443 @@
+{
+  "meta": {
+    "title": "Feasibility Study — E-commerce Expansion",
+    "project_name": "Dar Al-Khashab — Digital Expansion",
+    "slug": "dar-alkhashab-digital",
+    "version": "1.0",
+    "status": "Draft for review and approval",
+    "prepared_by": "Digital Transformation Unit — Software House · Marketing Agency · AI Agency",
+    "prepared_for": "The company owning the Dar Al-Khashab workshop",
+    "date": "2026-11-14",
+    "confidentiality": "Confidential — internal circulation only"
+  },
+  "generated_at": "2026-11-16T19:15:33",
+  "language": "en",
+  "assumptions": {
+    "currency": "EGP",
+    "horizon_years": 5,
+    "discount_rate": 0.24,
+    "tax_rate": 0.22,
+    "inflation": 0.12,
+    "depreciation_years": 5,
+    "salvage_pct": 0,
+    "working_capital": {
+      "ar_days": 21,
+      "inventory_days": 60,
+      "ap_days": 30
+    },
+    "capex": [
+      {
+        "label": "Online store development and order management system",
+        "category": "Technology infrastructure",
+        "qty": 1,
+        "unit": "system",
+        "unit_cost": 1250000,
+        "year": 0,
+        "note": "Fully bespoke build with no ready-made themes"
+      },
+      {
+        "label": "Servers and initial run infrastructure",
+        "category": "Technology infrastructure",
+        "qty": 1,
+        "unit": "package",
+        "unit_cost": 340000,
+        "year": 0,
+        "note": "Two years paid in advance"
+      },
+      {
+        "label": "Integrations (payment, shipping, accounting, CRM)",
+        "category": "Technology infrastructure",
+        "qty": 1,
+        "unit": "package",
+        "unit_cost": 180000,
+        "year": 0
+      },
+      {
+        "label": "Workstations and the digital workspace",
+        "category": "Technology infrastructure",
+        "qty": 6,
+        "unit": "unit",
+        "unit_cost": 45000,
+        "year": 0
+      },
+      {
+        "label": "Second CNC router",
+        "category": "Workshop and operations",
+        "qty": 1,
+        "unit": "unit",
+        "unit_cost": 2800000,
+        "year": 0,
+        "note": "Conditional escrow: released only after achieving 70% capacity utilisation for 3 consecutive months (raising capacity to 520 units/month)"
+      },
+      {
+        "label": "Finishing and packaging equipment",
+        "category": "Workshop and operations",
+        "qty": 1,
+        "unit": "package",
+        "unit_cost": 780000,
+        "year": 0
+      },
+      {
+        "label": "Hand tools and digital measuring equipment",
+        "category": "Workshop and operations",
+        "qty": 1,
+        "unit": "package",
+        "unit_cost": 220000,
+        "year": 0
+      },
+      {
+        "label": "Delivery and service vehicle",
+        "category": "Workshop and operations",
+        "qty": 1,
+        "unit": "vehicle",
+        "unit_cost": 900000,
+        "year": 0,
+        "note": "Lowers delivery cost inside Cairo"
+      },
+      {
+        "label": "Model showroom fit-out and measurement laboratory",
+        "category": "Workshop and operations",
+        "qty": 1,
+        "unit": "fit-out",
+        "unit_cost": 450000,
+        "year": 0
+      },
+      {
+        "label": "Visual identity development",
+        "category": "Brand and marketing",
+        "qty": 1,
+        "unit": "project",
+        "unit_cost": 180000,
+        "year": 0
+      },
+      {
+        "label": "Product photography (initial catalogue)",
+        "category": "Brand and marketing",
+        "qty": 1,
+        "unit": "package",
+        "unit_cost": 140000,
+        "year": 0,
+        "note": "First 50 pieces"
+      },
+      {
+        "label": "Trademark registration and intellectual property",
+        "category": "Compliance",
+        "qty": 1,
+        "unit": "package",
+        "unit_cost": 90000,
+        "year": 0
+      },
+      {
+        "label": "Licence renewal and equipment insurance",
+        "category": "Compliance",
+        "qty": 1,
+        "unit": "package",
+        "unit_cost": 300000,
+        "year": 0
+      },
+      {
+        "label": "Inventory and logistics management system",
+        "category": "Technology infrastructure",
+        "qty": 1,
+        "unit": "system",
+        "unit_cost": 420000,
+        "year": 1,
+        "note": "Once order flow has stabilised"
+      },
+      {
+        "label": "Production line expansion (second line)",
+        "category": "Workshop and operations",
+        "qty": 1,
+        "unit": "line",
+        "unit_cost": 1350000,
+        "year": 2,
+        "note": "Conditional on reaching break-even"
+      },
+      {
+        "label": "Staged working capital",
+        "category": "Working capital",
+        "qty": 1,
+        "unit": "amount",
+        "unit_cost": 600000,
+        "year": 0,
+        "note": "Covers the payment gap between purchase and collection"
+      }
+    ],
+    "opex": [
+      {
+        "label": "Operations and administrative payroll",
+        "category": "Payroll",
+        "type": "fixed",
+        "monthly": 185000,
+        "note": "Current headcount of 14"
+      },
+      {
+        "label": "Workshop and warehouse rent",
+        "category": "Rent",
+        "type": "fixed",
+        "monthly": 45000
+      },
+      {
+        "label": "Electricity, water and fuel",
+        "category": "Utilities",
+        "type": "fixed",
+        "monthly": 18000
+      },
+      {
+        "label": "Hosting and technical maintenance",
+        "category": "Technology",
+        "type": "fixed",
+        "monthly": 12500
+      },
+      {
+        "label": "AI tooling subscriptions",
+        "category": "Technology",
+        "type": "fixed",
+        "monthly": 22000,
+        "note": "Falls as the models improve"
+      },
+      {
+        "label": "Accounting and legal audit",
+        "category": "Finance",
+        "type": "fixed",
+        "monthly": 6000
+      },
+      {
+        "label": "Workshop maintenance and spare parts",
+        "category": "Operations",
+        "type": "fixed",
+        "monthly": 9000
+      },
+      {
+        "label": "Administrative and general expenses",
+        "category": "General",
+        "type": "fixed",
+        "monthly": 12000
+      },
+      {
+        "label": "Digital and marketing team payroll",
+        "category": "Payroll",
+        "type": "fixed",
+        "monthly": 96000,
+        "note": "Included in the human resources plan"
+      },
+      {
+        "label": "Paid marketing and advertising",
+        "category": "Marketing",
+        "type": "pct_revenue",
+        "monthly": 8,
+        "note": "Percentage of revenue"
+      },
+      {
+        "label": "Content and photography studio",
+        "category": "Marketing",
+        "type": "pct_revenue",
+        "monthly": 2.5,
+        "note": "Percentage of revenue"
+      }
+    ],
+    "revenue": [
+      {
+        "label": "Ready-made products (tables, chairs, shelving)",
+        "price": 3850,
+        "monthly_units": 220,
+        "growth": 12,
+        "variable_cost": 2150,
+        "note": "Average price including packaging"
+      },
+      {
+        "label": "Made-to-order furniture (kitchens, wardrobes, doors)",
+        "price": 18500,
+        "monthly_units": 45,
+        "growth": 10,
+        "variable_cost": 10200,
+        "note": "Higher margin, longer cycle"
+      },
+      {
+        "label": "Institutional projects (B2B)",
+        "price": 68000,
+        "monthly_units": 8,
+        "growth": 15,
+        "variable_cost": 38000,
+        "note": "Developers and offices"
+      },
+      {
+        "label": "Maintenance and renovation services",
+        "price": 2400,
+        "monthly_units": 35,
+        "growth": 8,
+        "variable_cost": 1100,
+        "note": "Low-cost recurring revenue"
+      }
+    ],
+    "assumptions": [
+      {
+        "label": "A 24% discount rate reflects the high cost of capital in the local market together with execution risk",
+        "value": "24%"
+      },
+      {
+        "label": "A 22% tax rate applied to net profit",
+        "value": "22%"
+      },
+      {
+        "label": "12% annual inflation lifts fixed operating costs each year",
+        "value": "12%"
+      },
+      {
+        "label": "21-day collection and 60-day inventory, consistent with the nature of made-to-order furniture",
+        "value": "—"
+      },
+      {
+        "label": "Straight-line depreciation over five years with no residual value",
+        "value": "5 years"
+      }
+    ],
+    "notes": "Capital Structure: Phase 1 requirements stand at EGP 8,500,000 (comprising EGP 5,700,000 immediate launch capital, and EGP 2,800,000 for the second CNC router held in escrow until 70% capacity utilization is achieved for 3 consecutive months). 5-Year Cumulative CAPEX totals EGP 10,270,000 (adding EGP 420,000 in Year 1 for systems and EGP 1,350,000 in Year 2 for the second production line). All figures are estimates based on operational workshop data and customer interviews. Assumptions must be reviewed after the third month of launch and the model recalibrated against actual data."
+  },
+  "results": {
+    "npv": 377215.88429153943,
+    "irr": 0.25636242986571356,
+    "break_even_units": 1450.8499515972894,
+    "break_even_revenue": 10869598.25750242,
+    "total_revenue": 175488088.13472003,
+    "total_net": 14731590.718988847,
+    "capex_total": 10270000.0
+  },
+  "years": [
+    {
+      "year": 1,
+      "units": 3696.0,
+      "revenue": 27690000.0,
+      "cogs": 15294000.0,
+      "gross": 12396000.0,
+      "gross_margin": 0.447670639219935,
+      "opex_fixed": 4866000.0,
+      "opex_var": 2907450.0,
+      "opex_total": 7773450.0,
+      "ebitda": 4622550.0,
+      "ebitda_margin": 0.16693932827735644,
+      "depreciation": 2054000.0,
+      "ebit": 2568550.0,
+      "tax": 565081.0,
+      "net": 2003469.0,
+      "net_margin": 0.07235352112676056,
+      "working_capital": 2850164.383561644,
+      "delta_wc": 2850164.383561644,
+      "capex": 420000.0,
+      "fcf": 787304.6164383562,
+      "cumulative": -7712695.383561644
+    },
+    {
+      "year": 2,
+      "units": 4114.8,
+      "revenue": 30968520.0,
+      "cogs": 17110080.0,
+      "gross": 13858440.0,
+      "gross_margin": 0.4475008815403513,
+      "opex_fixed": 5449920.000000001,
+      "opex_var": 3251694.6,
+      "opex_total": 8701614.600000001,
+      "ebitda": 5156825.4,
+      "ebitda_margin": 0.16651830310263455,
+      "depreciation": 2054000.0,
+      "ebit": 3102825.4000000004,
+      "tax": 682621.5880000001,
+      "net": 2420203.8120000004,
+      "net_margin": 0.0781504512324128,
+      "working_capital": 3188058.4109589043,
+      "delta_wc": 337894.02739726054,
+      "capex": 1350000.0,
+      "fcf": 2786309.7846027403,
+      "cumulative": -4926385.598958904
+    },
+    {
+      "year": 3,
+      "units": 4581.8640000000005,
+      "revenue": 34646632.800000004,
+      "cogs": 19148011.200000003,
+      "gross": 15498621.600000001,
+      "gross_margin": 0.44733413747496986,
+      "opex_fixed": 6103910.4,
+      "opex_var": 3637896.4440000006,
+      "opex_total": 9741806.844,
+      "ebitda": 5756814.756000001,
+      "ebitda_margin": 0.16615798681596558,
+      "depreciation": 2054000.0,
+      "ebit": 3702814.756000001,
+      "tax": 814619.2463200003,
+      "net": 2888195.5096800006,
+      "net_margin": 0.08336150662467841,
+      "working_capital": 3567177.0542465756,
+      "delta_wc": 379118.64328767126,
+      "capex": 0.0,
+      "fcf": 4563076.866392329,
+      "cumulative": -363308.7325665746
+    },
+    {
+      "year": 4,
+      "units": 5102.832960000002,
+      "revenue": 38774439.88800001,
+      "cogs": 21435658.272,
+      "gross": 17338781.61600001,
+      "gross_margin": 0.4471703953966348,
+      "opex_fixed": 6836379.648000003,
+      "opex_var": 4071316.188240001,
+      "opex_total": 10907695.836240005,
+      "ebitda": 6431085.779760009,
+      "ebitda_margin": 0.16585889566261183,
+      "depreciation": 2054000.0,
+      "ebit": 4377085.779760009,
+      "tax": 962958.8715472019,
+      "net": 3414126.908212807,
+      "net_margin": 0.08805096651491329,
+      "working_capital": 3992693.11180274,
+      "delta_wc": 425516.05755616445,
+      "capex": 0.0,
+      "fcf": 5042610.850656643,
+      "cumulative": 4679302.118090068
+    },
+    {
+      "year": 5,
+      "units": 5684.015073600002,
+      "revenue": 43408495.44672001,
+      "cogs": 24004479.38688,
+      "gross": 19404016.059840012,
+      "gross_margin": 0.44700964316205527,
+      "opex_fixed": 7656745.205760003,
+      "opex_var": 4557892.021905601,
+      "opex_total": 12214637.227665603,
+      "ebitda": 7189378.832174409,
+      "ebitda_margin": 0.1656214701336221,
+      "depreciation": 2054000.0,
+      "ebit": 5135378.832174409,
+      "tax": 1129783.34307837,
+      "net": 4005595.489096039,
+      "net_margin": 0.09227676398074068,
+      "working_capital": 4470445.989006905,
+      "delta_wc": 477752.87720416486,
+      "capex": 0.0,
+      "fcf": 5581842.611891874,
+      "cumulative": 10261144.729981942
+    }
+  ],
+  "scenarios": {
+    "متحفظ": {
+      "npv": -11645232.13385729,
+      "irr": null,
+      "total_revenue": 113835358.95940802,
+      "total_net": -9674010.305588512
+    },
+    "أساسي": {
+      "npv": 377215.88429153943,
+      "irr": 0.25636242986571356,
+      "total_revenue": 175488088.13472003,
+      "total_net": 14731590.718988847
+    },
+    "متفائل": {
+      "npv": 9132886.511425765,
+      "irr": 0.5994851510770671,
+      "total_revenue": 236641809.97665793,
+      "total_net": 33634598.87011129
+    }
+  }
+}
