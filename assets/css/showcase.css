@@ -180,14 +180,37 @@ html[data-view="showcase"] .app {
 @media (max-width: 768px) {
   .showcase-deck {
     padding: 16px 12px 84px;
+    overflow-x: hidden;
+  }
+  .showcase-topbar {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 12px 14px;
   }
   .showcase-act {
     padding: 20px 16px;
   }
+  .showcase-act h2 {
+    font-size: clamp(1.2rem, 4.5vw, 1.65rem);
+    line-height: 1.35;
+  }
+  .showcase-step-btn,
+  .showcase-nav-footer .btn {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .showcase-kpis,
+  .showcase-sim-grid,
+  .showcase-icon-grid {
+    grid-template-columns: 1fr;
+  }
   .dk-view-toggle-float {
     bottom: 14px;
     inset-inline-end: 14px;
-    padding: 8px 14px;
-    font-size: 0.82rem;
+    padding: 10px 16px;
+    min-height: 44px;
+    font-size: 0.85rem;
   }
 }
