@@ -214,7 +214,7 @@ th.num {
 
 /* ---------- قوائم المرقم العربي ---------- */
 ol.ar-nums > li::marker {
-  content: counter(list-item, arabic-indic) " — ";
+  content: counter(list-item, arabic-indic) ": ";
 }
 
 ol.ar-nums {

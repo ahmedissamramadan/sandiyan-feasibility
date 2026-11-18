@@ -1,17 +1,17 @@
-# Agent registry — Sandiyan — Digital Expansion
+# Agent registry: Sandiyan: Digital Expansion
 
 > 25 agents · Generated automatically from the data layer
 
 Each agent: a defined mission, tools, outputs, a performance indicator, a human owner and an escalation trigger.
 
-## 1 — Leadership and coordination
+## 1: Leadership and coordination
 
 | ID | Agent | Role | Tools | Outputs | Performance metric | Human owner | Autonomy |
 |---|---|---|---|---|---|---|---|
 | A01 | Project Manager Agent | Coordination | Linear · Notion · Slack · Gmail | Project status board · Daily report · Risk register | Share of tasks completed on schedule | Digital Project Manager | Autonomous |
 | A02 | Operations Manager Agent | Operational coordination | Workshop · Airtable · Internal record | Daily production schedule · Capacity breach alerts · Production report | On-time delivery rate | Workshop Manager | Autonomous |
 
-## 2 — Engineering and development
+## 2: Engineering and development
 
 | ID | Agent | Role | Tools | Outputs | Performance metric | Human owner | Autonomy |
 |---|---|---|---|---|---|---|---|
@@ -21,7 +21,7 @@ Each agent: a defined mission, tools, outputs, a performance indicator, a human 
 | A06 | Cybersecurity Agent | Security | Vault · Snyk · Cloudflare | Security reports · Permission policies · Incident response | Time to close critical vulnerabilities | Head of Engineering | Autonomous |
 | A07 | Integration Agent | Systems integration | Webhooks · Zapier · ERP | Working integrations · Daily sync reports · Failure rerouting | Order sync success rate | Head of Engineering | Autonomous |
 
-## 3 — Marketing and content
+## 3: Marketing and content
 
 | ID | Agent | Role | Tools | Outputs | Performance metric | Human owner | Autonomy |
 |---|---|---|---|---|---|---|---|
@@ -32,7 +32,7 @@ Each agent: a defined mission, tools, outputs, a performance indicator, a human 
 | A12 | Social Media Agent | Publishing | Meta Suite · LinkedIn · Buffer | Scheduled posts · Engagement reports · Content calendar | Engagement rate and follower growth | Marketing Manager | Autonomous |
 | A13 | Campaign Analyst Agent | Advertising measurement | GA4 · BigQuery · Looker · Python | Campaign reports · Target segment lists · Attribution recommendations | Attribution model accuracy | Marketing Manager | Autonomous |
 
-## 4 — Customer service
+## 4: Customer service
 
 | ID | Agent | Role | Tools | Outputs | Performance metric | Human owner | Autonomy |
 |---|---|---|---|---|---|---|---|
@@ -40,7 +40,7 @@ Each agent: a defined mission, tools, outputs, a performance indicator, a human 
 | A15 | After-sales Agent | Relationships | CRM · Review tools · Google Business | Automated follow-ups · Published reviews · Feedback report | Review rate and customer satisfaction | Customer Service Manager | Autonomous |
 | A16 | Customer Experience Agent | Improvement | Maze · Hotjar · CRM | Friction maps · Prioritised improvement list · Test results | Visit-to-order conversion rate | Head of Product | Autonomous |
 
-## 5 — Operations and manufacturing
+## 5: Operations and manufacturing
 
 | ID | Agent | Role | Tools | Outputs | Performance metric | Human owner | Autonomy |
 |---|---|---|---|---|---|---|---|
@@ -49,7 +49,7 @@ Each agent: a defined mission, tools, outputs, a performance indicator, a human 
 | A19 | Inventory Agent | Inventory | ERP · Logistics platform · Excel | Purchase orders · Stock health report · Stock-out alerts | Inventory turnover | Storekeeper | Autonomous |
 | A20 | Supplier Agent | Procurement | ERP · Supplier register · Email | Purchase orders · Supplier performance report · Documented negotiations | Material cost saving rate | Storekeeper | Autonomous |
 
-## 6 — Analytics and decisions
+## 6: Analytics and decisions
 
 | ID | Agent | Role | Tools | Outputs | Performance metric | Human owner | Autonomy |
 |---|---|---|---|---|---|---|---|
@@ -57,7 +57,7 @@ Each agent: a defined mission, tools, outputs, a performance indicator, a human 
 | A22 | Analytics Agent | Data analysis | Python · BigQuery · Excel | Profitability reports · Updated financial model · Deviation alerts | Accuracy of the cost model | Finance Manager | Autonomous |
 | A23 | Risk Review Agent | Governance | Notion · Sheets | Updated risk register · Early warnings · Contingency plan tests | Share of risks with a mitigation action | Digital Project Manager | Autonomous |
 
-## 7 — Finance and compliance
+## 7: Finance and compliance
 
 | ID | Agent | Role | Tools | Outputs | Performance metric | Human owner | Autonomy |
 |---|---|---|---|---|---|---|---|
@@ -68,7 +68,7 @@ Each agent: a defined mission, tools, outputs, a performance indicator, a human 
 
 ### Principles
 
-- Every agent has a human owner accountable for its output — there is no agent without an owner.
+- Every agent has a human owner accountable for its output: there is no agent without an owner.
 - The propose-then-review principle is mandatory for any decision touching money or a customer.
 - Every agent output is traceable: which data and which instructions produced it.
 - Customer personal data is never stored outside approved and authorised systems.
@@ -101,6 +101,6 @@ Each agent: a defined mission, tools, outputs, a performance indicator, a human 
 ### Cost control
 
 - A monthly review of AI tooling subscription cost against the operating benefit it delivers.
-- Route each task to the cheapest model tier that meets the need — a small model for repetitive work.
+- Route each task to the cheapest model tier that meets the need: a small model for repetitive work.
 - The cost per order handled by the assistant is measured against the cost of human handling.
 - A monthly spend ceiling per agent, with an alert at 80%.

@@ -1,5 +1,5 @@
 /* ============================================================
-   charts.js — رسوم SVG مكتوبة يدويًا (بلا مكتبات خارجية)
+   charts.js: رسوم SVG مكتوبة يدويًا (بلا مكتبات خارجية)
    ------------------------------------------------------------
    ملاحظة اتجاهية: المحاور الزمنية تبقى من اليسار لليمين وفق
    الإجماع في التقارير المالية العربية الحديثة، بينما تتبع
@@ -390,7 +390,7 @@
       item.appendChild(sw);
       var txt = document.createElement('span');
       txt.textContent =
-        it.label + ' — ' + (cfg.fmt ? cfg.fmt(it.value) : it.value) + ' (' + Math.round(total ? ((it.value || 0) / total) * 100 : 0) + '%)';
+        it.label + ': ' + (cfg.fmt ? cfg.fmt(it.value) : it.value) + ' (' + Math.round(total ? ((it.value || 0) / total) * 100 : 0) + '%)';
       item.appendChild(txt);
       legend.appendChild(item);
     });
@@ -492,7 +492,7 @@
   }
 
   /* ============================================================
-     Tornado — حساسية الأثر
+     Tornado: حساسية الأثر
      cfg: { items:[{label, low, high, base}] }
      ============================================================ */
   function tornado(container, cfg) {
@@ -550,7 +550,7 @@
   }
 
   /* ============================================================
-     Gantt — خارطة الطريق الزمنية
+     Gantt: خارطة الطريق الزمنية
      cfg: { phases:[{label, start, end, color, milestone}] , totalMonths }
      ============================================================ */
   function gantt(container, cfg) {
@@ -596,7 +596,7 @@
   }
 
   /* ============================================================
-     أشرطة أفقية (HTML/CSS — تتبع اتجاه الصفحة RTL)
+     أشرطة أفقية (HTML/CSS: تتبع اتجاه الصفحة RTL)
      cfg: { items:[{label, value, color, sub}] , fmt }
      ============================================================ */
   function barsH(container, cfg) {

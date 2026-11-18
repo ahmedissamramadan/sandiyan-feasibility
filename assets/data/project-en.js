@@ -2,16 +2,16 @@
    الغرض منها: السماح بتشغيل القالب بفتح index.html مباشرة (file://) دون خادم. */
 window.__PROJECT_EN__ = {
   "meta": {
-    "title": "Feasibility Study — E-commerce Expansion",
+    "title": "Feasibility Study: E-commerce Expansion",
     "subtitle": "From an existing carpentry workshop to a complete digital presence: an online store, data-driven marketing, and AI agencies that run the operation by role.",
-    "project_name": "Sandiyan — Digital Expansion",
+    "project_name": "Sandiyan: Digital Expansion",
     "slug": "dar-alkhashab-digital",
     "version": "1.0",
     "status": "Draft for review and approval",
-    "prepared_by": "Digital Transformation Unit — Software House · Marketing Agency · AI Agency",
+    "prepared_by": "Digital Transformation Unit: Software House · Marketing Agency · AI Agency",
     "prepared_for": "The company owning the Sandiyan workshop",
     "date": "2026-11-14",
-    "confidentiality": "Confidential — internal circulation only"
+    "confidentiality": "Confidential: internal circulation only"
   },
   "doc_control": {
     "reference": "FS-DK-2026-001",
@@ -19,13 +19,13 @@ window.__PROJECT_EN__ = {
     "review_due": "2027-05-14",
     "distribution": "Executive management · Investors · Board of directors",
     "reviewers": [
-      "Operations Manager — production capacity and supply chain review",
-      "Finance Manager — assumptions and model review",
-      "Head of Engineering & AI — agent map and governance review"
+      "Operations Manager: production capacity and supply chain review",
+      "Finance Manager: assumptions and model review",
+      "Head of Engineering & AI: agent map and governance review"
     ],
     "approvers": [
-      "Chief Executive — investment decision",
-      "Founding partner — financial commitment"
+      "Chief Executive: investment decision",
+      "Founding partner: financial commitment"
     ]
   },
   "revisions": [
@@ -102,7 +102,7 @@ window.__PROJECT_EN__ = {
     "form": "Limited liability company",
     "founded": "2016",
     "capital": "EGP 1,200,000",
-    "activity": "Made-to-order wood furniture manufacturing — kitchens, wardrobes, doors, tables and office furniture",
+    "activity": "Made-to-order wood furniture manufacturing: kitchens, wardrobes, doors, tables and office furniture",
     "tax_id": "EG-4871-229-33",
     "licenses": [
       {
@@ -121,7 +121,7 @@ window.__PROJECT_EN__ = {
       },
       {
         "name": "Workshop operating licence",
-        "authority": "District — craft facility licensing",
+        "authority": "District: craft facility licensing",
         "number": "71/2024",
         "status": "Valid",
         "expiry": "2027-03-18"
@@ -136,7 +136,7 @@ window.__PROJECT_EN__ = {
     ],
     "partners": [
       {
-        "name": "Founder — workshop operations",
+        "name": "Founder: workshop operations",
         "role": "Owner of the operating process and quality",
         "share": "55%"
       },
@@ -189,7 +189,7 @@ window.__PROJECT_EN__ = {
     "capacity": {
       "area": "640 m²",
       "monthly_units": "340 units",
-      "utilization": "19% today — 62% targeted within 24 months",
+      "utilization": "19% today: 62% targeted within 24 months",
       "work_days": "26 days / month"
     },
     "materials": [
@@ -197,7 +197,7 @@ window.__PROJECT_EN__ = {
         "name": "Moisture-resistant MDF",
         "unit": "board",
         "price": 780,
-        "supplier": "Local supplier — industrial zone",
+        "supplier": "Local supplier: industrial zone",
         "lead_days": 7,
         "note": "Most used in kitchens"
       },
@@ -205,7 +205,7 @@ window.__PROJECT_EN__ = {
         "name": "Solid wood (Oak)",
         "unit": "m³",
         "price": 32000,
-        "supplier": "Imported supplier — Orient Wood",
+        "supplier": "Imported supplier: Orient Wood",
         "lead_days": 21,
         "note": "Premium customers"
       },
@@ -221,7 +221,7 @@ window.__PROJECT_EN__ = {
         "name": "Hinge and runner accessories",
         "unit": "set",
         "price": 340,
-        "supplier": "Accessories supplier — Al-Ogba",
+        "supplier": "Accessories supplier: Al-Ogba",
         "lead_days": 4,
         "note": "A common bottleneck"
       },
@@ -306,15 +306,15 @@ window.__PROJECT_EN__ = {
       }
     ],
     "strengths": [
-      "An operating asset that already exists — there is no need to build production capacity from scratch",
+      "An operating asset that already exists: there is no need to build production capacity from scratch",
       "A quality reputation documented in the local market through word of mouth",
-      "The ability to customise to measure — a capability that ready-made stores cannot easily copy",
+      "The ability to customise to measure: a capability that ready-made stores cannot easily copy",
       "A growing preference for furniture designed to fit the space"
     ],
     "gaps": [
       "No digital presence at all: every order arrives on WhatsApp and is logged by hand",
       "No order management, no stock tracking, no automated invoicing",
-      "No structured market data — decisions rest on estimates",
+      "No structured market data: decisions rest on estimates",
       "Responsiveness depends on one coordinator's personal channel",
       "No measurement layer and no real-time financial reporting"
     ]
@@ -412,69 +412,69 @@ window.__PROJECT_EN__ = {
         "price_index": "0.98",
         "strength": "The same workshop and the same team",
         "weakness": "It has no digital presence, no buying experience and no data",
-        "share": "0% — the target"
+        "share": "0%: the target"
       }
     ],
     "demand_drivers": [
-      "Growth of development projects in new cities — sustained pressure on demand",
+      "Growth of development projects in new cities: sustained pressure on demand",
       "The gap between product quality and the ease of buying online keeps widening",
       "A shift in digital behaviour within long-life consumer categories",
       "Installation and fit-out requests for new apartments keep rising as internet access improves"
     ],
     "risks": [
-      "Category sensitivity to online purchase — conversion contracts over the first 90 days",
+      "Category sensitivity to online purchase: conversion contracts over the first 90 days",
       "Direct imports as a low-cost substitute",
       "Volatility in timber prices and in the exchange rate",
       "Customer sensitivity to high shipping costs"
     ],
     "sources": [
       {
-        "title": "Home furniture sector report — annual review",
+        "title": "Home furniture sector report: annual review",
         "publisher": "Market Research Centre",
         "year": 2025,
         "type": "Report",
-        "url": "— (internal reference)"
+        "url": "- (internal reference)"
       },
       {
-        "title": "Online shopping behaviour survey — consumer categories",
+        "title": "Online shopping behaviour survey: consumer categories",
         "publisher": "Independent survey",
         "year": 2026,
         "type": "Field survey",
-        "url": "— (internal file)"
+        "url": "- (internal file)"
       },
       {
         "title": "Review analysis of online stores in the furniture category",
         "publisher": "Internal analysis",
         "year": 2026,
         "type": "Digital analysis",
-        "url": "— (internal file)"
+        "url": "- (internal file)"
       },
       {
-        "title": "Material price lists — suppliers",
+        "title": "Material price lists: suppliers",
         "publisher": "Supplier quotations",
         "year": 2026,
         "type": "Prices",
-        "url": "— (procurement file)"
+        "url": "- (procurement file)"
       },
       {
-        "title": "Customer interviews — 18 documented sessions",
+        "title": "Customer interviews: 18 documented sessions",
         "publisher": "Marketing Department",
         "year": 2026,
         "type": "Interviews",
-        "url": "— (interview log)"
+        "url": "- (interview log)"
       }
     ]
   },
   "swot": {
     "s": [
       "An existing operating asset: a workshop running for ten years with a documented quality reputation",
-      "Customisation to measure — a rare competitive advantage in online stores",
+      "Customisation to measure: a rare competitive advantage in online stores",
       "Relatively low fixed costs compared with sector competitors",
       "The ability to manufacture to order in half the market-standard lead time"
     ],
     "w": [
       "No digital infrastructure whatsoever: no store, no management system, no measurement",
-      "No structured operating data — decisions are estimates",
+      "No structured operating data: decisions are estimates",
       "Heavy dependence on one person for order coordination",
       "Thin working capital relative to what simultaneous expansion requires"
     ],
@@ -495,7 +495,7 @@ window.__PROJECT_EN__ = {
   },
   "pestel": [
     {
-      "dimension": "Political — P",
+      "dimension": "Political: P",
       "impact": "High",
       "findings": [
         "Relative volatility in investment indicators reduces the viability of large industrial projects",
@@ -504,7 +504,7 @@ window.__PROJECT_EN__ = {
       ]
     },
     {
-      "dimension": "Economic — E",
+      "dimension": "Economic: E",
       "impact": "High",
       "findings": [
         "Rapidly accelerating inflation in timber and finishing material prices",
@@ -513,7 +513,7 @@ window.__PROJECT_EN__ = {
       ]
     },
     {
-      "dimension": "Social — S",
+      "dimension": "Social: S",
       "impact": "High",
       "findings": [
         "A behavioural shift towards buying through applications",
@@ -522,7 +522,7 @@ window.__PROJECT_EN__ = {
       ]
     },
     {
-      "dimension": "Technological — T",
+      "dimension": "Technological: T",
       "impact": "High",
       "findings": [
         "AI tooling with advanced authoring and analytical capability is readily available",
@@ -531,7 +531,7 @@ window.__PROJECT_EN__ = {
       ]
     },
     {
-      "dimension": "Environmental — E",
+      "dimension": "Environmental: E",
       "impact": "Medium",
       "findings": [
         "Regulations on the disposal of timber waste",
@@ -540,7 +540,7 @@ window.__PROJECT_EN__ = {
       ]
     },
     {
-      "dimension": "Legal — L",
+      "dimension": "Legal: L",
       "impact": "Medium",
       "findings": [
         "Personal data protection law and its application to customer records",
@@ -558,7 +558,7 @@ window.__PROJECT_EN__ = {
     {
       "force": "Threat of new entrants",
       "level": "High",
-      "evidence": "The cost of digital entry has fallen — a store can be live in two weeks — but the real barrier is delivery capability, not the website."
+      "evidence": "The cost of digital entry has fallen: a store can be live in two weeks: but the real barrier is delivery capability, not the website."
     },
     {
       "force": "Bargaining power of suppliers",
@@ -693,7 +693,7 @@ window.__PROJECT_EN__ = {
   "agents": [
     {
       "id": "A01",
-      "group": "1 — Leadership and coordination",
+      "group": "1: Leadership and coordination",
       "title": "Project Manager Agent",
       "role": "Coordination",
       "mission": "Break the commercial objective into executable tasks, keep every agent on its own task, manage dependencies between them, and issue a daily report to the owner.",
@@ -721,7 +721,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A02",
-      "group": "1 — Leadership and coordination",
+      "group": "1: Leadership and coordination",
       "title": "Operations Manager Agent",
       "role": "Operational coordination",
       "mission": "Match incoming orders against the workshop's real production capacity, manage the production queue, and alert the execution team when capacity is exceeded.",
@@ -748,7 +748,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A03",
-      "group": "2 — Engineering and development",
+      "group": "2: Engineering and development",
       "title": "Platform Engineer Agent",
       "role": "Software development",
       "mission": "Build and maintain the online store and the order management system, ship releases, and monitor technical performance and security.",
@@ -776,7 +776,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A04",
-      "group": "2 — Engineering and development",
+      "group": "2: Engineering and development",
       "title": "User Experience Agent",
       "role": "Design",
       "mission": "Improve the buying journey inside the store using session recordings and conversion rates, reducing friction between product selection and payment.",
@@ -803,7 +803,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A05",
-      "group": "2 — Engineering and development",
+      "group": "2: Engineering and development",
       "title": "Data Agent",
       "role": "Analytics",
       "mission": "Build the unified data warehouse, configure tracking events, and publish weekly performance dashboards for every team.",
@@ -831,7 +831,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A06",
-      "group": "2 — Engineering and development",
+      "group": "2: Engineering and development",
       "title": "Cybersecurity Agent",
       "role": "Security",
       "mission": "Review permissions and integrations, monitor intrusion attempts, and comply with best practice in protecting customer data.",
@@ -858,7 +858,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A07",
-      "group": "2 — Engineering and development",
+      "group": "2: Engineering and development",
       "title": "Integration Agent",
       "role": "Systems integration",
       "mission": "Connect the payment gateway, carriers and the accounting system to the order management system, and keep stock synchronised between the platform and the workshop.",
@@ -885,7 +885,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A08",
-      "group": "3 — Marketing and content",
+      "group": "3: Marketing and content",
       "title": "Growth Manager Agent",
       "role": "Growth",
       "mission": "Manage the advertising budget by the return of each channel, run experiments, and scale channels whose acquisition cost stays below the target.",
@@ -913,10 +913,10 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A09",
-      "group": "3 — Marketing and content",
+      "group": "3: Marketing and content",
       "title": "Content Writer Agent",
       "role": "Writing",
-      "mission": "Produce original Arabic content that explains the technical differences — material, installation, warranty — and turns operating experience into a search advantage.",
+      "mission": "Produce original Arabic content that explains the technical differences: material, installation, warranty: and turns operating experience into a search advantage.",
       "tools": [
         "CMS",
         "ChatGPT API",
@@ -940,7 +940,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A10",
-      "group": "3 — Marketing and content",
+      "group": "3: Marketing and content",
       "title": "Brand Designer Agent",
       "role": "Design",
       "mission": "Protect brand consistency across every touchpoint and prepare templates and campaign assets ready for publication.",
@@ -967,7 +967,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A11",
-      "group": "3 — Marketing and content",
+      "group": "3: Marketing and content",
       "title": "Conversation Coach Agent",
       "role": "Conversations",
       "mission": "Answer pre-sales enquiries on WhatsApp and the website, capture lead data, and hand complex cases to a human.",
@@ -994,7 +994,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A12",
-      "group": "3 — Marketing and content",
+      "group": "3: Marketing and content",
       "title": "Social Media Agent",
       "role": "Publishing",
       "mission": "Build the cross-platform publishing calendar, re-surface the best content, and engage the audience at peak hours.",
@@ -1021,7 +1021,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A13",
-      "group": "3 — Marketing and content",
+      "group": "3: Marketing and content",
       "title": "Campaign Analyst Agent",
       "role": "Advertising measurement",
       "mission": "Break each campaign's performance down into real causes, identify the most efficient segments and content, and feed the growth manager actionable recommendations.",
@@ -1049,7 +1049,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A14",
-      "group": "4 — Customer service",
+      "group": "4: Customer service",
       "title": "Customer Service Agent",
       "role": "Support",
       "mission": "Handle after-sales enquiries and complaints, track shipments, and apply the exchange and returns policy within the approved limits.",
@@ -1076,7 +1076,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A15",
-      "group": "4 — Customer service",
+      "group": "4: Customer service",
       "title": "After-sales Agent",
       "role": "Relationships",
       "mission": "Follow up on customer experience after delivery, collect evidence and photographs, and convert satisfaction into reviews and referrals.",
@@ -1102,7 +1102,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A16",
-      "group": "4 — Customer service",
+      "group": "4: Customer service",
       "title": "Customer Experience Agent",
       "role": "Improvement",
       "mission": "Map the full customer journey in one place and identify the real friction points from data rather than assumption.",
@@ -1129,7 +1129,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A17",
-      "group": "5 — Operations and manufacturing",
+      "group": "5: Operations and manufacturing",
       "title": "Production Planner Agent",
       "role": "Planning",
       "mission": "Sequence production orders by priority and material availability, distribute load across the cells, and reduce downtime.",
@@ -1156,7 +1156,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A18",
-      "group": "5 — Operations and manufacturing",
+      "group": "5: Operations and manufacturing",
       "title": "Quality Supervisor Agent",
       "role": "Quality",
       "mission": "Inspect the product before shipping against the standards list, document defects, and hold consignments that do not conform.",
@@ -1183,7 +1183,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A19",
-      "group": "5 — Operations and manufacturing",
+      "group": "5: Operations and manufacturing",
       "title": "Inventory Agent",
       "role": "Inventory",
       "mission": "Monitor raw material and finished goods levels, raise purchase orders at the reorder point, and reduce capital tied up in stock.",
@@ -1210,7 +1210,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A20",
-      "group": "5 — Operations and manufacturing",
+      "group": "5: Operations and manufacturing",
       "title": "Supplier Agent",
       "role": "Procurement",
       "mission": "Manage supplier relationships, compare prices, negotiate payment terms and lead times, and assess performance.",
@@ -1236,7 +1236,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A21",
-      "group": "6 — Analytics and decisions",
+      "group": "6: Analytics and decisions",
       "title": "Market Analyst Agent",
       "role": "Research",
       "mission": "Track competitor pricing and seasonal offers, spot gaps in the market, and refresh the market size estimates.",
@@ -1262,7 +1262,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A22",
-      "group": "6 — Analytics and decisions",
+      "group": "6: Analytics and decisions",
       "title": "Analytics Agent",
       "role": "Data analysis",
       "mission": "Join operating and financial data, calculate contribution margin per product and per channel, and update the financial model programmatically.",
@@ -1289,7 +1289,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A23",
-      "group": "6 — Analytics and decisions",
+      "group": "6: Analytics and decisions",
       "title": "Risk Review Agent",
       "role": "Governance",
       "mission": "Review the risk register periodically, score likelihood and impact, and refresh mitigation actions and contingency plans.",
@@ -1315,7 +1315,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A24",
-      "group": "7 — Finance and compliance",
+      "group": "7: Finance and compliance",
       "title": "Accounting Agent",
       "role": "Finance",
       "mission": "Reconcile financial transactions with the system, issue electronic invoices, and prepare the monthly financial reports.",
@@ -1342,7 +1342,7 @@ window.__PROJECT_EN__ = {
     },
     {
       "id": "A25",
-      "group": "7 — Finance and compliance",
+      "group": "7: Finance and compliance",
       "title": "Compliance Agent",
       "role": "Compliance",
       "mission": "Track the regulatory requirements of e-commerce and data protection, and maintain transaction records and supporting evidence.",
@@ -1369,7 +1369,7 @@ window.__PROJECT_EN__ = {
   ],
   "ai_governance": {
     "principles": [
-      "Every agent has a human owner accountable for its output — there is no agent without an owner.",
+      "Every agent has a human owner accountable for its output: there is no agent without an owner.",
       "The propose-then-review principle is mandatory for any decision touching money or a customer.",
       "Every agent output is traceable: which data and which instructions produced it.",
       "Customer personal data is never stored outside approved and authorised systems.",
@@ -1398,16 +1398,16 @@ window.__PROJECT_EN__ = {
     ],
     "cost_model": [
       "A monthly review of AI tooling subscription cost against the operating benefit it delivers.",
-      "Route each task to the cheapest model tier that meets the need — a small model for repetitive work.",
+      "Route each task to the cheapest model tier that meets the need: a small model for repetitive work.",
       "The cost per order handled by the assistant is measured against the cost of human handling.",
       "A monthly spend ceiling per agent, with an alert at 80%."
     ]
   },
   "marketing": {
-    "positioning": "Wood furniture made to the measurements of your home, with complete clarity on price, lead time and material — from a workshop that respects your time more than a store selling you a ready-made piece that does not fit.",
+    "positioning": "Wood furniture made to the measurements of your home, with complete clarity on price, lead time and material: from a workshop that respects your time more than a store selling you a ready-made piece that does not fit.",
     "personas": [
       {
-        "name": "Sara — new apartment",
+        "name": "Sara: new apartment",
         "need": "A complete fit-out in six weeks",
         "pain": "Stores sell pieces that do not fit the space, and the photographs mislead",
         "channel": "Instagram + search",
@@ -1415,7 +1415,7 @@ window.__PROJECT_EN__ = {
         "objection": "“I will delay the work by a few days”"
       },
       {
-        "name": "Karim — small office",
+        "name": "Karim: small office",
         "need": "Office furniture of a quality that lasts",
         "pain": "Prices vary wildly and he cannot tell what he is buying",
         "channel": "Search + LinkedIn",
@@ -1423,7 +1423,7 @@ window.__PROJECT_EN__ = {
         "objection": "“Why buy from you rather than from a showroom?”"
       },
       {
-        "name": "Hind — property developer",
+        "name": "Hind: property developer",
         "need": "Consistent execution for an end client with multiple units",
         "pain": "Coordinating with several contractors and poor communication",
         "channel": "Direct relationships",
@@ -1431,7 +1431,7 @@ window.__PROJECT_EN__ = {
         "objection": "“I want firm delivery guarantees”"
       },
       {
-        "name": "Mona — quick refresh",
+        "name": "Mona: quick refresh",
         "need": "Replace one or two pieces on a fixed budget",
         "pain": "Excessive luxury costs more than it should",
         "channel": "TikTok + Shop",
@@ -1446,7 +1446,7 @@ window.__PROJECT_EN__ = {
         "budget_share": 22,
         "kpi": "Cost per reach and cost per acquisition",
         "cpa": "EGP 180–320",
-        "note": "The strongest channel in the category — before-and-after content"
+        "note": "The strongest channel in the category: before-and-after content"
       },
       {
         "name": "Google Search",
@@ -1484,7 +1484,7 @@ window.__PROJECT_EN__ = {
         "name": "Search engine optimisation (content)",
         "budget_share": 10,
         "kpi": "Organic sessions",
-        "cpa": "—",
+        "cpa": "-",
         "note": "A long-term investment"
       },
       {
@@ -1492,7 +1492,7 @@ window.__PROJECT_EN__ = {
         "role": "Volume selling",
         "budget_share": 6,
         "kpi": "Institutional orders",
-        "cpa": "—",
+        "cpa": "-",
         "note": "A low-cost, high-volume channel"
       },
       {
@@ -1538,7 +1538,7 @@ window.__PROJECT_EN__ = {
         "stage": "Checkout",
         "metric": "Checkout completion rate",
         "target": "58%",
-        "note": "The shipping obstacle — addressed through explicit shipping options"
+        "note": "The shipping obstacle: addressed through explicit shipping options"
       },
       {
         "stage": "Purchase",
@@ -1550,7 +1550,7 @@ window.__PROJECT_EN__ = {
         "stage": "Retention",
         "metric": "Repeat purchase within 12 months",
         "target": "18%",
-        "note": "Furniture is bought once — the value lies in volume and referral"
+        "note": "Furniture is bought once: the value lies in volume and referral"
       }
     ],
     "content_pillars": [
@@ -1615,7 +1615,7 @@ window.__PROJECT_EN__ = {
       "Free design consultation for repeat customers, with 5% off their next order.",
       "Follow-up on day three and day thirty after delivery to pre-empt complaints.",
       "A new customer referral earns the referrer EGP 300 in credit.",
-      "A showcase of flagship projects — low-cost community content."
+      "A showcase of flagship projects: low-cost community content."
     ]
   },
   "tech": {
@@ -1801,7 +1801,7 @@ window.__PROJECT_EN__ = {
     ],
     "suppliers": [
       {
-        "name": "Local supplier — industrial zone",
+        "name": "Local supplier: industrial zone",
         "item": "MDF and compressed wood",
         "terms": "Cash on delivery",
         "lead": "7–9 days",
@@ -1815,7 +1815,7 @@ window.__PROJECT_EN__ = {
         "risk": "Exchange rate and the supply chain"
       },
       {
-        "name": "Al-Ogba — accessories",
+        "name": "Al-Ogba: accessories",
         "item": "Hinges and runners",
         "terms": "Net 30 days",
         "lead": "4 days",
@@ -1872,7 +1872,7 @@ window.__PROJECT_EN__ = {
         "count": 1,
         "role_type": "Full-time",
         "monthly_cost": 32000,
-        "note": "Full time — the first owner of the agents"
+        "note": "Full time: the first owner of the agents"
       },
       {
         "role": "Senior Platform Engineer",
@@ -2225,7 +2225,7 @@ window.__PROJECT_EN__ = {
       },
       {
         "label": "21-day collection and 60-day inventory, consistent with the nature of made-to-order furniture",
-        "value": "—"
+        "value": "-"
       },
       {
         "label": "Straight-line depreciation over five years with no residual value",
@@ -2307,7 +2307,7 @@ window.__PROJECT_EN__ = {
       "probability": 2,
       "impact": 2,
       "score": 4,
-      "mitigation": "Concentrate on made-to-measure customisation and on-site service — the hardest thing to copy",
+      "mitigation": "Concentrate on made-to-measure customisation and on-site service: the hardest thing to copy",
       "contingency": "Deepen partnerships with property developers",
       "owner": "Chief Executive",
       "trigger": "A major platform launching below-cost pricing",
@@ -2682,12 +2682,12 @@ window.__PROJECT_EN__ = {
     "do_dont": {
       "do": [
         "Start small: 50 carefully selected products rather than an attempt to list everything that can be made.",
-        "Document everything from day one — after a furniture workshop, the data is the real asset.",
+        "Document everything from day one: after a furniture workshop, the data is the real asset.",
         "Give the agents specific tasks with clear acceptance criteria rather than a mandate to automate everything.",
         "Review the actual numbers against this study every month, not every quarter."
       ],
       "dont": [
-        "Do not launch advertising before the product page and checkout are ready — you will waste the acquisition budget.",
+        "Do not launch advertising before the product page and checkout are ready: you will waste the acquisition budget.",
         "Do not expand production capacity before current utilisation reaches 70%.",
         "Do not grant the agents broad permissions, however good the early results look.",
         "Do not depend on a single platform as your only acquisition channel."
@@ -2759,45 +2759,45 @@ window.__PROJECT_EN__ = {
         "publisher": "Workshop management",
         "year": 2026,
         "type": "Internal record",
-        "url": "—"
+        "url": "-"
       },
       {
-        "title": "Home furniture sector report — annual review",
+        "title": "Home furniture sector report: annual review",
         "publisher": "Market Research Centre",
         "year": 2025,
         "type": "Report",
-        "url": "—"
+        "url": "-"
       },
       {
-        "title": "Online shopping behaviour survey — consumer categories",
+        "title": "Online shopping behaviour survey: consumer categories",
         "publisher": "Independent survey",
         "year": 2026,
         "type": "Survey",
-        "url": "—"
+        "url": "-"
       },
       {
         "title": "Review analysis of online stores in the furniture category",
         "publisher": "Internal analysis",
         "year": 2026,
         "type": "Digital analysis",
-        "url": "—"
+        "url": "-"
       },
       {
-        "title": "Material price quotations — suppliers",
+        "title": "Material price quotations: suppliers",
         "publisher": "Procurement Department",
         "year": 2026,
         "type": "Prices",
-        "url": "—"
+        "url": "-"
       },
       {
         "title": "Customer interview log (18 interviews)",
         "publisher": "Marketing Department",
         "year": 2026,
         "type": "Interviews",
-        "url": "—"
+        "url": "-"
       },
       {
-        "title": "Financial appraisal model — attached file",
+        "title": "Financial appraisal model: attached file",
         "publisher": "Digital Transformation Unit",
         "year": 2026,
         "type": "Model",

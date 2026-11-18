@@ -1,5 +1,5 @@
 /* ============================================================
-   app.js — الإقلاع، الأدوات، السمة، الطباعة، الاختصارات
+   app.js: الإقلاع، الأدوات، السمة، الطباعة، الاختصارات
    ============================================================ */
 (function (global) {
   'use strict';
@@ -45,7 +45,7 @@
 
   function restoreTheme() {
     var theme = 'light';
-    /* ‎?theme=light|dark —Useful للطباعة أو المعاينة quick */
+    /* ‎?theme=light|dark -Useful للطباعة أو المعاينة quick */
     try {
       var q = new URLSearchParams(window.location.search).get('theme');
       if (q === 'light' || q === 'dark') {
@@ -254,7 +254,7 @@
           if (String(reason).indexOf('input:') === 0) {
             Render.refreshFinance();
           } else if (reason === 'data') {
-            /* تغيّر المصدر — إعادة بناء كاملة */
+            /* تغيّر المصدر: إعادة بناء كاملة */
             Store.applyText();
             Render.init();
             Store.bindInputs(document);

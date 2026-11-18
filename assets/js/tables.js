@@ -135,9 +135,9 @@
             td.innerHTML = out.html;
             if (out.num !== undefined && out.num !== null) td.setAttribute('data-num', String(out.num));
           } else if (typeof out === 'string' && out.charAt(0) === '<') td.innerHTML = out;
-          else td.textContent = out === undefined || out === null ? '—' : out;
+          else td.textContent = out === undefined || out === null ? '-' : out;
         } else {
-          td.textContent = v === undefined || v === null ? '—' : v;
+          td.textContent = v === undefined || v === null ? '-' : v;
         }
         if (c.align === 'end') td.className = 'num-cell';
         if (c.cls) td.className += ' ' + c.cls;

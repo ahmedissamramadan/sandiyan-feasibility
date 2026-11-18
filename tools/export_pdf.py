@@ -9,7 +9,7 @@
   python3 tools/export_pdf.py --lang en
 
 يشغّل خادمًا محليًّا مؤقتًا ثم يطبع عبر Chrome DevTools Protocol، بعد انتظار
-تحميل الصفحة **وجاهزية الخطوط** (document.fonts.ready) — فتكون الخطوط مضمّنة
+تحميل الصفحة **وجاهزية الخطوط** (document.fonts.ready): فتكون الخطوط مضمّنة
 في الملف النهائي. بلا أي مكتبة خارجية.
 ================================================================================
 """
@@ -89,7 +89,7 @@ def main():
 
     chrome = find_chrome()
     if not chrome:
-        sys.exit("لم يُعثر على Chrome/Chromium — ثبّت المتصفح أو صدّر PDF من داخل القالب (Ctrl+P).")
+        sys.exit("لم يُعثر على Chrome/Chromium: ثبّت المتصفح أو صدّر PDF من داخل القالب (Ctrl+P).")
 
     port = free_port()
     srv = start_server(ROOT, port)

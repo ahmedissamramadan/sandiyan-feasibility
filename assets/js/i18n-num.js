@@ -1,5 +1,5 @@
 /* ============================================================
-   i18n-num.js — تنسيق الأرقام والعملة والتواريخ بالعربية
+   i18n-num.js: تنسيق الأرقام والعملة والتواريخ بالعربية
    ------------------------------------------------------------
    يدعم نظامي الأرقام:
      latn  → 1,250,000   (الافتراضي: أوضح في الجداول المالية)
@@ -26,7 +26,7 @@
       try {
         localStorage.setItem(LS_KEY, this.system);
       } catch (e) {
-        /* التخزين غير متاح — نتجاهل */
+        /* التخزين غير متاح: نتجاهل */
       }
       return this.system;
     },
@@ -67,34 +67,34 @@
     /* نص عادي (للتصدير CSV) */
     n: function (value, options) {
       var s = this._fmt(value, options);
-      return s === null ? '—' : s;
+      return s === null ? '-' : s;
     },
 
     /* نص معزول اتجاهيًا (للعرض في HTML) */
     html: function (value, options) {
       var s = this._fmt(value, options);
-      if (s === null) return '—';
+      if (s === null) return '-';
       return '<bdi dir="ltr">' + s + '</bdi>';
     },
 
     /* مبلغ مالي: رقم + العملة (نص) */
     money: function (value, currency, options) {
       var s = this._fmt(value, options);
-      if (s === null) return '—';
+      if (s === null) return '-';
       return s + ' ' + (currency || '');
     },
 
-    /* مبلغ مالي (HTML) — العملة تبقى في سياق الفقرة */
+    /* مبلغ مالي (HTML): العملة تبقى في سياق الفقرة */
     moneyHtml: function (value, currency, options) {
       var s = this._fmt(value, options);
-      if (s === null) return '—';
+      if (s === null) return '-';
       return '<bdi dir="ltr">' + s + '</bdi>&nbsp;' + (currency || '');
     },
 
     /* مبلغ مختصر للبطاقات: 1.2 مليون / 850 ألف */
     moneyShort: function (value, currency) {
       var num = typeof value === 'number' ? value : parseFloat(value);
-      if (!isFinite(num)) return '—';
+      if (!isFinite(num)) return '-';
       var sign = num < 0 ? '-' : '';
       var a = Math.abs(num);
       var out;
@@ -114,7 +114,7 @@
     pct: function (value, options) {
       var opts = options || {};
       var num = typeof value === 'number' ? value : parseFloat(value);
-      if (!isFinite(num)) return '—';
+      if (!isFinite(num)) return '-';
       var decimals = opts.decimals !== undefined ? opts.decimals : 1;
       var s = new Intl.NumberFormat(this.locale(), {
         style: 'percent',
@@ -129,9 +129,9 @@
       return this.pct(value, o);
     },
 
-    /* تاريخ ميلادي/هجري — يتبع نظام الأرقام المختار */
+    /* تاريخ ميلادي/هجري: يتبع نظام الأرقام المختار */
     date: function (value, calendar) {
-      if (!value) return '—';
+      if (!value) return '-';
       var d = value instanceof Date ? value : new Date(value);
       if (isNaN(d.getTime())) return String(value);
       var opts = {
@@ -164,7 +164,7 @@
 
     /* نسبة نصية مصاغة */
     ratio: function (value, total) {
-      if (!total) return '—';
+      if (!total) return '-';
       return this.pct(value / total, { decimals: 1 });
     },
   };

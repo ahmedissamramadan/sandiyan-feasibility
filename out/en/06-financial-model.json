@@ -1,14 +1,14 @@
 {
   "meta": {
-    "title": "Feasibility Study — E-commerce Expansion",
-    "project_name": "Sandiyan — Digital Expansion",
+    "title": "Feasibility Study: E-commerce Expansion",
+    "project_name": "Sandiyan: Digital Expansion",
     "slug": "dar-alkhashab-digital",
     "version": "1.0",
     "status": "Draft for review and approval",
-    "prepared_by": "Digital Transformation Unit — Software House · Marketing Agency · AI Agency",
+    "prepared_by": "Digital Transformation Unit: Software House · Marketing Agency · AI Agency",
     "prepared_for": "The company owning the Sandiyan workshop",
     "date": "2026-11-14",
-    "confidentiality": "Confidential — internal circulation only"
+    "confidentiality": "Confidential: internal circulation only"
   },
   "generated_at": "2026-11-16T19:15:33",
   "language": "en",
@@ -285,7 +285,7 @@
       },
       {
         "label": "21-day collection and 60-day inventory, consistent with the nature of made-to-order furniture",
-        "value": "—"
+        "value": "-"
       },
       {
         "label": "Straight-line depreciation over five years with no residual value",

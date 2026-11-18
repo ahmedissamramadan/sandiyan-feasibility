@@ -1,5 +1,5 @@
 /* ============================================================
-   store.js — طبقة البيانات
+   store.js: طبقة البيانات
    ------------------------------------------------------------
    المصدر: assets/data/project.json (عبر HTTP)
            نسخة مضمّنة assets/data/project.js (عبر file://)
@@ -136,9 +136,9 @@
           });
       }
 
-      /* مزامنة في الخلفية — لا تؤثّر على سرعة العرض */
+      /* مزامنة في الخلفية: لا تؤثّر على سرعة العرض */
       var proto = (window.location && window.location.protocol) || '';
-      /* في الملف الواحد لا يوجد خادم — لا محاولة مزامنة */
+      /* في الملف الواحد لا يوجد خادم: لا محاولة مزامنة */
       if (!global.__STANDALONE__ && (proto === 'http:' || proto === 'https:') && embedded) {
         fetch(self.dataFile(), { cache: 'no-store' })
           .then(function (res) {
@@ -332,13 +332,13 @@
 
     sourceLabel: function () {
       var map = {
-        file: T('project.json — مباشر من الخادم', 'project.json — served live'),
-        'file+local': T('project.json — مع تعديلات محفوظة محليًا', 'project.json — with locally saved edits'),
+        file: T('project.json: مباشر من الخادم', 'project.json: served live'),
+        'file+local': T('project.json: مع تعديلات محفوظة محليًا', 'project.json: with locally saved edits'),
         embedded: T('نسخة مضمّنة (project.js)', 'Embedded copy (project.js)'),
-        'embedded+local': T('نسخة مضمّنة — مع تعديلات محفوظة', 'Embedded copy — with locally saved edits'),
-        'embedded+synced': T('نسخة مضمّنة — متزامنة مع project.json', 'Embedded copy — in sync with project.json'),
+        'embedded+local': T('نسخة مضمّنة: مع تعديلات محفوظة', 'Embedded copy: with locally saved edits'),
+        'embedded+synced': T('نسخة مضمّنة: متزامنة مع project.json', 'Embedded copy: in sync with project.json'),
         fallback: T('بيانات احتياطية', 'Fallback data'),
-        none: '—',
+        none: '-',
       };
       return map[this.source] || this.source;
     },

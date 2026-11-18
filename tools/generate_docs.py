@@ -250,7 +250,7 @@ def set_lang(lang):
             "outputs": "Outputs", "kpi": "Performance metric", "supervisor": "Human owner",
             "autonomy": "Autonomy",
             "govTitle": "AI governance",
-            "contentTitle": "Digital content plan — first 90 days",
+            "contentTitle": "Digital content plan: first 90 days",
             "contentIntro": "A fixed rhythm: one piece of content a day, a weekly compilation, and a review of the numbers at the end of the week.",
             "day": "Day", "pillar": "Content pillar", "formats": "Formats",
             "channel": "Channel", "idea": "Creative idea", "metric": "Metric",
@@ -260,14 +260,14 @@ def set_lang(lang):
             "indicator": "Indicator", "area": "Area", "definition": "Definition",
             "formula": "Formula", "target": "Target", "source": "Measurement source",
             "cadence": "Cadence",
-            "oneTitle": "Executive summary — one page",
+            "oneTitle": "Executive summary: one page",
             "indicators": "Governing indicators",
             "summary": "Summary", "recommendation": "Recommendation",
             "conditions": "Conditions", "nextSteps": "Next steps",
             "stepName": "Step", "deadline": "Deadline",
             "finTitle": "Financial model",
             "generated": "Generated automatically from the data layer",
-            "confidential": "Confidential — internal circulation only",
+            "confidential": "Confidential: internal circulation only",
         }
     else:
         OUT = OUT_DIR
@@ -284,7 +284,7 @@ def set_lang(lang):
             "outputs": "المخرجات", "kpi": "مؤشر الأداء", "supervisor": "المشرف البشري",
             "autonomy": "الاستقلالية",
             "govTitle": "حوكمة الذكاء الاصطناعي",
-            "contentTitle": "خطة المحتوى الرقمي — أول 90 يومًا",
+            "contentTitle": "خطة المحتوى الرقمي: أول 90 يومًا",
             "contentIntro": "خطة إيقاعية ثابتة: كل يومٍ يُنشر نوع محتوى واحد، وكل أسبوعٍ تجميعٌ للأرقام، ومراجعة الأرقام في نهاية الأسبوع.",
             "day": "اليوم", "pillar": "عمود المحتوى", "formats": "الصيغ",
             "channel": "القناة", "idea": "الفكرة الإبداعية", "metric": "المؤشر", "week": "الأسبوع",
@@ -292,31 +292,31 @@ def set_lang(lang):
             "kpiIntro": "لكل مؤشر: تعريف، صيغة، مستهدف، مصدر قياس، تواتر، ومالك.",
             "indicator": "المؤشر", "area": "المجال", "definition": "التعريف",
             "formula": "الصيغة", "target": "المستهدف", "source": "مصدر القياس", "cadence": "التواتر",
-            "oneTitle": "الملخّص التنفيذي — صفحة واحدة",
+            "oneTitle": "الملخّص التنفيذي: صفحة واحدة",
             "indicators": "المؤشرات الحاكمة", "summary": "الخلاصة",
             "recommendation": "التوصية", "conditions": "الشروط", "nextSteps": "الخطوات التالية",
             "stepName": "الخطوة", "deadline": "الموعد",
             "finTitle": "النموذج المالي",
             "generated": "مولَّد آليًّا من طبقة البيانات",
-            "confidential": "سري — للتداول الداخلي فقط",
+            "confidential": "سري: للتداول الداخلي فقط",
         }
 
 
 def n(v, dec=0):
     if v is None or (isinstance(v, float) and not math.isfinite(v)):
-        return "—"
+        return "-"
     return f"{v:,.{dec}f}"
 
 
 def money(v, dec=0):
     if v is None or (isinstance(v, float) and not math.isfinite(v)):
-        return "—"
+        return "-"
     return f"{n(v, dec)} {CUR}"
 
 
 def money_short(v):
     if v is None or not math.isfinite(v):
-        return "—"
+        return "-"
     a = abs(v)
     sign = "-" if v < 0 else ""
     if a >= 1e9:
@@ -330,7 +330,7 @@ def money_short(v):
 
 def pct(v, dec=1):
     if v is None or not math.isfinite(v):
-        return "—"
+        return "-"
     return f"{v*100:.{dec}f}%"
 
 
@@ -519,21 +519,21 @@ SOP_TEMPLATES = [
 def gen_sop(d, model):
     L = LABELS
     meta = d["meta"]
-    md = [f"# {L['sopTitle']} — {meta['project_name']}", "",
+    md = [f"# {L['sopTitle']}: {meta['project_name']}", "",
           f"> {L['generated']} · {meta['version']} · {meta['date']}", "",
           L["sopIntro"], ""]
 
     for code, title, owner, steps in SOP:
-        md += [f"## {code} — {title}", "", f"**{L['owner']}:** {owner}", "",
+        md += [f"## {code}: {title}", "", f"**{L['owner']}:** {owner}", "",
                md_table(["#", L["step"], L["output"], L["responsible"], L["acceptance"]],
                         [[i + 1, s[0], s[1], s[2], s[3]] for i, s in enumerate(steps)]), ""]
 
-    h = [f"<h1>{esc(L['sopTitle'])} — {esc(meta['project_name'])}</h1>",
+    h = [f"<h1>{esc(L['sopTitle'])}: {esc(meta['project_name'])}</h1>",
          f"<p class='note'>{esc(L['generated'])} · {esc(meta['version'])} · {esc(meta['date'])}</p>",
          f"<div class='callout'><b>{esc(L['sopIntro'])}</b></div>"]
 
     for code, title, owner, steps in SOP:
-        h += [f"<h2>{esc(code)} — {esc(title)}</h2>", f"<p><b>{esc(L['owner'])}:</b> {esc(owner)}</p>",
+        h += [f"<h2>{esc(code)}: {esc(title)}</h2>", f"<p><b>{esc(L['owner'])}:</b> {esc(owner)}</p>",
               "<table><thead><tr><th>#</th><th>" + esc(L["step"]) + "</th><th>" + esc(L["output"]) +
               "</th><th>" + esc(L["responsible"]) + "</th><th>" + esc(L["acceptance"]) + "</th></tr></thead><tbody>"]
         for i, s in enumerate(steps, 1):
@@ -558,29 +558,29 @@ def gen_sop(d, model):
                      ["Break-even", f"{n(model['break_even_units'])} units / year"],
                      ["Total revenue", money(model["total_revenue"])]])]
 
-    write_pair("01-sop-playbook", f"{L['sopTitle']} — {meta['project_name']}",
+    write_pair("01-sop-playbook", f"{L['sopTitle']}: {meta['project_name']}",
                "\n".join(md), body, L["confidential"])
 
 
 def gen_agents(d):
     L = LABELS
     agents = d["agents"]
-    md = [f"# {L['agentsTitle']} — {d['meta']['project_name']}", "",
+    md = [f"# {L['agentsTitle']}: {d['meta']['project_name']}", "",
           f"> {len(agents)} agents · {L['generated']}", "", L["agentsIntro"], ""]
 
     groups = {}
     for a in agents:
         groups.setdefault(a["group"], []).append(a)
 
-    h = [f"<h1>{esc(L['agentsTitle'])} — {esc(d['meta']['project_name'])}</h1>",
+    h = [f"<h1>{esc(L['agentsTitle'])}: {esc(d['meta']['project_name'])}</h1>",
          f"<p>{L['agentsIntro']}</p>"]
 
     for g, items in groups.items():
         md += [f"## {g}", "",
                md_table([L["id"], L["agent"], L["role"], L["tools"], L["outputs"], L["kpi"], L["supervisor"], L["autonomy"]],
                         [[a["id"], a["title"], a["role"], " · ".join(a.get("tools", [])),
-                          " · ".join(a.get("outputs", [])), a.get("kpi", "—"), a.get("owner", "—"),
-                          a.get("autonomy", "—")] for a in items]), ""]
+                          " · ".join(a.get("outputs", [])), a.get("kpi", "-"), a.get("owner", "-"),
+                          a.get("autonomy", "-")] for a in items]), ""]
         h += [f"<h2>{esc(g)}</h2>",
               "<table><thead><tr><th>" + esc(L["id"]) + "</th><th>" + esc(L["agent"]) + "</th><th>" +
               esc(L["role"]) + "</th><th>" + esc(L["tools"]) + "</th><th>" + esc(L["outputs"]) + "</th><th>" +
@@ -592,8 +592,8 @@ def gen_agents(d):
                 f"<small>{esc(a['role'])}</small></td><td>{esc(a['mission'])}</td>"
                 f"<td><small>{esc(' · '.join(a.get('tools', [])))}</small></td>"
                 f"<td><small>{esc(' · '.join(a.get('outputs', [])))}</small></td>"
-                f"<td>{esc(a.get('kpi', '—'))}</td><td>{esc(a.get('owner', '—'))}</td>"
-                f"<td>{esc(a.get('autonomy', '—'))}</td></tr>")
+                f"<td>{esc(a.get('kpi', '-'))}</td><td>{esc(a.get('owner', '-'))}</td>"
+                f"<td>{esc(a.get('autonomy', '-'))}</td></tr>")
         h.append("</tbody></table>")
 
     body = "".join(h)
@@ -607,7 +607,7 @@ def gen_agents(d):
         md += [f"### {gov_titles.get(key, key)}", ""] + [f"- {x}" for x in items] + [""]
         body += f"<h3>{esc(gov_titles.get(key, key))}</h3><ul>" + "".join(f"<li>{esc(x)}</li>" for x in items) + "</ul>"
 
-    write_pair("02-agent-registry", f"{L['agentsTitle']} — {d['meta']['project_name']}",
+    write_pair("02-agent-registry", f"{L['agentsTitle']}: {d['meta']['project_name']}",
                "\n".join(md), body, L["confidential"])
 
 
@@ -656,7 +656,7 @@ def gen_content_plan(d):
 def gen_kpi(d):
     L = LABELS
     kpis = d["kpis"]
-    md = [f"# {L['kpiTitle']} — {d['meta']['project_name']}", "", L["kpiIntro"], "",
+    md = [f"# {L['kpiTitle']}: {d['meta']['project_name']}", "", L["kpiIntro"], "",
           md_table([L["indicator"], L["area"], L["definition"], L["formula"], L["target"],
                     L["source"], L["cadence"], L["supervisor"]],
                    [[k["name"], k["category"], k["definition"], k["formula"], k["target"],
@@ -666,7 +666,7 @@ def gen_kpi(d):
     for k in kpis:
         cats.setdefault(k["category"], []).append(k)
 
-    h = [f"<h1>{esc(L['kpiTitle'])} — {esc(d['meta']['project_name'])}</h1>"]
+    h = [f"<h1>{esc(L['kpiTitle'])}: {esc(d['meta']['project_name'])}</h1>"]
     for c, items in cats.items():
         h += [f"<h2>{esc(c)}</h2>",
               "<table><thead><tr><th>" + esc(L["indicator"]) + "</th><th>" + esc(L["definition"]) +
@@ -679,7 +679,7 @@ def gen_kpi(d):
                      f"<td>{esc(k['source'])}</td><td>{esc(k['cadence'])}</td><td>{esc(k['owner'])}</td></tr>")
         h.append("</tbody></table>")
 
-    write_pair("04-kpi-dictionary", f"{L['kpiTitle']} — {d['meta']['project_name']}",
+    write_pair("04-kpi-dictionary", f"{L['kpiTitle']}: {d['meta']['project_name']}",
                "\n".join(md), "".join(h), L["confidential"])
 
 
@@ -697,7 +697,7 @@ def gen_onepager(d, model):
         (f"Total revenue ({len(model['years'])} years)", money(model["total_revenue"])),
     ]
 
-    md = [f"# {meta['project_name']} — {L['oneTitle']}", "",
+    md = [f"# {meta['project_name']}: {L['oneTitle']}", "",
           f"**{meta['subtitle']}**", "",
           f"> {meta['prepared_for']} · {meta['date']} · {meta['confidentiality']}", "",
           "## " + L["indicators"], "", md_table([L["metricsHead"], L["metricsValue"]], [[k, v] for k, v in kpis]), "",
@@ -707,7 +707,7 @@ def gen_onepager(d, model):
     md += [f"{i+1}. {x}" for i, x in enumerate(dec.get("conditions", []))]
     md += ["", "## " + L["nextSteps"], "",
            md_table([L["stepName"], L["responsible"], L["deadline"]],
-                    [[s["step"], s.get("owner", "—"), s.get("deadline", "—")] for s in c["next_steps"]]), ""]
+                    [[s["step"], s.get("owner", "-"), s.get("deadline", "-")] for s in c["next_steps"]]), ""]
 
     kpi_html = "".join(
         f"<div class='kpi'><div class='l'>{esc(k)}</div><div class='v'>{esc(v)}</div></div>" for k, v in kpis)
@@ -724,10 +724,10 @@ def gen_onepager(d, model):
          "<table><thead><tr><th>" + esc(L["stepName"]) + "</th><th>" + esc(L["responsible"]) +
          "</th><th>" + esc(L["deadline"]) + "</th></tr></thead><tbody>"]
     for s in c["next_steps"]:
-        h.append(f"<tr><td>{esc(s['step'])}</td><td>{esc(s.get('owner','—'))}</td><td>{esc(s.get('deadline','—'))}</td></tr>")
+        h.append(f"<tr><td>{esc(s['step'])}</td><td>{esc(s.get('owner','-'))}</td><td>{esc(s.get('deadline','-'))}</td></tr>")
     h.append("</tbody></table>")
 
-    write_pair("05-executive-onepager", f"{L['oneTitle']} — {meta['project_name']}",
+    write_pair("05-executive-onepager", f"{L['oneTitle']}: {meta['project_name']}",
                "\n".join(md), "".join(h), L["confidential"])
 
 

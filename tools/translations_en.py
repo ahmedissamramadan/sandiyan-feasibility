@@ -10,26 +10,26 @@
 
 EN = {
     # ---------------- meta ----------------
-    "دراسة جدوى التوسّع في التجارة الإلكترونية": "Feasibility Study — E-commerce Expansion",
+    "دراسة جدوى التوسّع في التجارة الإلكترونية": "Feasibility Study: E-commerce Expansion",
     "من ورشة نجارة قائمة إلى حضور رقمي متكامل: متجر إلكتروني، تسويق قائم على البيانات، ووكالات ذكاء اصطناعي تدير التشغيل بلغة الأدوار":
         "From an existing carpentry workshop to a complete digital presence: an online store, data-driven marketing, and AI agencies that run the operation by role.",
-    "سنديان — التوسّع الرقمي": "Sandiyan — Digital Expansion",
+    "سنديان: التوسّع الرقمي": "Sandiyan: Digital Expansion",
     "dar-alkhashab-digital": "dar-alkhashab-digital",
     "مسودة للمناقشة والاعتماد": "Draft for review and approval",
-    "إدارة التحوّل الرقمي — سوفيتوير هاوس · ماركتنج إيجينسي · وكالة ذكاء اصطناعي":
-        "Digital Transformation Unit — Software House · Marketing Agency · AI Agency",
+    "إدارة التحوّل الرقمي: سوفيتوير هاوس · ماركتنج إيجينسي · وكالة ذكاء اصطناعي":
+        "Digital Transformation Unit: Software House · Marketing Agency · AI Agency",
     "الشركة المالكة لورشة سنديان": "The company owning the Sandiyan workshop",
-    "سري — للتداول الداخلي فقط": "Confidential — internal circulation only",
+    "سري: للتداول الداخلي فقط": "Confidential: internal circulation only",
 
     # ---------------- doc_control ----------------
     "مدير المشروع الرقمي": "Digital Project Manager",
     "الإدارة التنفيذية · المستثمرون · مجلس الإدارة": "Executive management · Investors · Board of directors",
-    "مدير العمليات — مراجعة الطاقة الإنتاجية وسللسلة التوريد": "Operations Manager — production capacity and supply chain review",
-    "المدير المالي — مراجعة الافتراضات والنموذج": "Finance Manager — assumptions and model review",
-    "قائد الهندسة والذكاء الاصطناعي — مراجعة خريطة الوكلاء والحوكمة":
-        "Head of Engineering & AI — agent map and governance review",
-    "الرئيس التنفيذي — قرار الاستثمار": "Chief Executive — investment decision",
-    "الشريك المؤسّس — الالتزام المالي": "Founding partner — financial commitment",
+    "مدير العمليات: مراجعة الطاقة الإنتاجية وسللسلة التوريد": "Operations Manager: production capacity and supply chain review",
+    "المدير المالي: مراجعة الافتراضات والنموذج": "Finance Manager: assumptions and model review",
+    "قائد الهندسة والذكاء الاصطناعي: مراجعة خريطة الوكلاء والحوكمة":
+        "Head of Engineering & AI: agent map and governance review",
+    "الرئيس التنفيذي: قرار الاستثمار": "Chief Executive: investment decision",
+    "الشريك المؤسّس: الالتزام المالي": "Founding partner: financial commitment",
 
     # ---------------- revisions ----------------
     "إدارة التحوّل الرقمي": "Digital Transformation Unit",
@@ -55,27 +55,27 @@ EN = {
     # Updated in milestone 1
     "رأس المال المطلوب (المرحلة الأولى)": "Capital requested (first phase)",
     "القيمة الحالية الصافية (NPV)": "Net present value (NPV)",
-    "هامش ضيّق — لا يُعتمد دون بوابة قياس": "Thin margin — not approved without a measurement gate",
+    "هامش ضيّق: لا يُعتمد دون بوابة قياس": "Thin margin: not approved without a measurement gate",
     "معدل العائد الداخلي (IRR)": "Internal rate of return (IRR)",
     "مقابل معدل خصم 24%": "Against a 24% discount rate",
-    "القيمة الحالية الصافية — الخطر الحقيقي": "Net present value — the real risk",
+    "القيمة الحالية الصافية: الخطر الحقيقي": "Net present value: the real risk",
 
     # ---------------- company ----------------
     "سنديان للمقاولات والأثاث الخشبي": "Sandiyan Contracting and Wood Furniture",
     "شركة ذات مسؤولية محدودة": "Limited liability company",
-    "تصنيع الأثاث الخشبي حسب الطلب — تنفيذ مطبخ وخزائن وأبواب ومطاولات وأثاث مكتبي":
-        "Made-to-order wood furniture manufacturing — kitchens, wardrobes, doors, tables and office furniture",
+    "تصنيع الأثاث الخشبي حسب الطلب: تنفيذ مطبخ وخزائن وأبواب ومطاولات وأثاث مكتبي":
+        "Made-to-order wood furniture manufacturing: kitchens, wardrobes, doors, tables and office furniture",
     "السجل التجاري": "Commercial registration",
     "هيئة الاستثمار والمناطق الحرة": "General Authority for Investment and Free Zones",
     "سارٍ": "Valid",
     "بطاقة النشاط التصديري": "Export activity card",
     "مصلحة الضرائب": "Tax Authority",
     "رخصة تشغيل الورشة": "Workshop operating licence",
-    "الحي — تراخيص منشآت الحرف": "District — craft facility licensing",
+    "الحي: تراخيص منشآت الحرف": "District: craft facility licensing",
     "شهادة المطابقة (ISO 9001)": "Certificate of conformity (ISO 9001)",
     "شركة مصر للجودة": "Egyptian Quality Company",
     "قيد التجديد": "Renewal in progress",
-    "المؤسّس — إدارة الورشة": "Founder — workshop operations",
+    "المؤسّس: إدارة الورشة": "Founder: workshop operations",
     "مالك العملية التشغيلية والجودة": "Owner of the operating process and quality",
     "الشريك الثاني": "Second partner",
     "العلاقات الحكومية والملكية العقارية": "Government relations and real estate",
@@ -99,22 +99,22 @@ EN = {
     "متوسط مدة التسليم": "Average lead time",
     "12 يومًا": "12 days",
     "لطلبيات التفصيل": "For custom orders",
-    "19% حاليًا — الهدف 62% خلال 24 شهرًا": "19% today — 62% targeted within 24 months",
+    "19% حاليًا: الهدف 62% خلال 24 شهرًا": "19% today: 62% targeted within 24 months",
     "26 يومًا / شهر": "26 days / month",
     "خشب MDF مقاوم للرطوبة": "Moisture-resistant MDF",
     "لوح": "board",
-    "مورد محلي — المنطقة الصناعية": "Local supplier — industrial zone",
+    "مورد محلي: المنطقة الصناعية": "Local supplier: industrial zone",
     "الأكثر استخدامًا في المطابخ": "Most used in kitchens",
     "خشب طبيعي (Oak)": "Solid wood (Oak)",
     "م³": "m³",
-    "مورد مستورد — Orient Wood": "Imported supplier — Orient Wood",
+    "مورد مستورد: Orient Wood": "Imported supplier: Orient Wood",
     "العملاء الفاخرون": "Premium customers",
     "خشب HDF مضغوط عالي الكثافة": "High-density compressed HDF",
     "مورد محلي": "Local supplier",
     "مقاومة الخدش أعلى": "Higher scratch resistance",
     "إكسسوارات مفصلات وانزلاقات": "Hinge and runner accessories",
     "مجموعة": "set",
-    "مورد إكسسوارات — العتبة": "Accessories supplier — Al-Ogba",
+    "مورد إكسسوارات: العتبة": "Accessories supplier: Al-Ogba",
     "نقطة اختناق شائعة": "A common bottleneck",
     "دهانات وألواح تغليف (Laminate)": "Paints and laminate sheets",
     "عبوة": "pack",
@@ -140,20 +140,20 @@ EN = {
     "أمين مخزن ومشتريات": "Storekeeper and buyer",
     "منسّق عملاء": "Customer coordinator",
     "يستقبل طلبات واتساب حاليًا": "Currently handles WhatsApp orders",
-    "أصل تشغيلي قائم بالفعل — لا حاجة لبناء القدرة الإنتاجية من الصفر":
-        "An operating asset that already exists — there is no need to build production capacity from scratch",
+    "أصل تشغيلي قائم بالفعل: لا حاجة لبناء القدرة الإنتاجية من الصفر":
+        "An operating asset that already exists: there is no need to build production capacity from scratch",
     "سمعة جودة موثّقة في السوق المحلي عبر التوصيات الشفهية":
         "A quality reputation documented in the local market through word of mouth",
     "قدرة على التفصيل حسب الطلب وهي ميزة لا تُنسَّخ بسهولة في المتاجر الجاهزة":
-        "The ability to customise to measure — a capability that ready-made stores cannot easily copy",
+        "The ability to customise to measure: a capability that ready-made stores cannot easily copy",
     "بالغ يفضّل الأثاث الخشبي المصمّم على مقاسه":
         "A growing preference for furniture designed to fit the space",
     "لا وجود لأي حضور رقمي: الطلبات كلها عبر واتساب وتُسجَّل يدويًا":
         "No digital presence at all: every order arrives on WhatsApp and is logged by hand",
     "لا نظام إدارة طلبات ولا تتبع للمخزون ولا فوترة آلية":
         "No order management, no stock tracking, no automated invoicing",
-    "غياب بيانات السوق المنظّمة — القرار يعتمد على التقدير":
-        "No structured market data — decisions rest on estimates",
+    "غياب بيانات السوق المنظّمة: القرار يعتمد على التقدير":
+        "No structured market data: decisions rest on estimates",
     "الاعتماد على القناة الشخصية للمنسّق كبابة للاستجابة":
         "Responsiveness depends on one coordinator's personal channel",
     "لا وحدة قياس ولا تقارير مالية لحظية": "No measurement layer and no real-time financial reporting",
@@ -226,44 +226,44 @@ EN = {
     "نفس الورشة ونفس الفريق": "The same workshop and the same team",
     "لا يملك حضورًا رقميًا ولا تجربة شراء ولا بيانات":
         "It has no digital presence, no buying experience and no data",
-    "0% — المستهدف": "0% — the target",
-    "نمو مشاريع التطوير العقاري في المدن الجديدة — ضغط مستمر على الطلب":
-        "Growth of development projects in new cities — sustained pressure on demand",
+    "0%: المستهدف": "0%: the target",
+    "نمو مشاريع التطوير العقاري في المدن الجديدة: ضغط مستمر على الطلب":
+        "Growth of development projects in new cities: sustained pressure on demand",
     "تشديد الفجوة بين جودة المنتج وسهولة الشراء عبر الإنترنت":
         "The gap between product quality and the ease of buying online keeps widening",
     "تغيّر سلوك التحوّل الرقمي في الفئات الاستهلاكية ذات العمر الطويل":
         "A shift in digital behaviour within long-life consumer categories",
     "طلبات التركيب والتجهيز في الشقق الجديدة تتزايد مع تحسّن البنية التحتية للإنترنت":
         "Installation and fit-out requests for new apartments keep rising as internet access improves",
-    "حساسية الفئة تجاه الشراء عبر الإنترنت — تقلّص التحويل في أول 90 يومًا":
-        "Category sensitivity to online purchase — conversion contracts over the first 90 days",
+    "حساسية الفئة تجاه الشراء عبر الإنترنت: تقلّص التحويل في أول 90 يومًا":
+        "Category sensitivity to online purchase: conversion contracts over the first 90 days",
     "الاستيراد المباشر كبديل منخفض التكلفة": "Direct imports as a low-cost substitute",
     "تقلّبات سعر الخشب وسعر الصرف": "Volatility in timber prices and in the exchange rate",
     "حساسية العملاء لإرفاق تكلفة الشحن الباهظة": "Customer sensitivity to high shipping costs",
-    "تقرير قطاع الأثاث المنزلي — نظرة سنوية": "Home furniture sector report — annual review",
+    "تقرير قطاع الأثاث المنزلي: نظرة سنوية": "Home furniture sector report: annual review",
     "مركز أبحاث السوق": "Market Research Centre",
     "تقرير": "Report",
-    "— (مرجع داخلي)": "— (internal reference)",
-    "مسح أنماط الشراء الإلكتروني — الفئات الاستهلاكية": "Online shopping behaviour survey — consumer categories",
+    "- (مرجع داخلي)": "- (internal reference)",
+    "مسح أنماط الشراء الإلكتروني: الفئات الاستهلاكية": "Online shopping behaviour survey: consumer categories",
     "استطلاع مستقل": "Independent survey",
     "استطلاع ميداني": "Field survey",
-    "— (ملف داخلي)": "— (internal file)",
+    "- (ملف داخلي)": "- (internal file)",
     "تحليل تقييمات المتاجر الإلكترونية في فئة الأثاث": "Review analysis of online stores in the furniture category",
     "تحليل داخلي": "Internal analysis",
     "تحليل رقمي": "Digital analysis",
-    "قوائم أسعار الخامات — الموردون": "Material price lists — suppliers",
+    "قوائم أسعار الخامات: الموردون": "Material price lists: suppliers",
     "عروض موردين": "Supplier quotations",
     "أسعار": "Prices",
-    "— (ملف المشتريات)": "— (procurement file)",
-    "مقابلات العملاء — 18 مقابلة موثّقة": "Customer interviews — 18 documented sessions",
+    "- (ملف المشتريات)": "- (procurement file)",
+    "مقابلات العملاء: 18 مقابلة موثّقة": "Customer interviews: 18 documented sessions",
     "إدارة التسويق": "Marketing Department",
     "مقابلات": "Interviews",
-    "— (سجل مقابلات)": "— (interview log)",
+    "- (سجل مقابلات)": "- (interview log)",
     # ---------------- swot / pestel / porter / tows / efe / ife ----------------
     "أصل تشغيلي قائم: ورشة عاملة منذ عشر سنوات بسمعة جودة موثّقة":
         "An existing operating asset: a workshop running for ten years with a documented quality reputation",
-    "قدرة التفصيل حسب المقاس — ميزة تنافسية نادرة في المتاجر الإلكترونية":
-        "Customisation to measure — a rare competitive advantage in online stores",
+    "قدرة التفصيل حسب المقاس: ميزة تنافسية نادرة في المتاجر الإلكترونية":
+        "Customisation to measure: a rare competitive advantage in online stores",
     "تكلفة ثابتة منخفضة نسبيًا مقارنة بمنافسيSector": "",
     "تكلفة ثابتة منخفضة نسبيًا مقارنة بمنافسي القطاع":
         "Relatively low fixed costs compared with sector competitors",
@@ -271,8 +271,8 @@ EN = {
         "The ability to manufacture to order in half the market-standard lead time",
     "لا بنية تحتية رقمية على الإطلاق: لا متجر ولا نظام إدارة ولا قياس":
         "No digital infrastructure whatsoever: no store, no management system, no measurement",
-    "غياب أي بيانات تشغيلية منظّمة — القرارات تقديرية":
-        "No structured operating data — decisions are estimates",
+    "غياب أي بيانات تشغيلية منظّمة: القرارات تقديرية":
+        "No structured operating data: decisions are estimates",
     "اعتماد شديد على شخص واحد في تنسيق الطلبات":
         "Heavy dependence on one person for order coordination",
     "ضعف رأس المال العامل مقارنةً بما للتوسع المتزامن":
@@ -297,7 +297,7 @@ EN = {
         "Rising shipping and fuel costs",
     "خطورة الاعتماد على خوارزميات المنصات في الوصول":
         "The risk of depending on platform algorithms for reach",
-    "سياسي — P": "Political — P",
+    "سياسي: P": "Political: P",
     "مرتفع": "High",
     "تذبذب نسبي في مؤشرات الاستثمار يخفض جدوى المشاريع الصناعية الكبرى":
         "Relative volatility in investment indicators reduces the viability of large industrial projects",
@@ -305,28 +305,28 @@ EN = {
         "Industrial export support policies may open an export channel for premium furniture",
     "تعقيد إجراءات الترخيص والاشتراطات البلدية يطيل زمن التأسيس":
         "Complex licensing procedures and municipal requirements lengthen the set-up timeline",
-    "اقتصادي — E": "Economic — E",
+    "اقتصادي: E": "Economic: E",
     "تضخم متسارع في أسعار الأخشاب والتشطيبات":
         "Rapidly accelerating inflation in timber and finishing material prices",
     "انخفاض القيمة المحلية للعملة مقابل الدولار يربك تسعير المنتجات المستوردة":
         "Local currency depreciation against the dollar unsettles pricing of imported products",
     "ضغط على التحوّل الرقمي بعد تخفيض سقف الدفع النقدي":
         "Pressure on digital adoption following the reduction of the cash-payment ceiling",
-    "اجتماعي — S": "Social — S",
+    "اجتماعي: S": "Social: S",
     "تحوّل سلوكي نحو الشراء عبر التطبيقات":
         "A behavioural shift towards buying through applications",
     "ميل متزايد نحو الأثاث المخصص بدل الجاهز":
         "A growing preference for made-to-order over ready-made furniture",
     "حساسية منخفضة تجاه خامات معاد تدويرها مستدامة بيئيًا":
         "Low sensitivity to environmentally sustainable recycled materials",
-    "تكنولوجي — T": "Technological — T",
+    "تكنولوجي: T": "Technological: T",
     "توفّر أدوات ذكاء اصطناعي بقدرات تحريرية وتحليلية متقدمة":
         "AI tooling with advanced authoring and analytical capability is readily available",
     "انخفاض كلفة الحوسبة والتخزين":
         "Falling cost of compute and storage",
     "استقرار الربط بين أنظمة الدفع والشحن والمتاجر":
         "Stable integration between payment, shipping and storefront systems",
-    "بيئي — E": "Environmental — E",
+    "بيئي: E": "Environmental: E",
     "متوسط": "Medium",
     "اشتراطات تصريف المخلفات الخشبية":
         "Regulations on the disposal of timber waste",
@@ -334,7 +334,7 @@ EN = {
         "Growing demand for recycled or certified materials",
     "فرصة للتميّز عبر شهادة معايير بيئية":
         "An opportunity to differentiate through environmental certification",
-    "قانوني — L": "Legal — L",
+    "قانوني: L": "Legal: L",
     "قانون حماية البيانات الشخصية وتطبيقه على ملفات العملاء":
         "Personal data protection law and its application to customer records",
     "التزامات قياس الأثر الموقفي التسويقي":
@@ -345,7 +345,7 @@ EN = {
         "A proliferation of workshops and platforms with no meaningful barriers to entry; the markets are driven by price and service competition.",
     "تهديد دخول لاعبين جدد": "Threat of new entrants",
     "انخفاض كلفة الدخول الرقمية: متجر جاهز خلال أسبوعين، لكن العائق الحقيقي هو القدرة على التنفيذ لا على الموقع.":
-        "The cost of digital entry has fallen — a store can be live in two weeks — but the real barrier is delivery capability, not the website.",
+        "The cost of digital entry has fallen: a store can be live in two weeks: but the real barrier is delivery capability, not the website.",
     "القدرة التفاوضية للموردين": "Bargaining power of suppliers",
     "معظم الخامات متاحة من أكثر من مورّد، لكن الاستيراد يمثّل ضغطًا على صنف واحد.":
         "Most materials are available from more than one supplier, but imports create pressure on a single line.",
@@ -397,13 +397,13 @@ EN = {
     "خبرة إدارية في التصنيع": "Management experience in manufacturing",
     "قدرة الفريق الرقمي على البناء والتسويق": "The digital team's capacity to build and to market",
     # ---------------- agent groups / roles / autonomy ----------------
-    "1 — القيادة والتنسيق": "1 — Leadership and coordination",
-    "2 — الهندسة والتطوير": "2 — Engineering and development",
-    "3 — التسويق والمحتوى": "3 — Marketing and content",
-    "4 — خدمة العملاء": "4 — Customer service",
-    "5 — العمليات والتصنيع": "5 — Operations and manufacturing",
-    "6 — التحليل والقرارات": "6 — Analytics and decisions",
-    "7 — المالية والامتثال": "7 — Finance and compliance",
+    "1: القيادة والتنسيق": "1: Leadership and coordination",
+    "2: الهندسة والتطوير": "2: Engineering and development",
+    "3: التسويق والمحتوى": "3: Marketing and content",
+    "4: خدمة العملاء": "4: Customer service",
+    "5: العمليات والتصنيع": "5: Operations and manufacturing",
+    "6: التحليل والقرارات": "6: Analytics and decisions",
+    "7: المالية والامتثال": "7: Finance and compliance",
     "وكيل مدير المشروع": "Project Manager Agent",
     "وكيل مدير العمليات": "Operations Manager Agent",
     "وكيل مهندس المنصة": "Platform Engineer Agent",
@@ -486,7 +486,7 @@ EN = {
     "إدارة ميزانية الإعلانات حسب عائد كل قناة، وتشغيل التجارب، وتوسيع القنوات التي تحقق تكلفة اكتساب أقل من الحد المستهدف.":
         "Manage the advertising budget by the return of each channel, run experiments, and scale channels whose acquisition cost stays below the target.",
     "إنتاج محتوى عربي أصيل يشرح الفروق التقنية (الخامة، التركيب، الضمان) ويحوّل الخبرة التشغيلية إلى ميزة تنافسية في نتائج البحث.":
-        "Produce original Arabic content that explains the technical differences — material, installation, warranty — and turns operating experience into a search advantage.",
+        "Produce original Arabic content that explains the technical differences: material, installation, warranty: and turns operating experience into a search advantage.",
     "حماية اتساق الهوية البصرية عبر كل نقطة تماس، وإعداد القوالب والمواد الإعلانية الجاهزة للنشر.":
         "Protect brand consistency across every touchpoint and prepare templates and campaign assets ready for publication.",
     "الرد على استفسارات ما قبل البيع عبر واتساب والموقع، وجمع بيانات العملاء المحتملين، وتسليم الحالات المعقّدة للبشر.":
@@ -721,8 +721,8 @@ EN = {
     "اخفاق في متطلب نظامي": "A failure against a regulatory requirement",
 
     # ---------------- AI governance ----------------
-    "لكل وكيل مالك بشري مسؤول عن المخرجات — لا يوجد وكيل بلا مالك.":
-        "Every agent has a human owner accountable for its output — there is no agent without an owner.",
+    "لكل وكيل مالك بشري مسؤول عن المخرجات: لا يوجد وكيل بلا مالك.":
+        "Every agent has a human owner accountable for its output: there is no agent without an owner.",
     "مبدأ «الاقتراح ثم المراجعة» إلزامي في القرارات التي تمسّ المال أو العميل.":
         "The propose-then-review principle is mandatory for any decision touching money or a customer.",
     "كل مخرَج من وكيل قابل للتتبع: من أي بيانات وأي تعليمات وُلد.":
@@ -764,33 +764,33 @@ EN = {
     "مراجعة شهرية لتكلفة اشتراكات أدوات الذكاء الاصطناعي مقابل المكسب التشغيلي.":
         "A monthly review of AI tooling subscription cost against the operating benefit it delivers.",
     "توجيه النماذج إلى أرخص مستوى يفي بالحاجة (نموذج صغير للمهام المتكررة).":
-        "Route each task to the cheapest model tier that meets the need — a small model for repetitive work.",
+        "Route each task to the cheapest model tier that meets the need: a small model for repetitive work.",
     "حساب تكلفة كل طلب عبر المساعد الآلي ومقارنتها بتكلفة المعالجة البشرية.":
         "The cost per order handled by the assistant is measured against the cost of human handling.",
     "سقف إنفاق شهري لكل وكيل مع تنبيه عند تجاوز 80%.":
         "A monthly spend ceiling per agent, with an alert at 80%.",
     # ---------------- marketing ----------------
-    "أثاث خشبي مصنوع على مقاس بيتك، بوضوح كامل في السعر والمدة والخامة — من ورشة تحترم وقتك أكثر من متجر يبيعك قطعة جاهزة لا تناسبك.":
-        "Wood furniture made to the measurements of your home, with complete clarity on price, lead time and material — from a workshop that respects your time more than a store selling you a ready-made piece that does not fit.",
-    "سارة — شقة جديدة": "Sara — new apartment",
+    "أثاث خشبي مصنوع على مقاس بيتك، بوضوح كامل في السعر والمدة والخامة: من ورشة تحترم وقتك أكثر من متجر يبيعك قطعة جاهزة لا تناسبك.":
+        "Wood furniture made to the measurements of your home, with complete clarity on price, lead time and material: from a workshop that respects your time more than a store selling you a ready-made piece that does not fit.",
+    "سارة: شقة جديدة": "Sara: new apartment",
     "تجهيز شقة كاملة في 6 أسابيع": "A complete fit-out in six weeks",
     "المتاجر تبيع قطعًا لا تناسب المقاس، والصور مضلّلة": "Stores sell pieces that do not fit the space, and the photographs mislead",
     "إنستجرام + بحث": "Instagram + search",
     "باقة تجهيز شقة + قياس مجاني + جدول تركيب": "An apartment fit-out package with free measurement and an installation schedule",
     "«سألتزم بالتأخير بضعة أيام»": "“I will delay the work by a few days”",
-    "كريم — مكتب صغير": "Karim — small office",
+    "كريم: مكتب صغير": "Karim: small office",
     "أثاث مكتبي بجودة تدوم": "Office furniture of a quality that lasts",
     "الأسعار تتفاوت ولا يعرف ما الذي يشتريه": "Prices vary wildly and he cannot tell what he is buying",
     "بحث + لينكدإن": "Search + LinkedIn",
     "تشكيلة مكتبية ثابتة السعر مع صفحة مواصفات لكل قطعة": "A fixed-price office range with a specification page for every item",
     "«لماذا أشتري منكم لا من معرض؟»": "“Why buy from you rather than from a showroom?”",
-    "هند — مطوّرة عقارية": "Hind — property developer",
+    "هند: مطوّرة عقارية": "Hind: property developer",
     "تنفيذ موحّد لعميل نهائي متعدد الوحدات": "Consistent execution for an end client with multiple units",
     "تنسيق مع مقاولين متعددين وضعف التواصل": "Coordinating with several contractors and poor communication",
     "علاقات مباشرة": "Direct relationships",
     "عقد إطاري بأسعار ثابتة وجدول تسليم تعاقدي": "A framework agreement with fixed prices and a contractual delivery schedule",
     "«أريد ضمانات تسليم صارمة»": "“I want firm delivery guarantees”",
-    "منى — تجديد سريع": "Mona — quick refresh",
+    "منى: تجديد سريع": "Mona: quick refresh",
     "تغيير قطعة أو اثنتين بميزانية محددة": "Replace one or two pieces on a fixed budget",
     "الفخامة الزائدة تكلّف أكثر من اللازم": "Excessive luxury costs more than it should",
     "تيك توك + شوب": "TikTok + Shop",
@@ -800,7 +800,7 @@ EN = {
     "الوعي والاكتشاف": "Awareness and discovery",
     "تكلفة الوصول وكلفة الاكتساب": "Cost per reach and cost per acquisition",
     "180–320 ج.م": "EGP 180–320",
-    "أقوى قناة في الفئة — محتوى قبل وبعد": "The strongest channel in the category — before-and-after content",
+    "أقوى قناة في الفئة: محتوى قبل وبعد": "The strongest channel in the category: before-and-after content",
     "بحث جوجل": "Google Search",
     "النية التقاط الطلب": "Capturing intent",
     "تكلفة الاكتساب في النوايا": "Acquisition cost on high-intent queries",
@@ -851,15 +851,15 @@ EN = {
     "مرجع الفئة 5–8%": "Category benchmark 5–8%",
     "الدفع": "Checkout",
     "نسبة إتمام الدفع": "Checkout completion rate",
-    "عائق الشحن — يُعالج بخيارات الشحن الصريحة": "The shipping obstacle — addressed through explicit shipping options",
+    "عائق الشحن: يُعالج بخيارات الشحن الصريحة": "The shipping obstacle: addressed through explicit shipping options",
     "الشراء": "Purchase",
     "معدل التحويل الكلي": "Overall conversion rate",
     "نقطة التعادل ≈ 121 وحدة شهريًا مقابل 308 مستهدفة":
         "Break-even ≈ 121 units a month against 308 targeted",
     "الاحتفاظ": "Retention",
     "إعادة الشراء خلال 12 شهرًا": "Repeat purchase within 12 months",
-    "أثاث يُشترى مرة — القيمة في الكمية والتوصية":
-        "Furniture is bought once — the value lies in volume and referral",
+    "أثاث يُشترى مرة: القيمة في الكمية والتوصية":
+        "Furniture is bought once: the value lies in volume and referral",
     "الخامة وكيف تعرفها": "Material and how to read it",
     "ريلز": "Reels",
     "مقارنات": "Comparisons",
@@ -894,8 +894,8 @@ EN = {
         "Follow-up on day three and day thirty after delivery to pre-empt complaints.",
     "إحالة عميل جديد = 300 ج.م رصيدًا للعميل.":
         "A new customer referral earns the referrer EGP 300 in credit.",
-    "قائمة شرف للمشاريع المميزة Alto — محتوى مجتمعي منخفض الكلفة.":
-        "A showcase of flagship projects — low-cost community content.",
+    "قائمة شرف للمشاريع المميزة Alto: محتوى مجتمعي منخفض الكلفة.":
+        "A showcase of flagship projects: low-cost community content.",
 
     # ---------------- technology ----------------
     "الواجهة الأمامية": "Front end",
@@ -1048,7 +1048,7 @@ EN = {
     "وكيل ما بعد البيع": "After-sales Agent",
     "بعد 3 أيام": "After 3 days",
     "نسبة المراجعات": "Review rate",
-    "المورد المحلي — المنطقة الصناعية": "Local supplier — industrial zone",
+    "المورد المحلي: المنطقة الصناعية": "Local supplier: industrial zone",
     "MDF وخشب مضغوط": "MDF and compressed wood",
     "نقدًا عند الاستلام": "Cash on delivery",
     "7–9 أيام": "7–9 days",
@@ -1058,7 +1058,7 @@ EN = {
     "30% مقدم / 70% قبل الشحن": "30% advance / 70% before shipment",
     "21 يومًا": "21 days",
     "سعر الصرف وسلسلة التوريد": "Exchange rate and the supply chain",
-    "العتبة — إكسسوارات": "Al-Ogba — accessories",
+    "العتبة: إكسسوارات": "Al-Ogba: accessories",
     "مفصلات وانزلاقات": "Hinges and runners",
     "آجل 30 يومًا": "Net 30 days",
     "4 أيام": "4 days",
@@ -1128,7 +1128,7 @@ EN = {
     "توظيف": "Full-time",
     "تعاقد": "Contract",
     "جزئي": "Part-time",
-    "دوام كامل — المالك الأول للوكلاء": "Full time — the first owner of the agents",
+    "دوام كامل: المالك الأول للوكلاء": "Full time: the first owner of the agents",
     "Full-stack": "Full-stack",
     "متوسط السنة الأولى": "Averaged across year one",
     "يدير الحملات والمحتوى": "Runs the campaigns and the content",
@@ -1278,7 +1278,7 @@ EN = {
     "سوقي": "Market",
     "دخول منصة كبرى إلى فئة الأثاث": "A major platform entering the furniture category",
     "التمركز في التخصيص حسب المقاس والخدمة الميدانية، وهي أصعب ما يمكن تقليده":
-        "Concentrate on made-to-measure customisation and on-site service — the hardest thing to copy",
+        "Concentrate on made-to-measure customisation and on-site service: the hardest thing to copy",
     "تعميق الشراكات مع المطوّرين العقاريين": "Deepen partnerships with property developers",
     "الرئيس التنفيذي": "Chief Executive",
     "إطلاق منصة كبرى تسعّر تحت التكلفة": "A major platform launching below-cost pricing",
@@ -1444,10 +1444,10 @@ EN = {
     "≤ 210 ج.م": "≤ EGP 210",
 
     # ---------------- conclusion ----------------
-    "المشروع مجدٍّ ماليًا في السيناريو الأساسي، لكن بهامشٍ ضيّق: القيمة الحالية الصافية موجبة بمقدار 377 ألف ج.م فقط، ومعدل العائد الداخلي 25.6% مقابل معدل خصم 24% — أي فارق 1.6 نقطة مئوية لا يقرأ كـ«فارق واضح». هذه النتيجة بالذات هي أهم مخرجات الدراسة، لأنها تُغيّر طبيعة القرار: لا يُطلب اعتمادٌ نهائي دفعةً واحدة، بل اعتمادٌ مرحلي مشروط ببوابات قياس. والسيناريو المتحفظ (سعر أقل 10%، مبيعات أبطأ 25%، تكاليف أعلى 15%) ينقل القيمة الحالية الصافية إلى نحو ‎-11.6 مليون ج.م ويلغي العائد الداخلي كليًّا؛ أي أن الخطر الحقيقي ليس في السوق بل في توقّع التحوّل. ما يدعم القرار أن الخطر التشغيلي محدود: القدرة الإنتاجية قائمة، والورشة عاملة، والفجوة الحقيقية هي فجوة الحضور الرقمي والبيانات — وهي بالضبط ما يعالجه هذا التحوّل.":
-        "The project is financially viable in the base case, but the margin is thin: net present value is positive at only EGP 377,000, and the internal rate of return of 25.6% sits just 1.6 percentage points above the 24% discount rate — a gap that cannot honestly be called a comfortable margin. That finding is itself the most important output of the study, because it changes the nature of the decision: what is being requested is not a single unconditional approval, but a phased approval gated by measurement. The conservative scenario (price 10% lower, sales 25% slower, costs 15% higher) drives net present value to roughly EGP -11.6m and eliminates the internal rate of return altogether; the real risk therefore lies not in the market but in the conversion assumption. What supports the decision is that the operating risk is bounded: the production capacity exists, the workshop is running, and the genuine gap is the digital presence and the data — which is exactly what this transformation closes.",
-    "الموافقة على المرحلة الأولى بميزانية 8.5 ملايين ج.م تُصرف على ثلاث دفعات مرتبطة ببوابات قياس: الدفعة الأولى لتشغيل المنصة والهوية، والثانية بعد اجتياز الاختبار التسويقي (45 يومًا بمعدل تحويل لا يقل عن 1.4%)، والثالثة بعد بلوغ التعادل التشغيلي. وتأجيل مرحلة توسيع خط الإنتاج (2.8 مليون ج.م) حتى يتحقق شرط الاستغلال. التوصية: موافقة مشروطة، لا موافقة مطلقة — وهو ما تعكسه الشروط الأربعة أعلاه.":
-        "Approve the first phase with an EGP 8.5m budget released in three tranches tied to measurement gates: the first to bring the platform and brand live, the second after passing the 45-day marketing test at a conversion rate of at least 1.4%, and the third once operating break-even is reached. Defer the production line expansion (EGP 2.8m) until the utilisation condition is met. The recommendation is conditional approval, not unconditional approval — which is exactly what the four conditions above reflect.",
+    "المشروع مجدٍّ ماليًا في السيناريو الأساسي، لكن بهامشٍ ضيّق: القيمة الحالية الصافية موجبة بمقدار 377 ألف ج.م فقط، ومعدل العائد الداخلي 25.6% مقابل معدل خصم 24%: أي فارق 1.6 نقطة مئوية لا يقرأ كـ«فارق واضح». هذه النتيجة بالذات هي أهم مخرجات الدراسة، لأنها تُغيّر طبيعة القرار: لا يُطلب اعتمادٌ نهائي دفعةً واحدة، بل اعتمادٌ مرحلي مشروط ببوابات قياس. والسيناريو المتحفظ (سعر أقل 10%، مبيعات أبطأ 25%، تكاليف أعلى 15%) ينقل القيمة الحالية الصافية إلى نحو ‎-11.6 مليون ج.م ويلغي العائد الداخلي كليًّا؛ أي أن الخطر الحقيقي ليس في السوق بل في توقّع التحوّل. ما يدعم القرار أن الخطر التشغيلي محدود: القدرة الإنتاجية قائمة، والورشة عاملة، والفجوة الحقيقية هي فجوة الحضور الرقمي والبيانات: وهي بالضبط ما يعالجه هذا التحوّل.":
+        "The project is financially viable in the base case, but the margin is thin: net present value is positive at only EGP 377,000, and the internal rate of return of 25.6% sits just 1.6 percentage points above the 24% discount rate: a gap that cannot honestly be called a comfortable margin. That finding is itself the most important output of the study, because it changes the nature of the decision: what is being requested is not a single unconditional approval, but a phased approval gated by measurement. The conservative scenario (price 10% lower, sales 25% slower, costs 15% higher) drives net present value to roughly EGP -11.6m and eliminates the internal rate of return altogether; the real risk therefore lies not in the market but in the conversion assumption. What supports the decision is that the operating risk is bounded: the production capacity exists, the workshop is running, and the genuine gap is the digital presence and the data: which is exactly what this transformation closes.",
+    "الموافقة على المرحلة الأولى بميزانية 8.5 ملايين ج.م تُصرف على ثلاث دفعات مرتبطة ببوابات قياس: الدفعة الأولى لتشغيل المنصة والهوية، والثانية بعد اجتياز الاختبار التسويقي (45 يومًا بمعدل تحويل لا يقل عن 1.4%)، والثالثة بعد بلوغ التعادل التشغيلي. وتأجيل مرحلة توسيع خط الإنتاج (2.8 مليون ج.م) حتى يتحقق شرط الاستغلال. التوصية: موافقة مشروطة، لا موافقة مطلقة: وهو ما تعكسه الشروط الأربعة أعلاه.":
+        "Approve the first phase with an EGP 8.5m budget released in three tranches tied to measurement gates: the first to bring the platform and brand live, the second after passing the 45-day marketing test at a conversion rate of at least 1.4%, and the third once operating break-even is reached. Defer the production line expansion (EGP 2.8m) until the utilisation condition is met. The recommendation is conditional approval, not unconditional approval: which is exactly what the four conditions above reflect.",
     "اجتياز الاختبار التسويقي 45 يومًا بمعدل تحويل لا يقل عن 1.4% قبل صرف الدفعة الثانية.":
         "Pass the 45-day marketing test at a conversion rate of at least 1.4% before releasing the second tranche.",
     "ضمان مورّدَين على الأقل لكل خامة أساسية قبل بدء التشغيل المكثّف.":
@@ -1469,14 +1469,14 @@ EN = {
     "الشهر 12": "Month 12",
     "ابدأ بحجم صغير: 50 منتجًا مختارًا بعناية بدل محاولة عرض كل ما يمكن تصنيعه.":
         "Start small: 50 carefully selected products rather than an attempt to list everything that can be made.",
-    "وثّق كل شيء من اليوم الأول — البيانات هي الأصل الحقيقي بعد ورشة الأثاث.":
-        "Document everything from day one — after a furniture workshop, the data is the real asset.",
+    "وثّق كل شيء من اليوم الأول: البيانات هي الأصل الحقيقي بعد ورشة الأثاث.":
+        "Document everything from day one: after a furniture workshop, the data is the real asset.",
     "اجعل الوكلاء يعملون على مهام محددة بمعيار قبول واضح لا على «أتمتة كل شيء».":
         "Give the agents specific tasks with clear acceptance criteria rather than a mandate to automate everything.",
     "راجع الأرقام الفعلية مقابل هذه الدراسة كل شهر، لا كل ربع سنة.":
         "Review the actual numbers against this study every month, not every quarter.",
-    "لا تطلق الإعلانات قبل جاهزية صفحة المنتج وصفحة الدفع — ستُهدر ميزانية الاكتساب.":
-        "Do not launch advertising before the product page and checkout are ready — you will waste the acquisition budget.",
+    "لا تطلق الإعلانات قبل جاهزية صفحة المنتج وصفحة الدفع: ستُهدر ميزانية الاكتساب.":
+        "Do not launch advertising before the product page and checkout are ready: you will waste the acquisition budget.",
     "لا تتوسّع في الطاقة الإنتاجية قبل بلوغ استغلال 70% من الطاقة الحالية.":
         "Do not expand production capacity before current utilisation reaches 70%.",
     "لا تعطِ صلاحيات واسعة للوكلاء حتى لو كانت النتائج موفّقة.":
@@ -1528,7 +1528,7 @@ EN = {
     "سجل داخلي": "Internal record",
     "استطلاع": "Survey",
     "نموذج": "Model",
-    "مدير العمليات — مراجعة الطاقة الإنتاجية وسلسلة التوريد": "Operations Manager — production capacity and supply chain review",
+    "مدير العمليات: مراجعة الطاقة الإنتاجية وسلسلة التوريد": "Operations Manager: production capacity and supply chain review",
     "8,500,000 ج.م": "EGP 8,500,000",
     "377,216 ج.م": "EGP 377,216",
     "السيناريو المتحفظ": "Conservative scenario",
@@ -1546,10 +1546,10 @@ EN = {
     "تعيين مدير المشروع الرقمي ومدير التسويق": "Appoint the digital project manager and the marketing manager",
     "الشريك المؤسّس": "Founding partner",
     "خلال 30 يومًا": "Within 30 days",
-    "عروض أسعار الخامات — الموردون": "Material price quotations — suppliers",
+    "عروض أسعار الخامات: الموردون": "Material price quotations: suppliers",
     "إدارة المشتريات": "Procurement Department",
     "سجل مقابلات العملاء (18 مقابلة)": "Customer interview log (18 interviews)",
-    "نموذج التقييم المالي — ملف مرفق": "Financial appraisal model — attached file",
+    "نموذج التقييم المالي: ملف مرفق": "Financial appraisal model: attached file",
     # ---------------- workshop ----------------
     "ورشة قائمة فعليًا منذ عام 2016 بمساحة تشغيلية 640 مترًا مربعًا تضم منشارين، ماكينة تفريز CNC، ونجارة يدوية، وتُنتج حاليًا عبر قنوات مباشرة (واتساب ومعارض) بمعدل 60–70 وحدة شهريًا دون حضور رقمي منظّم.":
         "A workshop genuinely operating since 2016 across 640 m², with two saws, a CNC router and hand carpentry. Output currently runs at 60–70 units a month through direct channels (WhatsApp and trade shows), with no structured digital presence.",
@@ -1567,22 +1567,22 @@ EN = {
     "متوسط مدة التسليم": "Average lead time",
     "12 يومًا": "12 days",
     "لطلبيات التفصيل": "For custom orders",
-    "19% حاليًا — الهدف 62% خلال 24 شهرًا": "19% today — 62% targeted within 24 months",
+    "19% حاليًا: الهدف 62% خلال 24 شهرًا": "19% today: 62% targeted within 24 months",
     "26 يومًا / شهر": "26 days / month",
     "خشب MDF مقاوم للرطوبة": "Moisture-resistant MDF",
     "لوح": "board",
-    "مورد محلي — المنطقة الصناعية": "Local supplier — industrial zone",
+    "مورد محلي: المنطقة الصناعية": "Local supplier: industrial zone",
     "الأكثر استخدامًا في المطابخ": "Most used in kitchens",
     "خشب طبيعي (Oak)": "Solid wood (Oak)",
     "م³": "m³",
-    "مورد مستورد — Orient Wood": "Imported supplier — Orient Wood",
+    "مورد مستورد: Orient Wood": "Imported supplier: Orient Wood",
     "العملاء الفاخرون": "Premium customers",
     "خشب HDF مضغوط عالي الكثافة": "High-density compressed HDF",
     "مورد محلي": "Local supplier",
     "مقاومة الخدش أعلى": "Higher scratch resistance",
     "إكسسوارات مفصلات وانزلاقات": "Hinge and runner accessories",
     "مجموعة": "set",
-    "مورد إكسسوارات — العتبة": "Accessories supplier — Al-Ogba",
+    "مورد إكسسوارات: العتبة": "Accessories supplier: Al-Ogba",
     "نقطة اختناق شائعة": "A common bottleneck",
     "دهانات وألواح تغليف (Laminate)": "Paints and laminate sheets",
     "عبوة": "pack",
@@ -1608,20 +1608,20 @@ EN = {
     "أمين مخزن ومشتريات": "Storekeeper and buyer",
     "منسّق عملاء": "Customer coordinator",
     "يستقبل طلبات واتساب حاليًا": "Currently handles WhatsApp orders",
-    "أصل تشغيلي قائم بالفعل — لا حاجة لبناء القدرة الإنتاجية من الصفر":
-        "An operating asset that already exists — there is no need to build production capacity from scratch",
+    "أصل تشغيلي قائم بالفعل: لا حاجة لبناء القدرة الإنتاجية من الصفر":
+        "An operating asset that already exists: there is no need to build production capacity from scratch",
     "سمعة جودة موثّقة في السوق المحلي عبر التوصيات الشفهية":
         "A quality reputation documented in the local market through word of mouth",
     "قدرة على التفصيل حسب الطلب وهي ميزة لا تُنسَّخ بسهولة في المتاجر الجاهزة":
-        "The ability to customise to measure — a capability that ready-made stores cannot easily copy",
+        "The ability to customise to measure: a capability that ready-made stores cannot easily copy",
     "بالغ يفضّل الأثاث الخشبي المصمّم على مقاسه":
         "A growing preference for furniture designed to fit the space",
     "لا وجود لأي حضور رقمي: الطلبات كلها عبر واتساب وتُسجَّل يدويًا":
         "No digital presence at all: every order arrives on WhatsApp and is logged by hand",
     "لا نظام إدارة طلبات ولا تتبع للمخزون ولا فوترة آلية":
         "No order management, no stock tracking, no automated invoicing",
-    "غياب بيانات السوق المنظّمة — القرار يعتمد على التقدير":
-        "No structured market data — decisions rest on estimates",
+    "غياب بيانات السوق المنظّمة: القرار يعتمد على التقدير":
+        "No structured market data: decisions rest on estimates",
     "الاعتماد على القناة الشخصية للمنسّق كبابة للاستجابة":
         "Responsiveness depends on one coordinator's personal channel",
     "لا وحدة قياس ولا تقارير مالية لحظية": "No measurement layer and no real-time financial reporting",
@@ -1694,44 +1694,44 @@ EN = {
     "نفس الورشة ونفس الفريق": "The same workshop and the same team",
     "لا يملك حضورًا رقميًا ولا تجربة شراء ولا بيانات":
         "It has no digital presence, no buying experience and no data",
-    "0% — المستهدف": "0% — the target",
-    "نمو مشاريع التطوير العقاري في المدن الجديدة — ضغط مستمر على الطلب":
-        "Growth of development projects in new cities — sustained pressure on demand",
+    "0%: المستهدف": "0%: the target",
+    "نمو مشاريع التطوير العقاري في المدن الجديدة: ضغط مستمر على الطلب":
+        "Growth of development projects in new cities: sustained pressure on demand",
     "تشديد الفجوة بين جودة المنتج وسهولة الشراء عبر الإنترنت":
         "The gap between product quality and the ease of buying online keeps widening",
     "تغيّر سلوك التحوّل الرقمي في الفئات الاستهلاكية ذات العمر الطويل":
         "A shift in digital behaviour within long-life consumer categories",
     "طلبات التركيب والتجهيز في الشقق الجديدة تتزايد مع تحسّن البنية التحتية للإنترنت":
         "Installation and fit-out requests for new apartments keep rising as internet access improves",
-    "حساسية الفئة تجاه الشراء عبر الإنترنت — تقلّص التحويل في أول 90 يومًا":
-        "Category sensitivity to online purchase — conversion contracts over the first 90 days",
+    "حساسية الفئة تجاه الشراء عبر الإنترنت: تقلّص التحويل في أول 90 يومًا":
+        "Category sensitivity to online purchase: conversion contracts over the first 90 days",
     "الاستيراد المباشر كبديل منخفض التكلفة": "Direct imports as a low-cost substitute",
     "تقلّبات سعر الخشب وسعر الصرف": "Volatility in timber prices and in the exchange rate",
     "حساسية العملاء لإرفاق تكلفة الشحن الباهظة": "Customer sensitivity to high shipping costs",
-    "تقرير قطاع الأثاث المنزلي — نظرة سنوية": "Home furniture sector report — annual review",
+    "تقرير قطاع الأثاث المنزلي: نظرة سنوية": "Home furniture sector report: annual review",
     "مركز أبحاث السوق": "Market Research Centre",
     "تقرير": "Report",
-    "— (مرجع داخلي)": "— (internal reference)",
-    "مسح أنماط الشراء الإلكتروني — الفئات الاستهلاكية": "Online shopping behaviour survey — consumer categories",
+    "- (مرجع داخلي)": "- (internal reference)",
+    "مسح أنماط الشراء الإلكتروني: الفئات الاستهلاكية": "Online shopping behaviour survey: consumer categories",
     "استطلاع مستقل": "Independent survey",
     "استطلاع ميداني": "Field survey",
-    "— (ملف داخلي)": "— (internal file)",
+    "- (ملف داخلي)": "- (internal file)",
     "تحليل تقييمات المتاجر الإلكترونية في فئة الأثاث": "Review analysis of online stores in the furniture category",
     "تحليل داخلي": "Internal analysis",
     "تحليل رقمي": "Digital analysis",
-    "قوائم أسعار الخامات — الموردون": "Material price lists — suppliers",
+    "قوائم أسعار الخامات: الموردون": "Material price lists: suppliers",
     "عروض موردين": "Supplier quotations",
     "أسعار": "Prices",
-    "— (ملف المشتريات)": "— (procurement file)",
-    "مقابلات العملاء — 18 مقابلة موثّقة": "Customer interviews — 18 documented sessions",
+    "- (ملف المشتريات)": "- (procurement file)",
+    "مقابلات العملاء: 18 مقابلة موثّقة": "Customer interviews: 18 documented sessions",
     "إدارة التسويق": "Marketing Department",
     "مقابلات": "Interviews",
-    "— (سجل مقابلات)": "— (interview log)",
+    "- (سجل مقابلات)": "- (interview log)",
     # ---------------- swot / pestel / porter / tows / efe / ife ----------------
     "أصل تشغيلي قائم: ورشة عاملة منذ عشر سنوات بسمعة جودة موثّقة":
         "An existing operating asset: a workshop running for ten years with a documented quality reputation",
-    "قدرة التفصيل حسب المقاس — ميزة تنافسية نادرة في المتاجر الإلكترونية":
-        "Customisation to measure — a rare competitive advantage in online stores",
+    "قدرة التفصيل حسب المقاس: ميزة تنافسية نادرة في المتاجر الإلكترونية":
+        "Customisation to measure: a rare competitive advantage in online stores",
     "تكلفة ثابتة منخفضة نسبيًا مقارنة بمنافسيSector": "",
     "تكلفة ثابتة منخفضة نسبيًا مقارنة بمنافسي القطاع":
         "Relatively low fixed costs compared with sector competitors",
@@ -1739,8 +1739,8 @@ EN = {
         "The ability to manufacture to order in half the market-standard lead time",
     "لا بنية تحتية رقمية على الإطلاق: لا متجر ولا نظام إدارة ولا قياس":
         "No digital infrastructure whatsoever: no store, no management system, no measurement",
-    "غياب أي بيانات تشغيلية منظّمة — القرارات تقديرية":
-        "No structured operating data — decisions are estimates",
+    "غياب أي بيانات تشغيلية منظّمة: القرارات تقديرية":
+        "No structured operating data: decisions are estimates",
     "اعتماد شديد على شخص واحد في تنسيق الطلبات":
         "Heavy dependence on one person for order coordination",
     "ضعف رأس المال العامل مقارنةً بما للتوسع المتزامن":
@@ -1765,7 +1765,7 @@ EN = {
         "Rising shipping and fuel costs",
     "خطورة الاعتماد على خوارزميات المنصات في الوصول":
         "The risk of depending on platform algorithms for reach",
-    "سياسي — P": "Political — P",
+    "سياسي: P": "Political: P",
     "مرتفع": "High",
     "تذبذب نسبي في مؤشرات الاستثمار يخفض جدوى المشاريع الصناعية الكبرى":
         "Relative volatility in investment indicators reduces the viability of large industrial projects",
@@ -1773,28 +1773,28 @@ EN = {
         "Industrial export support policies may open an export channel for premium furniture",
     "تعقيد إجراءات الترخيص والاشتراطات البلدية يطيل زمن التأسيس":
         "Complex licensing procedures and municipal requirements lengthen the set-up timeline",
-    "اقتصادي — E": "Economic — E",
+    "اقتصادي: E": "Economic: E",
     "تضخم متسارع في أسعار الأخشاب والتشطيبات":
         "Rapidly accelerating inflation in timber and finishing material prices",
     "انخفاض القيمة المحلية للعملة مقابل الدولار يربك تسعير المنتجات المستوردة":
         "Local currency depreciation against the dollar unsettles pricing of imported products",
     "ضغط على التحوّل الرقمي بعد تخفيض سقف الدفع النقدي":
         "Pressure on digital adoption following the reduction of the cash-payment ceiling",
-    "اجتماعي — S": "Social — S",
+    "اجتماعي: S": "Social: S",
     "تحوّل سلوكي نحو الشراء عبر التطبيقات":
         "A behavioural shift towards buying through applications",
     "ميل متزايد نحو الأثاث المخصص بدل الجاهز":
         "A growing preference for made-to-order over ready-made furniture",
     "حساسية منخفضة تجاه خامات معاد تدويرها مستدامة بيئيًا":
         "Low sensitivity to environmentally sustainable recycled materials",
-    "تكنولوجي — T": "Technological — T",
+    "تكنولوجي: T": "Technological: T",
     "توفّر أدوات ذكاء اصطناعي بقدرات تحريرية وتحليلية متقدمة":
         "AI tooling with advanced authoring and analytical capability is readily available",
     "انخفاض كلفة الحوسبة والتخزين":
         "Falling cost of compute and storage",
     "استقرار الربط بين أنظمة الدفع والشحن والمتاجر":
         "Stable integration between payment, shipping and storefront systems",
-    "بيئي — E": "Environmental — E",
+    "بيئي: E": "Environmental: E",
     "متوسط": "Medium",
     "اشتراطات تصريف المخلفات الخشبية":
         "Regulations on the disposal of timber waste",
@@ -1802,7 +1802,7 @@ EN = {
         "Growing demand for recycled or certified materials",
     "فرصة للتميّز عبر شهادة معايير بيئية":
         "An opportunity to differentiate through environmental certification",
-    "قانوني — L": "Legal — L",
+    "قانوني: L": "Legal: L",
     "قانون حماية البيانات الشخصية وتطبيقه على ملفات العملاء":
         "Personal data protection law and its application to customer records",
     "التزامات قياس الأثر الموقفي التسويقي":
@@ -1813,7 +1813,7 @@ EN = {
         "A proliferation of workshops and platforms with no meaningful barriers to entry; the markets are driven by price and service competition.",
     "تهديد دخول لاعبين جدد": "Threat of new entrants",
     "انخفاض كلفة الدخول الرقمية: متجر جاهز خلال أسبوعين، لكن العائق الحقيقي هو القدرة على التنفيذ لا على الموقع.":
-        "The cost of digital entry has fallen — a store can be live in two weeks — but the real barrier is delivery capability, not the website.",
+        "The cost of digital entry has fallen: a store can be live in two weeks: but the real barrier is delivery capability, not the website.",
     "القدرة التفاوضية للموردين": "Bargaining power of suppliers",
     "معظم الخامات متاحة من أكثر من مورّد، لكن الاستيراد يمثّل ضغطًا على صنف واحد.":
         "Most materials are available from more than one supplier, but imports create pressure on a single line.",
@@ -1865,13 +1865,13 @@ EN = {
     "خبرة إدارية في التصنيع": "Management experience in manufacturing",
     "قدرة الفريق الرقمي على البناء والتسويق": "The digital team's capacity to build and to market",
     # ---------------- agent groups / roles / autonomy ----------------
-    "1 — القيادة والتنسيق": "1 — Leadership and coordination",
-    "2 — الهندسة والتطوير": "2 — Engineering and development",
-    "3 — التسويق والمحتوى": "3 — Marketing and content",
-    "4 — خدمة العملاء": "4 — Customer service",
-    "5 — العمليات والتصنيع": "5 — Operations and manufacturing",
-    "6 — التحليل والقرارات": "6 — Analytics and decisions",
-    "7 — المالية والامتثال": "7 — Finance and compliance",
+    "1: القيادة والتنسيق": "1: Leadership and coordination",
+    "2: الهندسة والتطوير": "2: Engineering and development",
+    "3: التسويق والمحتوى": "3: Marketing and content",
+    "4: خدمة العملاء": "4: Customer service",
+    "5: العمليات والتصنيع": "5: Operations and manufacturing",
+    "6: التحليل والقرارات": "6: Analytics and decisions",
+    "7: المالية والامتثال": "7: Finance and compliance",
     "وكيل مدير المشروع": "Project Manager Agent",
     "وكيل مدير العمليات": "Operations Manager Agent",
     "وكيل مهندس المنصة": "Platform Engineer Agent",
@@ -1954,7 +1954,7 @@ EN = {
     "إدارة ميزانية الإعلانات حسب عائد كل قناة، وتشغيل التجارب، وتوسيع القنوات التي تحقق تكلفة اكتساب أقل من الحد المستهدف.":
         "Manage the advertising budget by the return of each channel, run experiments, and scale channels whose acquisition cost stays below the target.",
     "إنتاج محتوى عربي أصيل يشرح الفروق التقنية (الخامة، التركيب، الضمان) ويحوّل الخبرة التشغيلية إلى ميزة تنافسية في نتائج البحث.":
-        "Produce original Arabic content that explains the technical differences — material, installation, warranty — and turns operating experience into a search advantage.",
+        "Produce original Arabic content that explains the technical differences: material, installation, warranty: and turns operating experience into a search advantage.",
     "حماية اتساق الهوية البصرية عبر كل نقطة تماس، وإعداد القوالب والمواد الإعلانية الجاهزة للنشر.":
         "Protect brand consistency across every touchpoint and prepare templates and campaign assets ready for publication.",
     "الرد على استفسارات ما قبل البيع عبر واتساب والموقع، وجمع بيانات العملاء المحتملين، وتسليم الحالات المعقّدة للبشر.":
@@ -2189,8 +2189,8 @@ EN = {
     "اخفاق في متطلب نظامي": "A failure against a regulatory requirement",
 
     # ---------------- AI governance ----------------
-    "لكل وكيل مالك بشري مسؤول عن المخرجات — لا يوجد وكيل بلا مالك.":
-        "Every agent has a human owner accountable for its output — there is no agent without an owner.",
+    "لكل وكيل مالك بشري مسؤول عن المخرجات: لا يوجد وكيل بلا مالك.":
+        "Every agent has a human owner accountable for its output: there is no agent without an owner.",
     "مبدأ «الاقتراح ثم المراجعة» إلزامي في القرارات التي تمسّ المال أو العميل.":
         "The propose-then-review principle is mandatory for any decision touching money or a customer.",
     "كل مخرَج من وكيل قابل للتتبع: من أي بيانات وأي تعليمات وُلد.":
@@ -2232,33 +2232,33 @@ EN = {
     "مراجعة شهرية لتكلفة اشتراكات أدوات الذكاء الاصطناعي مقابل المكسب التشغيلي.":
         "A monthly review of AI tooling subscription cost against the operating benefit it delivers.",
     "توجيه النماذج إلى أرخص مستوى يفي بالحاجة (نموذج صغير للمهام المتكررة).":
-        "Route each task to the cheapest model tier that meets the need — a small model for repetitive work.",
+        "Route each task to the cheapest model tier that meets the need: a small model for repetitive work.",
     "حساب تكلفة كل طلب عبر المساعد الآلي ومقارنتها بتكلفة المعالجة البشرية.":
         "The cost per order handled by the assistant is measured against the cost of human handling.",
     "سقف إنفاق شهري لكل وكيل مع تنبيه عند تجاوز 80%.":
         "A monthly spend ceiling per agent, with an alert at 80%.",
     # ---------------- marketing ----------------
-    "أثاث خشبي مصنوع على مقاس بيتك، بوضوح كامل في السعر والمدة والخامة — من ورشة تحترم وقتك أكثر من متجر يبيعك قطعة جاهزة لا تناسبك.":
-        "Wood furniture made to the measurements of your home, with complete clarity on price, lead time and material — from a workshop that respects your time more than a store selling you a ready-made piece that does not fit.",
-    "سارة — شقة جديدة": "Sara — new apartment",
+    "أثاث خشبي مصنوع على مقاس بيتك، بوضوح كامل في السعر والمدة والخامة: من ورشة تحترم وقتك أكثر من متجر يبيعك قطعة جاهزة لا تناسبك.":
+        "Wood furniture made to the measurements of your home, with complete clarity on price, lead time and material: from a workshop that respects your time more than a store selling you a ready-made piece that does not fit.",
+    "سارة: شقة جديدة": "Sara: new apartment",
     "تجهيز شقة كاملة في 6 أسابيع": "A complete fit-out in six weeks",
     "المتاجر تبيع قطعًا لا تناسب المقاس، والصور مضلّلة": "Stores sell pieces that do not fit the space, and the photographs mislead",
     "إنستجرام + بحث": "Instagram + search",
     "باقة تجهيز شقة + قياس مجاني + جدول تركيب": "An apartment fit-out package with free measurement and an installation schedule",
     "«سألتزم بالتأخير بضعة أيام»": "“I will delay the work by a few days”",
-    "كريم — مكتب صغير": "Karim — small office",
+    "كريم: مكتب صغير": "Karim: small office",
     "أثاث مكتبي بجودة تدوم": "Office furniture of a quality that lasts",
     "الأسعار تتفاوت ولا يعرف ما الذي يشتريه": "Prices vary wildly and he cannot tell what he is buying",
     "بحث + لينكدإن": "Search + LinkedIn",
     "تشكيلة مكتبية ثابتة السعر مع صفحة مواصفات لكل قطعة": "A fixed-price office range with a specification page for every item",
     "«لماذا أشتري منكم لا من معرض؟»": "“Why buy from you rather than from a showroom?”",
-    "هند — مطوّرة عقارية": "Hind — property developer",
+    "هند: مطوّرة عقارية": "Hind: property developer",
     "تنفيذ موحّد لعميل نهائي متعدد الوحدات": "Consistent execution for an end client with multiple units",
     "تنسيق مع مقاولين متعددين وضعف التواصل": "Coordinating with several contractors and poor communication",
     "علاقات مباشرة": "Direct relationships",
     "عقد إطاري بأسعار ثابتة وجدول تسليم تعاقدي": "A framework agreement with fixed prices and a contractual delivery schedule",
     "«أريد ضمانات تسليم صارمة»": "“I want firm delivery guarantees”",
-    "منى — تجديد سريع": "Mona — quick refresh",
+    "منى: تجديد سريع": "Mona: quick refresh",
     "تغيير قطعة أو اثنتين بميزانية محددة": "Replace one or two pieces on a fixed budget",
     "الفخامة الزائدة تكلّف أكثر من اللازم": "Excessive luxury costs more than it should",
     "تيك توك + شوب": "TikTok + Shop",
@@ -2268,7 +2268,7 @@ EN = {
     "الوعي والاكتشاف": "Awareness and discovery",
     "تكلفة الوصول وكلفة الاكتساب": "Cost per reach and cost per acquisition",
     "180–320 ج.م": "EGP 180–320",
-    "أقوى قناة في الفئة — محتوى قبل وبعد": "The strongest channel in the category — before-and-after content",
+    "أقوى قناة في الفئة: محتوى قبل وبعد": "The strongest channel in the category: before-and-after content",
     "بحث جوجل": "Google Search",
     "النية التقاط الطلب": "Capturing intent",
     "تكلفة الاكتساب في النوايا": "Acquisition cost on high-intent queries",
@@ -2319,15 +2319,15 @@ EN = {
     "مرجع الفئة 5–8%": "Category benchmark 5–8%",
     "الدفع": "Checkout",
     "نسبة إتمام الدفع": "Checkout completion rate",
-    "عائق الشحن — يُعالج بخيارات الشحن الصريحة": "The shipping obstacle — addressed through explicit shipping options",
+    "عائق الشحن: يُعالج بخيارات الشحن الصريحة": "The shipping obstacle: addressed through explicit shipping options",
     "الشراء": "Purchase",
     "معدل التحويل الكلي": "Overall conversion rate",
     "نقطة التعادل ≈ 121 وحدة شهريًا مقابل 308 مستهدفة":
         "Break-even ≈ 121 units a month against 308 targeted",
     "الاحتفاظ": "Retention",
     "إعادة الشراء خلال 12 شهرًا": "Repeat purchase within 12 months",
-    "أثاث يُشترى مرة — القيمة في الكمية والتوصية":
-        "Furniture is bought once — the value lies in volume and referral",
+    "أثاث يُشترى مرة: القيمة في الكمية والتوصية":
+        "Furniture is bought once: the value lies in volume and referral",
     "الخامة وكيف تعرفها": "Material and how to read it",
     "ريلز": "Reels",
     "مقارنات": "Comparisons",
@@ -2362,8 +2362,8 @@ EN = {
         "Follow-up on day three and day thirty after delivery to pre-empt complaints.",
     "إحالة عميل جديد = 300 ج.م رصيدًا للعميل.":
         "A new customer referral earns the referrer EGP 300 in credit.",
-    "قائمة شرف للمشاريع المميزة Alto — محتوى مجتمعي منخفض الكلفة.":
-        "A showcase of flagship projects — low-cost community content.",
+    "قائمة شرف للمشاريع المميزة Alto: محتوى مجتمعي منخفض الكلفة.":
+        "A showcase of flagship projects: low-cost community content.",
 
     # ---------------- technology ----------------
     "الواجهة الأمامية": "Front end",
@@ -2516,7 +2516,7 @@ EN = {
     "وكيل ما بعد البيع": "After-sales Agent",
     "بعد 3 أيام": "After 3 days",
     "نسبة المراجعات": "Review rate",
-    "المورد المحلي — المنطقة الصناعية": "Local supplier — industrial zone",
+    "المورد المحلي: المنطقة الصناعية": "Local supplier: industrial zone",
     "MDF وخشب مضغوط": "MDF and compressed wood",
     "نقدًا عند الاستلام": "Cash on delivery",
     "7–9 أيام": "7–9 days",
@@ -2526,7 +2526,7 @@ EN = {
     "30% مقدم / 70% قبل الشحن": "30% advance / 70% before shipment",
     "21 يومًا": "21 days",
     "سعر الصرف وسلسلة التوريد": "Exchange rate and the supply chain",
-    "العتبة — إكسسوارات": "Al-Ogba — accessories",
+    "العتبة: إكسسوارات": "Al-Ogba: accessories",
     "مفصلات وانزلاقات": "Hinges and runners",
     "آجل 30 يومًا": "Net 30 days",
     "4 أيام": "4 days",
@@ -2596,7 +2596,7 @@ EN = {
     "توظيف": "Full-time",
     "تعاقد": "Contract",
     "جزئي": "Part-time",
-    "دوام كامل — المالك الأول للوكلاء": "Full time — the first owner of the agents",
+    "دوام كامل: المالك الأول للوكلاء": "Full time: the first owner of the agents",
     "Full-stack": "Full-stack",
     "متوسط السنة الأولى": "Averaged across year one",
     "يدير الحملات والمحتوى": "Runs the campaigns and the content",
@@ -2746,7 +2746,7 @@ EN = {
     "سوقي": "Market",
     "دخول منصة كبرى إلى فئة الأثاث": "A major platform entering the furniture category",
     "التمركز في التخصيص حسب المقاس والخدمة الميدانية، وهي أصعب ما يمكن تقليده":
-        "Concentrate on made-to-measure customisation and on-site service — the hardest thing to copy",
+        "Concentrate on made-to-measure customisation and on-site service: the hardest thing to copy",
     "تعميق الشراكات مع المطوّرين العقاريين": "Deepen partnerships with property developers",
     "الرئيس التنفيذي": "Chief Executive",
     "إطلاق منصة كبرى تسعّر تحت التكلفة": "A major platform launching below-cost pricing",
@@ -2912,10 +2912,10 @@ EN = {
     "≤ 210 ج.م": "≤ EGP 210",
 
     # ---------------- conclusion ----------------
-    "المشروع مجدٍّ ماليًا في السيناريو الأساسي، لكن بهامشٍ ضيّق: القيمة الحالية الصافية موجبة بمقدار 377 ألف ج.م فقط، ومعدل العائد الداخلي 25.6% مقابل معدل خصم 24% — أي فارق 1.6 نقطة مئوية لا يقرأ كـ«فارق واضح». هذه النتيجة بالذات هي أهم مخرجات الدراسة، لأنها تُغيّر طبيعة القرار: لا يُطلب اعتمادٌ نهائي دفعةً واحدة، بل اعتمادٌ مرحلي مشروط ببوابات قياس. والسيناريو المتحفظ (سعر أقل 10%، مبيعات أبطأ 25%، تكاليف أعلى 15%) ينقل القيمة الحالية الصافية إلى نحو ‎-11.6 مليون ج.م ويلغي العائد الداخلي كليًّا؛ أي أن الخطر الحقيقي ليس في السوق بل في توقّع التحوّل. ما يدعم القرار أن الخطر التشغيلي محدود: القدرة الإنتاجية قائمة، والورشة عاملة، والفجوة الحقيقية هي فجوة الحضور الرقمي والبيانات — وهي بالضبط ما يعالجه هذا التحوّل.":
-        "The project is financially viable in the base case, but the margin is thin: net present value is positive at only EGP 377,000, and the internal rate of return of 25.6% sits just 1.6 percentage points above the 24% discount rate — a gap that cannot honestly be called a comfortable margin. That finding is itself the most important output of the study, because it changes the nature of the decision: what is being requested is not a single unconditional approval, but a phased approval gated by measurement. The conservative scenario (price 10% lower, sales 25% slower, costs 15% higher) drives net present value to roughly EGP -11.6m and eliminates the internal rate of return altogether; the real risk therefore lies not in the market but in the conversion assumption. What supports the decision is that the operating risk is bounded: the production capacity exists, the workshop is running, and the genuine gap is the digital presence and the data — which is exactly what this transformation closes.",
-    "الموافقة على المرحلة الأولى بميزانية 8.5 ملايين ج.م تُصرف على ثلاث دفعات مرتبطة ببوابات قياس: الدفعة الأولى لتشغيل المنصة والهوية، والثانية بعد اجتياز الاختبار التسويقي (45 يومًا بمعدل تحويل لا يقل عن 1.4%)، والثالثة بعد بلوغ التعادل التشغيلي. وتأجيل مرحلة توسيع خط الإنتاج (2.8 مليون ج.م) حتى يتحقق شرط الاستغلال. التوصية: موافقة مشروطة، لا موافقة مطلقة — وهو ما تعكسه الشروط الأربعة أعلاه.":
-        "Approve the first phase with an EGP 8.5m budget released in three tranches tied to measurement gates: the first to bring the platform and brand live, the second after passing the 45-day marketing test at a conversion rate of at least 1.4%, and the third once operating break-even is reached. Defer the production line expansion (EGP 2.8m) until the utilisation condition is met. The recommendation is conditional approval, not unconditional approval — which is exactly what the four conditions above reflect.",
+    "المشروع مجدٍّ ماليًا في السيناريو الأساسي، لكن بهامشٍ ضيّق: القيمة الحالية الصافية موجبة بمقدار 377 ألف ج.م فقط، ومعدل العائد الداخلي 25.6% مقابل معدل خصم 24%: أي فارق 1.6 نقطة مئوية لا يقرأ كـ«فارق واضح». هذه النتيجة بالذات هي أهم مخرجات الدراسة، لأنها تُغيّر طبيعة القرار: لا يُطلب اعتمادٌ نهائي دفعةً واحدة، بل اعتمادٌ مرحلي مشروط ببوابات قياس. والسيناريو المتحفظ (سعر أقل 10%، مبيعات أبطأ 25%، تكاليف أعلى 15%) ينقل القيمة الحالية الصافية إلى نحو ‎-11.6 مليون ج.م ويلغي العائد الداخلي كليًّا؛ أي أن الخطر الحقيقي ليس في السوق بل في توقّع التحوّل. ما يدعم القرار أن الخطر التشغيلي محدود: القدرة الإنتاجية قائمة، والورشة عاملة، والفجوة الحقيقية هي فجوة الحضور الرقمي والبيانات: وهي بالضبط ما يعالجه هذا التحوّل.":
+        "The project is financially viable in the base case, but the margin is thin: net present value is positive at only EGP 377,000, and the internal rate of return of 25.6% sits just 1.6 percentage points above the 24% discount rate: a gap that cannot honestly be called a comfortable margin. That finding is itself the most important output of the study, because it changes the nature of the decision: what is being requested is not a single unconditional approval, but a phased approval gated by measurement. The conservative scenario (price 10% lower, sales 25% slower, costs 15% higher) drives net present value to roughly EGP -11.6m and eliminates the internal rate of return altogether; the real risk therefore lies not in the market but in the conversion assumption. What supports the decision is that the operating risk is bounded: the production capacity exists, the workshop is running, and the genuine gap is the digital presence and the data: which is exactly what this transformation closes.",
+    "الموافقة على المرحلة الأولى بميزانية 8.5 ملايين ج.م تُصرف على ثلاث دفعات مرتبطة ببوابات قياس: الدفعة الأولى لتشغيل المنصة والهوية، والثانية بعد اجتياز الاختبار التسويقي (45 يومًا بمعدل تحويل لا يقل عن 1.4%)، والثالثة بعد بلوغ التعادل التشغيلي. وتأجيل مرحلة توسيع خط الإنتاج (2.8 مليون ج.م) حتى يتحقق شرط الاستغلال. التوصية: موافقة مشروطة، لا موافقة مطلقة: وهو ما تعكسه الشروط الأربعة أعلاه.":
+        "Approve the first phase with an EGP 8.5m budget released in three tranches tied to measurement gates: the first to bring the platform and brand live, the second after passing the 45-day marketing test at a conversion rate of at least 1.4%, and the third once operating break-even is reached. Defer the production line expansion (EGP 2.8m) until the utilisation condition is met. The recommendation is conditional approval, not unconditional approval: which is exactly what the four conditions above reflect.",
     "اجتياز الاختبار التسويقي 45 يومًا بمعدل تحويل لا يقل عن 1.4% قبل صرف الدفعة الثانية.":
         "Pass the 45-day marketing test at a conversion rate of at least 1.4% before releasing the second tranche.",
     "ضمان مورّدَين على الأقل لكل خامة أساسية قبل بدء التشغيل المكثّف.":
@@ -2937,14 +2937,14 @@ EN = {
     "الشهر 12": "Month 12",
     "ابدأ بحجم صغير: 50 منتجًا مختارًا بعناية بدل محاولة عرض كل ما يمكن تصنيعه.":
         "Start small: 50 carefully selected products rather than an attempt to list everything that can be made.",
-    "وثّق كل شيء من اليوم الأول — البيانات هي الأصل الحقيقي بعد ورشة الأثاث.":
-        "Document everything from day one — after a furniture workshop, the data is the real asset.",
+    "وثّق كل شيء من اليوم الأول: البيانات هي الأصل الحقيقي بعد ورشة الأثاث.":
+        "Document everything from day one: after a furniture workshop, the data is the real asset.",
     "اجعل الوكلاء يعملون على مهام محددة بمعيار قبول واضح لا على «أتمتة كل شيء».":
         "Give the agents specific tasks with clear acceptance criteria rather than a mandate to automate everything.",
     "راجع الأرقام الفعلية مقابل هذه الدراسة كل شهر، لا كل ربع سنة.":
         "Review the actual numbers against this study every month, not every quarter.",
-    "لا تطلق الإعلانات قبل جاهزية صفحة المنتج وصفحة الدفع — ستُهدر ميزانية الاكتساب.":
-        "Do not launch advertising before the product page and checkout are ready — you will waste the acquisition budget.",
+    "لا تطلق الإعلانات قبل جاهزية صفحة المنتج وصفحة الدفع: ستُهدر ميزانية الاكتساب.":
+        "Do not launch advertising before the product page and checkout are ready: you will waste the acquisition budget.",
     "لا تتوسّع في الطاقة الإنتاجية قبل بلوغ استغلال 70% من الطاقة الحالية.":
         "Do not expand production capacity before current utilisation reaches 70%.",
     "لا تعطِ صلاحيات واسعة للوكلاء حتى لو كانت النتائج موفّقة.":
@@ -2996,7 +2996,7 @@ EN = {
     "سجل داخلي": "Internal record",
     "استطلاع": "Survey",
     "نموذج": "Model",
-    "مدير العمليات — مراجعة الطاقة الإنتاجية وسلسلة التوريد": "Operations Manager — production capacity and supply chain review",
+    "مدير العمليات: مراجعة الطاقة الإنتاجية وسلسلة التوريد": "Operations Manager: production capacity and supply chain review",
     "8,500,000 ج.م": "EGP 8,500,000",
     "377,216 ج.م": "EGP 377,216",
     "السيناريو المتحفظ": "Conservative scenario",
@@ -3014,10 +3014,10 @@ EN = {
     "تعيين مدير المشروع الرقمي ومدير التسويق": "Appoint the digital project manager and the marketing manager",
     "الشريك المؤسّس": "Founding partner",
     "خلال 30 يومًا": "Within 30 days",
-    "عروض أسعار الخامات — الموردون": "Material price quotations — suppliers",
+    "عروض أسعار الخامات: الموردون": "Material price quotations: suppliers",
     "إدارة المشتريات": "Procurement Department",
     "سجل مقابلات العملاء (18 مقابلة)": "Customer interview log (18 interviews)",
-    "نموذج التقييم المالي — ملف مرفق": "Financial appraisal model — attached file",
+    "نموذج التقييم المالي: ملف مرفق": "Financial appraisal model: attached file",
     # ---------------- workshop ----------------
     "ورشة قائمة فعليًا منذ عام 2016 بمساحة تشغيلية 640 مترًا مربعًا تضم منشارين، ماكينة تفريز CNC، ونجارة يدوية، وتُنتج حاليًا عبر قنوات مباشرة (واتساب ومعارض) بمعدل 60–70 وحدة شهريًا دون حضور رقمي منظّم.":
         "A workshop genuinely operating since 2016 across 640 m², with two saws, a CNC router and hand carpentry. Output currently runs at 60–70 units a month through direct channels (WhatsApp and trade shows), with no structured digital presence.",
@@ -3035,22 +3035,22 @@ EN = {
     "متوسط مدة التسليم": "Average lead time",
     "12 يومًا": "12 days",
     "لطلبيات التفصيل": "For custom orders",
-    "19% حاليًا — الهدف 62% خلال 24 شهرًا": "19% today — 62% targeted within 24 months",
+    "19% حاليًا: الهدف 62% خلال 24 شهرًا": "19% today: 62% targeted within 24 months",
     "26 يومًا / شهر": "26 days / month",
     "خشب MDF مقاوم للرطوبة": "Moisture-resistant MDF",
     "لوح": "board",
-    "مورد محلي — المنطقة الصناعية": "Local supplier — industrial zone",
+    "مورد محلي: المنطقة الصناعية": "Local supplier: industrial zone",
     "الأكثر استخدامًا في المطابخ": "Most used in kitchens",
     "خشب طبيعي (Oak)": "Solid wood (Oak)",
     "م³": "m³",
-    "مورد مستورد — Orient Wood": "Imported supplier — Orient Wood",
+    "مورد مستورد: Orient Wood": "Imported supplier: Orient Wood",
     "العملاء الفاخرون": "Premium customers",
     "خشب HDF مضغوط عالي الكثافة": "High-density compressed HDF",
     "مورد محلي": "Local supplier",
     "مقاومة الخدش أعلى": "Higher scratch resistance",
     "إكسسوارات مفصلات وانزلاقات": "Hinge and runner accessories",
     "مجموعة": "set",
-    "مورد إكسسوارات — العتبة": "Accessories supplier — Al-Ogba",
+    "مورد إكسسوارات: العتبة": "Accessories supplier: Al-Ogba",
     "نقطة اختناق شائعة": "A common bottleneck",
     "دهانات وألواح تغليف (Laminate)": "Paints and laminate sheets",
     "عبوة": "pack",
@@ -3076,20 +3076,20 @@ EN = {
     "أمين مخزن ومشتريات": "Storekeeper and buyer",
     "منسّق عملاء": "Customer coordinator",
     "يستقبل طلبات واتساب حاليًا": "Currently handles WhatsApp orders",
-    "أصل تشغيلي قائم بالفعل — لا حاجة لبناء القدرة الإنتاجية من الصفر":
-        "An operating asset that already exists — there is no need to build production capacity from scratch",
+    "أصل تشغيلي قائم بالفعل: لا حاجة لبناء القدرة الإنتاجية من الصفر":
+        "An operating asset that already exists: there is no need to build production capacity from scratch",
     "سمعة جودة موثّقة في السوق المحلي عبر التوصيات الشفهية":
         "A quality reputation documented in the local market through word of mouth",
     "قدرة على التفصيل حسب الطلب وهي ميزة لا تُنسَّخ بسهولة في المتاجر الجاهزة":
-        "The ability to customise to measure — a capability that ready-made stores cannot easily copy",
+        "The ability to customise to measure: a capability that ready-made stores cannot easily copy",
     "بالغ يفضّل الأثاث الخشبي المصمّم على مقاسه":
         "A growing preference for furniture designed to fit the space",
     "لا وجود لأي حضور رقمي: الطلبات كلها عبر واتساب وتُسجَّل يدويًا":
         "No digital presence at all: every order arrives on WhatsApp and is logged by hand",
     "لا نظام إدارة طلبات ولا تتبع للمخزون ولا فوترة آلية":
         "No order management, no stock tracking, no automated invoicing",
-    "غياب بيانات السوق المنظّمة — القرار يعتمد على التقدير":
-        "No structured market data — decisions rest on estimates",
+    "غياب بيانات السوق المنظّمة: القرار يعتمد على التقدير":
+        "No structured market data: decisions rest on estimates",
     "الاعتماد على القناة الشخصية للمنسّق كبابة للاستجابة":
         "Responsiveness depends on one coordinator's personal channel",
     "لا وحدة قياس ولا تقارير مالية لحظية": "No measurement layer and no real-time financial reporting",
@@ -3162,44 +3162,44 @@ EN = {
     "نفس الورشة ونفس الفريق": "The same workshop and the same team",
     "لا يملك حضورًا رقميًا ولا تجربة شراء ولا بيانات":
         "It has no digital presence, no buying experience and no data",
-    "0% — المستهدف": "0% — the target",
-    "نمو مشاريع التطوير العقاري في المدن الجديدة — ضغط مستمر على الطلب":
-        "Growth of development projects in new cities — sustained pressure on demand",
+    "0%: المستهدف": "0%: the target",
+    "نمو مشاريع التطوير العقاري في المدن الجديدة: ضغط مستمر على الطلب":
+        "Growth of development projects in new cities: sustained pressure on demand",
     "تشديد الفجوة بين جودة المنتج وسهولة الشراء عبر الإنترنت":
         "The gap between product quality and the ease of buying online keeps widening",
     "تغيّر سلوك التحوّل الرقمي في الفئات الاستهلاكية ذات العمر الطويل":
         "A shift in digital behaviour within long-life consumer categories",
     "طلبات التركيب والتجهيز في الشقق الجديدة تتزايد مع تحسّن البنية التحتية للإنترنت":
         "Installation and fit-out requests for new apartments keep rising as internet access improves",
-    "حساسية الفئة تجاه الشراء عبر الإنترنت — تقلّص التحويل في أول 90 يومًا":
-        "Category sensitivity to online purchase — conversion contracts over the first 90 days",
+    "حساسية الفئة تجاه الشراء عبر الإنترنت: تقلّص التحويل في أول 90 يومًا":
+        "Category sensitivity to online purchase: conversion contracts over the first 90 days",
     "الاستيراد المباشر كبديل منخفض التكلفة": "Direct imports as a low-cost substitute",
     "تقلّبات سعر الخشب وسعر الصرف": "Volatility in timber prices and in the exchange rate",
     "حساسية العملاء لإرفاق تكلفة الشحن الباهظة": "Customer sensitivity to high shipping costs",
-    "تقرير قطاع الأثاث المنزلي — نظرة سنوية": "Home furniture sector report — annual review",
+    "تقرير قطاع الأثاث المنزلي: نظرة سنوية": "Home furniture sector report: annual review",
     "مركز أبحاث السوق": "Market Research Centre",
     "تقرير": "Report",
-    "— (مرجع داخلي)": "— (internal reference)",
-    "مسح أنماط الشراء الإلكتروني — الفئات الاستهلاكية": "Online shopping behaviour survey — consumer categories",
+    "- (مرجع داخلي)": "- (internal reference)",
+    "مسح أنماط الشراء الإلكتروني: الفئات الاستهلاكية": "Online shopping behaviour survey: consumer categories",
     "استطلاع مستقل": "Independent survey",
     "استطلاع ميداني": "Field survey",
-    "— (ملف داخلي)": "— (internal file)",
+    "- (ملف داخلي)": "- (internal file)",
     "تحليل تقييمات المتاجر الإلكترونية في فئة الأثاث": "Review analysis of online stores in the furniture category",
     "تحليل داخلي": "Internal analysis",
     "تحليل رقمي": "Digital analysis",
-    "قوائم أسعار الخامات — الموردون": "Material price lists — suppliers",
+    "قوائم أسعار الخامات: الموردون": "Material price lists: suppliers",
     "عروض موردين": "Supplier quotations",
     "أسعار": "Prices",
-    "— (ملف المشتريات)": "— (procurement file)",
-    "مقابلات العملاء — 18 مقابلة موثّقة": "Customer interviews — 18 documented sessions",
+    "- (ملف المشتريات)": "- (procurement file)",
+    "مقابلات العملاء: 18 مقابلة موثّقة": "Customer interviews: 18 documented sessions",
     "إدارة التسويق": "Marketing Department",
     "مقابلات": "Interviews",
-    "— (سجل مقابلات)": "— (interview log)",
+    "- (سجل مقابلات)": "- (interview log)",
     # ---------------- swot / pestel / porter / tows / efe / ife ----------------
     "أصل تشغيلي قائم: ورشة عاملة منذ عشر سنوات بسمعة جودة موثّقة":
         "An existing operating asset: a workshop running for ten years with a documented quality reputation",
-    "قدرة التفصيل حسب المقاس — ميزة تنافسية نادرة في المتاجر الإلكترونية":
-        "Customisation to measure — a rare competitive advantage in online stores",
+    "قدرة التفصيل حسب المقاس: ميزة تنافسية نادرة في المتاجر الإلكترونية":
+        "Customisation to measure: a rare competitive advantage in online stores",
     "تكلفة ثابتة منخفضة نسبيًا مقارنة بمنافسيSector": "",
     "تكلفة ثابتة منخفضة نسبيًا مقارنة بمنافسي القطاع":
         "Relatively low fixed costs compared with sector competitors",
@@ -3207,8 +3207,8 @@ EN = {
         "The ability to manufacture to order in half the market-standard lead time",
     "لا بنية تحتية رقمية على الإطلاق: لا متجر ولا نظام إدارة ولا قياس":
         "No digital infrastructure whatsoever: no store, no management system, no measurement",
-    "غياب أي بيانات تشغيلية منظّمة — القرارات تقديرية":
-        "No structured operating data — decisions are estimates",
+    "غياب أي بيانات تشغيلية منظّمة: القرارات تقديرية":
+        "No structured operating data: decisions are estimates",
     "اعتماد شديد على شخص واحد في تنسيق الطلبات":
         "Heavy dependence on one person for order coordination",
     "ضعف رأس المال العامل مقارنةً بما للتوسع المتزامن":
@@ -3233,7 +3233,7 @@ EN = {
         "Rising shipping and fuel costs",
     "خطورة الاعتماد على خوارزميات المنصات في الوصول":
         "The risk of depending on platform algorithms for reach",
-    "سياسي — P": "Political — P",
+    "سياسي: P": "Political: P",
     "مرتفع": "High",
     "تذبذب نسبي في مؤشرات الاستثمار يخفض جدوى المشاريع الصناعية الكبرى":
         "Relative volatility in investment indicators reduces the viability of large industrial projects",
@@ -3241,28 +3241,28 @@ EN = {
         "Industrial export support policies may open an export channel for premium furniture",
     "تعقيد إجراءات الترخيص والاشتراطات البلدية يطيل زمن التأسيس":
         "Complex licensing procedures and municipal requirements lengthen the set-up timeline",
-    "اقتصادي — E": "Economic — E",
+    "اقتصادي: E": "Economic: E",
     "تضخم متسارع في أسعار الأخشاب والتشطيبات":
         "Rapidly accelerating inflation in timber and finishing material prices",
     "انخفاض القيمة المحلية للعملة مقابل الدولار يربك تسعير المنتجات المستوردة":
         "Local currency depreciation against the dollar unsettles pricing of imported products",
     "ضغط على التحوّل الرقمي بعد تخفيض سقف الدفع النقدي":
         "Pressure on digital adoption following the reduction of the cash-payment ceiling",
-    "اجتماعي — S": "Social — S",
+    "اجتماعي: S": "Social: S",
     "تحوّل سلوكي نحو الشراء عبر التطبيقات":
         "A behavioural shift towards buying through applications",
     "ميل متزايد نحو الأثاث المخصص بدل الجاهز":
         "A growing preference for made-to-order over ready-made furniture",
     "حساسية منخفضة تجاه خامات معاد تدويرها مستدامة بيئيًا":
         "Low sensitivity to environmentally sustainable recycled materials",
-    "تكنولوجي — T": "Technological — T",
+    "تكنولوجي: T": "Technological: T",
     "توفّر أدوات ذكاء اصطناعي بقدرات تحريرية وتحليلية متقدمة":
         "AI tooling with advanced authoring and analytical capability is readily available",
     "انخفاض كلفة الحوسبة والتخزين":
         "Falling cost of compute and storage",
     "استقرار الربط بين أنظمة الدفع والشحن والمتاجر":
         "Stable integration between payment, shipping and storefront systems",
-    "بيئي — E": "Environmental — E",
+    "بيئي: E": "Environmental: E",
     "متوسط": "Medium",
     "اشتراطات تصريف المخلفات الخشبية":
         "Regulations on the disposal of timber waste",
@@ -3270,7 +3270,7 @@ EN = {
         "Growing demand for recycled or certified materials",
     "فرصة للتميّز عبر شهادة معايير بيئية":
         "An opportunity to differentiate through environmental certification",
-    "قانوني — L": "Legal — L",
+    "قانوني: L": "Legal: L",
     "قانون حماية البيانات الشخصية وتطبيقه على ملفات العملاء":
         "Personal data protection law and its application to customer records",
     "التزامات قياس الأثر الموقفي التسويقي":
@@ -3281,7 +3281,7 @@ EN = {
         "A proliferation of workshops and platforms with no meaningful barriers to entry; the markets are driven by price and service competition.",
     "تهديد دخول لاعبين جدد": "Threat of new entrants",
     "انخفاض كلفة الدخول الرقمية: متجر جاهز خلال أسبوعين، لكن العائق الحقيقي هو القدرة على التنفيذ لا على الموقع.":
-        "The cost of digital entry has fallen — a store can be live in two weeks — but the real barrier is delivery capability, not the website.",
+        "The cost of digital entry has fallen: a store can be live in two weeks: but the real barrier is delivery capability, not the website.",
     "القدرة التفاوضية للموردين": "Bargaining power of suppliers",
     "معظم الخامات متاحة من أكثر من مورّد، لكن الاستيراد يمثّل ضغطًا على صنف واحد.":
         "Most materials are available from more than one supplier, but imports create pressure on a single line.",
@@ -3333,13 +3333,13 @@ EN = {
     "خبرة إدارية في التصنيع": "Management experience in manufacturing",
     "قدرة الفريق الرقمي على البناء والتسويق": "The digital team's capacity to build and to market",
     # ---------------- agent groups / roles / autonomy ----------------
-    "1 — القيادة والتنسيق": "1 — Leadership and coordination",
-    "2 — الهندسة والتطوير": "2 — Engineering and development",
-    "3 — التسويق والمحتوى": "3 — Marketing and content",
-    "4 — خدمة العملاء": "4 — Customer service",
-    "5 — العمليات والتصنيع": "5 — Operations and manufacturing",
-    "6 — التحليل والقرارات": "6 — Analytics and decisions",
-    "7 — المالية والامتثال": "7 — Finance and compliance",
+    "1: القيادة والتنسيق": "1: Leadership and coordination",
+    "2: الهندسة والتطوير": "2: Engineering and development",
+    "3: التسويق والمحتوى": "3: Marketing and content",
+    "4: خدمة العملاء": "4: Customer service",
+    "5: العمليات والتصنيع": "5: Operations and manufacturing",
+    "6: التحليل والقرارات": "6: Analytics and decisions",
+    "7: المالية والامتثال": "7: Finance and compliance",
     "وكيل مدير المشروع": "Project Manager Agent",
     "وكيل مدير العمليات": "Operations Manager Agent",
     "وكيل مهندس المنصة": "Platform Engineer Agent",
@@ -3422,7 +3422,7 @@ EN = {
     "إدارة ميزانية الإعلانات حسب عائد كل قناة، وتشغيل التجارب، وتوسيع القنوات التي تحقق تكلفة اكتساب أقل من الحد المستهدف.":
         "Manage the advertising budget by the return of each channel, run experiments, and scale channels whose acquisition cost stays below the target.",
     "إنتاج محتوى عربي أصيل يشرح الفروق التقنية (الخامة، التركيب، الضمان) ويحوّل الخبرة التشغيلية إلى ميزة تنافسية في نتائج البحث.":
-        "Produce original Arabic content that explains the technical differences — material, installation, warranty — and turns operating experience into a search advantage.",
+        "Produce original Arabic content that explains the technical differences: material, installation, warranty: and turns operating experience into a search advantage.",
     "حماية اتساق الهوية البصرية عبر كل نقطة تماس، وإعداد القوالب والمواد الإعلانية الجاهزة للنشر.":
         "Protect brand consistency across every touchpoint and prepare templates and campaign assets ready for publication.",
     "الرد على استفسارات ما قبل البيع عبر واتساب والموقع، وجمع بيانات العملاء المحتملين، وتسليم الحالات المعقّدة للبشر.":
@@ -3657,8 +3657,8 @@ EN = {
     "اخفاق في متطلب نظامي": "A failure against a regulatory requirement",
 
     # ---------------- AI governance ----------------
-    "لكل وكيل مالك بشري مسؤول عن المخرجات — لا يوجد وكيل بلا مالك.":
-        "Every agent has a human owner accountable for its output — there is no agent without an owner.",
+    "لكل وكيل مالك بشري مسؤول عن المخرجات: لا يوجد وكيل بلا مالك.":
+        "Every agent has a human owner accountable for its output: there is no agent without an owner.",
     "مبدأ «الاقتراح ثم المراجعة» إلزامي في القرارات التي تمسّ المال أو العميل.":
         "The propose-then-review principle is mandatory for any decision touching money or a customer.",
     "كل مخرَج من وكيل قابل للتتبع: من أي بيانات وأي تعليمات وُلد.":
@@ -3700,33 +3700,33 @@ EN = {
     "مراجعة شهرية لتكلفة اشتراكات أدوات الذكاء الاصطناعي مقابل المكسب التشغيلي.":
         "A monthly review of AI tooling subscription cost against the operating benefit it delivers.",
     "توجيه النماذج إلى أرخص مستوى يفي بالحاجة (نموذج صغير للمهام المتكررة).":
-        "Route each task to the cheapest model tier that meets the need — a small model for repetitive work.",
+        "Route each task to the cheapest model tier that meets the need: a small model for repetitive work.",
     "حساب تكلفة كل طلب عبر المساعد الآلي ومقارنتها بتكلفة المعالجة البشرية.":
         "The cost per order handled by the assistant is measured against the cost of human handling.",
     "سقف إنفاق شهري لكل وكيل مع تنبيه عند تجاوز 80%.":
         "A monthly spend ceiling per agent, with an alert at 80%.",
     # ---------------- marketing ----------------
-    "أثاث خشبي مصنوع على مقاس بيتك، بوضوح كامل في السعر والمدة والخامة — من ورشة تحترم وقتك أكثر من متجر يبيعك قطعة جاهزة لا تناسبك.":
-        "Wood furniture made to the measurements of your home, with complete clarity on price, lead time and material — from a workshop that respects your time more than a store selling you a ready-made piece that does not fit.",
-    "سارة — شقة جديدة": "Sara — new apartment",
+    "أثاث خشبي مصنوع على مقاس بيتك، بوضوح كامل في السعر والمدة والخامة: من ورشة تحترم وقتك أكثر من متجر يبيعك قطعة جاهزة لا تناسبك.":
+        "Wood furniture made to the measurements of your home, with complete clarity on price, lead time and material: from a workshop that respects your time more than a store selling you a ready-made piece that does not fit.",
+    "سارة: شقة جديدة": "Sara: new apartment",
     "تجهيز شقة كاملة في 6 أسابيع": "A complete fit-out in six weeks",
     "المتاجر تبيع قطعًا لا تناسب المقاس، والصور مضلّلة": "Stores sell pieces that do not fit the space, and the photographs mislead",
     "إنستجرام + بحث": "Instagram + search",
     "باقة تجهيز شقة + قياس مجاني + جدول تركيب": "An apartment fit-out package with free measurement and an installation schedule",
     "«سألتزم بالتأخير بضعة أيام»": "“I will delay the work by a few days”",
-    "كريم — مكتب صغير": "Karim — small office",
+    "كريم: مكتب صغير": "Karim: small office",
     "أثاث مكتبي بجودة تدوم": "Office furniture of a quality that lasts",
     "الأسعار تتفاوت ولا يعرف ما الذي يشتريه": "Prices vary wildly and he cannot tell what he is buying",
     "بحث + لينكدإن": "Search + LinkedIn",
     "تشكيلة مكتبية ثابتة السعر مع صفحة مواصفات لكل قطعة": "A fixed-price office range with a specification page for every item",
     "«لماذا أشتري منكم لا من معرض؟»": "“Why buy from you rather than from a showroom?”",
-    "هند — مطوّرة عقارية": "Hind — property developer",
+    "هند: مطوّرة عقارية": "Hind: property developer",
     "تنفيذ موحّد لعميل نهائي متعدد الوحدات": "Consistent execution for an end client with multiple units",
     "تنسيق مع مقاولين متعددين وضعف التواصل": "Coordinating with several contractors and poor communication",
     "علاقات مباشرة": "Direct relationships",
     "عقد إطاري بأسعار ثابتة وجدول تسليم تعاقدي": "A framework agreement with fixed prices and a contractual delivery schedule",
     "«أريد ضمانات تسليم صارمة»": "“I want firm delivery guarantees”",
-    "منى — تجديد سريع": "Mona — quick refresh",
+    "منى: تجديد سريع": "Mona: quick refresh",
     "تغيير قطعة أو اثنتين بميزانية محددة": "Replace one or two pieces on a fixed budget",
     "الفخامة الزائدة تكلّف أكثر من اللازم": "Excessive luxury costs more than it should",
     "تيك توك + شوب": "TikTok + Shop",
@@ -3736,7 +3736,7 @@ EN = {
     "الوعي والاكتشاف": "Awareness and discovery",
     "تكلفة الوصول وكلفة الاكتساب": "Cost per reach and cost per acquisition",
     "180–320 ج.م": "EGP 180–320",
-    "أقوى قناة في الفئة — محتوى قبل وبعد": "The strongest channel in the category — before-and-after content",
+    "أقوى قناة في الفئة: محتوى قبل وبعد": "The strongest channel in the category: before-and-after content",
     "بحث جوجل": "Google Search",
     "النية التقاط الطلب": "Capturing intent",
     "تكلفة الاكتساب في النوايا": "Acquisition cost on high-intent queries",
@@ -3787,15 +3787,15 @@ EN = {
     "مرجع الفئة 5–8%": "Category benchmark 5–8%",
     "الدفع": "Checkout",
     "نسبة إتمام الدفع": "Checkout completion rate",
-    "عائق الشحن — يُعالج بخيارات الشحن الصريحة": "The shipping obstacle — addressed through explicit shipping options",
+    "عائق الشحن: يُعالج بخيارات الشحن الصريحة": "The shipping obstacle: addressed through explicit shipping options",
     "الشراء": "Purchase",
     "معدل التحويل الكلي": "Overall conversion rate",
     "نقطة التعادل ≈ 121 وحدة شهريًا مقابل 308 مستهدفة":
         "Break-even ≈ 121 units a month against 308 targeted",
     "الاحتفاظ": "Retention",
     "إعادة الشراء خلال 12 شهرًا": "Repeat purchase within 12 months",
-    "أثاث يُشترى مرة — القيمة في الكمية والتوصية":
-        "Furniture is bought once — the value lies in volume and referral",
+    "أثاث يُشترى مرة: القيمة في الكمية والتوصية":
+        "Furniture is bought once: the value lies in volume and referral",
     "الخامة وكيف تعرفها": "Material and how to read it",
     "ريلز": "Reels",
     "مقارنات": "Comparisons",
@@ -3830,8 +3830,8 @@ EN = {
         "Follow-up on day three and day thirty after delivery to pre-empt complaints.",
     "إحالة عميل جديد = 300 ج.م رصيدًا للعميل.":
         "A new customer referral earns the referrer EGP 300 in credit.",
-    "قائمة شرف للمشاريع المميزة Alto — محتوى مجتمعي منخفض الكلفة.":
-        "A showcase of flagship projects — low-cost community content.",
+    "قائمة شرف للمشاريع المميزة Alto: محتوى مجتمعي منخفض الكلفة.":
+        "A showcase of flagship projects: low-cost community content.",
 
     # ---------------- technology ----------------
     "الواجهة الأمامية": "Front end",
@@ -3984,7 +3984,7 @@ EN = {
     "وكيل ما بعد البيع": "After-sales Agent",
     "بعد 3 أيام": "After 3 days",
     "نسبة المراجعات": "Review rate",
-    "المورد المحلي — المنطقة الصناعية": "Local supplier — industrial zone",
+    "المورد المحلي: المنطقة الصناعية": "Local supplier: industrial zone",
     "MDF وخشب مضغوط": "MDF and compressed wood",
     "نقدًا عند الاستلام": "Cash on delivery",
     "7–9 أيام": "7–9 days",
@@ -3994,7 +3994,7 @@ EN = {
     "30% مقدم / 70% قبل الشحن": "30% advance / 70% before shipment",
     "21 يومًا": "21 days",
     "سعر الصرف وسلسلة التوريد": "Exchange rate and the supply chain",
-    "العتبة — إكسسوارات": "Al-Ogba — accessories",
+    "العتبة: إكسسوارات": "Al-Ogba: accessories",
     "مفصلات وانزلاقات": "Hinges and runners",
     "آجل 30 يومًا": "Net 30 days",
     "4 أيام": "4 days",
@@ -4064,7 +4064,7 @@ EN = {
     "توظيف": "Full-time",
     "تعاقد": "Contract",
     "جزئي": "Part-time",
-    "دوام كامل — المالك الأول للوكلاء": "Full time — the first owner of the agents",
+    "دوام كامل: المالك الأول للوكلاء": "Full time: the first owner of the agents",
     "Full-stack": "Full-stack",
     "متوسط السنة الأولى": "Averaged across year one",
     "يدير الحملات والمحتوى": "Runs the campaigns and the content",
@@ -4214,7 +4214,7 @@ EN = {
     "سوقي": "Market",
     "دخول منصة كبرى إلى فئة الأثاث": "A major platform entering the furniture category",
     "التمركز في التخصيص حسب المقاس والخدمة الميدانية، وهي أصعب ما يمكن تقليده":
-        "Concentrate on made-to-measure customisation and on-site service — the hardest thing to copy",
+        "Concentrate on made-to-measure customisation and on-site service: the hardest thing to copy",
     "تعميق الشراكات مع المطوّرين العقاريين": "Deepen partnerships with property developers",
     "الرئيس التنفيذي": "Chief Executive",
     "إطلاق منصة كبرى تسعّر تحت التكلفة": "A major platform launching below-cost pricing",
@@ -4380,10 +4380,10 @@ EN = {
     "≤ 210 ج.م": "≤ EGP 210",
 
     # ---------------- conclusion ----------------
-    "المشروع مجدٍّ ماليًا في السيناريو الأساسي، لكن بهامشٍ ضيّق: القيمة الحالية الصافية موجبة بمقدار 377 ألف ج.م فقط، ومعدل العائد الداخلي 25.6% مقابل معدل خصم 24% — أي فارق 1.6 نقطة مئوية لا يقرأ كـ«فارق واضح». هذه النتيجة بالذات هي أهم مخرجات الدراسة، لأنها تُغيّر طبيعة القرار: لا يُطلب اعتمادٌ نهائي دفعةً واحدة، بل اعتمادٌ مرحلي مشروط ببوابات قياس. والسيناريو المتحفظ (سعر أقل 10%، مبيعات أبطأ 25%، تكاليف أعلى 15%) ينقل القيمة الحالية الصافية إلى نحو ‎-11.6 مليون ج.م ويلغي العائد الداخلي كليًّا؛ أي أن الخطر الحقيقي ليس في السوق بل في توقّع التحوّل. ما يدعم القرار أن الخطر التشغيلي محدود: القدرة الإنتاجية قائمة، والورشة عاملة، والفجوة الحقيقية هي فجوة الحضور الرقمي والبيانات — وهي بالضبط ما يعالجه هذا التحوّل.":
-        "The project is financially viable in the base case, but the margin is thin: net present value is positive at only EGP 377,000, and the internal rate of return of 25.6% sits just 1.6 percentage points above the 24% discount rate — a gap that cannot honestly be called a comfortable margin. That finding is itself the most important output of the study, because it changes the nature of the decision: what is being requested is not a single unconditional approval, but a phased approval gated by measurement. The conservative scenario (price 10% lower, sales 25% slower, costs 15% higher) drives net present value to roughly EGP -11.6m and eliminates the internal rate of return altogether; the real risk therefore lies not in the market but in the conversion assumption. What supports the decision is that the operating risk is bounded: the production capacity exists, the workshop is running, and the genuine gap is the digital presence and the data — which is exactly what this transformation closes.",
-    "الموافقة على المرحلة الأولى بميزانية 8.5 ملايين ج.م تُصرف على ثلاث دفعات مرتبطة ببوابات قياس: الدفعة الأولى لتشغيل المنصة والهوية، والثانية بعد اجتياز الاختبار التسويقي (45 يومًا بمعدل تحويل لا يقل عن 1.4%)، والثالثة بعد بلوغ التعادل التشغيلي. وتأجيل مرحلة توسيع خط الإنتاج (2.8 مليون ج.م) حتى يتحقق شرط الاستغلال. التوصية: موافقة مشروطة، لا موافقة مطلقة — وهو ما تعكسه الشروط الأربعة أعلاه.":
-        "Approve the first phase with an EGP 8.5m budget released in three tranches tied to measurement gates: the first to bring the platform and brand live, the second after passing the 45-day marketing test at a conversion rate of at least 1.4%, and the third once operating break-even is reached. Defer the production line expansion (EGP 2.8m) until the utilisation condition is met. The recommendation is conditional approval, not unconditional approval — which is exactly what the four conditions above reflect.",
+    "المشروع مجدٍّ ماليًا في السيناريو الأساسي، لكن بهامشٍ ضيّق: القيمة الحالية الصافية موجبة بمقدار 377 ألف ج.م فقط، ومعدل العائد الداخلي 25.6% مقابل معدل خصم 24%: أي فارق 1.6 نقطة مئوية لا يقرأ كـ«فارق واضح». هذه النتيجة بالذات هي أهم مخرجات الدراسة، لأنها تُغيّر طبيعة القرار: لا يُطلب اعتمادٌ نهائي دفعةً واحدة، بل اعتمادٌ مرحلي مشروط ببوابات قياس. والسيناريو المتحفظ (سعر أقل 10%، مبيعات أبطأ 25%، تكاليف أعلى 15%) ينقل القيمة الحالية الصافية إلى نحو ‎-11.6 مليون ج.م ويلغي العائد الداخلي كليًّا؛ أي أن الخطر الحقيقي ليس في السوق بل في توقّع التحوّل. ما يدعم القرار أن الخطر التشغيلي محدود: القدرة الإنتاجية قائمة، والورشة عاملة، والفجوة الحقيقية هي فجوة الحضور الرقمي والبيانات: وهي بالضبط ما يعالجه هذا التحوّل.":
+        "The project is financially viable in the base case, but the margin is thin: net present value is positive at only EGP 377,000, and the internal rate of return of 25.6% sits just 1.6 percentage points above the 24% discount rate: a gap that cannot honestly be called a comfortable margin. That finding is itself the most important output of the study, because it changes the nature of the decision: what is being requested is not a single unconditional approval, but a phased approval gated by measurement. The conservative scenario (price 10% lower, sales 25% slower, costs 15% higher) drives net present value to roughly EGP -11.6m and eliminates the internal rate of return altogether; the real risk therefore lies not in the market but in the conversion assumption. What supports the decision is that the operating risk is bounded: the production capacity exists, the workshop is running, and the genuine gap is the digital presence and the data: which is exactly what this transformation closes.",
+    "الموافقة على المرحلة الأولى بميزانية 8.5 ملايين ج.م تُصرف على ثلاث دفعات مرتبطة ببوابات قياس: الدفعة الأولى لتشغيل المنصة والهوية، والثانية بعد اجتياز الاختبار التسويقي (45 يومًا بمعدل تحويل لا يقل عن 1.4%)، والثالثة بعد بلوغ التعادل التشغيلي. وتأجيل مرحلة توسيع خط الإنتاج (2.8 مليون ج.م) حتى يتحقق شرط الاستغلال. التوصية: موافقة مشروطة، لا موافقة مطلقة: وهو ما تعكسه الشروط الأربعة أعلاه.":
+        "Approve the first phase with an EGP 8.5m budget released in three tranches tied to measurement gates: the first to bring the platform and brand live, the second after passing the 45-day marketing test at a conversion rate of at least 1.4%, and the third once operating break-even is reached. Defer the production line expansion (EGP 2.8m) until the utilisation condition is met. The recommendation is conditional approval, not unconditional approval: which is exactly what the four conditions above reflect.",
     "اجتياز الاختبار التسويقي 45 يومًا بمعدل تحويل لا يقل عن 1.4% قبل صرف الدفعة الثانية.":
         "Pass the 45-day marketing test at a conversion rate of at least 1.4% before releasing the second tranche.",
     "ضمان مورّدَين على الأقل لكل خامة أساسية قبل بدء التشغيل المكثّف.":
@@ -4405,14 +4405,14 @@ EN = {
     "الشهر 12": "Month 12",
     "ابدأ بحجم صغير: 50 منتجًا مختارًا بعناية بدل محاولة عرض كل ما يمكن تصنيعه.":
         "Start small: 50 carefully selected products rather than an attempt to list everything that can be made.",
-    "وثّق كل شيء من اليوم الأول — البيانات هي الأصل الحقيقي بعد ورشة الأثاث.":
-        "Document everything from day one — after a furniture workshop, the data is the real asset.",
+    "وثّق كل شيء من اليوم الأول: البيانات هي الأصل الحقيقي بعد ورشة الأثاث.":
+        "Document everything from day one: after a furniture workshop, the data is the real asset.",
     "اجعل الوكلاء يعملون على مهام محددة بمعيار قبول واضح لا على «أتمتة كل شيء».":
         "Give the agents specific tasks with clear acceptance criteria rather than a mandate to automate everything.",
     "راجع الأرقام الفعلية مقابل هذه الدراسة كل شهر، لا كل ربع سنة.":
         "Review the actual numbers against this study every month, not every quarter.",
-    "لا تطلق الإعلانات قبل جاهزية صفحة المنتج وصفحة الدفع — ستُهدر ميزانية الاكتساب.":
-        "Do not launch advertising before the product page and checkout are ready — you will waste the acquisition budget.",
+    "لا تطلق الإعلانات قبل جاهزية صفحة المنتج وصفحة الدفع: ستُهدر ميزانية الاكتساب.":
+        "Do not launch advertising before the product page and checkout are ready: you will waste the acquisition budget.",
     "لا تتوسّع في الطاقة الإنتاجية قبل بلوغ استغلال 70% من الطاقة الحالية.":
         "Do not expand production capacity before current utilisation reaches 70%.",
     "لا تعطِ صلاحيات واسعة للوكلاء حتى لو كانت النتائج موفّقة.":
@@ -4464,7 +4464,7 @@ EN = {
     "سجل داخلي": "Internal record",
     "استطلاع": "Survey",
     "نموذج": "Model",
-    "مدير العمليات — مراجعة الطاقة الإنتاجية وسلسلة التوريد": "Operations Manager — production capacity and supply chain review",
+    "مدير العمليات: مراجعة الطاقة الإنتاجية وسلسلة التوريد": "Operations Manager: production capacity and supply chain review",
     "8,500,000 ج.م": "EGP 8,500,000",
     "377,216 ج.م": "EGP 377,216",
     "السيناريو المتحفظ": "Conservative scenario",
@@ -4482,10 +4482,10 @@ EN = {
     "تعيين مدير المشروع الرقمي ومدير التسويق": "Appoint the digital project manager and the marketing manager",
     "الشريك المؤسّس": "Founding partner",
     "خلال 30 يومًا": "Within 30 days",
-    "عروض أسعار الخامات — الموردون": "Material price quotations — suppliers",
+    "عروض أسعار الخامات: الموردون": "Material price quotations: suppliers",
     "إدارة المشتريات": "Procurement Department",
     "سجل مقابلات العملاء (18 مقابلة)": "Customer interview log (18 interviews)",
-    "نموذج التقييم المالي — ملف مرفق": "Financial appraisal model — attached file",
+    "نموذج التقييم المالي: ملف مرفق": "Financial appraisal model: attached file",
 
     # ================= Milestone 1 Data Alignment =================
     "الموافقة على تمويل المرحلة الأولى بميزانية 8,500,000 ج.م (5,700,000 ج.م إطلاق فوري + 2,800,000 ج.م حساب ضمان مشروط لماكينة CNC)":

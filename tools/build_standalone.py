@@ -6,7 +6,7 @@
 --------------------------------------------------------------------------------
   python3 tools/build_standalone.py
 
-يُنتج out/feasibility-standalone.html — ملف واحد يحتوي:
+يُنتج out/feasibility-standalone.html: ملف واحد يحتوي:
   · كل صفحات CSS مدمجة
   · الخطوط محمّلة كـ base64 داخل الملف (بلا أي طلب خارجي)
   · كل ملفات JS مدمجة بالترتيب الصحيح
@@ -115,7 +115,7 @@ def build() -> str:
     )
     html = html.replace(
         '<meta name="description" content="قالب دراسة جدوى عربي RTL لمشروع تجارة إلكترونية قائم على ورشة نجارة، بطبقة ذكاء اصطناعي ومحرك مالي حيّ.">',
-        '<meta name="description" content="Feasibility study template — Arabic (RTL) and English (LTR), e-commerce project built on an existing carpentry workshop, with an AI agent layer and a live financial engine. Fully self-contained single file.">',
+        '<meta name="description" content="Feasibility study template: Arabic (RTL) and English (LTR), e-commerce project built on an existing carpentry workshop, with an AI agent layer and a live financial engine. Fully self-contained single file.">',
     )
 
     # رسالة عند تعطيل JavaScript

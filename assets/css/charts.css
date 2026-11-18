@@ -216,7 +216,7 @@ html[data-theme="dark"] .heat td[data-w="4"] {
   color: #ffd9d4;
 }
 
-/* ---------- الأشرطة الأفقية (HTML — تتبع اتجاه الصفحة) ---------- */
+/* ---------- الأشرطة الأفقية (HTML: تتبع اتجاه الصفحة) ---------- */
 .hbar-list {
   display: grid;
   gap: 0.55rem;

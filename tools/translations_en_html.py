@@ -8,8 +8,8 @@
 """
 
 EN_HTML = {
-    "دراسة جدوى — التوسّع في التجارة الإلكترونية | سنديان":
-        "Feasibility Study — E-commerce Expansion | Sandiyan",
+    "دراسة جدوى: التوسّع في التجارة الإلكترونية | سنديان":
+        "Feasibility Study: E-commerce Expansion | Sandiyan",
     "تخطَّ إلى المحتوى الرئيسي": "Skip to main content",
     "دج": "FS",
     "قالب دراسة الجدوى": "Feasibility study template",
@@ -25,7 +25,7 @@ EN_HTML = {
     "حفظ": "Save",
     "استعادة": "Reset",
     "محفوظ تلقائيًا": "Saved automatically",
-    "مصدر البيانات: —": "Data source: —",
+    "مصدر البيانات: -": "Data source: -",
     "دليل القراءة": "How to read this document",
     "فهرس المحتويات": "Table of contents",
     "يبدأ كل قسم رئيسي في هذه الوثيقة بصفحة مستقلة. أمّا أرقام الصفحات فتظهر في تذييل كل صفحة عند الطباعة أو التصدير إلى PDF، لأن ترقيم الصفحات لا يُحسم في المتصفح إلا عند الطباعة نفسها.":
@@ -103,10 +103,10 @@ EN_HTML = {
     "مقاييس مقدّرة:": "Estimated:",
     "حجم السوق الكلي، المعدلات المرجعية للفئة، وتكاليف الاستحواذ.": "Total market size, category benchmark rates, and acquisition costs.",
     "افتراضات معلنة:": "Stated assumptions:",
-    "معدل الخصم، التضخم، والضريبة — قابلة للتعديل في نموذج حيّ.": "Discount rate, inflation and tax — editable in the live model.",
+    "معدل الخصم، التضخم، والضريبة: قابلة للتعديل في نموذج حيّ.": "Discount rate, inflation and tax: editable in the live model.",
     "قاعدة القراءة": "How to read the numbers",
-    "كل رقم في هذا القالب موسوم بمصدره ضمن الجداول والملاحق. ما لم يكن له مصدرٌ مُثبَت، فهو تقديرٌ يحتاج إلى اختبار — ولذلك رُبطت الشروط المعلقة في القسم الثاني بالاختبار التسويقي.":
-        "Every figure in this template is tagged with its source in the tables and appendices. Anything without an established source is an estimate that requires testing — which is why the conditions in Section 2 are tied to the marketing test.",
+    "كل رقم في هذا القالب موسوم بمصدره ضمن الجداول والملاحق. ما لم يكن له مصدرٌ مُثبَت، فهو تقديرٌ يحتاج إلى اختبار: ولذلك رُبطت الشروط المعلقة في القسم الثاني بالاختبار التسويقي.":
+        "Every figure in this template is tagged with its source in the tables and appendices. Anything without an established source is an estimate that requires testing: which is why the conditions in Section 2 are tied to the marketing test.",
     "SWOT · PESTEL · بورتر · TOWS": "SWOT · PESTEL · Porter · TOWS",
     "التحليل الاستراتيجي": "Strategic analysis",
     "لا تُبنى الاستراتيجية على تمنّي السوق، بل على قراءة منهجية للبيئة الخارجية والداخلية، ثم ترجمة تلك القراءة إلى خيارات عملية محدّدة.":
@@ -164,8 +164,8 @@ EN_HTML = {
     "السياسات والتدريب": "Policies and training",
     "NPV · IRR · التعادل · الحساسية": "NPV · IRR · Break-even · Sensitivity",
     "الجداول المالية": "Financial tables",
-    "كل الأرقام في هذا القسم حيّة: تعديل أي خانة يعيد حساب النموذج كاملًا — قائمة الدخل، والتدفق النقدي، ونقطة التعادل، ومعدل العائد الداخلي، والسيناريوهات، والحساسية.":
-        "Every figure in this section is live: changing any cell recalculates the whole model — the income statement, the cash flow statement, the break-even point, the internal rate of return, the scenarios and the sensitivity analysis.",
+    "كل الأرقام في هذا القسم حيّة: تعديل أي خانة يعيد حساب النموذج كاملًا: قائمة الدخل، والتدفق النقدي، ونقطة التعادل، ومعدل العائد الداخلي، والسيناريوهات، والحساسية.":
+        "Every figure in this section is live: changing any cell recalculates the whole model: the income statement, the cash flow statement, the break-even point, the internal rate of return, the scenarios and the sensitivity analysis.",
     "كيف تستخدم هذا القسم": "How to use this section",
     "عُدِّل الافتراضات في اللوحة أدناه، أو في جداول التأسيس والتشغيل والإيرادات، وستتحدّث بقية الأقسام تلقائيًّا. هذه هي أداة «محاكاة السيناريوهات» قبل أي اجتماع: اقترح بدائلَ، وقارن النتائج، ثم قرّر.":
         "Edit the assumptions in the panel below, or directly in the capital expenditure, operating expense and revenue tables, and the rest of the section updates automatically. This is the scenario-simulation tool to use before any meeting: propose alternatives, compare the results, then decide.",
@@ -180,7 +180,7 @@ EN_HTML = {
     "مسار الإيرادات والأرباح": "Revenue and profit trajectory",
     "نقطة التعادل": "Break-even point",
     "مزيج الإيرادات وتوزيع الاستثمار": "Revenue mix and investment distribution",
-    "جسر التدفق النقدي — السنة الأولى": "Free cash flow bridge — year one",
+    "جسر التدفق النقدي: السنة الأولى": "Free cash flow bridge: year one",
     "تحليل السيناريوهات": "Scenario analysis",
     "تحليل الحساسية": "Sensitivity analysis",
     "الحساسية المتقاطعة: السعر × حجم المبيعات": "Cross sensitivity: price × sales volume",
@@ -216,7 +216,7 @@ EN_HTML = {
         "An index of sources and a glossary, so that the text can be audited by any third party.",
     "فهرس المصادر": "Index of sources",
     "معجم المصطلحات": "Glossary of terms",
-    "هذا القالب مستند حيّ — تُحفظ التعديلات محليًّا في المتصفح، ويمكن تصديرها كملف JSON لمشاركتها.":
+    "هذا القالب مستند حيّ: تُحفظ التعديلات محليًّا في المتصفح، ويمكن تصديرها كملف JSON لمشاركتها.":
         "This template is a live document: edits are stored locally in the browser and can be exported as a JSON file for sharing.",
     "فهرس المحتويات والأدوات": "Contents and tools",
     "فهرس الأقسام": "Index of sections",

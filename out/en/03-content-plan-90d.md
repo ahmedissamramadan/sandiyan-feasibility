@@ -1,6 +1,6 @@
-# Digital content plan — first 90 days
+# Digital content plan: first 90 days
 
-> Sandiyan — Digital Expansion
+> Sandiyan: Digital Expansion
 
 A fixed rhythm: one piece of content a day, a weekly compilation, and a review of the numbers at the end of the week.
 

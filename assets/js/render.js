@@ -1,5 +1,5 @@
 /* ============================================================
-   render.js — توليد المحتوى من طبقة البيانات
+   render.js: توليد المحتوى من طبقة البيانات
    ============================================================ */
 (function (global) {
   'use strict';
@@ -92,7 +92,7 @@
       'cover-meta',
       meta
         .map(function (row) {
-          return '<div><dt>' + esc(row[0]) + '</dt><dd>' + esc(row[1] || '—') + '</dd></div>';
+          return '<div><dt>' + esc(row[0]) + '</dt><dd>' + esc(row[1] || '-') + '</dd></div>';
         })
         .join('')
     );
@@ -113,7 +113,7 @@
       '<table class="tbl tbl--compact"><tbody>' +
         rows
           .map(function (r) {
-            return '<tr><th scope="row" style="width:14rem">' + esc(r[0]) + '</th><td>' + esc(r[1] || '—') + '</td></tr>';
+            return '<tr><th scope="row" style="width:14rem">' + esc(r[0]) + '</th><td>' + esc(r[1] || '-') + '</td></tr>';
           })
           .join('') +
         '</tbody></table>'
@@ -126,11 +126,11 @@
       '<div class="grid g-2"><div class="card card--muted"><h4 class="card__title">' + T('المراجعون') + '</h4>' +
         (reviewers.length
           ? '<ul class="check">' + reviewers.map(function (r) { return '<li>' + esc(r) + '</li>'; }).join('') + '</ul>'
-          : '<p class="note">—</p>') +
+          : '<p class="note">-</p>') +
         '</div><div class="card card--muted"><h4 class="card__title">' + T('المعتمِدون') + '</h4>' +
         (approvers.length
           ? '<ul class="check">' + approvers.map(function (r) { return '<li>' + esc(r) + '</li>'; }).join('') + '</ul>'
-          : '<p class="note">—</p>') +
+          : '<p class="note">-</p>') +
         '</div></div>'
     );
   }
@@ -139,7 +139,7 @@
     var revs = Store.get('revisions', []);
     var cols = [
       { key: 'version', label: T('الإصدار') },
-      { key: 'date', label: T('التاريخ'), fmt: function (v) { return v ? I18N.date(v) : '—'; } },
+      { key: 'date', label: T('التاريخ'), fmt: function (v) { return v ? I18N.date(v) : '-'; } },
       { key: 'author', label: T('المُعِدّ') },
       { key: 'summary', label: T('ملخّص التعديلات') },
       { key: 'status', label: T('الحالة'), fmt: function (v) { return esc(v); } },
@@ -201,7 +201,7 @@
           .map(function (r) {
             return (
               '<div class="card card--muted"><div class="kpi__label">' + esc(r[0]) + '</div>' +
-              '<div style="font-weight:600;margin-top:.2rem">' + esc(r[1] || '—') + '</div></div>'
+              '<div style="font-weight:600;margin-top:.2rem">' + esc(r[1] || '-') + '</div></div>'
             );
           })
           .join('') +
@@ -213,7 +213,7 @@
       { key: 'authority', label: T('الجهة المانحة') },
       { key: 'number', label: T('الرقم') },
       { key: 'status', label: T('الحالة'), fmt: function (v) { return esc(v); } },
-      { key: 'expiry', label: T('تاريخ الانتهاء'), fmt: function (v) { return v ? I18N.date(v) : '—'; } },
+      { key: 'expiry', label: T('تاريخ الانتهاء'), fmt: function (v) { return v ? I18N.date(v) : '-'; } },
     ];
     mountTable('licenses-table', Tables.buildTable(cols, lic), 'licenses.csv', T('التراخيص والاجوزات'));
 
@@ -267,7 +267,7 @@
           .map(function (r) {
             return (
               '<div class="card card--muted"><div class="kpi__label">' + esc(r[0]) + '</div>' +
-              '<div style="font-weight:600;margin-top:.25rem">' + esc(r[1] || '—') + '</div></div>'
+              '<div style="font-weight:600;margin-top:.25rem">' + esc(r[1] || '-') + '</div></div>'
             );
           })
           .join('') +
@@ -277,7 +277,7 @@
     var colsM = [
       { key: 'name', label: T('الخامة') },
       { key: 'unit', label: T('وحدة القياس') },
-      { key: 'price', label: T('السعر الحالي'), align: 'end', fmt: function (v) { return v ? I18N.html(v, { decimals: 2 }) : '—'; } },
+      { key: 'price', label: T('السعر الحالي'), align: 'end', fmt: function (v) { return v ? I18N.html(v, { decimals: 2 }) : '-'; } },
       { key: 'supplier', label: T('المورّد') },
       { key: 'lead_days', label: T('مدة التوريد (يوم)'), align: 'end' },
       { key: 'note', label: T('ملاحظة') },
@@ -295,7 +295,7 @@
     var colsS = [
       { key: 'role', label: T('الوظيفة') },
       { key: 'count', label: T('العدد'), align: 'end' },
-      { key: 'monthly_cost', label: T('التكلفة الشهرية'), align: 'end', fmt: function (v) { return v ? I18N.html(v) : '—'; } },
+      { key: 'monthly_cost', label: T('التكلفة الشهرية'), align: 'end', fmt: function (v) { return v ? I18N.html(v) : '-'; } },
       { key: 'note', label: T('ملاحظة') },
     ];
     mountTable('workshop-staff', Tables.buildTable(colsS, w.staff || []), 'workshop-staff.csv', T('العمالة الحالية'));
@@ -406,7 +406,7 @@
       foot: [
         T('الإجمالي'),
         I18N.html(totalW, { decimals: 0 }),
-        '—',
+        '-',
         I18N.html(totalS, { decimals: 2 }),
       ],
     });
@@ -485,7 +485,7 @@
   }
 
   /* ============================================================
-     طبقة الذكاء الاصطناعي — الوكلاء
+     طبقة الذكاء الاصطناعي: الوكلاء
      ============================================================ */
   function renderAgents() {
     var agents = Store.get('agents', []) || [];
@@ -504,7 +504,7 @@
           .map(function (a) {
             return (
               '<div class="agent">' +
-              '<div class="agent__head"><div class="agent__avatar">' + esc(a.id || '—') + '</div>' +
+              '<div class="agent__head"><div class="agent__avatar">' + esc(a.id || '-') + '</div>' +
               '<div><div class="agent__name">' + esc(a.title) + '</div>' +
               '<div class="agent__role">' + esc(a.role) + '</div></div></div>' +
               '<p class="agent__mission">' + esc(a.mission) + '</p>' +
@@ -514,7 +514,7 @@
               (a.owner ? '<span class="badge badge--brand">' + T('مشرف: ') + esc(a.owner) + '</span>' : '') +
               '</div>' +
               '<div class="note"><b>' + T('المخرجات:') + '</b> ' + esc((a.outputs || []).join(' · ')) + '</div>' +
-              '<div class="note"><b>' + T('مؤشر الأداء:') + '</b> ' + esc(a.kpi || '—') + '</div>' +
+              '<div class="note"><b>' + T('مؤشر الأداء:') + '</b> ' + esc(a.kpi || '-') + '</div>' +
               '<div class="agent__tools">' + esc((a.tools || []).join(' · ')) + '</div>' +
               (a.escalation ? '<div class="note"><b>' + T('شرط التصعيد:') + '</b> ' + esc(a.escalation) + '</div>' : '') +
               '</div>'
@@ -584,7 +584,7 @@
     var chCols = [
       { key: 'name', label: T('القناة') },
       { key: 'role', label: T('الدور في القمع') },
-      { key: 'budget_share', label: T('حصة الميزانية'), align: 'end', fmt: function (v) { return v ? I18N.pctHtml(v / 100, { decimals: 0 }) : '—'; } },
+      { key: 'budget_share', label: T('حصة الميزانية'), align: 'end', fmt: function (v) { return v ? I18N.pctHtml(v / 100, { decimals: 0 }) : '-'; } },
       { key: 'kpi', label: T('مؤشر الأداء') },
       { key: 'cpa', label: T('تكلفة الاكتساب المستهدفة'), align: 'end' },
       { key: 'note', label: T('ملاحظة') },
@@ -624,7 +624,7 @@
       { key: 'layer', label: T('الطبقة') },
       { key: 'choice', label: T('الاختيار') },
       { key: 'why', label: T('المبرّر') },
-      { key: 'cost_month', label: T('التكلفة الشهرية'), align: 'end', fmt: function (v) { return v ? I18N.html(v) : '—'; } },
+      { key: 'cost_month', label: T('التكلفة الشهرية'), align: 'end', fmt: function (v) { return v ? I18N.html(v) : '-'; } },
     ];
     mountTable('tech-stack', Tables.buildTable(stCols, t.stack || []), 'tech-stack.csv', T('البنية التقنية'));
 
@@ -698,7 +698,7 @@
       { key: 'role', label: T('الوظيفة') },
       { key: 'count', label: T('العدد'), align: 'end' },
       { key: 'role_type', label: T('النوع') },
-      { key: 'monthly_cost', label: T('التكلفة الشهرية'), align: 'end', fmt: function (v) { return v ? I18N.html(v) : '—'; } },
+      { key: 'monthly_cost', label: T('التكلفة الشهرية'), align: 'end', fmt: function (v) { return v ? I18N.html(v) : '-'; } },
       { key: 'note', label: T('ملاحظة') },
     ];
     mountTable('hr-org', Tables.buildTable(cols, h.org || []), 'hr-org.csv', T('الهيكل التنظيمي المستهدف'));
@@ -758,7 +758,7 @@
         grid += '</tr>';
       }
       host.innerHTML =
-        '<table class="tbl tbl--compact"><caption>' + T('توزيع المخاطر: الاحتمال (رأسي) × الأثر (أفقي) — الرقم داخل الخلية هو عدد المخاطر') + '</caption>' +
+        '<table class="tbl tbl--compact"><caption>' + T('توزيع المخاطر: الاحتمال (رأسي) × الأثر (أفقي): الرقم داخل الخلية هو عدد المخاطر') + '</caption>' +
         '<thead><tr><th scope="col">' + T('الاحتمال \\ الأثر') + '</th><th scope="col">' + T('منخفض') + '</th><th scope="col">' + T('متوسط') + '</th><th scope="col">' + T('مرتفع') + '</th></tr></thead>' +
         '<tbody>' + grid + '</tbody></table>';
     }
@@ -829,7 +829,7 @@
       '<div class="tbl-wrap"><table class="tbl tbl--compact"><thead><tr><th>' + T('الخطوة') + '</th><th>' + T('المسؤول') + '</th><th>' + T('الموعد النهائي') + '</th></tr></thead><tbody>' +
         (c.next_steps || [])
           .map(function (s) {
-            return '<tr><td>' + esc(s.step) + '</td><td>' + esc(s.owner || '—') + '</td><td>' + esc(s.deadline || '—') + '</td></tr>';
+            return '<tr><td>' + esc(s.step) + '</td><td>' + esc(s.owner || '-') + '</td><td>' + esc(s.deadline || '-') + '</td></tr>';
           })
           .join('') +
         '</tbody></table></div>'
@@ -867,7 +867,7 @@
   }
 
   /* ============================================================
-     المحرك المالي — العرض الحيّ
+     المحرك المالي: العرض الحيّ
      ============================================================ */
   var _model = null;
 
@@ -934,7 +934,7 @@
           return (
             '<tr>' +
             '<td>' + esc(c.label) + (c.note ? '<div class="note">' + esc(c.note) + '</div>' : '') + '</td>' +
-            '<td><span class="badge">' + esc(c.category || '—') + '</span></td>' +
+            '<td><span class="badge">' + esc(c.category || '-') + '</span></td>' +
             '<td><input class="field field--num" type="number" step="1" min="0" data-bind="finance.capex.' + i + '.qty" data-bind-type="number" value="' + esc(c.qty) + '"></td>' +
             '<td><input class="field field--num" type="number" step="1" min="0" data-bind="finance.capex.' + i + '.unit_cost" data-bind-type="number" value="' + esc(c.unit_cost) + '"></td>' +
             '<td><input class="field field--num" type="number" step="1" min="0" data-bind="finance.capex.' + i + '.year" data-bind-type="number" value="' + esc(c.year) + '"></td>' +
@@ -974,11 +974,11 @@
           return (
             '<tr>' +
             '<td>' + esc(o.label) + (o.note ? '<div class="note">' + esc(o.note) + '</div>' : '') + '</td>' +
-            '<td><span class="badge">' + esc(o.category || '—') + '</span></td>' +
+            '<td><span class="badge">' + esc(o.category || '-') + '</span></td>' +
             '<td>' + (isPct ? '<span class="badge badge--gold">' + T('نسبة من الإيراد') + '</span>' : '<span class="badge badge--brand">' + T('ثابت') + '</span>') + '</td>' +
             '<td><input class="field field--num" type="number" step="' + (isPct ? '0.5' : '100') + '" min="0" data-bind="finance.opex.' + i + '.monthly" data-bind-type="number" value="' + esc(o.monthly) + '"></td>' +
             '<td class="note">' + (isPct ? T('% من الإيراد') : T('ج.م/شهر')) + '</td>' +
-            '<td class="num-cell">' + (isPct ? '—' : money((Number(o.monthly) || 0) * 12)) + '</td>' +
+            '<td class="num-cell">' + (isPct ? '-' : money((Number(o.monthly) || 0) * 12)) + '</td>' +
             '</tr>'
           );
         })
@@ -1036,17 +1036,17 @@
         [
           { l: T('صافي القيمة الحالية (NPV)'), v: moneyShort(m.npv), t: m.npv >= 0 ? 'ok' : 'danger', n: T('عند معدل الخصم ') + I18N.pct(m.inputs.discountRate, { decimals: 1 }) },
           { l: T('معدل العائد الداخلي (IRR)'), v: irrTxt, t: m.irr !== null && m.irr >= m.inputs.discountRate ? 'ok' : 'danger', n: T('حد القبول: ') + I18N.pct(m.inputs.discountRate, { decimals: 1 }) },
-          { l: T('فترة استرداد الاستثمار'), v: paybackTxt, t: m.payback !== null && m.payback <= m.inputs.horizon ? 'ok' : 'danger', n: T('مخصومة: ') + (m.discountedPayback === null ? '—' : I18N.n(m.discountedPayback, { decimals: 1 }) + T(' سنة')) },
-          { l: T('نقطة التعادل'), v: m.breakEven.units !== null ? I18N.n(Math.round(m.breakEven.units), { decimals: 0 }) + T(' وحدة') : '—', t: 'gold', n: T('بإيراد ') + I18N.moneyShort(m.breakEven.revenue, cur) },
+          { l: T('فترة استرداد الاستثمار'), v: paybackTxt, t: m.payback !== null && m.payback <= m.inputs.horizon ? 'ok' : 'danger', n: T('مخصومة: ') + (m.discountedPayback === null ? '-' : I18N.n(m.discountedPayback, { decimals: 1 }) + T(' سنة')) },
+          { l: T('نقطة التعادل'), v: m.breakEven.units !== null ? I18N.n(Math.round(m.breakEven.units), { decimals: 0 }) + T(' وحدة') : '-', t: 'gold', n: T('بإيراد ') + I18N.moneyShort(m.breakEven.revenue, cur) },
           { l: T('إجمالي الإيراد (5 سنوات)'), v: moneyShort(m.totalRevenue5), t: 'brand' },
-          { l: T('نسبة العائد إلى الاستثمار'), v: m.roi === null ? '—' : I18N.pct(m.roi, { decimals: 1 }), t: 'accent' },
-          { l: T('نسبة Benefit/Cost'), v: m.bcr === null ? '—' : I18N.n(m.bcr, { decimals: 2 }), t: 'accent' },
+          { l: T('نسبة العائد إلى الاستثمار'), v: m.roi === null ? '-' : I18N.pct(m.roi, { decimals: 1 }), t: 'accent' },
+          { l: T('نسبة Benefit/Cost'), v: m.bcr === null ? '-' : I18N.n(m.bcr, { decimals: 2 }), t: 'accent' },
           { l: T('هامش المساهمة (سنة 1)'), v: I18N.pct(m.years[0] ? m.years[0].grossMargin : 0, { decimals: 1 }), t: 'brand' },
         ]
           .map(function (k) {
             return (
               '<div class="kpi kpi--' + k.t + '"><div class="kpi__label">' + esc(k.l) + '</div>' +
-              '<div class="kpi__value" style="font-size:1.25rem">' + (k.v || '—') + '</div>' +
+              '<div class="kpi__value" style="font-size:1.25rem">' + (k.v || '-') + '</div>' +
               (k.n ? '<div class="kpi__delta kpi__delta--flat">' + esc(k.n) + '</div>' : '') +
               '</div>'
             );
@@ -1149,8 +1149,8 @@
         { key: 'note', label: T('الافتراض') },
         { key: 'rev', label: T('إيراد السنة الأولى'), align: 'end', fmt: function (v) { return money(v); } },
         { key: 'npv', label: 'NPV', align: 'end', fmt: function (v) { return money(v); } },
-        { key: 'irr', label: 'IRR', align: 'end', fmt: function (v) { return v === null ? '—' : I18N.pctHtml(v, { decimals: 1 }); } },
-        { key: 'payback', label: T('الاسترداد'), align: 'end', fmt: function (v) { return v === null ? '—' : I18N.n(v, { decimals: 1 }) + T(' سنة'); } },
+        { key: 'irr', label: 'IRR', align: 'end', fmt: function (v) { return v === null ? '-' : I18N.pctHtml(v, { decimals: 1 }); } },
+        { key: 'payback', label: T('الاسترداد'), align: 'end', fmt: function (v) { return v === null ? '-' : I18N.n(v, { decimals: 1 }) + T(' سنة'); } },
         { key: 'net5', label: T('صافي الربح (5 سنوات)'), align: 'end', fmt: function (v) { return money(v); } },
       ];
       var scRows = scs.map(function (s) {
@@ -1188,7 +1188,7 @@
     var s2Host = byId('fin-sens2d');
     if (s2Host) {
       var s2 = Finance.sensitivity2D(fin);
-      var html = '<div class="tbl-wrap"><table class="tbl tbl--compact"><caption>' + T('القيمة الحالية الصافية (NPV) — تأثير تغيير السعر وحجم المبيعات') + '</caption><thead><tr><th>' + T('تغيير السعر \\ حجم المبيعات') + '</th>';
+      var html = '<div class="tbl-wrap"><table class="tbl tbl--compact"><caption>' + T('القيمة الحالية الصافية (NPV): تأثير تغيير السعر وحجم المبيعات') + '</caption><thead><tr><th>' + T('تغيير السعر \\ حجم المبيعات') + '</th>';
       s2.volumeSteps.forEach(function (v) {
         html += '<th class="num">' + (v > 0 ? '+' : '') + Math.round(v * 100) + '%</th>';
       });
@@ -1215,14 +1215,14 @@
   function updateDecisionKpis(m) {
     var host = byId('decision-kpis-live');
     if (!host) return;
-    var irrTxt = m.irr === null ? '—' : I18N.pct(m.irr, { decimals: 1 });
+    var irrTxt = m.irr === null ? '-' : I18N.pct(m.irr, { decimals: 1 });
     host.innerHTML =
       '<div class="grid g-4">' +
       [
         [T('معدل العائد الداخلي'), irrTxt, 'accent'],
         [T('القيمة الحالية الصافية'), moneyShort(m.npv), 'brand'],
-        [T('فترة الاسترداد'), m.payback === null ? '—' : I18N.n(m.payback, { decimals: 1 }) + T(' سنة'), 'gold'],
-        [T('نقطة التعادل'), m.breakEven.units === null ? '—' : I18N.n(Math.round(m.breakEven.units)) + T(' وحدة'), 'accent'],
+        [T('فترة الاسترداد'), m.payback === null ? '-' : I18N.n(m.payback, { decimals: 1 }) + T(' سنة'), 'gold'],
+        [T('نقطة التعادل'), m.breakEven.units === null ? '-' : I18N.n(Math.round(m.breakEven.units)) + T(' وحدة'), 'accent'],
       ]
         .map(function (k) {
           return '<div class="kpi kpi--' + k[2] + '"><div class="kpi__label">' + esc(k[0]) + '</div><div class="kpi__value" style="font-size:1.25rem">' + k[1] + '</div></div>';
@@ -1239,7 +1239,7 @@
     if (lineHost) {
       Charts.line(lineHost, {
         title: T('مسار الإيرادات والأرباح خلال أفق التخطيط'),
-        caption: T('القيم بالـ') + cur + T(' — المحور الزمني من اليسار لليمين وفق الإجماع في التقارير المالية العربية.'),
+        caption: T('القيم بالـ') + cur + T(': المحور الزمني من اليسار لليمين وفق الإجماع في التقارير المالية العربية.'),
         labels: m.years.map(function (r) {
           return T('سنة ') + r.year;
         }),
@@ -1307,7 +1307,7 @@
         return { label: r.label, value: r.value, color: Charts.PALETTE[i % Charts.PALETTE.length] };
       });
       Charts.donut(mixHost, {
-        title: T('مزيج الإيرادات — السنة الأولى'),
+        title: T('مزيج الإيرادات: السنة الأولى'),
         caption: T('توزيع مساهمة كل مصدر إيراد من إجمالي إيرادات السنة الأولى.'),
         items: items,
         centerLabel: moneyShort(y1 ? y1.revenue : 0),
@@ -1318,12 +1318,12 @@
       });
     }
 
-    /* شلال التدفق النقدي — السنة الأولى */
+    /* شلال التدفق النقدي: السنة الأولى */
     var wfHost = byId('chart-waterfall');
     if (wfHost) {
       var r = m.years[0] || {};
       Charts.waterfall(wfHost, {
-        title: T('جسر التدفق النقدي الحر — السنة الأولى'),
+        title: T('جسر التدفق النقدي الحر: السنة الأولى'),
         caption: T('من الإيراد إلى النقد المتاح بعد الاستثمارات وتغيّر رأس المال العامل.'),
         items: [
           { label: T('الإيرادات'), value: r.revenue || 0, kind: 'total' },
@@ -1349,7 +1349,7 @@
       var rows = Finance.sensitivity(fin, 'npv');
       Charts.tornado(torHost, {
         title: T('أثر المتغيّرات على القيمة الحالية الصافية (NPV)'),
-        caption: T('الطول الأفقي يمثل حجم تأثير المتغيّر على NPV — الأطول يعني حساسية أعلى.'),
+        caption: T('الطول الأفقي يمثل حجم تأثير المتغيّر على NPV: الأطول يعني حساسية أعلى.'),
         items: rows.map(function (r) {
           return { label: r.label, low: r.low, high: r.high, base: r.base };
         }),
