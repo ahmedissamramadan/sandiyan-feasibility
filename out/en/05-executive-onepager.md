@@ -1,8 +1,8 @@
-# Dar Al-Khashab — Digital Expansion — Executive summary — one page
+# Sandiyan — Digital Expansion — Executive summary — one page
 
 **From an existing carpentry workshop to a complete digital presence: an online store, data-driven marketing, and AI agencies that run the operation by role.**
 
-> The company owning the Dar Al-Khashab workshop · 2026-11-14 · Confidential — internal circulation only
+> The company owning the Sandiyan workshop · 2026-11-14 · Confidential — internal circulation only
 
 ## Governing indicators
 

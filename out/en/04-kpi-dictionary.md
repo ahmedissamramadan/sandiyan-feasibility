@@ -1,4 +1,4 @@
-# KPI dictionary — Dar Al-Khashab — Digital Expansion
+# KPI dictionary — Sandiyan — Digital Expansion
 
 Every indicator carries a definition, a formula, a target, a source, a cadence and an owner.
 

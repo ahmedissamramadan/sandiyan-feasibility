@@ -1,4 +1,4 @@
-# Implementation playbook — Dar Al-Khashab — Digital Expansion
+# Implementation playbook — Sandiyan — Digital Expansion
 
 > Generated automatically from the data layer · 1.0 · 2026-11-14
 

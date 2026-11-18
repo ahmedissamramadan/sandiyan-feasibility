@@ -13,12 +13,12 @@ EN = {
     "دراسة جدوى التوسّع في التجارة الإلكترونية": "Feasibility Study — E-commerce Expansion",
     "من ورشة نجارة قائمة إلى حضور رقمي متكامل: متجر إلكتروني، تسويق قائم على البيانات، ووكالات ذكاء اصطناعي تدير التشغيل بلغة الأدوار":
         "From an existing carpentry workshop to a complete digital presence: an online store, data-driven marketing, and AI agencies that run the operation by role.",
-    "دار الخشب — التوسّع الرقمي": "Dar Al-Khashab — Digital Expansion",
+    "سنديان — التوسّع الرقمي": "Sandiyan — Digital Expansion",
     "dar-alkhashab-digital": "dar-alkhashab-digital",
     "مسودة للمناقشة والاعتماد": "Draft for review and approval",
     "إدارة التحوّل الرقمي — سوفيتوير هاوس · ماركتنج إيجينسي · وكالة ذكاء اصطناعي":
         "Digital Transformation Unit — Software House · Marketing Agency · AI Agency",
-    "الشركة المالكة لورشة دار الخشب": "The company owning the Dar Al-Khashab workshop",
+    "الشركة المالكة لورشة سنديان": "The company owning the Sandiyan workshop",
     "سري — للتداول الداخلي فقط": "Confidential — internal circulation only",
 
     # ---------------- doc_control ----------------
@@ -61,7 +61,7 @@ EN = {
     "القيمة الحالية الصافية — الخطر الحقيقي": "Net present value — the real risk",
 
     # ---------------- company ----------------
-    "دار الخشب للمقاولات والأثاث الخشبي": "Dar Al-Khashab Contracting and Wood Furniture",
+    "سنديان للمقاولات والأثاث الخشبي": "Sandiyan Contracting and Wood Furniture",
     "شركة ذات مسؤولية محدودة": "Limited liability company",
     "تصنيع الأثاث الخشبي حسب الطلب — تنفيذ مطبخ وخزائن وأبواب ومطاولات وأثاث مكتبي":
         "Made-to-order wood furniture manufacturing — kitchens, wardrobes, doors, tables and office furniture",
@@ -221,7 +221,7 @@ EN = {
     "تصميم كامل وهامش ربح مرتفع": "Complete design work and a high profit margin",
     "مدة التنفيذ طويلة وعدم تخصص في الأثاث وحده":
         "Long execution times and no specialisation in furniture alone",
-    "دور الخشب": "Dar Al-Khashab",
+    "دور الخشب": "Sandiyan",
     "منافس مباشر مقترح": "Proposed direct competitor",
     "نفس الورشة ونفس الفريق": "The same workshop and the same team",
     "لا يملك حضورًا رقميًا ولا تجربة شراء ولا بيانات":
@@ -886,8 +886,8 @@ EN = {
     "مقال": "Long-form article",
     "كاروسيل": "Carousel",
     "نسبة التحويل من المحتوى": "Content-assisted conversion rate",
-    "برنامج «نادي دار الخشب»: خصم 8% على الطلب الثاني وإضافة خدمة صيانة سنوية مجانية.":
-        "The “Dar Al-Khashab Club”: 8% off a second order plus a free annual maintenance service.",
+    "برنامج «نادي سنديان»: خصم 8% على الطلب الثاني وإضافة خدمة صيانة سنوية مجانية.":
+        "The “Sandiyan Club”: 8% off a second order plus a free annual maintenance service.",
     "استشارة تصميم مجانية للعملاء المتكررين مع خصم 5% على الطلب التالي.":
         "Free design consultation for repeat customers, with 5% off their next order.",
     "متابعة بعد التسليم في اليوم الثالث واليوم الثلاثين لتفادي الشكوى.":
@@ -1689,7 +1689,7 @@ EN = {
     "تصميم كامل وهامش ربح مرتفع": "Complete design work and a high profit margin",
     "مدة التنفيذ طويلة وعدم تخصص في الأثاث وحده":
         "Long execution times and no specialisation in furniture alone",
-    "دور الخشب": "Dar Al-Khashab",
+    "دور الخشب": "Sandiyan",
     "منافس مباشر مقترح": "Proposed direct competitor",
     "نفس الورشة ونفس الفريق": "The same workshop and the same team",
     "لا يملك حضورًا رقميًا ولا تجربة شراء ولا بيانات":
@@ -2354,8 +2354,8 @@ EN = {
     "مقال": "Long-form article",
     "كاروسيل": "Carousel",
     "نسبة التحويل من المحتوى": "Content-assisted conversion rate",
-    "برنامج «نادي دار الخشب»: خصم 8% على الطلب الثاني وإضافة خدمة صيانة سنوية مجانية.":
-        "The “Dar Al-Khashab Club”: 8% off a second order plus a free annual maintenance service.",
+    "برنامج «نادي سنديان»: خصم 8% على الطلب الثاني وإضافة خدمة صيانة سنوية مجانية.":
+        "The “Sandiyan Club”: 8% off a second order plus a free annual maintenance service.",
     "استشارة تصميم مجانية للعملاء المتكررين مع خصم 5% على الطلب التالي.":
         "Free design consultation for repeat customers, with 5% off their next order.",
     "متابعة بعد التسليم في اليوم الثالث واليوم الثلاثين لتفادي الشكوى.":
@@ -3157,7 +3157,7 @@ EN = {
     "تصميم كامل وهامش ربح مرتفع": "Complete design work and a high profit margin",
     "مدة التنفيذ طويلة وعدم تخصص في الأثاث وحده":
         "Long execution times and no specialisation in furniture alone",
-    "دور الخشب": "Dar Al-Khashab",
+    "دور الخشب": "Sandiyan",
     "منافس مباشر مقترح": "Proposed direct competitor",
     "نفس الورشة ونفس الفريق": "The same workshop and the same team",
     "لا يملك حضورًا رقميًا ولا تجربة شراء ولا بيانات":
@@ -3822,8 +3822,8 @@ EN = {
     "مقال": "Long-form article",
     "كاروسيل": "Carousel",
     "نسبة التحويل من المحتوى": "Content-assisted conversion rate",
-    "برنامج «نادي دار الخشب»: خصم 8% على الطلب الثاني وإضافة خدمة صيانة سنوية مجانية.":
-        "The “Dar Al-Khashab Club”: 8% off a second order plus a free annual maintenance service.",
+    "برنامج «نادي سنديان»: خصم 8% على الطلب الثاني وإضافة خدمة صيانة سنوية مجانية.":
+        "The “Sandiyan Club”: 8% off a second order plus a free annual maintenance service.",
     "استشارة تصميم مجانية للعملاء المتكررين مع خصم 5% على الطلب التالي.":
         "Free design consultation for repeat customers, with 5% off their next order.",
     "متابعة بعد التسليم في اليوم الثالث واليوم الثلاثين لتفادي الشكوى.":

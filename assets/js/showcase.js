@@ -105,7 +105,7 @@
       {
         id: 1,
         label: t('١. الرؤية والعائد', '1. Vision & Returns'),
-        title: t('دار الخشب: التوسّع الرقمي الفاخر مدعوماً بالذكاء الاصطناعي', 'Dar Al-Khashab: AI-Powered Luxury Woodcraft Expansion'),
+        title: t('سنديان: التوسّع الرقمي الفاخر مدعوماً بالذكاء الاصطناعي', 'Sandiyan: AI-Powered Luxury Woodcraft Expansion'),
         body: t(
           'تحويل ورشة النجارة التراثية إلى علامة تجارة إلكترونية إقليمية عالية الهامش، برأس مال تأسيسي 8.50 مليون (وإجمالي 10.27 مليون شاملة بوابة المرحلة الثانية).',
           'Transforming a heritage carpentry workshop into a high-margin regional e-commerce brand, with 8.50M Y0 capital (10.27M total including Stage-Gate 2).'

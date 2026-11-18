@@ -1,4 +1,4 @@
-# Agent registry — Dar Al-Khashab — Digital Expansion
+# Agent registry — Sandiyan — Digital Expansion
 
 > 25 agents · Generated automatically from the data layer
 

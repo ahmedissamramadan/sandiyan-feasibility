@@ -8,8 +8,8 @@
 """
 
 EN_HTML = {
-    "دراسة جدوى — التوسّع في التجارة الإلكترونية | دار الخشب":
-        "Feasibility Study — E-commerce Expansion | Dar Al-Khashab",
+    "دراسة جدوى — التوسّع في التجارة الإلكترونية | سنديان":
+        "Feasibility Study — E-commerce Expansion | Sandiyan",
     "تخطَّ إلى المحتوى الرئيسي": "Skip to main content",
     "دج": "FS",
     "قالب دراسة الجدوى": "Feasibility study template",

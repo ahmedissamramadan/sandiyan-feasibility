@@ -2,12 +2,12 @@
   "meta": {
     "title": "Feasibility Study — E-commerce Expansion",
     "subtitle": "From an existing carpentry workshop to a complete digital presence: an online store, data-driven marketing, and AI agencies that run the operation by role.",
-    "project_name": "Dar Al-Khashab — Digital Expansion",
+    "project_name": "Sandiyan — Digital Expansion",
     "slug": "dar-alkhashab-digital",
     "version": "1.0",
     "status": "Draft for review and approval",
     "prepared_by": "Digital Transformation Unit — Software House · Marketing Agency · AI Agency",
-    "prepared_for": "The company owning the Dar Al-Khashab workshop",
+    "prepared_for": "The company owning the Sandiyan workshop",
     "date": "2026-11-14",
     "confidentiality": "Confidential — internal circulation only"
   },
@@ -96,7 +96,7 @@
     ]
   },
   "company": {
-    "legal_name": "Dar Al-Khashab Contracting and Wood Furniture",
+    "legal_name": "Sandiyan Contracting and Wood Furniture",
     "form": "Limited liability company",
     "founded": "2016",
     "capital": "EGP 1,200,000",
@@ -405,7 +405,7 @@
         "share": "≈ 12%"
       },
       {
-        "name": "Dar Al-Khashab",
+        "name": "Sandiyan",
         "type": "Proposed direct competitor",
         "price_index": "0.98",
         "strength": "The same workshop and the same team",
@@ -1609,7 +1609,7 @@
       }
     ],
     "retention": [
-      "The “Dar Al-Khashab Club”: 8% off a second order plus a free annual maintenance service.",
+      "The “Sandiyan Club”: 8% off a second order plus a free annual maintenance service.",
       "Free design consultation for repeat customers, with 5% off their next order.",
       "Follow-up on day three and day thirty after delivery to pre-empt complaints.",
       "A new customer referral earns the referrer EGP 300 in credit.",

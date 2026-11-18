@@ -85,8 +85,8 @@ def main():
 
     # 7) العنوان
     raw = raw.replace(
-        "<title>دراسة جدوى — التوسّع في التجارة الإلكترونية | دار الخشب</title>",
-        "<title>Feasibility Study — E-commerce Expansion | Dar Al-Khashab</title>",
+        "<title>دراسة جدوى — التوسّع في التجارة الإلكترونية | سنديان</title>",
+        "<title>Feasibility Study — E-commerce Expansion | Sandiyan</title>",
     )
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)

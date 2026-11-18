@@ -7,7 +7,7 @@
 - **English:** `en/index.html` — LTR
 
 المشروع المرجعي في النسخة الحالية: **التوسّع في التجارة الإلكترونية لورشة نجارة قائمة**
-(Dar Al-Khashab) — بمزيج «software house · marketing agency · AI agency».
+(Sandiyan) — بمزيج «software house · marketing agency · AI agency».
 
 ---
 
